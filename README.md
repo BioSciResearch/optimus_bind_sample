@@ -11,9 +11,9 @@ Project Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── interim        <- Intermediate data that has been transformed.   (post pdbfixer)
+    │   ├── processed      <- The final, canonical data sets for modeling.   (idk yet)
+    │   └── raw            <- The original, immutable data dump.    (OG .pdb's etc.)
     │
     ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
     │
@@ -21,7 +21,7 @@ Project Organization
     │
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    │                         `1.0-jqp-initial-data-exploration`.     (contains tests + working toward colab compatability)
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -36,10 +36,10 @@ Project Organization
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
+    │   │   └── make_dataset.py     (SKEMPI 2 & ZEMu downloads and management)
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
+    │   │   └── build_features.py    (need to see example for clarification)
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions

@@ -101,6 +101,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Project Organization
 ------------
+Read: [CookieCutter DataSci](https://drivendata.github.io/cookiecutter-data-science)
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -184,11 +185,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDk1MDI1NzcsLTE1MTc2NTE0NjcsMj
-Y3NTQ1MTMxLC0yMDAxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1
-NTk1NjUsMjA0MjAwNzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5Mj
-AsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3
-ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0Mj
-csNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5
-NDUyMjM4XX0=
+eyJoaXN0b3J5IjpbMTE1MDMyMjM0OCwtMTA0OTUwMjU3NywtMT
+UxNzY1MTQ2NywyNjc1NDUxMzEsLTIwMDExMDU1NzYsMTQ3Nzgz
+OTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkzMDgwMD
+gsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2
+ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMj
+MwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2
+Mjg3OTI1XX0=
 -->

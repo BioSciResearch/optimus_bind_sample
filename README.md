@@ -16,7 +16,7 @@ Designed to optimize the time/accuracy trade-off in predicting the impact of mut
 
 This collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
-The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
+The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step toward understanding how it works at the cellular and organismal levels.
 
 Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
@@ -182,7 +182,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzY4MjE3MywyMDQyMDA3MDc4LC05ND
+eyJoaXN0b3J5IjpbLTYzMzAwNjY4NywyMDQyMDA3MDc4LC05ND
 kzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1
 NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xOD
 k5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIz

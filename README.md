@@ -97,9 +97,10 @@ Project Organization
 
 ## Built With
 too lazy to link them atm...
+ - OpenMM
+ - pdbfixer
  - Python Network X library
- - OpenMM?
- - 
+ - etc.
 
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)(example) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -130,9 +131,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4MDc3NjUyLC0xMTAzMjUxNzU5LDExMD
-QyOTQyNjYsMjExNjczNzc5MiwxNzgwNDM2ODkwLDk0NTM4ODc1
-MSwtMTY3MzQxNDM1MywyMTI0Mjc4NTY1LC0zNjkzMDM1NCwtMT
-Y3MTE5NTkxOSwtMTQ5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5
-MDksLTE4NDQ4MzkyMTksODE0MTM5NjA0XX0=
+eyJoaXN0b3J5IjpbLTE2NTYzOTM4OTIsLTExMDMyNTE3NTksMT
+EwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4
+NzUxLC0xNjczNDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC
+0xNjcxMTk1OTE5LC0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4
+ODkwOSwtMTg0NDgzOTIxOSw4MTQxMzk2MDRdfQ==
 -->

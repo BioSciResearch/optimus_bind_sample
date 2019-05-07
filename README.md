@@ -17,7 +17,6 @@ A short description of the project.
 	 - Prerequisites 
 	 - Installing
 	 - Run Tests
- - Usage? put in docs...
  - Built With (or Tech/Framework used)
  - Contributing
  - License
@@ -25,7 +24,7 @@ A short description of the project.
  - Citations
 </details>
 
-hello 
+
 
 Project Organization
 ------------
@@ -80,6 +79,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjc5MTIxLC0xODQ0ODM5MjE5LDgxND
-EzOTYwNF19
+eyJoaXN0b3J5IjpbMTQ4Njk4MjcxMywtMTg0NDgzOTIxOSw4MT
+QxMzk2MDRdfQ==
 -->

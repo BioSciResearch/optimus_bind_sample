@@ -8,7 +8,7 @@
 A short description of the project.
 
 <details>
-<summary><b>Table of content </b></summary>
+<summary><b>Table of contents </b></summary>
 
 ## Table of content
  - [Features](#Features)
@@ -125,7 +125,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xND
-kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
-OSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbMjEyNDI3ODU2NSwtMzY5MzAzNTQsLTE2Nz
+ExOTU5MTksLTE0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5
+LC0xODQ0ODM5MjE5LDgxNDEzOTYwNF19
 -->

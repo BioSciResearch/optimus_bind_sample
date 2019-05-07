@@ -41,18 +41,19 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
 	 - The data is not evenly distributed. 
 		 - SKEMPI has not evenly sampled mutations we must consider. This sort of imbalanced dataset can skew the machine learning process (skewed toward the subpopulations with the heaviest coverage).
 	 - Machine learning based methods are fast and appear to have good accuracy, But they are often overtrained and fall apart when confronted with new data. 
-1. **Less than 10% of protein complexes have structures**
+2. **Less than 10% of protein complexes have structures**
 	 - While it is possible in most cases to make a model of the protein complex, the accuracy of the model is not perfect. 
- - **Large mutation space to explore** 
+3. **Large mutation space to explore** 
 	 - (20 amino acids)^(the proteins length)
 	 - Even restricted to single mutations, as we would if we are looking at the possible effect of SNPs (single nucleotide polymorphism), this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
- - **molecular dynamics is slow and dependent upon the structure’s resolution**
+4. **molecular dynamics is slow and dependent upon the structure’s resolution**
 
 ### Combative Design
 
- - Using stratified sampling we can sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
- - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
- - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
+1. Using stratified sampling we can sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
+2. Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
+3. 
+4. One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 </details>
 
 <details>
@@ -183,7 +184,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYzNjMxMjAsMjY3NTQ1MTMxLC0yMD
+eyJoaXN0b3J5IjpbLTE1MTc2NTE0NjcsMjY3NTQ1MTMxLC0yMD
 AxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAw
 NzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNi
 wtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2

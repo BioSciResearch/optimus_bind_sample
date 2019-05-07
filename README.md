@@ -25,18 +25,20 @@ https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-n
 and 
 https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
 
-There isn’t a lot of data.
-o	Total number of mutations: 7085 skempi
-o	You can’t get more of it easily.
-o	The data is not evenly distributed.
-	The SKEMPI database doesn’t evenly sample that mutations we want to consider. While for a few proteins there are multiple entries, for others there is nothing at all. Overall the coverage is pretty sparse. As described in more detail here, this sort of imbalanced dataset can skew the machine learning process.[1][2] The model bases its predictions on the data available. When coverage is heavy in some areas and sparse in others, the accuracy of the model ends up skewed towards the subpopulations where the coverage is heaviest.
-o	While machine learning based methods that do not use physics approaches are fast and appear to have good accuracy, they are often overtrained and fall apart when confronted with new data.[7]
-•	Less than 10% of protein complexes have structures. 
-o	While it is possible in most cases to make a model of the protein complex,[13] the accuracy of the model is not perfect.
-•	Large mutation space to explore
-o	(20 amino acids)^(the proteins length)
-o	Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex.
-•	molecular dynamics is slow and dependent upon the structure’s resolution 
+ - There isn’t a lot of data. o	Total number of mutations: 7085 skempi
+	 - You can’t get more of it easily. 
+	 - The data is not evenly distributed. 
+		 - The SKEMPI database doesn’t evenly sample that mutations we want to consider. While for a few proteins there are multiple entries, for others there is nothing at all. Overall the coverage is pretty sparse. As described in more detail here, this sort of imbalanced dataset can skew the machine learning process. The model bases its predictions on the data available. When coverage is heavy in some areas and sparse in others, the accuracy of the model ends up skewed towards the subpopulations where the coverage is heaviest.
+	 - While machine learning based methods that do not use physics approaches are fast and appear to have good accuracy, they are often overtrained and fall apart when confronted
+   with new data.[7] •	Less than 10% of protein complexes have
+   structures.  o	While it is possible in most cases to make a model of
+   the protein complex,[13] the accuracy of the model is not perfect.
+   •	Large mutation space to explore o	(20 amino acids)^(the proteins
+   length) o	Even if we restrict the search to single mutations, as we
+   would if we are looking at the possible effect of SNPs, this still
+   comes out to hundreds of mutations that need to be evaluated for each
+   protein complex. •	molecular dynamics is slow and dependent upon the
+   structure’s resolution
 
 ### Combative Design
 •	The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
@@ -190,11 +192,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzIzNDUyMCwxNDI0NzE0OTIwLDE5Mj
-Q0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4
-NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
-YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz
-OCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLT
-ExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0
-MzY4OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NjIxODI3NTgsMTQyNDcxNDkyMCwxOT
+I0NDMyMTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2
+ODcsMjk4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2Nj
+M2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIy
+MzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1MDY5LC
+0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjczNzc5MiwxNzgw
+NDM2ODkwXX0=
 -->

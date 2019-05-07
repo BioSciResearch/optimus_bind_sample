@@ -1,7 +1,7 @@
 <h1 align="center">
 <span style="color:red">
     <a href="https://www.quora.com/q/hxbiokqurmxybuec">
-		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="100" height="100"></span></a> <img src="https://lh3.google.com/u/0/d/1J1gsaoem1-GquopMoCNQf1d2Mb2j3ecr=w2880-h1578-iv1" width="200" height="100">
+		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="100" height="100"></span></a> <img src="https://photos.app.goo.gl/pakzU8L6YpVDBLZ69" width="200" height="100">
  <!--| Optimus Bind-->
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -139,11 +139,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4Mz
-Y1NzIwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYs
-MTA3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4Mz
-A2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAzMjUx
-NzU5LDExMDQyOTQyNjYsMjExNjczNzc5MiwxNzgwNDM2ODkwLD
-k0NTM4ODc1MSwtMTY3MzQxNDM1MywyMTI0Mjc4NTY1LC0zNjkz
-MDM1NF19
+eyJoaXN0b3J5IjpbMTM2OTgxMzExNCwyMDY4OTkyNjcyLC01Nz
+g0NDY4NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3
+LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OT
+Q1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUw
+NjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLD
+E3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0MzUzLDIxMjQy
+Nzg1NjVdfQ==
 -->

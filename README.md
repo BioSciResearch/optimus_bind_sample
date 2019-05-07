@@ -17,13 +17,16 @@ The Human Genome Project amassed a wealth of data concerning human genetic varia
 
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
+<details>
+<summary><b>Breakdown/</b></summary>
+
 ### Goals <sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</sup>
 
 Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate. As such, this collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
  - **Fast** – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* Accurately simulating the physics of the mutation’s effect on ∆∆G can take ~180 hrs for a single mutation.
-	 - *Impact:* For every <u>cancer</u>, there can be hundreds of associated “driver” mutations whose identification may help save lives. <u>Protein engineering</u> is another case where speed is critical, as each amino acid is evaluated at each position in one variant of the procedure. This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+	 - *Impact:* For every <u>cancer</u>, there can be hundreds of associated “driver” mutations whose identification may help save lives. <u>Protein engineering</u> is another case where speed is critical, as it generates hundreds of mutations if the binding sites are independent and many, many more if they are not.
  - **Accurate** – r>0.9 and an average error of <1 kcal/mol.
  - **Open source**
 	 - Many computational projects are locked up in web servers. Anyone can use this program and may build off it if they so desire.
@@ -51,9 +54,10 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
  - The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
  - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
  - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
+</details>
 
 <details>
-<summary><b>Table of contents </b></summary>
+<summary><b>Table of contents</b></summary>
 
 ## Table of content
  - [Features](#Features)
@@ -180,11 +184,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTg0MDgxMywtMjAwMTEwNTU3NiwxND
-c3ODM5NjI2LC0xMzI1NTU5NTY1LDIwNDIwMDcwNzgsLTk0OTMw
-ODAwOCwxNDI0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NS
-wyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkw
-MTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC
-0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4
-NTM1MzNdfQ==
+eyJoaXN0b3J5IjpbMjY3NTQ1MTMxLC0yMDAxMTA1NTc2LDE0Nz
+c4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAwNzA3OCwtOTQ5MzA4
+MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LD
+IwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAx
+MDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLT
+E5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1
+MzUzM119
 -->

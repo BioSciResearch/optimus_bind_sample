@@ -19,8 +19,7 @@ A short description of the project.
 	 - [Run Tests](#Run-Tests)
  - [Built With](#Built-With)
  - [Contributing](#Contributing)
- - [License]()
- - [Citations]()
+ - [Citations](#Citations)
 </details>
 
 Project Organization
@@ -85,8 +84,6 @@ Project Organization
 
 ## Contributing
 
-## License
-
 ## Citations
 
  1. "SKEMPI 2.0: An updated benchmark of changes in protein-protein binding energy, kinetics and thermodynamics upon mutation".  Justina Jankauskaitė, Brian Jiménez-García, Justas Dapkūnas, Juan Fernández-Recio, Iain H Moal  _**Bioinformatics**_ (2018), bty635, [https://doi.org/10.1093/bioinformatics/bty635](https://doi.org/10.1093/bioinformatics/bty635)
@@ -96,6 +93,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzgxMDYzNywtMTg0NDgzOTIxOSw4MT
+eyJoaXN0b3J5IjpbMTczOTI3MDM1MCwtMTg0NDgzOTIxOSw4MT
 QxMzk2MDRdfQ==
 -->

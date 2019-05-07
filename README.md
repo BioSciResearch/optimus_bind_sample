@@ -23,7 +23,7 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
 
  - **Fast** – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* Accurately simulating the physics of the mutation’s effect on ∆∆G can take ~180 hrs for a single mutation.
-	 - *Impact:* For every <u>cancer</>, there can be hundreds of associated “driver” mutations whose identification may help save lives. Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+	 - *Impact:* For every <u>cancer</u>, there can be hundreds of associated “driver” mutations whose identification may help save lives. <u>Protein engineering</u> is another case where speed is critical, as each amino acid is evaluated at each position in one variant of the procedure. This generates hundreds of mutations if the sites are independent and many, many more if they are not.
  - **Accurate** – r>0.9 and an average error of <1 kcal/mol.
  - **Open source**
 	 - Many computational projects are locked up in web servers. Anyone can use this program and may build off it if they so desire.
@@ -180,7 +180,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDU3MDk5NywtMjAwMTEwNTU3NiwxND
+eyJoaXN0b3J5IjpbMTQ3OTg0MDgxMywtMjAwMTEwNTU3NiwxND
 c3ODM5NjI2LC0xMzI1NTU5NTY1LDIwNDIwMDcwNzgsLTk0OTMw
 ODAwOCwxNDI0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NS
 wyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkw

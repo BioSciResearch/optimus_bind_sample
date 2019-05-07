@@ -60,6 +60,8 @@ o	Many computational projects are locked up in web servers. I would like a progr
 o	original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms. 
 o	[insert advantages to bringing it back?]
 
+**Optimus Bind**, will handle features, such as the ability to handle small molecule binding, and an improved and more accurate scoring system.
+
 <details>
 <summary><b>Table of contents </b></summary>
 
@@ -188,7 +190,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTQ3OTY0NiwxOTI0NDMyMTM2LC03OT
+eyJoaXN0b3J5IjpbMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OT
 M2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIw
 LC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3Nz
 QxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0

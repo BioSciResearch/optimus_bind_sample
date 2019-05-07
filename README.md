@@ -13,15 +13,14 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-[Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
-
 Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences. The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
 
 
 scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
+[Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
-Challenges
+### Challenges
 https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT
 and 
 https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
@@ -39,14 +38,13 @@ o	(20 amino acids)^(the proteins length)
 o	Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex.
 •	molecular dynamics is slow and dependent upon the structure’s resolution 
 
-combative design
+### Combative Design
 •	The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
 •	Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted[14] ) as a feature in machine learning. [11]
 •	One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates). 
 •	
 
-
-GOALS
+### Goals
 https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on
 •	Fast – Upper limit of 30 minutes per mutation. 
 o	Problem: The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation. [1] 
@@ -190,11 +188,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMwMDc4NzEsMTkyNDQzMjEzNiwtNz
-kzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcy
-MCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNz
-c0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgz
-NDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OS
-wxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQzNjg5MCw5NDUz
-ODg3NTFdfQ==
+eyJoaXN0b3J5IjpbMjAxNTQ3OTY0NiwxOTI0NDMyMTM2LC03OT
+M2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIw
+LC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3Nz
+QxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0
+MCwxNzE0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAzMjUxNzU5LD
+ExMDQyOTQyNjYsMjExNjczNzc5MiwxNzgwNDM2ODkwLDk0NTM4
+ODc1MV19
 -->

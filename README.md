@@ -1,3 +1,9 @@
+<script>
+function myFunction() {
+    document.getElementById("Devs").open = true;
+}
+</script>
+
 <h1 align="center"> Optimus Bind 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -17,7 +23,7 @@ A short description of the project.
 	 - [Prerequisites](#Prerequisites)
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
- - [For Developers:](#For-Developers)
+ - [For Developers:](#Devs)
 	 - [Project Organization](#Project-Organization)
 	 - [Built With](#Built-With)
 	 - [Contributing](#Contributing)
@@ -43,7 +49,7 @@ These instructions will get you a copy of the project up and running on your loc
 
     enter code here
 
-<details id="For-Developers">
+<details id="Devs">
 <summary><h1>For Developers</h1></summary>
 
 Project Organization
@@ -125,8 +131,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ1Mzg4NzUxLC0xNjczNDE0MzUzLDIxMj
-QyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xNDkyMTE5
-Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIxOSw4MT
-QxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbLTIxMTY0MTY3Nyw5NDUzODg3NTEsLTE2Nz
+M0MTQzNTMsMjEyNDI3ODU2NSwtMzY5MzAzNTQsLTE2NzExOTU5
+MTksLTE0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xOD
+Q0ODM5MjE5LDgxNDEzOTYwNF19
 -->

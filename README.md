@@ -10,7 +10,11 @@ A short description of the project.
 
 ## Table of content
  - [Project Organization](#Project-Organization)
- - 
+ - Motivation
+ - Features
+	 - Screenshots
+ - Setup
+	 - Prerequisits
 </details>
 
 Project Organization
@@ -66,6 +70,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTEyMTcxMiwtMTg0NDgzOTIxOSw4MT
-QxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbNjE1NzQzODYxLC0xODQ0ODM5MjE5LDgxND
+EzOTYwNF19
 -->

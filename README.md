@@ -1,4 +1,4 @@
-<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="100" height="100" style="align:center">
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="50" height="50" style="align:center">
 
 <h1 align="center">  Optimus Bind 
 
@@ -137,11 +137,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzQxMDIzOCwxMDc3NDEwMjM4LC0xOT
-YyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1
-MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2Ni
-wyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjcz
-NDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OT
-E5LC0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0
-NDgzOTIxOV19
+eyJoaXN0b3J5IjpbNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5Nj
+I4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUz
+MywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LD
+IxMTY3Mzc3OTIsMTc4MDQzNjg5MCw5NDUzODg3NTEsLTE2NzM0
+MTQzNTMsMjEyNDI3ODU2NSwtMzY5MzAzNTQsLTE2NzExOTU5MT
+ksLTE0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0
+ODM5MjE5XX0=
 -->

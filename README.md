@@ -17,18 +17,18 @@ A short description of the project.
 	 - [Prerequisites](#Prerequisites)
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
- - [For Developers:](#Devs)
-	 - [Project Organization](#Devs)
-	 - [Built With](#Devs)
-	 - [Contributing](#Devs)
+ - [For Developers](#For-Developers)
+	 - [Project Organization](#Project Organization)
+	 - [Built With](#Built With)
+	 - [Contributing](#Contributing)
  - [Citations](#Citations)
 </details>
 
-## Features
+## Features:
 
 ### Screenshots
 
-## Setup
+## Setup:
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites 
@@ -46,7 +46,7 @@ These instructions will get you a copy of the project up and running on your loc
 <br>
 <br>
 
-# For Developers
+# For Developers:
 <details id="Devs" open>
 <summary> <strong>Toggle</strong> </summary>
 
@@ -134,10 +134,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MT
-Q4NTM1MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5
-NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC
-0xNjczNDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcx
-MTk1OTE5LC0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOS
-wtMTg0NDgzOTIxOSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbMTM5ODcxODAyOSwxOTU5NDUyMjM4LC0xOD
+MwNjgzNDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1
+MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQzNjg5MC
+w5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEyNDI3ODU2NSwtMzY5
+MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMTY0MzQ4OD
+MsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxNDEzOTYwNF19
 -->

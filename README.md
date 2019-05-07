@@ -13,7 +13,7 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-This collaborative computational biology project aims to predict the effects of mutation directly from protein sequences. The Human Genome Project amassed a wealth of data concerning humans genetic variation yto be fully utilized. While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
+This collaborative computational biology project aims to predict the effects of mutation directly from protein sequences. The Human Genome Project amassed a wealth of data concerning humans genetic variation yet to be fully utilized. While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
 
 Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
@@ -179,11 +179,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Mjg1MDY5NiwyMDQyMDA3MDc4LC05ND
-kzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1
-NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xOD
-k5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIz
-OCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNz
-E0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQy
-OTQyNjZdfQ==
+eyJoaXN0b3J5IjpbLTEzNzU4NjYxMjUsMjA0MjAwNzA3OCwtOT
+Q5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0
+NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMT
+g5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAy
+MzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMT
+cxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0
+Mjk0MjY2XX0=
 -->

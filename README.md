@@ -12,9 +12,6 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
-Designed to optimize the time/accuracy trade-off in predicting the impact of mutations on protein-protein binding
-
-This collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
 The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step toward understanding how it works at the cellular and organismal levels.
 
@@ -22,7 +19,7 @@ The Human Genome Project amassed a wealth of data concerning human genetic varia
 
 ### Goals <sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</sup>
 
-Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
+Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate. As such, this collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
  - Fast – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
@@ -183,11 +180,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU1NTk1NjUsMjA0MjAwNzA3OCwtOT
-Q5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0
-NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMT
-g5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAy
-MzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMT
-cxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0
-Mjk0MjY2XX0=
+eyJoaXN0b3J5IjpbMTQ3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMD
+QyMDA3MDc4LC05NDkzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMy
+MTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMj
+k4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5
+MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLT
+E4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAz
+MjUxNzU5XX0=
 -->

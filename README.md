@@ -32,14 +32,16 @@ scientists have increasingly turned to computational methods to predict ΔΔG va
 	 - improve scoring system
 
 ### Challenges<sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT), [2](https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral)</sup>
- - There isn’t a lot of data. o	Total number of mutations: 7085 skempi
+ - There isn’t a lot of data.
+	 - Total number of mutations: 7085 skempi v2.0
 	 - You can’t get more of it easily. 
 	 - The data is not evenly distributed. 
 		 - The SKEMPI database doesn’t evenly sample that mutations we want to consider. While for a few proteins there are multiple entries, for others there is nothing at all. Overall the coverage is pretty sparse. As described in more detail here, this sort of imbalanced dataset can skew the machine learning process. The model bases its predictions on the data available. When coverage is heavy in some areas and sparse in others, the accuracy of the model ends up skewed towards the subpopulations where the coverage is heaviest.
 	 - While machine learning based methods that do not use physics approaches are fast and appear to have good accuracy, they are often overtrained and fall apart when confronted with new data. 
  - Less than 10% of protein complexes have structures.
 	 - While it is possible in most cases to make a model of the protein complex,[13] the accuracy of the model is not perfect. 
- - Large mutation space to explore o	(20 amino acids)^(the proteins length)
+ - Large mutation space to explore 
+	 - (20 amino acids)^(the proteins length)
 	 - Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
  - molecular dynamics is slow and dependent upon the structure’s resolution
 
@@ -177,11 +179,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ5NDUwNDgsLTk0OTMwODAwOCwxND
-I0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTky
-NjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOT
-U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
-MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
-EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2
-NzM3NzkyXX0=
+eyJoaXN0b3J5IjpbMzExNTA2Mzg2LC05NDkzMDgwMDgsMTQyND
+cxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3
+MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nz
+g2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1
+LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMz
+QzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjcz
+Nzc5Ml19
 -->

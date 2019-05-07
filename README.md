@@ -4,20 +4,7 @@
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="50" height="50">
 </span></a>  <font color="#b00000">| Optimus</font> Bind
 
-<a><img src="http://dump.thecybershadow.net/6c736bfd11ded8cdc5e2bda009a6694a/colortext.svg"/></a>
 
-
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" 
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="100" height="50"
->
-  <text font-size="16" x="10" y="20">
-    <tspan fill="red">Hello</tspan>,
-    <tspan fill="green">world</tspan>!
-  </text>
-</svg>
 
 
 <font style="font-family:'Snell Roundhand', cursive, sans-serif;">  
@@ -163,7 +150,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg5NTA0MDIsLTE4OTkwMTAyMzAsOT
+eyJoaXN0b3J5IjpbLTE2MjUwMjEzODEsLTE4OTkwMTAyMzAsOT
 U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
 MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
 EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2

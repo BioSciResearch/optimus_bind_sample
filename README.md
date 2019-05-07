@@ -1,7 +1,9 @@
 <h1 align="center"> Optimus Bind 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
+
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
+
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
@@ -125,7 +127,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xND
-kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
-OSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbLTE5NjE0MDcyNTQsLTE2NzExOTU5MTksLT
+E0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5
+MjE5LDgxNDEzOTYwNF19
 -->

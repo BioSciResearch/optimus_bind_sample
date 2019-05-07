@@ -7,6 +7,19 @@
 <a><img src="http://dump.thecybershadow.net/6c736bfd11ded8cdc5e2bda009a6694a/colortext.svg"/></a>
 
 
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" 
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100" height="50"
+>
+  <text font-size="16" x="10" y="20">
+    <tspan fill="red">Hello</tspan>,
+    <tspan fill="green">world</tspan>!
+  </text>
+</svg>
+
+
 <font style="font-family:'Snell Roundhand', cursive, sans-serif;">  
 Bind
 </font>
@@ -150,11 +163,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NDA1NDAzLC0xODk5MDEwMjMwLDk1Nz
-g2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1
-LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMz
-QzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjcz
-Nzc5MiwxNzgwNDM2ODkwLDk0NTM4ODc1MSwtMTY3MzQxNDM1My
-wyMTI0Mjc4NTY1LC0zNjkzMDM1NCwtMTY3MTE5NTkxOSwtMTQ5
-MjExOTY5NV19
+eyJoaXN0b3J5IjpbLTE1ODg5NTA0MDIsLTE4OTkwMTAyMzAsOT
+U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
+MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
+EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2
+NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0Mz
+UzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0x
+NDkyMTE5Njk1XX0=
 -->

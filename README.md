@@ -13,7 +13,7 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences. The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
+Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences. The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized. While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
 
 scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
@@ -179,11 +179,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNTA2Mzg2LC05NDkzMDgwMDgsMTQyND
-cxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3
-MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nz
-g2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1
-LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMz
-QzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjcz
-Nzc5Ml19
+eyJoaXN0b3J5IjpbLTEzNjY0ODg1NzAsLTk0OTMwODAwOCwxND
+I0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTky
+NjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOT
+U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
+MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
+EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2
+NzM3NzkyXX0=
 -->

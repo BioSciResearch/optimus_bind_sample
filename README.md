@@ -18,7 +18,7 @@ The Human Genome Project amassed a wealth of data concerning human genetic varia
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
 <details>
-<summary><b>Breakdown/</b></summary>
+<summary><b>Development Overview</b></summary>
 
 ### Goals <sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</sup>
 
@@ -184,11 +184,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3NTQ1MTMxLC0yMDAxMTA1NTc2LDE0Nz
-c4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAwNzA3OCwtOTQ5MzA4
-MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LD
-IwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAx
-MDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLT
-E5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1
-MzUzM119
+eyJoaXN0b3J5IjpbMTQ2MTA3NTE1LDI2NzU0NTEzMSwtMjAwMT
+EwNTU3NiwxNDc3ODM5NjI2LC0xMzI1NTU5NTY1LDIwNDIwMDcw
+NzgsLTk0OTMwODAwOCwxNDI0NzE0OTIwLDE5MjQ0MzIxMzYsLT
+c5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3
+MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMD
+c3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4
+MzQwXX0=
 -->

@@ -1,6 +1,6 @@
 optimus_bind
 ========================
-[![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)(https://travis-ci.org/tcardlab/optimus_bind_sample)
+![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)
 A short description of the project.
 
 Project Organization
@@ -56,5 +56,5 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Njc2MTg5MSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDQ4MzkyMTksODE0MTM5NjA0XX0=
 -->

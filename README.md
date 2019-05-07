@@ -3,10 +3,10 @@
     <a href="https://www.quora.com/q/hxbiokqurmxybuec">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="50" height="50">
 </span></a>  <font color="#b00000">| Optimus</font> Bind
-Snell Roundhand, cursive
 
-<font style="font-family:'Comic Sans MS', cursive, sans-serif;">  
-hi
+
+<font style="font-family:'Snell Roundhand', cursive, sans-serif;">  
+Bind
 </font>
 
 
@@ -145,7 +145,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNDE1ODEzNywtMTg5OTAxMDIzMCw5NT
+eyJoaXN0b3J5IjpbMTcwODU1MjQ5OCwtMTg5OTAxMDIzMCw5NT
 c4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4Nzky
 NSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMT
 M0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3

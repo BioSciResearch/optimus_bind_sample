@@ -67,8 +67,8 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
  - [For Developers](#For-Developers)
-	 - [Project Organization](#Project Organization)
-	 - [Built With](#Built With)
+	 - [Project Organization](#Project-Organization)
+	 - [Built With](#Built-With)
 	 - [Contributing](#Contributing)
  - [Citations](#Citations)
 </details>
@@ -184,11 +184,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc2NTE0NjcsMjY3NTQ1MTMxLC0yMD
-AxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAw
-NzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNi
-wtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2
-NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LD
-EwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMw
-NjgzNDBdfQ==
+eyJoaXN0b3J5IjpbLTEwNDk1MDI1NzcsLTE1MTc2NTE0NjcsMj
+Y3NTQ1MTMxLC0yMDAxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1
+NTk1NjUsMjA0MjAwNzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5Mj
+AsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3
+ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0Mj
+csNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5
+NDUyMjM4XX0=
 -->

@@ -13,17 +13,26 @@ A short description of the project.
 <summary><b>Table of content </b></summary>
 
 ## Table of content
- - [Project Organization](#Project-Organization)
  - [Features](#Features)
 	 - [Screenshots](#Screenshots)
  - [Setup](#Setup)
 	 - [Prerequisites](#Prerequisites)
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
+ - [Project Organization](#Project-Organization)
  - [Built With](#Built-With)
  - [Contributing](#Contributing)
  - [Citations](#Citations)
 </details>
+
+## Features
+
+### Screenshots
+
+## Setup
+### Prerequisites 
+### Installing
+### Run Tests
 
 Project Organization
 ------------
@@ -73,16 +82,6 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
-## Features
-
-## Screenshots
-
-## Setup
-### Prerequisites 
-### Installing
-### Run Tests
-
-
 ## Built With
 
 ## Contributing
@@ -96,7 +95,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMT
-Y0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxNDEzOTYw
-NF19
+eyJoaXN0b3J5IjpbNTQ4NDk3MDk4LC0xNjcxMTk1OTE5LC0xND
+kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
+OSw4MTQxMzk2MDRdfQ==
 -->

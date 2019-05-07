@@ -14,7 +14,9 @@ A short description of the project.
  - Features
 	 - Screenshots
  - Setup
-	 - Prerequisits
+	 - Prerequisites 
+	 - Installing
+	 - running 
 </details>
 
 Project Organization
@@ -70,6 +72,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NzQzODYxLC0xODQ0ODM5MjE5LDgxND
-EzOTYwNF19
+eyJoaXN0b3J5IjpbLTE5ODc1NTA0ODIsLTE4NDQ4MzkyMTksOD
+E0MTM5NjA0XX0=
 -->

@@ -43,9 +43,9 @@ These instructions will get you a copy of the project up and running on your loc
 
     enter code here
 
-<details id="Devs">
+# <details id="Devs">
 
-# <summary>For Developers</summary>
+<summary>For Developers</summary>
 
 Project Organization
 ------------
@@ -131,10 +131,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMT
-EwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQz
-Njg5MCw5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEyNDI3ODU2NS
-wtMzY5MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMTY0
-MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxNDEzOTYwNF
-19
+eyJoaXN0b3J5IjpbMTQxMDExNTU3NSwxNzE0ODUzNTMzLC0xMz
+QzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjcz
+Nzc5MiwxNzgwNDM2ODkwLDk0NTM4ODc1MSwtMTY3MzQxNDM1My
+wyMTI0Mjc4NTY1LC0zNjkzMDM1NCwtMTY3MTE5NTkxOSwtMTQ5
+MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4MzkyMT
+ksODE0MTM5NjA0XX0=
 -->

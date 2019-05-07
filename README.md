@@ -36,27 +36,38 @@ https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
 	 - Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
  - molecular dynamics is slow and dependent upon the structure’s resolution
 
-#### Combative Design
+### Combative Design
 
  - The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
  - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
  - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 
-### Goals
-https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on
-•	Fast – Upper limit of 30 minutes per mutation. 
-o	Problem: The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation. [1] 
-o	Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+### Goals 
+[See Quora](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)
 
-•	Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
-o	
-
-•	It should be open source, downloadable, and free
-o	Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
-
-•	Machine Learning
-o	original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms. 
-o	[insert advantages to bringing it back?]
+ - Fast – Upper limit of 30 minutes per mutation.  o	Problem: The most
+   direct approach, accurately simulating the physics of the system to
+   guess the mutation’s effect on the binding free energy (∆∆G), can
+   take as long as 180 hours of computer time for a single mutation. [1]
+   o	Impact: For each type of cancer, there can be hundreds of disease
+   associated “driver” mutations.[5] Protein engineering is another case
+   where speed is critical as each amino acid is evaluated at each
+   position in one variant of the procedure. [6] This generates hundreds
+   of mutations if the sites are independent and many, many more if they
+   are not.
+   
+   •	Accurate – I would like to get this to r>0.9 and an average error
+   of <1 kcal/mol. o	
+   
+   •	It should be open source, downloadable, and free o	Many
+   computational projects are locked up in web servers. I would like a
+   program anyone can use and, if they wish, build off of.
+   
+   •	Machine Learning o	original program used a random forest model
+   tried to minimize the number of features to avoid overfitting.[3]
+   Later versions[4][5] got rid of machine learning altogether and used
+   a linear sum of two terms.  o	[insert advantages to bringing it
+   back?]
 
 **Optimus Bind**, will handle features, such as the ability to handle small molecule binding, and an improved and more accurate scoring system.
 
@@ -188,7 +199,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Mjg1MDUzLDE0MjQ3MTQ5MjAsMTkyND
+eyJoaXN0b3J5IjpbNzk4MzMwNDAxLDE0MjQ3MTQ5MjAsMTkyND
 QzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3
 LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNj
 AyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4

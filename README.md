@@ -25,7 +25,7 @@ https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-n
 and 
 https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
 
-•	There isn’t a lot of data.
+There isn’t a lot of data.
 o	Total number of mutations: 7085 skempi
 o	You can’t get more of it easily.
 o	The data is not evenly distributed.
@@ -190,11 +190,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OT
-M2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIw
-LC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3Nz
-QxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0
-MCwxNzE0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAzMjUxNzU5LD
-ExMDQyOTQyNjYsMjExNjczNzc5MiwxNzgwNDM2ODkwLDk0NTM4
-ODc1MV19
+eyJoaXN0b3J5IjpbLTQ4NzIzNDUyMCwxNDI0NzE0OTIwLDE5Mj
+Q0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4
+NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
+YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz
+OCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLT
+ExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0
+MzY4OTBdfQ==
 -->

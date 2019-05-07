@@ -5,9 +5,6 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 
 
-```
-https://travis-ci.org/kandadaboggu/iprofiler.png?branch=master
-```
 
 A short description of the project.
 
@@ -98,6 +95,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxND
-EzOTYwNF19
+eyJoaXN0b3J5IjpbMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0OD
+M5MjE5LDgxNDEzOTYwNF19
 -->

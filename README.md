@@ -8,7 +8,7 @@
  <!--| Optimus Bind-->
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
-[![Inline docs](http://inch-ci.org/github/tcardlab/hapi-auth-jwt2.svg?branch=master)](http://inch-ci.org/github/dwyl/hapi-auth-jwt2)
+[![Inline docs](http://inch-ci.org/github/tcardlab/optimus_bind_sample.svg?branch=master)](http://inch-ci.org/github/tcardlab/optimus_bind_sample)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
@@ -143,7 +143,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDMzNzQ1MywtNzkzNjM0NTY1LDIwNj
+eyJoaXN0b3J5IjpbMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNj
 g5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIz
 MCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5Nj
 I4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUz

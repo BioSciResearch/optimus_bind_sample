@@ -87,7 +87,7 @@ Project Organization
 **Collaboration kit:** 
  - Chat room:  Slack
  - Ref. library:  F1000Workspace
- - Repository:  GitHub
+ - Repository:  [GitHub](https://github.com/tcardlab/optimus_bind_sample)
  - To-do list:     Trello, GitHub, other? Scrum
 
 **Seeking people who are skilled in:**
@@ -108,7 +108,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyOTA2MzAyLC0xNjcxMTk1OTE5LC0xND
-kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
-OSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbMTU3NDQ2ODgxNSwtMTY3MTE5NTkxOSwtMT
+Q5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4Mzky
+MTksODE0MTM5NjA0XX0=
 -->

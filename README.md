@@ -38,20 +38,6 @@ scientists have increasingly turned to computational methods to predict ΔΔG va
  - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
  - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 
-<span><h3>Goals</h3>  [See Quora](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</span>
-
- - Fast – Upper limit of 30 minutes per mutation.  
-	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
-	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
- - Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
- - It should be open source, downloadable, and free
-	 - Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
- - Machine Learning
-	 - original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms.
-	 - [insert advantages to bringing it back?]
-
-**Optimus Bind**, will handle features, such as the ability to handle small molecule binding, and an improved and more accurate scoring system.
-
 <details>
 <summary><b>Table of contents </b></summary>
 
@@ -180,11 +166,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzNzc0OTM2LC05NDkzMDgwMDgsMTQyND
-cxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3
-MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nz
-g2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1
-LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMz
-QzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjcz
-Nzc5Ml19
+eyJoaXN0b3J5IjpbLTkxODEzNzE5NSwtOTQ5MzA4MDA4LDE0Mj
+Q3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2
+NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NT
+c4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4Nzky
+NSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMT
+M0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3
+Mzc3OTJdfQ==
 -->

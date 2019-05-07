@@ -7,7 +7,7 @@
 A short description of the project.
 
 <details>
-<h2><summary>Table of content</summary></h2>
+<summary><b>Table of content </b></summary>
 
 ## Table of content
  - [Project Organization](#Project-Organization)
@@ -71,11 +71,21 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
+Features
+Screenshots
+Setup
+	 - Prerequisites 
+	 - Installing
+	 - Run Tests
+Built With
+Contributing
+License
+Citations
 
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMjA3NywtMTg0NDgzOTIxOSw4MTQxMz
-k2MDRdfQ==
+eyJoaXN0b3J5IjpbLTY5OTUzNjM0NiwtMTg0NDgzOTIxOSw4MT
+QxMzk2MDRdfQ==
 -->

@@ -17,9 +17,9 @@ A short description of the project.
 	 - Prerequisites 
 	 - Installing
 	 - Run Tests
- - <!--Usage-->
-	 - Basic?
-	 - 
+<!--  - Usage
+	 - Basic
+	 - Examples-->
  - Built With (or Tech/Framework used)
  - Contributing
  - License
@@ -80,6 +80,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ3OTc2NzUsLTE4NDQ4MzkyMTksOD
-E0MTM5NjA0XX0=
+eyJoaXN0b3J5IjpbMjQxODQwODQzLC0xODQ0ODM5MjE5LDgxND
+EzOTYwNF19
 -->

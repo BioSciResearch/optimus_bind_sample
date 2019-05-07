@@ -1,10 +1,8 @@
 <h1 align="center"> Optimus Bind 
 
-[![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)
-](https://travis-ci.org/tcardlab/optimus_bind_sample)
+[![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
-
 </h1> 
 
 A short description of the project.
@@ -95,7 +93,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NDk3MDk4LC0xNjcxMTk1OTE5LC0xND
-kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
-OSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbLTE5ODA0MTY3MCwtMTY3MTE5NTkxOSwtMT
+Q5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4Mzky
+MTksODE0MTM5NjA0XX0=
 -->

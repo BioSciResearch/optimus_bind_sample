@@ -13,7 +13,7 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step toward understanding it at the cellular and organismal levels.
+The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects the binding partners of its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step toward understanding it at the cellular and organismal levels.
 
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
@@ -180,11 +180,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDExMDU1NzYsMTQ3NzgzOTYyNiwtMT
-MyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkzMDgwMDgsMTQyNDcx
-NDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2ODk5MjY3Mi
-wtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMjMwLDk1Nzg2
-OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2Mjg3OTI1LD
-E5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQz
-ODA1MDY5XX0=
+eyJoaXN0b3J5IjpbNjYxNzczNzc5LC0yMDAxMTA1NTc2LDE0Nz
+c4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAwNzA3OCwtOTQ5MzA4
+MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LD
+IwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAx
+MDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLT
+E5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1
+MzUzM119
 -->

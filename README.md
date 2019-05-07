@@ -109,6 +109,7 @@ too lazy to link them atm...
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)(example) for details on our code of conduct, and the process for submitting pull requests to us.
 
 **Collaboration kit:** 
+ - Dev Space:  [Quora](https://www.quora.com/q/hxbiokqurmxybuec)
  - Chat room:  [Slack](https://bioscienceclub.slack.com/messages/CHK7D10MN/details/) by request
  - Ref. library:  [F1000Workspace](https://f1000.com/work/#/items/6730972/detail?collection=321381) by request
  - Repository:  [GitHub](https://github.com/tcardlab/optimus_bind_sample)
@@ -134,10 +135,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xOD
-MwNjgzNDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1
-MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQzNjg5MC
-w5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEyNDI3ODU2NSwtMzY5
-MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMTY0MzQ4OD
-MsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxNDEzOTYwNF19
+eyJoaXN0b3J5IjpbLTc5NDY4MDAxMCwtMTk2Mjg3OTI1LDE5NT
+k0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1
+MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjczNzc5Mi
+wxNzgwNDM2ODkwLDk0NTM4ODc1MSwtMTY3MzQxNDM1MywyMTI0
+Mjc4NTY1LC0zNjkzMDM1NCwtMTY3MTE5NTkxOSwtMTQ5MjExOT
+Y5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4MzkyMTksODE0
+MTM5NjA0XX0=
 -->

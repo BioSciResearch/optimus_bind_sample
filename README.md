@@ -84,6 +84,18 @@ Project Organization
 
 ## Contributing
 
+Collaboration kit: 
+ - Chat room:  Slack
+ - Ref. library:  F1000Workspace
+ - Repository:  GitHub
+ - To-do list:     Trello, GitHub, other? Scrum
+ -Seeking people who are skilled in: •	Bioinformatics •	Molecular
+   dynamics and force field development •	Protein engineering and
+   protein design •	Protein Folding and biophysics (computational or
+   experimental) for insight into force field design •	Basic graph
+   theory and the Python Network X library •	Machine learning,
+   particularly on small datasets •	Server and website design
+
 ## Citations
 
  1. "SKEMPI 2.0: An updated benchmark of changes in protein-protein binding energy, kinetics and thermodynamics upon mutation".  Justina Jankauskaitė, Brian Jiménez-García, Justas Dapkūnas, Juan Fernández-Recio, Iain H Moal  _**Bioinformatics**_ (2018), bty635, [https://doi.org/10.1093/bioinformatics/bty635](https://doi.org/10.1093/bioinformatics/bty635)
@@ -93,7 +105,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA0MTY3MCwtMTY3MTE5NTkxOSwtMT
+eyJoaXN0b3J5IjpbLTEyMzU1OTk4OCwtMTY3MTE5NTkxOSwtMT
 Q5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4Mzky
 MTksODE0MTM5NjA0XX0=
 -->

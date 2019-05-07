@@ -15,10 +15,21 @@
 
 Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences. The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
 
-
 scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
+
+### Goals <sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</sup>
+ - Fast – Upper limit of 30 minutes per mutation.  
+	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
+	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+ - Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
+ - It should be open source, downloadable, and free
+	 - Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
+ - Machine Learning
+	 - original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms.
+	 - handle small molecule binding
+	 - improve scoring system
 
 ### Challenges<sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT), [2](https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral)</sup>
  - There isn’t a lot of data. o	Total number of mutations: 7085 skempi
@@ -166,11 +177,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODEzNzE5NSwtOTQ5MzA4MDA4LDE0Mj
-Q3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2
-NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NT
-c4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4Nzky
-NSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMT
-M0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3
-Mzc3OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQ5NDUwNDgsLTk0OTMwODAwOCwxND
+I0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTky
+NjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOT
+U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
+MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
+EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2
+NzM3NzkyXX0=
 -->

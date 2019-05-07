@@ -20,11 +20,7 @@ scientists have increasingly turned to computational methods to predict ΔΔG va
 
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
-### Challenges<sup>[1],2]</sup>
-https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT
-and 
-https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
-
+### Challenges<sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT), [2](https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral)</sup>
  - There isn’t a lot of data. o	Total number of mutations: 7085 skempi
 	 - You can’t get more of it easily. 
 	 - The data is not evenly distributed. 
@@ -185,7 +181,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjQxMTIzNywtOTQ5MzA4MDA4LDE0Mj
+eyJoaXN0b3J5IjpbMTEzNzU1MTU3NSwtOTQ5MzA4MDA4LDE0Mj
 Q3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2
 NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NT
 c4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4Nzky

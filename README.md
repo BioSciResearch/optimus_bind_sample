@@ -17,9 +17,10 @@ A short description of the project.
 	 - [Prerequisites](#Prerequisites)
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
- - [Project Organization](#Project-Organization)
- - [Built With](#Built-With)
- - [Contributing](#Contributing)
+ - For Developers:
+	 - [Project Organization](#Project-Organization)
+	 - [Built With](#Built-With)
+	 - [Contributing](#Contributing)
  - [Citations](#Citations)
 </details>
 
@@ -124,7 +125,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjExNjY5OTUsLTE2NzExOTU5MTksLT
-E0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5
-MjE5LDgxNDEzOTYwNF19
+eyJoaXN0b3J5IjpbLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xND
+kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
+OSw4MTQxMzk2MDRdfQ==
 -->

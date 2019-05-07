@@ -96,8 +96,9 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
 ## Built With
-
- - 
+too lazy to link them atm...
+ - Python Network X library
+ - OpenMM/
 
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)(example) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -128,9 +129,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMT
-E2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0
-MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC
-0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgz
-OTIxOSw4MTQxMzk2MDRdfQ==
+eyJoaXN0b3J5IjpbNzE5NzA4NTUsLTExMDMyNTE3NTksMTEwND
+I5NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUx
+LC0xNjczNDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNj
+cxMTk1OTE5LC0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkw
+OSwtMTg0NDgzOTIxOSw4MTQxMzk2MDRdfQ==
 -->

@@ -45,12 +45,12 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
 	 - While it is possible in most cases to make a model of the protein complex, the accuracy of the model is not perfect. 
  - **Large mutation space to explore** 
 	 - (20 amino acids)^(the proteins length)
-	 - Even restricted to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
- - molecular dynamics is slow and dependent upon the structure’s resolution
+	 - Even restricted to single mutations, as we would if we are looking at the possible effect of SNPs (single nucleotide polymorphism), this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
+ - **molecular dynamics is slow and dependent upon the structure’s resolution**
 
 ### Combative Design
 
- - The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
+ - Using stratified sampling we can sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
  - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
  - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 </details>
@@ -183,11 +183,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTM3NDc2NDMsMjY3NTQ1MTMxLC0yMD
-AxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAw
-NzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNi
-wtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2
-NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LD
-EwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMw
-NjgzNDBdfQ==
+eyJoaXN0b3J5IjpbMTkzNjA5MjMwNCwyNjc1NDUxMzEsLTIwMD
+ExMDU1NzYsMTQ3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3
+MDc4LC05NDkzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC
+03OTM2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1
+NzIwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMT
+A3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2
+ODM0MF19
 -->

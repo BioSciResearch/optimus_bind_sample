@@ -1,8 +1,8 @@
-<script>
+<iframe>
 function myFunction() {
     document.getElementById("Devs").open = true;
 }
-</script>
+</iframe>
 
 
 <h1 align="center"> Optimus Bind 
@@ -25,7 +25,7 @@ A short description of the project.
 	 - [Installing](#Installing)
 	 - [Run Tests](#Run-Tests)
  - [For Developers:](#Devs)
-	 - <button onclick="myFunction()" href="#Project-Organization">Project Organization</button>
+	 - <button onclick="myFunction()" href="#Project-Organization" >Project Organization</button>
 	 - <a href="#Project-Organization" >Project Organization</a>
 	 - [Built With](#Built-With)
 	 - [Contributing](#Contributing)
@@ -133,9 +133,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3MTE1NDA0LDIxMTY3Mzc3OTIsMTc4MD
-QzNjg5MCw5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEyNDI3ODU2
-NSwtMzY5MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMT
-Y0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgxNDEzOTYw
-NF19
+eyJoaXN0b3J5IjpbMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3OD
+A0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0MzUzLDIxMjQyNzg1
+NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xNDkyMTE5Njk1LD
+E2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIxOSw4MTQxMzk2
+MDRdfQ==
 -->

@@ -39,10 +39,10 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
  - **There isn’t a lot of data** (7085 mutations skempi v2.0)
 	 - You can’t get more of it (*easily*...).
 	 - The data is not evenly distributed. 
-		 - SKEMPI has not evenly sampled mutations we must consider. This sort of imbalanced dataset can skew the machine learning process. When coverage is heavy in some areas and sparse in others, the accuracy of the model ends up skewed towards the subpopulations where the coverage is heaviest.
+		 - SKEMPI has not evenly sampled mutations we must consider. This sort of imbalanced dataset can skew the machine learning process (skewed toward the subpopulations with the heaviest coverage).
 	 - While machine learning based methods that do not use physics approaches are fast and appear to have good accuracy, they are often overtrained and fall apart when confronted with new data. 
  - Less than 10% of protein complexes have structures.
-	 - While it is possible in most cases to make a model of the protein complex,[13] the accuracy of the model is not perfect. 
+	 - While it is possible in most cases to make a model of the protein complex, the accuracy of the model is not perfect. 
  - Large mutation space to explore 
 	 - (20 amino acids)^(the proteins length)
 	 - Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
@@ -183,11 +183,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA3NjI4NzMsMjY3NTQ1MTMxLC0yMD
-AxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAw
-NzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNi
-wtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2
-NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LD
-EwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMw
-NjgzNDBdfQ==
+eyJoaXN0b3J5IjpbNTQ4NjY2NTc1LDI2NzU0NTEzMSwtMjAwMT
+EwNTU3NiwxNDc3ODM5NjI2LC0xMzI1NTU5NTY1LDIwNDIwMDcw
+NzgsLTk0OTMwODAwOCwxNDI0NzE0OTIwLDE5MjQ0MzIxMzYsLT
+c5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3
+MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMD
+c3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4
+MzQwXX0=
 -->

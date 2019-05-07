@@ -13,39 +13,15 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-[Full Summery] (https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB)
+[Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
+
+Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences. The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
 
 
-Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences.
-
-The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized
+scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
 
 
-While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown.
-
-
-The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. [1][2]
-
-This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding.
-
-In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
-
-
-
-
-
-
-
-scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation).
-
-These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein.[7]
-
-There is therefore a clear need for new methods that are both fast and accurate.[8] 
-
-
-
-
-Challenges 
+Challenges
 https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT
 and 
 https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
@@ -214,11 +190,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NjYxODQ5LDE5MjQ0MzIxMzYsLTc5Mz
-YzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3MjAs
-LTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMDc3ND
-EwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQw
-LDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMT
-EwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4
-NzUxXX0=
+eyJoaXN0b3J5IjpbLTE5ODMwMDc4NzEsMTkyNDQzMjEzNiwtNz
+kzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcy
+MCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNz
+c0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgz
+NDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OS
+wxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQzNjg5MCw5NDUz
+ODg3NTFdfQ==
 -->

@@ -7,7 +7,7 @@
 A short description of the project.
 
 <details>
-<summary><h2>Table of content</h2></summary>
+<h2><summary>Table of content</summary></h2>
 
 ## Table of content
  - [Project Organization](#Project-Organization)
@@ -76,6 +76,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NDUxMzc5LC0xODQ0ODM5MjE5LDgxND
-EzOTYwNF19
+eyJoaXN0b3J5IjpbNDczMjA3NywtMTg0NDgzOTIxOSw4MTQxMz
+k2MDRdfQ==
 -->

@@ -1,10 +1,3 @@
-<iframe>
-function myFunction() {
-    document.getElementById("Devs").open = true;
-}
-</iframe>
-
-
 <h1 align="center"> Optimus Bind 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -104,6 +97,8 @@ Project Organization
 
 ## Built With
 
+ - 
+
 ## Contributing
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)(example) for details on our code of conduct, and the process for submitting pull requests to us.
 
@@ -133,9 +128,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3OD
-A0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0MzUzLDIxMjQyNzg1
-NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xNDkyMTE5Njk1LD
-E2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIxOSw4MTQxMzk2
-MDRdfQ==
+eyJoaXN0b3J5IjpbLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMT
+E2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0
+MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC
+0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgz
+OTIxOSw4MTQxMzk2MDRdfQ==
 -->

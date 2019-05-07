@@ -38,8 +38,7 @@ scientists have increasingly turned to computational methods to predict ΔΔG va
  - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
  - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 
-### Goals 
-[See Quora](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)
+<h3>Goals</h3> <span> [See Quora](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</span>
 
  - Fast – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
@@ -181,11 +180,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzU1MTU3NSwtOTQ5MzA4MDA4LDE0Mj
-Q3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2
-NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NT
-c4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5NjI4Nzky
-NSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMT
-M0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3
-Mzc3OTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNzIzMzI0MDgsLTk0OTMwODAwOCwxND
+I0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTky
+NjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOT
+U3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5
+MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLT
+EzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2
+NzM3NzkyXX0=
 -->

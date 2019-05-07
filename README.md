@@ -83,12 +83,13 @@ Project Organization
 ## Built With
 
 ## Contributing
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 **Collaboration kit:** 
  - Chat room:  [Slack](https://bioscienceclub.slack.com/messages/CHK7D10MN/details/) by request
  - Ref. library:  [F1000Workspace](https://f1000.com/work/#/items/6730972/detail?collection=321381) by request
  - Repository:  [GitHub](https://github.com/tcardlab/optimus_bind_sample)
- - To-do list:     Trello, GitHub, other? Scrum
+ - To-do list:     [Trello, GitHub, other?] Scrum?
 
 **Seeking people who are skilled in:**
  - Bioinformatics 
@@ -108,7 +109,7 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkzOTkzMDcsLTE2NzExOTU5MTksLT
-E0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5
-MjE5LDgxNDEzOTYwNF19
+eyJoaXN0b3J5IjpbMTg3NjU5MTgyNSwtMTY3MTE5NTkxOSwtMT
+Q5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4Mzky
+MTksODE0MTM5NjA0XX0=
 -->

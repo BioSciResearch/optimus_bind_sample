@@ -13,7 +13,78 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 </h1> 
 
-A short description of the project.
+[Full Summery] (https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB)
+
+
+Optimus Bind is a collaborative computational biology project to predict the effects of mutation directly from protein sequences.
+
+The Human Genome Project has yielded a wealth of data concerning natural human genetic variation that remains to be fully utilized
+
+
+While genetic sequencing has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown.
+
+
+The first step to predict a mutation’s effect is to understand how it affects its binding partners in the protein interaction network. [1][2]
+
+This program is intended to scan protein surfaces to evaluate mutations that may affect protein-protein binding.
+
+In knowing how the mutation works at the molecular level, you have made the first step to understanding how it work at the cellular and organismal level.
+
+
+
+
+
+
+
+scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation).
+
+These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein.[7]
+
+There is therefore a clear need for new methods that are both fast and accurate.[8] 
+
+
+
+
+Challenges 
+https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT
+and 
+https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
+
+•	There isn’t a lot of data.
+o	Total number of mutations: 7085 skempi
+o	You can’t get more of it easily.
+o	The data is not evenly distributed.
+	The SKEMPI database doesn’t evenly sample that mutations we want to consider. While for a few proteins there are multiple entries, for others there is nothing at all. Overall the coverage is pretty sparse. As described in more detail here, this sort of imbalanced dataset can skew the machine learning process.[1][2] The model bases its predictions on the data available. When coverage is heavy in some areas and sparse in others, the accuracy of the model ends up skewed towards the subpopulations where the coverage is heaviest.
+o	While machine learning based methods that do not use physics approaches are fast and appear to have good accuracy, they are often overtrained and fall apart when confronted with new data.[7]
+•	Less than 10% of protein complexes have structures. 
+o	While it is possible in most cases to make a model of the protein complex,[13] the accuracy of the model is not perfect.
+•	Large mutation space to explore
+o	(20 amino acids)^(the proteins length)
+o	Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex.
+•	molecular dynamics is slow and dependent upon the structure’s resolution 
+
+combative design
+•	The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
+•	Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted[14] ) as a feature in machine learning. [11]
+•	One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates). 
+•	
+
+
+GOALS
+https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on
+•	Fast – Upper limit of 30 minutes per mutation. 
+o	Problem: The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation. [1] 
+o	Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+
+•	Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
+o	
+
+•	It should be open source, downloadable, and free
+o	Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
+
+•	Machine Learning
+o	original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms. 
+o	[insert advantages to bringing it back?]
 
 <details>
 <summary><b>Table of contents </b></summary>
@@ -143,11 +214,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDQzMjEzNiwtNzkzNjM0NTY1LDIwNj
-g5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OTAxMDIz
-MCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgsLTE5Nj
-I4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUz
-MywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LD
-IxMTY3Mzc3OTIsMTc4MDQzNjg5MCw5NDUzODg3NTEsLTE2NzM0
-MTQzNTNdfQ==
+eyJoaXN0b3J5IjpbNzA1NjYxODQ5LDE5MjQ0MzIxMzYsLTc5Mz
+YzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3MjAs
+LTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMDc3ND
+EwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQw
+LDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMT
+EwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4
+NzUxXX0=
 -->

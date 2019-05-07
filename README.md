@@ -22,8 +22,8 @@ The Human Genome Project amassed a wealth of data concerning human genetic varia
 Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate. As such, this collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
  - Fast – Upper limit of 30 minutes per mutation.  
-	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
-	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+	 - *Problem:* Accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
+	 - *Impact:* For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
  - Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
  - It should be open source, downloadable, and free
 	 - Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
@@ -180,11 +180,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ5MDYzOTMsLTIwMDExMDU1NzYsMT
-Q3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkz
-MDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1Nj
-UsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5
-MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOC
-wtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0
-ODUzNTMzXX0=
+eyJoaXN0b3J5IjpbNDgxOTc5MzQsLTIwMDExMDU1NzYsMTQ3Nz
+gzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkzMDgw
+MDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMj
+A2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEw
+MjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMT
+k2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUz
+NTMzXX0=
 -->

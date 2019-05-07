@@ -1,6 +1,6 @@
 <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="100" height="100" style="align:center">
 
-<h1 align="center">  Optimus Bind 
+<h1 align="center">  **Optimus Bind** 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
@@ -137,11 +137,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NT
-k0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1
-MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjczNzc5Mi
-wxNzgwNDM2ODkwLDk0NTM4ODc1MSwtMTY3MzQxNDM1MywyMTI0
-Mjc4NTY1LC0zNjkzMDM1NCwtMTY3MTE5NTkxOSwtMTQ5MjExOT
-Y5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4MzkyMTksODE0
-MTM5NjA0XX0=
+eyJoaXN0b3J5IjpbMTYxMTQ4MTY2MiwxMDc3NDEwMjM4LC0xOT
+YyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4NTM1
+MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5NDI2Ni
+wyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC0xNjcz
+NDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcxMTk1OT
+E5LC0xNDkyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0
+NDgzOTIxOV19
 -->

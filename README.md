@@ -89,12 +89,12 @@ Collaboration kit:
  - Ref. library:  F1000Workspace
  - Repository:  GitHub
  - To-do list:     Trello, GitHub, other? Scrum
- -Seeking people who are skilled in: •	Bioinformatics •	Molecular
-   dynamics and force field development •	Protein engineering and
-   protein design •	Protein Folding and biophysics (computational or
-   experimental) for insight into force field design •	Basic graph
-   theory and the Python Network X library •	Machine learning,
-   particularly on small datasets •	Server and website design
+Seeking people who are skilled in:
+ - Bioinformatics Molecular dynamics and force field development
+ - Protein engineering and protein design 
+ - Protein Folding and biophysics (computational or experimental) for insight into force field design
+ - Basic graph theory and the Python Network X library Machine learning, particularly on small datasets 
+ - Server and website design
 
 ## Citations
 
@@ -105,7 +105,7 @@ Collaboration kit:
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU1OTk4OCwtMTY3MTE5NTkxOSwtMT
-Q5MjExOTY5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4Mzky
-MTksODE0MTM5NjA0XX0=
+eyJoaXN0b3J5IjpbODU3MzAzODQwLC0xNjcxMTk1OTE5LC0xND
+kyMTE5Njk1LDE2NDM0ODgzLDgxNjg4ODkwOSwtMTg0NDgzOTIx
+OSw4MTQxMzk2MDRdfQ==
 -->

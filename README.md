@@ -1,5 +1,6 @@
 <p align="center"> Optimus Bind </p>
 ========================
+
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)
 ](https://travis-ci.org/tcardlab/optimus_bind_sample)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/domainName.io.svg)](http://shields.io/)
@@ -7,7 +8,7 @@
 A short description of the project.
 
 <details>
-<summary> Table of content </summary>
+<summary><b>Table of content </b></summary>
 
 ## Table of content
  - [Project Organization](#Project-Organization)
@@ -76,6 +77,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NTIzODk0LC0xODQ0ODM5MjE5LDgxND
-EzOTYwNF19
+eyJoaXN0b3J5IjpbLTc3MDcxNzIxNywtMTg0NDgzOTIxOSw4MT
+QxMzk2MDRdfQ==
 -->

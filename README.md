@@ -36,11 +36,11 @@ https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
 	 - Even if we restrict the search to single mutations, as we would if we are looking at the possible effect of SNPs, this still comes out to hundreds of mutations that need to be evaluated for each protein complex. 
  - molecular dynamics is slow and dependent upon the structure’s resolution
 
-### Combative Design
-•	The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
-•	Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted[14] ) as a feature in machine learning. [11]
-•	One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates). 
-•	
+#### Combative Design
+
+ - The solution is to use stratified sampling so that we sample all possible cases evenly. To do this we need a feature list that defines the effectively describes the different types of proteins we might encounter.
+ - Accept some errors are going to exist and at least have the option of low resolution scoring, using both residue level scoring and local estimates of the accuracy and precision of the structure (either real or predicted) as a feature in machine learning.
+ - One solution is to infer the dynamics of the protein by scaling interactions directly from the sequence (similar to DynaMine and antecedent to how FoldX’s operates).
 
 ### Goals
 https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on
@@ -188,11 +188,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjIyMjkxNiwxNDI0NzE0OTIwLDE5Mj
-Q0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4
-NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
-YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz
-OCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLT
-ExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0
-MzY4OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ0Mjg1MDUzLDE0MjQ3MTQ5MjAsMTkyND
+QzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3
+LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNj
+AyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4
+LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMT
+EwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQz
+Njg5MF19
 -->

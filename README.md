@@ -1,4 +1,4 @@
-![enter image description here](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM)
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" size="50,20">
 <h1 align="center"> Optimus Bind 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -136,11 +136,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE0OTQ3MzIsLTE5NjI4NzkyNSwxOT
-U5NDUyMjM4LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMTM0Mzgw
-NTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OT
-IsMTc4MDQzNjg5MCw5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEy
-NDI3ODU2NSwtMzY5MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMT
-k2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xODQ0ODM5MjE5LDgx
-NDEzOTYwNF19
+eyJoaXN0b3J5IjpbMTAwNjgzNzQ4MCwtMTk2Mjg3OTI1LDE5NT
+k0NTIyMzgsLTE4MzA2ODM0MCwxNzE0ODUzNTMzLC0xMzQzODA1
+MDY5LC0xMTAzMjUxNzU5LDExMDQyOTQyNjYsMjExNjczNzc5Mi
+wxNzgwNDM2ODkwLDk0NTM4ODc1MSwtMTY3MzQxNDM1MywyMTI0
+Mjc4NTY1LC0zNjkzMDM1NCwtMTY3MTE5NTkxOSwtMTQ5MjExOT
+Y5NSwxNjQzNDg4Myw4MTY4ODg5MDksLTE4NDQ4MzkyMTksODE0
+MTM5NjA0XX0=
 -->

@@ -48,16 +48,12 @@ https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
  - Fast – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
 	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
- - Accurate – I would like to get this to r>0.9 and an average errorof <1 kcal/mol.
-   It should be open source, downloadable, and free o	Many
-   computational projects are locked up in web servers. I would like a
-   program anyone can use and, if they wish, build off of.
-   
-   •	Machine Learning o	original program used a random forest model
-   tried to minimize the number of features to avoid overfitting.[3]
-   Later versions[4][5] got rid of machine learning altogether and used
-   a linear sum of two terms.  o	[insert advantages to bringing it
-   back?]
+ - Accurate – I would like to get this to r>0.9 and an average error of <1 kcal/mol.
+ - It should be open source, downloadable, and free
+	 - Many computational projects are locked up in web servers. I would like a program anyone can use and, if they wish, build off of.
+ - Machine Learning
+	 - original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms.
+	 - [insert advantages to bringing it back?]
 
 **Optimus Bind**, will handle features, such as the ability to handle small molecule binding, and an improved and more accurate scoring system.
 
@@ -189,7 +185,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODE2MDY2MCwxNDI0NzE0OTIwLDE5Mj
+eyJoaXN0b3J5IjpbLTk0OTMwODAwOCwxNDI0NzE0OTIwLDE5Mj
 Q0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4
 NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
 YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz

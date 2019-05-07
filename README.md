@@ -23,12 +23,12 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
 
  - **Fast** – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* Accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
-	 - *Impact:* For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+	 - *Impact:* For each type of cancer, there can be hundreds of disease associated “driver” mutations. Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. This generates hundreds of mutations if the sites are independent and many, many more if they are not.
  - **Accurate** – r>0.9 and an average error of <1 kcal/mol.
  - **Open source**
 	 - Many computational projects are locked up in web servers. Anyone can use this program and may build off it if they so desire.
- - Machine Learning
-	 - original program used a random forest model tried to minimize the number of features to avoid overfitting.[3] Later versions[4][5] got rid of machine learning altogether and used a linear sum of two terms.
+ - **Machine Learning**
+	 - A random forest model tried to minimize the number of features to avoid overfitting. However, later versions got rid of machine learning altogether and used a linear sum of two terms. This project aims to bring reimplemt machine learning.
 	 - handle small molecule binding
 	 - improve scoring system
 
@@ -180,11 +180,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTc0MTg2MSwtMjAwMTEwNTU3NiwxND
-c3ODM5NjI2LC0xMzI1NTU5NTY1LDIwNDIwMDcwNzgsLTk0OTMw
-ODAwOCwxNDI0NzE0OTIwLDE5MjQ0MzIxMzYsLTc5MzYzNDU2NS
-wyMDY4OTkyNjcyLC01Nzg0NDY4NywyOTgzNjU3MjAsLTE4OTkw
-MTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4LC
-0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MTQ4
-NTM1MzNdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk0MDg0NjQsLTIwMDExMDU1NzYsMT
+Q3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkz
+MDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1Nj
+UsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5
+MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOC
+wtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNzE0
+ODUzNTMzXX0=
 -->

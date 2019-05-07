@@ -22,15 +22,15 @@ The Human Genome Project amassed a wealth of data concerning human genetic varia
 Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate. As such, this collaborative computational biology project aims to predict the effects of mutation directly from protein sequences.
 
  - **Fast** – Upper limit of 30 minutes per mutation.  
-	 - *Problem:* Accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
+	 - *Problem:* Accurately simulating the physics of the mutation’s effect on ∆∆G can take as long as 180 hours of computer time for a single mutation.
 	 - *Impact:* For each type of cancer, there can be hundreds of disease associated “driver” mutations. Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. This generates hundreds of mutations if the sites are independent and many, many more if they are not.
  - **Accurate** – r>0.9 and an average error of <1 kcal/mol.
  - **Open source**
 	 - Many computational projects are locked up in web servers. Anyone can use this program and may build off it if they so desire.
  - **Machine Learning**
 	 - A random forest model tried to minimize the number of features to avoid overfitting. However, later versions got rid of machine learning altogether and used a linear sum of two terms. This project aims to bring reimplemt machine learning.
-	 - handle small molecule binding
 	 - improve scoring system
+ -  **Small molecule binding**
 
 ### Challenges<sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT), [2](https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral)</sup>
  - There isn’t a lot of data.
@@ -180,7 +180,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk0MDg0NjQsLTIwMDExMDU1NzYsMT
+eyJoaXN0b3J5IjpbLTE1NzA3ODE0OTMsLTIwMDExMDU1NzYsMT
 Q3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkz
 MDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1Nj
 UsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5

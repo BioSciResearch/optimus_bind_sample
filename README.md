@@ -18,11 +18,12 @@ This collaborative computational biology project aims to predict the effects of 
 
 The Human Genome Project amassed a wealth of data concerning human genetic variation anticipating further utilization. Although this data has provided a method of identifying potential subpopulations, the impact of specific mutations is often unknown. The first step to predict a mutation’s effect is to understand how it affects its binding partners in its interaction network. As such, Optimus Bind scans protein surfaces to evaluate mutations that may affect protein-protein binding. In knowing how the mutation works at the molecular level, you have made the first step toward understanding how it works at the cellular and organismal levels.
 
-Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
-
 [Full Summery](https://www.quora.com/Quora-Bioscience-Club-is-considering-collaborative-computational-biology-research-projects-What-topics-are-you-interested-in-and-are-able-to-work-on/answer/Jeffrey-Brender?ch=10&share=fdebe6d2&srid=E3wB) 
 
 ### Goals <sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)</sup>
+
+Scientists have increasingly turned to computational methods to predict ΔΔG values (changes in the free energy ΔG upon mutation). These methods are computationally expensive for large datasets to the extent that it becomes prohibitive for genome-wide studies or even scanning mutations on a single protein. There is therefore a clear need for new methods that are both fast and accurate.
+
  - Fast – Upper limit of 30 minutes per mutation.  
 	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
 	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
@@ -182,11 +183,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzAwNjY4NywyMDQyMDA3MDc4LC05ND
-kzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1
-NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xOD
-k5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIz
-OCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2ODM0MCwxNz
-E0ODUzNTMzLC0xMzQzODA1MDY5LC0xMTAzMjUxNzU5LDExMDQy
-OTQyNjZdfQ==
+eyJoaXN0b3J5IjpbLTEzMjU1NTk1NjUsMjA0MjAwNzA3OCwtOT
+Q5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNiwtNzkzNjM0
+NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMT
+g5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAy
+MzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMT
+cxNDg1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0
+Mjk0MjY2XX0=
 -->

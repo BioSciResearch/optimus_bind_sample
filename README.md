@@ -36,12 +36,12 @@ Scientists have increasingly turned to computational methods to predict ΔΔG va
  -  **Small molecule binding**
 
 ### Challenges<sup>[1](https://www.quora.com/q/hxbiokqurmxybuec/Which-is-preferred-genetic-algorithms-neural-networks-or-a-combination-such-as-NEAT), [2](https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral)</sup>
- - **There isn’t a lot of data** (7085 mutations skempi v2.0)
+1. **There isn’t a lot of data** (7085 mutations skempi v2.0)
 	 - You can’t get more of it (*easily*...).
 	 - The data is not evenly distributed. 
 		 - SKEMPI has not evenly sampled mutations we must consider. This sort of imbalanced dataset can skew the machine learning process (skewed toward the subpopulations with the heaviest coverage).
 	 - Machine learning based methods are fast and appear to have good accuracy, But they are often overtrained and fall apart when confronted with new data. 
- - **Less than 10% of protein complexes have structures**
+1. **Less than 10% of protein complexes have structures**
 	 - While it is possible in most cases to make a model of the protein complex, the accuracy of the model is not perfect. 
  - **Large mutation space to explore** 
 	 - (20 amino acids)^(the proteins length)
@@ -183,11 +183,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjA5MjMwNCwyNjc1NDUxMzEsLTIwMD
-ExMDU1NzYsMTQ3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3
-MDc4LC05NDkzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC
-03OTM2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1
-NzIwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMT
-A3NzQxMDIzOCwtMTk2Mjg3OTI1LDE5NTk0NTIyMzgsLTE4MzA2
-ODM0MF19
+eyJoaXN0b3J5IjpbLTExMTYzNjMxMjAsMjY3NTQ1MTMxLC0yMD
+AxMTA1NTc2LDE0Nzc4Mzk2MjYsLTEzMjU1NTk1NjUsMjA0MjAw
+NzA3OCwtOTQ5MzA4MDA4LDE0MjQ3MTQ5MjAsMTkyNDQzMjEzNi
+wtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3LDI5ODM2
+NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LD
+EwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMw
+NjgzNDBdfQ==
 -->

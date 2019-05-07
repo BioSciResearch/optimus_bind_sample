@@ -5,7 +5,6 @@ function myFunction() {
 </script>
 
 
-
 <h1 align="center"> Optimus Bind 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -134,7 +133,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjY5ODcwOCw5NDUzODg3NTEsLTE2Nz
+eyJoaXN0b3J5IjpbMTc4MDQzNjg5MCw5NDUzODg3NTEsLTE2Nz
 M0MTQzNTMsMjEyNDI3ODU2NSwtMzY5MzAzNTQsLTE2NzExOTU5
 MTksLTE0OTIxMTk2OTUsMTY0MzQ4ODMsODE2ODg4OTA5LC0xOD
 Q0ODM5MjE5LDgxNDEzOTYwNF19

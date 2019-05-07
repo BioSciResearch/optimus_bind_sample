@@ -1,6 +1,7 @@
 optimus_bind
 ========================
 ![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 A short description of the project.
 
 Project Organization
@@ -56,5 +57,6 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ4MzkyMTksODE0MTM5NjA0XX0=
+eyJoaXN0b3J5IjpbLTk5Njk0MTIxMSwtMTg0NDgzOTIxOSw4MT
+QxMzk2MDRdfQ==
 -->

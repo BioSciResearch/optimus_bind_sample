@@ -2,7 +2,7 @@
 <span style="color:red">
     <a href="https://www.quora.com/q/hxbiokqurmxybuec">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="50" height="50">
-</span></a>  <font color="dark red">| Optimus</font> Bind
+</span></a>  <font color="#b00000">| Optimus</font> Bind
 
 
 
@@ -142,11 +142,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzc4NTI5MCw5NTc4Njk0MjcsNjYzNj
-AyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4
-LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMT
-EwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQz
-Njg5MCw5NDUzODg3NTEsLTE2NzM0MTQzNTMsMjEyNDI3ODU2NS
-wtMzY5MzAzNTQsLTE2NzExOTU5MTksLTE0OTIxMTk2OTUsMTY0
-MzQ4ODNdfQ==
+eyJoaXN0b3J5IjpbLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
+YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz
+OCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLT
+ExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0
+MzY4OTAsOTQ1Mzg4NzUxLC0xNjczNDE0MzUzLDIxMjQyNzg1Nj
+UsLTM2OTMwMzU0LC0xNjcxMTk1OTE5LC0xNDkyMTE5Njk1LDE2
+NDM0ODgzXX0=
 -->

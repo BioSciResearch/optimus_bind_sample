@@ -3,7 +3,7 @@
     <a href="https://www.quora.com/q/hxbiokqurmxybuec">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="50" height="50"></span></a> <font color="#b00000">| Optimus</font> Bind
 		
-<img src="https://drive.google.com/file/d/1J1gsaoem1-GquopMoCNQf1d2Mb2j3ecr/preview">
+<iframe src="https://drive.google.com/file/d/1J1gsaoem1-GquopMoCNQf1d2Mb2j3ecr/preview">
 
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 
@@ -141,11 +141,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Nzg4NjQ0OCwyOTgzNjU3MjAsLTE4OT
-kwMTAyMzAsOTU3ODY5NDI3LDY2MzYwMjkxNiwxMDc3NDEwMjM4
-LC0xOTYyODc5MjUsMTk1OTQ1MjIzOCwtMTgzMDY4MzQwLDE3MT
-Q4NTM1MzMsLTEzNDM4MDUwNjksLTExMDMyNTE3NTksMTEwNDI5
-NDI2NiwyMTE2NzM3NzkyLDE3ODA0MzY4OTAsOTQ1Mzg4NzUxLC
-0xNjczNDE0MzUzLDIxMjQyNzg1NjUsLTM2OTMwMzU0LC0xNjcx
-MTk1OTE5XX0=
+eyJoaXN0b3J5IjpbLTU3ODQ0Njg3LDI5ODM2NTcyMCwtMTg5OT
+AxMDIzMCw5NTc4Njk0MjcsNjYzNjAyOTE2LDEwNzc0MTAyMzgs
+LTE5NjI4NzkyNSwxOTU5NDUyMjM4LC0xODMwNjgzNDAsMTcxND
+g1MzUzMywtMTM0MzgwNTA2OSwtMTEwMzI1MTc1OSwxMTA0Mjk0
+MjY2LDIxMTY3Mzc3OTIsMTc4MDQzNjg5MCw5NDUzODg3NTEsLT
+E2NzM0MTQzNTMsMjEyNDI3ODU2NSwtMzY5MzAzNTQsLTE2NzEx
+OTU5MTldfQ==
 -->

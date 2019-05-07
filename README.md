@@ -45,21 +45,11 @@ https://www.quora.com/q/hxbiokqurmxybuec?utm_source=quora&utm_medium=referral
 ### Goals 
 [See Quora](https://www.quora.com/q/hxbiokqurmxybuec/What-are-the-major-requirements-for-Optimus-Bind-the-collaborative-Quora-project-to-predict-the-impact-of-mutations-on)
 
- - Fast – Upper limit of 30 minutes per mutation.  o	Problem: The most
-   direct approach, accurately simulating the physics of the system to
-   guess the mutation’s effect on the binding free energy (∆∆G), can
-   take as long as 180 hours of computer time for a single mutation. [1]
-   o	Impact: For each type of cancer, there can be hundreds of disease
-   associated “driver” mutations.[5] Protein engineering is another case
-   where speed is critical as each amino acid is evaluated at each
-   position in one variant of the procedure. [6] This generates hundreds
-   of mutations if the sites are independent and many, many more if they
-   are not.
-   
-   •	Accurate – I would like to get this to r>0.9 and an average error
-   of <1 kcal/mol. o	
-   
-   •	It should be open source, downloadable, and free o	Many
+ - Fast – Upper limit of 30 minutes per mutation.  
+	 - *Problem:* The most direct approach, accurately simulating the physics of the system to guess the mutation’s effect on the binding free energy (∆∆G), can take as long as 180 hours of computer time for a single mutation.
+	 - Impact: For each type of cancer, there can be hundreds of disease associated “driver” mutations.[5] Protein engineering is another case where speed is critical as each amino acid is evaluated at each position in one variant of the procedure. [6] This generates hundreds of mutations if the sites are independent and many, many more if they are not.
+ - Accurate – I would like to get this to r>0.9 and an average errorof <1 kcal/mol.
+   It should be open source, downloadable, and free o	Many
    computational projects are locked up in web servers. I would like a
    program anyone can use and, if they wish, build off of.
    
@@ -199,11 +189,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MzMwNDAxLDE0MjQ3MTQ5MjAsMTkyND
-QzMjEzNiwtNzkzNjM0NTY1LDIwNjg5OTI2NzIsLTU3ODQ0Njg3
-LDI5ODM2NTcyMCwtMTg5OTAxMDIzMCw5NTc4Njk0MjcsNjYzNj
-AyOTE2LDEwNzc0MTAyMzgsLTE5NjI4NzkyNSwxOTU5NDUyMjM4
-LC0xODMwNjgzNDAsMTcxNDg1MzUzMywtMTM0MzgwNTA2OSwtMT
-EwMzI1MTc1OSwxMTA0Mjk0MjY2LDIxMTY3Mzc3OTIsMTc4MDQz
-Njg5MF19
+eyJoaXN0b3J5IjpbMTY5ODE2MDY2MCwxNDI0NzE0OTIwLDE5Mj
+Q0MzIxMzYsLTc5MzYzNDU2NSwyMDY4OTkyNjcyLC01Nzg0NDY4
+NywyOTgzNjU3MjAsLTE4OTkwMTAyMzAsOTU3ODY5NDI3LDY2Mz
+YwMjkxNiwxMDc3NDEwMjM4LC0xOTYyODc5MjUsMTk1OTQ1MjIz
+OCwtMTgzMDY4MzQwLDE3MTQ4NTM1MzMsLTEzNDM4MDUwNjksLT
+ExMDMyNTE3NTksMTEwNDI5NDI2NiwyMTE2NzM3NzkyLDE3ODA0
+MzY4OTBdfQ==
 -->

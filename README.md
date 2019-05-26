@@ -163,7 +163,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
  - Chat room:  [Slack](https://bioscienceclub.slack.com/messages/CHK7D10MN/details/) by request
  - Ref. library:  [F1000Workspace](https://f1000.com/work/#/items/6730972/detail?collection=321381) by request
  - Repository:  [GitHub](https://github.com/tcardlab/optimus_bind_sample)
- - To-do list:     [Trello, GitHub, other?] Scrum?
+ - To-do list:     [Trello]()
 
 **Seeking people who are skilled in:**
  - Bioinformatics 
@@ -185,11 +185,11 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDMyMjM0OCwtMTA0OTUwMjU3NywtMT
-UxNzY1MTQ2NywyNjc1NDUxMzEsLTIwMDExMDU1NzYsMTQ3Nzgz
-OTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MDc4LC05NDkzMDgwMD
-gsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03OTM2MzQ1NjUsMjA2
-ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1NzIwLC0xODk5MDEwMj
-MwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3NzQxMDIzOCwtMTk2
-Mjg3OTI1XX0=
+eyJoaXN0b3J5IjpbLTIwNzU2Njk2MDAsMTE1MDMyMjM0OCwtMT
+A0OTUwMjU3NywtMTUxNzY1MTQ2NywyNjc1NDUxMzEsLTIwMDEx
+MDU1NzYsMTQ3NzgzOTYyNiwtMTMyNTU1OTU2NSwyMDQyMDA3MD
+c4LC05NDkzMDgwMDgsMTQyNDcxNDkyMCwxOTI0NDMyMTM2LC03
+OTM2MzQ1NjUsMjA2ODk5MjY3MiwtNTc4NDQ2ODcsMjk4MzY1Nz
+IwLC0xODk5MDEwMjMwLDk1Nzg2OTQyNyw2NjM2MDI5MTYsMTA3
+NzQxMDIzOF19
 -->

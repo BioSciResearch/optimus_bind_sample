@@ -29,7 +29,7 @@ requirements: test_environment
 data: #requirements #COMMENT OUT requirements or it runS as a pre-req
 	@echo '*** NOTE: see Makefile to toggle autoinstall dependencies ***'
 	$(PYTHON_INTERPRETER) src/data/download_raw.py
-	#$(PYTHON_INTERPRETER) src/data/make_dataset.py
+	$(PYTHON_INTERPRETER) src/data/make_dataset.py
 
 ## Delete all compiled Python files
 clean:

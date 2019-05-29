@@ -82,11 +82,52 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites 
 
-    enter code here
+    python3.6
+    git
 
 ### Installing
 
-    enter code here
+working draft while under dev.
+
+Semi-Automated terminal:
+    # Download repo
+    git clone https://github.com/tcardlab/optimus_bind_sample.git
+    cd path/optimus_bind_sample
+
+    # Set up enviroment (Note: 'env' dir ignored by git)
+    python3 -m venv env  # creates enviroment env named env
+    source env/bin/activate  # activates enviroment
+    pip install -r requirements.txt # installs requirements 
+
+    # Dataset setup (Makefile: make_dataset.py commented out)
+    make data  # only imports raw for now
+
+<!--
+entirely manual terminal:
+    # Download repo
+    git clone https://github.com/tcardlab/optimus_bind_sample.git
+    cd path/optimus_bind_sample
+
+    # Set up enviroment (Note: 'env' dir ignored by git)
+    python3 -m venv env  # creates enviroment env named env
+    source env/bin/activate  # activates enviroment
+    pip install -r requirements.txt # installs requirements
+
+    # Dataset setup
+    python src/data/download_raw.py
+    python src/data/make_dataset.py
+
+IDK if this works...: 
+    python setup.py install
+add ^"Dataset setup" to scripts in setup.py to autorun?
+
+    # Set up enviroment (See manual set up)
+    make requirements
+    (havent tested yet. I set up manually which satisfies this.)
+-->
+
+colab setup:
+    #
 
 ### Run Tests
 
@@ -133,7 +174,8 @@ Read: [CookieCutter DataSci](https://drivendata.github.io/cookiecutter-data-scie
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py     (SKEMPI 2 & ZEMu downloads and management)
+    │   │   ├── download_raw.py     (download and maintain SKEMPI 2 & ZEMu)
+    │   │   └── make_dataset.py     (parsing, formatting, sorting dataset)
     │   │
     │   ├── features       <- Scripts to turn raw data into features for modeling
     │   │   └── build_features.py    (need to see example for clarification)

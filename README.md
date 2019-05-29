@@ -89,7 +89,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 working draft while under dev.
 
-Semi-Automated terminal:
+Semi-Automated via terminal:
+
     # Download repo
     git clone https://github.com/tcardlab/optimus_bind_sample.git
     cd path/optimus_bind_sample

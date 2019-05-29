@@ -5,7 +5,7 @@
 click
 Sphinx
 coverage
-awscli
+#awscli
 flake8
 python-dotenv>=0.5.1
 
@@ -18,5 +18,9 @@ beautifulsoup4
 pandas
 numpy
 
-##developer tools 
+
+# Developer tools 
 pipdeptree
+
+# Security Patches
+pyyaml>=4.2b1

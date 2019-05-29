@@ -105,13 +105,6 @@ def skempi_download(v=None):
     raw_path = 'data/raw/'  # '../../data/raw/'    # make file path output at the bottom and make input to this function!
     print(versions)
 
-    # Download requested version of csv.
-    # Check if file exists
-    csv_path, _ = urlretrieve(versions[vkey][0],
-                              f'{raw_path}skempi_{vkey}.csv',
-                              reporthook=progress_hook)
-    print(csv_path)
-
     # pdb's must be downloaded first as versions only change csv.
     # download may not exist otherwise.
     if not os.path.isfile(f'{raw_path}skempi_{vkey}.tgz'):

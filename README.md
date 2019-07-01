@@ -5,6 +5,8 @@
 <img src="https://lh3.googleusercontent.com/976GNleJU-C0b-Gu67qotDub8poiFSOrG2IXvDT6WuY2bOy48gC-YmFuP3ZWPG27mmMdsPgF4zzK" width="200" height="100">
 </a>
 
+<!--| Note - SYN personal version -->
+
  <!--| Optimus Bind-->
 
 [![Build Status](https://travis-ci.org/tcardlab/optimus_bind_sample.png?branch=master)](https://travis-ci.org/tcardlab/optimus_bind_sample) 

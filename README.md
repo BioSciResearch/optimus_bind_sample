@@ -101,7 +101,7 @@ Semi-Automated via terminal:
     pip install -r requirements.txt # installs requirements 
 
     # Dataset setup (Makefile: make_dataset.py commented out)
-    make data  # only imports raw for now
+    make data  # only imports raw for now, must be in root directory
 
 <!--
 entirely manual terminal:

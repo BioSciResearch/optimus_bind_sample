@@ -1,4 +1,7 @@
-'''Package Imports'''
+'''
+
+Example: https://github.com/benlindsay/nfl-dash/blob/master/src/data/make_raw_data.py
+'''
 # Scrape
 import requests
 import bs4
@@ -8,8 +11,15 @@ import re
 # Download
 from urllib.request import urlretrieve
 import sys
-#import zipfile
+
+# import zipfile
 import os
+
+# move to top
+import click
+import logging
+from pathlib import Path
+from dotenv import find_dotenv, load_dotenv
 
 
 def skempi_scraper():
@@ -133,92 +143,15 @@ def skempi_download(v=None):
     print(csv_path)
 
 
-#skempi_download() 
-
-
-# also, need to check for connection to internet...
 # rename file to fetch_dataset?
 # also test out Git-lfs
-
-# rough draft for now...
-# (use inheritence for more tailored use later) or (set these as functions and dont us a class)?
-
-# run skempi.check_latest on regular basis
 # cron or crontab – https://desktop.arcgis.com/en/arcmap/10.4/analyze/executing-tools/scheduling-a-python-script-to-run-at-prescribed-times.htm
-class raw:  # base class for zemu and skempi to inherit
-    def __init__(self):
-        self.version = None
-        self.data = None
-        self.pdb = 'path(s) and status?'  # store raw pdbs in raw
 
-    def __repr__(self):
-        if self.data is None:
-            return 'No data initialized'
-        if self.version is None:
-            return 'No data, hence no version'
-
-    def check_version(self):
-        # try
-            # check if file exists get version from name
-        # except
-            # file missing...
-            # download new
-        pass
-
-    def check_latest(self):
-        # if up to date
-            # pass
-        # else
-            # set path
-            # download new
-        pass
-
-    def download(self):
-        # run wget from py?
-        # save.replace file as "skempi v#.#" to raw
-        # data=extract pandas dataframe
-        # wget pdb and send to raws
-        pass
-
-
-# make more universal class and use inheritence...
-class zemu:
-    def __init__(self):
-        self.version = None
-        self.data = None  # make empty dataframe?
-        self.pdb = 'path(s) and status?'  #
-
-    def check_existence(self):
-        # try
-                # data empty?
-                # do pdbs and folder exist?
-        # else:
-                # call download
-        pass
-
-    def download(self):
-        # run wget from py?
-        # save.replace file as "skempi v#.#" to raw
-        # data=extract pandas dataframe
-        # wget pdb and send to raws
-        pass
-
-
-# move to top
-import click
-import logging
-from pathlib import Path
-from dotenv import find_dotenv, load_dotenv
-
-# https://github.com/benlindsay/nfl-dash/blob/master/src/data/make_raw_data.py
-
-#logging.basicConfig(level=logging.INFO)
-
+logging.basicConfig(level=logging.INFO)
 @click.command()
-# fix this patchwork later
-#@click.argument('input_filepath', type=click.Path(exists=True))
-#@click.argument('output_filepath', type=click.Path())
-def main(): #main(input_filepath, output_filepath):
+# @click.argument('input_filepath', type=click.Path(exists=True))
+# @click.argument('output_filepath', type=click.Path())
+def main():  # main(input_filepath, output_filepath):
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
     """

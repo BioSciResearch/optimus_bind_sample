@@ -9,41 +9,6 @@ import pandas as pd
 import numpy as np
 
 
-def ChainCheck(df):
-    '''
-    Purpose:
-        Given multiple mutations, ensures they all occur within
-        the same set of chains that make up either protein.
-
-    Output:
-        crossChain <Bool>
-          • False: all mutations are on the same protein.
-          • True: Cross-chain, mutations on both proteins
-    '''
-    if df['NumMutations'] == 1:
-        # Single mutant cannot be cross-chain
-        crossChain = False
-        return crossChain
-    else:
-        # Given multiple mutation profiles,
-        # Is the first mutated chain in potein 1 or 2
-        Chain = df['MutSplit'][0][1]
-        if Chain in df['Prot1Chain']:
-            ChainSet = df['Prot1Chain']
-        elif Chain in df['Prot2Chain']:
-            ChainSet = df['Prot2Chain']
-        # else: unexpected – ChainSet err
-        for mutation in df['MutSplit']:
-            Chain = mutation[1]  # update chain entry
-            if Chain in ChainSet:
-                crossChain = False
-            else:
-                # a mutation is on the other protein's chain
-                crossChain = True
-                break
-    return crossChain
-
-
 class MutantDataset(pd.DataFrame):
     '''<Subclassed Pandsas DataFrame>
         Given the potential of multiple sources for mutant datasets,
@@ -83,18 +48,35 @@ class MutantDataset(pd.DataFrame):
 
     def solve_ddG(self, wild, mutant, tmp_key='Temperature'):
         '''ddG is the changes in affinity upon mutation:
-            ddG = dG_Mutant-dG_wild_Type
+              ddG = dG_Mutant-dG_wild_Type
         '''
         self['dgWT'] = self.gibbsEq(wild, tmp_key)
         self['dgMut'] = self.gibbsEq(mutant, tmp_key)
         self['ddG'] = self['dgWT']-self['dgMut']
         return self
 
+    def _ChainCheck(self, df):
+        '''Utalizes subtracted sets to identify if
+           mutated chains are unique to a single protein
+        '''
+        mutated_chains = set(i[1] for i in df['MutSplit'])
+        prot1, prot2 = set(df['Prot1Chain']), set(df['Prot2Chain'])
+        if df['NumMutations'] == 1 or len(mutated_chains) == 1:
+            # Single mutant chain is unique to one protien, not cross chain
+            return False
+        elif bool(mutated_chains-prot1) != bool(mutated_chains-prot2):  # xor
+            # Mutated chains are specific to one protein, not cross chain
+            return False
+        else:
+            # A chain remained in both sets after subrtaction,
+            # mutations not unique to single protein, cross chain
+            return True
+
     def find_cross_chains(self):
         '''checks if mutation occur on more than one protein'''
         self['Prot1Chain'] = self['#Pdb'].str.split('_').str[1]
         self['Prot2Chain'] = self['#Pdb'].str.split('_').str[2]
-        crossChain = self.apply(ChainCheck, axis=1)
+        crossChain = self.apply(self._ChainCheck, axis=1)
         return crossChain
 
     @property
@@ -113,6 +95,9 @@ def Clean_Skempi(path):
         path : Location of SKEMPI CSV file
     Output:
         SKEMPI_SingleSided : MutantDataset(pd.DataFrame)
+    Note:
+        Content and order subject to change with additional datasets.
+        It is foreseeable that some steps may occur post combination.
     '''
   # Initialize class
     skempi = MutantDataset(path, sep=';')

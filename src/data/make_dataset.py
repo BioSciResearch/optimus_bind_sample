@@ -14,7 +14,8 @@ class MutantDataset(pd.DataFrame):
         Given the potential of multiple sources for mutant datasets,
         this calss serves to improve clarity, debugging, and reusability
 
-        Needs repr
+        Change Mutation(s)_PDB to Mutation(s)_cleaned?
+        double check validity of fillna
     '''
     def __init__(self, data, sep=',', index=None, columns=None, dtype=None,
                  copy=True,):

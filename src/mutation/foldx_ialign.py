@@ -328,6 +328,19 @@ def function_to_read_ialign_profiles(outputdata, PDBname, foldPandasInput = None
 	    PLaceholder
 	foldPandasInput: 
 	    Placeholder
+
+
+	The desired output in terms of pandas is:
+	     
+	1      2     3     4          5           6       7        8 
+	------------------------------------------------------------------
+	PDB  | chA | chB | ifResNum | alnResNum | score | ifSeqA | ifSeqB
+	------------------------------------------------------------------
+	1bp3AB | A |  B  | 61  | 56 | 0.503 | HHQ--YKL-NPSL-PSNRETQYRKDKETFRICC | KEEGTEK-SMW-T--EIYRTDDLKTGWTDH-Y
+	1        2    3    4     5    6       7                                   8
+	1f6fAB | A |  B  | 48  | 45 | 0.566 | NSK----V---I--PNSK-AI-HRSKYTYRICC | KEE----TSIWKII--Y-DTYDVKTGWT-DH-
+	1        2    3    4     5    6       7                                   8
+	
 	"""	
 	Entries = ['IS-score', 'P-value', 'Z-score', 'Number of aligned residues', 'Number of aligned Contacts', 'RMSD', 'Seq Identity']
 	ialignOutput = open(str(outputdata), "r")

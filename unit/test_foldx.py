@@ -45,7 +45,9 @@ def test_callfoldx():
 
 def test_callialign():
 	"""
+	-------------
 	Documentation
+	-------------
 	"""
 	pass
 
@@ -56,6 +58,7 @@ def test_callfoldx():
 	-------------
 	Documentation
 	-------------
+	
 	
 
 	Test function for callfoldx in the mutations python file

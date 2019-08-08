@@ -41,8 +41,10 @@ def test_callfoldx():
 	"""
 	Documentation
 	"""
+	DataFrame = SKEMPItoPandas('skempi_v2.csv')
 	for pdb in PDBList:
-		# Do something
+		assert(foldx_align.GenerateMutations(DataFrame, pdb, '.')) # Run the generateMutations
+		# TODO
 		
 
 def test_callialign():

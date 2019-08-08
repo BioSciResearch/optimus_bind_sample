@@ -41,7 +41,9 @@ def test_callfoldx():
 	"""
 	Documentation
 	"""
-	pass
+	for pdb in PDBList:
+		# Do something
+		
 
 def test_callialign():
 	"""

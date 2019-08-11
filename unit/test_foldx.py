@@ -32,7 +32,7 @@ import mutation
 from mutation import foldx_ialign # python code containing the foldx mutation function
 
 IalignPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ialign/bin/ialign.pl" # Path to Ialign binary 
-FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/foldx"  # Path to Foldx binary 
+FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/foldx"  # Path to Foldx binary
 
 DataFrame = foldx_ialign.SKEMPItoPandas('skempi_v2.csv') # Imported from mutations 
 PDBList = ["1DAN.pdb","1DQJ.pdb","1DVF.pdb"] # PDB list in the test folder
@@ -41,7 +41,7 @@ mutationFolder = ' ' # TODO
 FixedWTFolder = ' ' # TODO
 
 #pytest.fixture()
-#def test_callfoldx():
+#def test_callialign():
 #	"""
 #	Documentation
 #	"""
@@ -60,7 +60,6 @@ FixedWTFolder = ' ' # TODO
 #	pass
 
 
-
 def test_callfoldx():
 	"""
 	-------------
@@ -68,6 +67,8 @@ def test_callfoldx():
 	-------------
 
 	Test function for callfoldx in the mutations python file
+
+	=> Passes all test cases - 11/08/2019 - SYN
 	"""
 	val = ['F', 'F', 'F']
 	for index, pdb in enumerate(PDBList):

@@ -1,5 +1,5 @@
 """
-Optimnus binding unit testing
+Optimus binding unit testing
 -----------------------------
 
 Version: 0.0.1
@@ -29,12 +29,12 @@ sys.path.append(os.path.abspath(os.path.join('..', 'src'))) # Reference to the s
 # importing mutation module from src
 
 import mutation
-from mutation import foldx_align # python code containing the foldx mutation function
+from mutation import foldx_ialign # python code containing the foldx mutation function
 
 IalignPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ialign/bin/ialign.pl" # Path to Ialign binary 
 FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/foldx"  # Path to Foldx binary 
 
-DataFrame = SKEMPItoPandas('skempi_v2.csv') # Imported from mutations 
+DataFrame = foldx_ialign.SKEMPItoPandas('skempi_v2.csv') # Imported from mutations 
 PDBList = ["1DAN.pdb","1DQJ.pdb","1DVF.pdb"] # PDB list in the test folder
 
 mutationFolder = ' ' # TODO
@@ -72,7 +72,7 @@ def test_callfoldx():
 	val = ['F', 'F', 'F']
 	for index, pdb in enumerate(PDBList):
 		try:
-			GenerateMutations(DataFrame, pdb, '.')
+			foldx_ialign.callfoldx(pdb)
 			val[index] = 'T'
 		except ValueError:
 			print ("FAIL")

@@ -225,12 +225,12 @@ def callfoldx(pdb, foldxpath = None): # Default None for Ialignpath for now
 	print ("... Running foldx ...")
 	print ("---------------------")
 	try:
-		pdbstring = "--pdb={}".format(str(pdb))
+		pdbstring = "--command=Optimize --pdb={}".format(str(pdb))
 
-		cmd_str=FoldxPath +" --command=BuildModel --water=CRYSTAL --output-dir="+RepairedPDBs_loc+" --pdb-dir="+RepairedPDBs_loc +" --mutant_file="+mutantfile_loc + " --pdb=Optimized_"+pdb+"_Repair.pdb"
+	#	cmd_str=FoldxPath +" --command=BuildModel --water=CRYSTAL --output-dir="+RepairedPDBs_loc+" --pdb-dir="+RepairedPDBs_loc +" --mutant_file="+mutantfile_loc + " --pdb=Optimized_"+pdb+"_Repair.pdb"
 
 
-		p = subprocess.Popen( ,shell = True) # Need to check if this works -works
+		p = subprocess.Popen("{} {}".format(FoldxPath, pdbstring), shell = True) # Need to check if this works -works
 		stdout, stderr = p.communicate()
 	except subprocess.CalledProcessError as e:
 		print ("ERROR: Cannot run foldx properly. Please check the input file/chain/pdb files, or check the path to the foldx binary")             

@@ -22,9 +22,13 @@ For this purpose, I have copied 5 pdb files as input in this folder as follows: 
 import os
 import sys
 import pytest
+import subprocess
 
 sys.path.append(os.path.abspath(os.path.join('..', 'src'))) # Reference to the src path
 
+# importing mutation module from src
+
+import mutation
 from mutation import foldx_align # python code containing the foldx mutation function
 
 IalignPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ialign/bin/ialign.pl" # Path to Ialign binary 
@@ -36,24 +40,24 @@ PDBList = ["1DAN.pdb","1DQJ.pdb","1DVF.pdb"] # PDB list in the test folder
 mutationFolder = ' ' # TODO
 FixedWTFolder = ' ' # TODO
 
-pytest.fixture()
-def test_callfoldx():
-	"""
-	Documentation
-	"""
-	DataFrame = SKEMPItoPandas('skempi_v2.csv')
-	for pdb in PDBList:
-		assert(foldx_align.GenerateMutations(DataFrame, pdb, '.')) # Run the generateMutations
-		# TODO
+#pytest.fixture()
+#def test_callfoldx():
+#	"""
+#	Documentation
+#	"""
+#	DataFrame = SKEMPItoPandas('skempi_v2.csv')
+#	for pdb in PDBList:
+#		assert(foldx_align.GenerateMutations(DataFrame, pdb, '.')) # Run the generateMutations
+#		# TODO
 		
 
-def test_callialign():
-	"""
-	-------------
-	Documentation
-	-------------
-	"""
-	pass
+#def test_callialign():
+#	"""
+#	-------------
+#	Documentation
+#	-------------
+#	"""
+#	pass
 
 
 
@@ -62,8 +66,6 @@ def test_callfoldx():
 	-------------
 	Documentation
 	-------------
-	
-	
 
 	Test function for callfoldx in the mutations python file
 	"""

@@ -65,9 +65,9 @@ def test_callfoldx():
 	-------------
 	Documentation
 	-------------
+	
 
 	Test function for callfoldx in the mutations python file
-
 	=> Passes all test cases - 11/08/2019 - SYN
 	"""
 	val = ['F', 'F', 'F']
@@ -77,6 +77,7 @@ def test_callfoldx():
 			val[index] = 'T'
 		except ValueError:
 			print ("FAIL")
+	# Test
 	assert(val == ['T', 'T', 'T'])
 
 

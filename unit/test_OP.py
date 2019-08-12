@@ -1,12 +1,12 @@
 """
+-----------------------------
 Optimus binding unit testing
 -----------------------------
 
 Version: 0.0.1
 
-Authors:
+Authors: Sang Young Noh (Please add your name once you edit this file)
 
-etc. etc. 
 
 Using pytest to do the following
 
@@ -14,19 +14,27 @@ Using pytest to do the following
 
 - Test mutation file 
 
-For this purpose, I have copied 5 pdb files as input in this folder as follows: [] 
+--------
+
+For this purpose, I have copied 3 pdb files as input in this folder as follows: ["1DAN.pdb","1DQJ.pdb","1DVF.pdb"].
+
+For pytest to register each function to test, each function of relevance needs to start with test_something.py. 
+
+I've added the sys module so that it allows easy importing of the mutation python file.
+
 
 
 """
+
+# Standard modules
 
 import os
 import sys
 import pytest
 import subprocess
-
 sys.path.append(os.path.abspath(os.path.join('..', 'src'))) # Reference to the src path
 
-# importing mutation module from src
+# Importing mutation module from src
 
 import mutation
 from mutation import foldx_ialign # python code containing the foldx mutation function
@@ -41,34 +49,27 @@ mutationFolder = ' ' # TODO
 FixedWTFolder = ' ' # TODO
 
 #pytest.fixture()
-#def test_callialign():
-#	"""
-#	Documentation
-#	"""
-#	DataFrame = SKEMPItoPandas('skempi_v2.csv')
-#	for pdb in PDBList:
-#		assert(foldx_align.GenerateMutations(DataFrame, pdb, '.')) # Run the generateMutations
-#		# TODO
-		
+def test_callialign():
+	"""
+	Purpose:
+	-------
+	
+	We would like to test if the pandas table parser  (SKEMPItoPandas) works accordingly
+	
+	"""
+	WorkVal = False 
 
-#def test_callialign():
-#	"""
-#	-------------
-#	Documentation
-#	-------------
-#	"""
-#	pass
-
-
+	DataFrame = foldx_ialign.SKEMPItoPandas('skempi_v2.csv')
+	if DataFrame is not None:
+		WorkVal = True
+	assert(WorkVal == True)
+	
 def test_callfoldx():
 	"""
-	-------------
-	Documentation
-	-------------
-	
-
+	Purpose:
+	-------
 	Test function for callfoldx in the mutations python file
-	=> Passes all test cases - 11/08/2019 - SYN
+	
 	"""
 	val = ['F', 'F', 'F']
 	for index, pdb in enumerate(PDBList):
@@ -81,4 +82,3 @@ def test_callfoldx():
 	assert(val == ['T', 'T', 'T'])
 
 
-	

@@ -42,9 +42,9 @@ class MutantDataset(pd.DataFrame):
         return self[keys]
 
     def gibbsEq(self, Kd_key, tmp_key='Temperature'):
-        '''Gibbs Free Energy = -R * Temp * ln(kd)'''
+        '''Gibbs Free Energy = R * Temp * ln(kd)'''
         R = 1.9872036e-3  # Ideal Gas Constant in kcal
-        ΔG = -R * self[tmp_key] * np.log(self[Kd_key])  # log is ln in np
+        ΔG = R * self[tmp_key] * np.log(self[Kd_key])  # log is ln in np
         return ΔG
 
     def solve_ddG(self, wild, mutant, tmp_key='Temperature'):
@@ -53,7 +53,7 @@ class MutantDataset(pd.DataFrame):
         '''
         self['dgWT'] = self.gibbsEq(wild, tmp_key)
         self['dgMut'] = self.gibbsEq(mutant, tmp_key)
-        self['ddG'] = self['dgWT']-self['dgMut']
+        self['ddG'] = self['dgMut']-self['dgWT']
         return self
 
     def _ChainCheck(self, df):

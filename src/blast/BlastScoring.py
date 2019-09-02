@@ -674,6 +674,7 @@ def psiBlastScoring(PATH):
 		from Bio.PDB.Polypeptide import aa1 #  aa1 = 'ACDEFGHIKLMNPQRSTVWY'
 		from Bio.PDB.Polypeptide import aa3 #  aa3 = ['ALA', 'CYS', 'ASP', 'GLU', 'PHE', 'GLY', 'HIS', 'ILE',... ]
 
+		from Bio import AlignIO
 		# Basic Local Alignment Search Tool (BLAST) reader
 	
 		#from Bio.Blast.Applications import NcbiblastformatterCommandline as blastn
@@ -711,11 +712,16 @@ def psiBlastScoring(PATH):
 				model = structure[0]
 				
 				#print (model.get_list())
-
+4
 				for chain in model.get_list():
 					print (chain)
-					
-	
+					AlignIO.write(chain, 'new.fasta', 'fasta')
+				#io = PDBIO(structure)
+				#io.set_structure(model)
+				#io.save(mutatedname) # This should print out the name of protein, the mutaton list, and the index on the pandas file 
+				
+			print ("Produced new mutation PDB file {}".format(mutatedname)) # Printing out sign to say the pdb was produced
+
 	# First things - need 
 	"""
 	Biopython has a wrapper for each BLAST executable, so you can run a blast program from inside your 

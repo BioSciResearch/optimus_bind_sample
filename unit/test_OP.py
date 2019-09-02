@@ -37,7 +37,9 @@ sys.path.append(os.path.abspath(os.path.join('..', 'src'))) # Reference to the s
 # Importing mutation module from src
 
 import mutation
+import blast
 from mutation import foldx_ialign # python code containing the foldx mutation function
+from blast import BlastScoring # TODO - need to rename this module
 
 IalignPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ialign/bin/ialign.pl" # Path to Ialign binary 
 FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/foldx"  # Path to Foldx binary
@@ -81,4 +83,6 @@ def test_callfoldx():
 	# Test
 	assert(val == ['T', 'T', 'T'])
 
+def test_psiBlastScoring():
+	pass
 

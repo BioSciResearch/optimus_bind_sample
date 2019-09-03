@@ -605,17 +605,17 @@ Sequences can be search in two ways
 
 """
 
-def psiBlastScoring(PATH):
+def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	"""
-	----------------------------------------------------------------
+	 ---------------------------------------------------------------
 	| Links for resources I have been looking at to make this code: |
-	---------------------------------------------------------------=
+	 ---------------------------------------------------------------
 
 	-> https://www.rcsb.org/pages/help/advancedsearch/sequence
 
 	-> https://www.biostars.org/p/10419/
 
-	-> 
+	-> https://biopython.org/DIST/docs/api/Bio.PDB.Polypeptide-module.html
 	
 	--------------------------------------------------------------
 
@@ -631,11 +631,12 @@ def psiBlastScoring(PATH):
 
 	4. Evaluate the mutation with this score  - This is where we need the mutation
 
-	
+	-- 
+
 	Notes:
-	
+	------
 	-> Should not require an HPC to run each blast computation
-	
+	-> The ialign work is run on the biowulf cluster in the NIH, from what I know
 
 	Some biopython options for blast:
 	---------------------------------------------------------
@@ -645,23 +646,12 @@ def psiBlastScoring(PATH):
 	tblastn -> protein vs translcated nucleotide
 	tblastx -> translated nucelotide vs translated nucleotide
 	---------------------------------------------------------
-
-		Purpose:
-
-	- IS-Score - brief explanation  
-	- P-Value - ditto 
-	- Z-Score - ditto 
-	- Number of aligned residues - ditto 
-	- Number of aligned contacts - ditto
-	- RMSD - ditto
-	- Seq Identity - ditto
-	
 	Parameters
 	----------
 	PATH: 
       Path to where the wild type PDBs are found 
-	
-
+	PSIBLASTPATH:
+	  Path to where the psiblast binary is 
 	"""
 	try:
 		# imports from previous functions
@@ -675,26 +665,29 @@ def psiBlastScoring(PATH):
 		from Bio.PDB.Polypeptide import aa3 #  aa3 = ['ALA', 'CYS', 'ASP', 'GLU', 'PHE', 'GLY', 'HIS', 'ILE',... ]
 
 		from Bio import AlignIO
-		# Basic Local Alignment Search Tool (BLAST) reader
-	
 		#from Bio.Blast.Applications import NcbiblastformatterCommandline as blastn
-		from Bio.Blast.Applications import NcbipsiblastCommandline as psiblastn
-		from Bio.Blast import NCBIXML # For reaidng the BLAST output 
+		from Bio.Blast.Applications import NcbipsiblastCommandline as psiblastn  # psiblast reader
+		from Bio.Blast import NCBIXML # For reading the BLAST output 
+
+		# Boilerplate modules to read the sequences
+		
+		from Bio.Seq import Seq
+		from Bio.Seq import translate, transcribe, back_transcribe
+		from Bio.PDB.Polypeptide import PPBuilder
+		from Bio.Alphabet import IUPAC
+		# Align module
+		from Bio.Align import MultipleSeqAlignment
+		from Bio.SeqRecord import SeqRecord
+		from Bio.Alphabet import generic_protein
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")
 
-	BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-blast-2.6.0+/bin/blastn
-	#f_in = 'seq3.txt'
-	#b_db = 'db/samples/TAIR8cds'
-	#psi_cline = NcbiblastformatterCommandline
-	#blastn_cline = blastn(cmd = BLAST_EXE, query = f_in, db = b_db, evalue = .0005, outfmt=5)
-	#rh,eh = blastn.cline()
-
-	#rh.readline()
-
+	# ----------
 	# PDB parser
+	# ----------
 	
 	# Read the WT pdbs and 
+
 	WTArray = []
 	nameArray = []
 	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
@@ -706,21 +699,26 @@ def psiBlastScoring(PATH):
 				WTArray.append(FileLocation) # Array with the appended path and the pdb file
 				parser = PDBParser(PERMISSIVE=1)
 				strand_name = file.split('.')
-				print (str(strand_name[0]), FileLocation) 
+				#print (str(strand_name[0]), FileLocation) 
 				structure = parser.get_structure(str(strand_name[0]), FileLocation)
-
-				model = structure[0]
-				
+				model = structure[0]				
 				#print (model.get_list())
-4
-				for chain in model.get_list():
-					print (chain)
-					AlignIO.write(chain, 'new.fasta', 'fasta')
-				#io = PDBIO(structure)
-				#io.set_structure(model)
-				#io.save(mutatedname) # This should print out the name of protein, the mutaton list, and the index on the pandas file 
-				
-			print ("Produced new mutation PDB file {}".format(mutatedname)) # Printing out sign to say the pdb was produced
+				ppb = PPBuilder()
+				seq_rec = []
+				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)
+
+				for index, pp in enumerate(ppb.build_peptides(structure)):
+					try:
+						#print(pp.get_sequence(), model.get_list()[index])
+						D = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
+						#align = MultipleSeqAlignment(seq_rec)
+						align = MultipleSeqAlignment([D])
+						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
+						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
+					except IndexError:
+						print ("Error for {}!".format(file))
+				 
+					
 
 	# First things - need 
 	"""
@@ -738,6 +736,15 @@ def psiBlastScoring(PATH):
 	
 
 	"""
+	BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-blast-2.6.0+/bin/blastn
+	#f_in = 'seq3.txt'
+	#b_db = 'db/samples/TAIR8cds'
+	#psi_cline = NcbiblastformatterCommandline
+	#blastn_cline = blastn(cmd = BLAST_EXE, query = f_in, db = b_db, evalue = .0005, outfmt=5)
+	#rh,eh = blastn.cline()
+
+	#rh.readline()
+	
 	return WTArray
 
 

@@ -733,4 +733,19 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						print ("Error for {}!".format(file))
 	return WTArray
 
-					
+"""
+What to extract from each PSIBLAST record
+-----------------------------------------
+
+Corresponding with J. B. 
+
+
+1. The aligned sequences.
+
+2. the statistics for the alignment <Statistics set>.
+
+3. The species name for each.#
+
+4. Hsp_evalue (I think) for each.
+
+"""

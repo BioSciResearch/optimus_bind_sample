@@ -1,19 +1,21 @@
 """
+----------------
+| OPTIMUS BIND | 
+----------------
 
-------------
-OPTIMUS BIND 
-------------
+------------------------------------------------------------------------------------------------
 
 Version: 0.0.1
 
-Last Updated: 31/08/2019
+Last Updated: 04/09/2019
 
 Description: Functions which generate a database to plug into the machine learning framework 
              (Needs to be expanded)
 
-Contributors:  
+Contributors: Sang Young Noh. Jeffrey Brender, .. 
 
-Contact: 
+Contact: sangyoung123@googlemail.comes
+-------------------------------------------------------------------------------------------------
 """
 import sys
 import os
@@ -530,32 +532,6 @@ def mapped_index(pdb, chain, index, basis='FASTA_index'):
 	#	initAA, chain, loc, mutAA = re.findall('(\d+|.)', mut)
 	
 
-#if __name__ == '__main__':
-#    log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-#    logging.basicConfig(level=logging.INFO, format=log_fmt)#
-#   # not used in this stub but often useful for finding various files
-#    project_dir = Path(__file__).resolve().parents[2]
-
-   # find .env automagically by walking up directories until it's found, then
-   # load up the .env entries as environment variables
-#    load_dotenv(find_dotenv())
-#    main()
-
-
-#@click.command()
-# fix this patchwork later
-#@click.argument('input_filepath', type=click.Path(exists=True))
-#@click.argument('output_filepath', type=click.Path())
-#def main(): #main(input_filepath, output_filepath):
-#    """ Runs data processing scripts to turn raw data from (../raw) into
-#        cleaned data ready to be analyzed (saved in ../processed).
-#    """
-#    input_filepath = 'data/raw/'
-#    SKEMPItoPandas('skempi_v2.csv')  # GENERALIZE!
-
-#    logger = logging.getLogger(__name__)
-#    logger.info('making final data set from raw data')
-	
 
 """
 Some notes on psi-blast for my own sake
@@ -601,7 +577,6 @@ Sequences can be search in two ways
   to find all sequences that are similar to the sequence from the specified chain.
 
 - 
-
 
 """
 
@@ -711,20 +686,16 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 				WTArray.append(FileLocation) # Array with the appended path and the pdb file
 				parser = PDBParser(PERMISSIVE=1)
 				strand_name = file.split('.')
-				#print (str(strand_name[0]), FileLocation) 
 				structure = parser.get_structure(str(strand_name[0]), FileLocation)
 				model = structure[0]				
-				#print (model.get_list())
 				ppb = PPBuilder()
 				seq_rec = []
 				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)
 				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
-						#print(pp.get_sequence(), model.get_list()[index])
-						D = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
-						#align = MultipleSeqAlignment(seq_rec)
-						align = MultipleSeqAlignment([D])
+						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
+						align = MultipleSeqAlignment([sequenceCreator])
 						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
 						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))
@@ -749,3 +720,30 @@ Corresponding with J. B.
 4. Hsp_evalue (I think) for each.
 
 """
+
+#if __name__ == '__main__':
+#    log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+#    logging.basicConfig(level=logging.INFO, format=log_fmt)#
+#   # not used in this stub but often useful for finding various files
+#    project_dir = Path(__file__).resolve().parents[2]
+
+   # find .env automagically by walking up directories until it's found, then
+   # load up the .env entries as environment variables
+#    load_dotenv(find_dotenv())
+#    main()
+
+
+#@click.command()
+# fix this patchwork later
+#@click.argument('input_filepath', type=click.Path(exists=True))
+#@click.argument('output_filepath', type=click.Path())
+#def main(): #main(input_filepath, output_filepath):
+#    """ Runs data processing scripts to turn raw data from (../raw) into
+#        cleaned data ready to be analyzed (saved in ../processed).
+#    """
+#    input_filepath = 'data/raw/'
+#    SKEMPItoPandas('skempi_v2.csv')  # GENERALIZE!
+
+#    logger = logging.getLogger(__name__)
+#    logger.info('making final data set from raw data')
+	

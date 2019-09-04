@@ -558,13 +558,10 @@ def mapped_index(pdb, chain, index, basis='FASTA_index'):
 	
 
 """
----------------------------------------------------------------------------------
-BLAST is one of the most widely used bioinformatics research tools,  since it has
-several applications, here is a list of typical BLAST applications
----------------------------------------------------------------------------------
+Some notes on psi-blast for my own sake
 
 Basic Local Alignment Search Tool (BLAST)  is a sequence similarity search program
-used to compare a user's query to a database of sequences. Given a DNA
+used to compare a user's query to a database of sequences.  Given a DNA
 or amino acid sequence, the BLAST heuristic algorithm finds short matches 
 between two sequences and attempts to start alignments from these "hot spots". 
 BLAST also provides statistical information about an alignment such as the "expectation"
@@ -573,6 +570,10 @@ value. Note that BLAST is not a single program, but a family of programs.
 All BLAST programs search for match between sequences, but there is a specialized 
 BLAST program for each type of sequence search. 
 
+---------------------------------------------------------------------------------
+BLAST is one of the most widely used bioinformatics research tools,  since it has
+several applications, here is a list of typical BLAST applications
+---------------------------------------------------------------------------------
 
 1. Following the discovery of a previously unknown gene in one species, search other genomes 
    to see if other species carry a similar gene.
@@ -597,25 +598,16 @@ find similar protein or nucleic aicd chains inthe PDB. psi-blast is used to find
 Sequences can be search in two ways
 
 - By PDB ID and Chain ID. Type in a PDB in the structure ID text box and select a chain ID from the pull-down menu. This is useful
-to find all sequences that are similar to the sequence from the specified chain.
+  to find all sequences that are similar to the sequence from the specified chain.
+
+- 
+
 
 """
 
 def psiBlastScoring(PATH, PSIBLASTPATH = None):
 
 	"""
-	 ---------------------------------------------------------------
-	| Links for resources I have been looking at to make this code: |
-	 ---------------------------------------------------------------
-
-	-> https://www.rcsb.org/pages/help/advancedsearch/sequence
-
-	-> https://www.biostars.org/p/10419/
-
-	-> https://biopython.org/DIST/docs/api/Bio.PDB.Polypeptide-module.html
-	
-	--------------------------------------------------------------
-
 	Biopython has a wrapper for each BLAST executable, so you can run a blast program from inside your 
 	script. The wrapper for blastn 
 	
@@ -627,6 +619,19 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	The output is in XML format. This information can be parsed using the tools learned or with 
 	the tools provided by Biopython. There is also a way to avoid dealing with the XML 
 	output by forcing NCbiblastncommandline to use plain text as output. This is done by using 
+		
+	 ---------------------------------------------------------------
+	| Links for resources I have been looking at to make this code: |
+	 ---------------------------------------------------------------
+
+	-> https://www.rcsb.org/pages/help/advancedsearch/sequence
+
+	-> https://www.biostars.org/p/10419/
+
+	-> https://biopython.org/DIST/docs/api/Bio.PDB.Polypeptide-module.html
+
+	-> https://www.ncbi.nlm.nih.gov/books/NBK2590/ - Good Psiblast explanation
+	--------------------------------------------------------------
 
 	JB's instructions on psi-blast
 	
@@ -634,13 +639,10 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	
 	2. Make a MSA of structurally aligned sequences (multiple sequence alignment) 
 
-
 	3. Form a score from the probability of a particular mutation showing up in the 
 	   MSA 
 
 	4. Evaluate the mutation with this score  - This is where we need the mutation
-
-	-- 
 
 	Notes:
 	------
@@ -688,17 +690,18 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 		from Bio.Align import MultipleSeqAlignment
 		from Bio.SeqRecord import SeqRecord
 		from Bio.Alphabet import generic_protein
-
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")
 
-	# -----------------------------------------
-	# Read the WT pdbs and generate fasta files
-	# -----------------------------------------
-
+	# ----------
+	# PDB parser
+	# ----------
+	
+	# Read the WT pdbs and 
+	BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-
+	# First things - need 
 	WTArray = []
 	nameArray = []
-
 	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
 		if file.endswith(".pdb"):
 			if file[0] == '.':
@@ -707,30 +710,27 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 				FileLocation = os.path.join(PATH, file)
 				WTArray.append(FileLocation) # Array with the appended path and the pdb file
 				parser = PDBParser(PERMISSIVE=1)
-				strandName = file.split('.')
-				structure = parser.get_structure(str(strandName[0]), FileLocation)
+				strand_name = file.split('.')
+				#print (str(strand_name[0]), FileLocation) 
+				structure = parser.get_structure(str(strand_name[0]), FileLocation)
 				model = structure[0]				
+				#print (model.get_list())
 				ppb = PPBuilder()
 				seq_rec = []
-				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True) # Create folders for fasta files
+				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)
+				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
-						SingleSequence = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
-						align = MultipleSeqAlignment([SingleSequence])
-						AlignIO.write(align, '{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
-						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
+						#print(pp.get_sequence(), model.get_list()[index])
+						D = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
+						#align = MultipleSeqAlignment(seq_rec)
+						align = MultipleSeqAlignment([D])
+						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
+						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
+						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))
+						rh,eh = psiblastn_cline()
 					except IndexError:
 						print ("Error for {}!".format(file))
-						x
-			BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-blast-2.6.0+/bin/blastn
-			#f_in = 'seq3.txt'
-			#b_db = 'db/samples/TAIR8cds'
-			#psi_cline = NcbiblastformatterCommandline
-			blastn_cline = blastn(cmd = BLAST_EXE, query = f_in, db = b_db, evalue = .0005, outfmt=5)
-			rh,eh = blastn.cline()
-			#rh.readline()
-	
 	return WTArray
 
 					
-

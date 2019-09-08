@@ -1,5 +1,5 @@
 # Contributing
-We appreciate your consideration in supporting the development of Optimus Bind. The repository is well underway with a defined program outline, If you wish to contribute now is a great time to get involved!
+We appreciate your consideration in supporting the development of Optimus Bind. The repository is well underway with a defined program outline. If you wish to contribute now is a great time to get involved!
 
 ## State of Development:
 The current state of development and full listing of tasks can always be viewed at [Trello](https://trello.com/invite/b/V94BBx1d/4550ff50fe61eb27b8d304da57b00fe8/optimus-bind). Please coordinate with us on slack if you wish to contribute.
@@ -28,7 +28,7 @@ The current state of development and full listing of tasks can always be viewed 
 </details>
 
 ## Getting Started:
-As an open source project we encourage a diverse set of backgrounds. As such, it is anticipated that you may not be familiar with all the recources we utalize. If you require help getting set up, please do not hesitate to ask!
+As an open source project, we encourage a diverse set of backgrounds. As such, it is anticipated that you may not be familiar with all the recourses we utilize. If you require help getting set up, please do not hesitate to ask!
 
 ###  1) Accounts:
 - *Repository:*  [GitHub](https://github.com/tcardlab/optimus_bind_sample)
@@ -50,7 +50,7 @@ Video explaining this [Workflow in practice](https://www.youtube.com/watch?v=Lj_
 
 *Core branches:* `master & develop` (do not commit to or duplicate these)
 
-*Work branches:* `branchType/your-branch-title` (branchtypes blow)
+*Work branches:* `branchType/your-branch-title` (branchTypes blow)
 
 <u>Master branches<u>
 - `develop`
@@ -66,8 +66,8 @@ Video explaining this [Workflow in practice](https://www.youtube.com/watch?v=Lj_
 <summary>Reasoning:</summary>
 
 - Explicit/extensive workflow yields consistent practice & organized contributions  
-- Highly segmented developement lends itself to well organized feature branches
-- Not dependant upon the rapid development of continuous integration
+- Highly segmented development lends itself to well organized feature branches
+- Not dependent upon the rapid development of continuous integration
 </details>
 </details>
 
@@ -75,14 +75,14 @@ Video explaining this [Workflow in practice](https://www.youtube.com/watch?v=Lj_
 <details>
 <summary><i>Git-Beginner (GUI):</i></summary>
 
-If you have no git/gitflow experience and just want to get to work:
+If you have no Git/GitFlow experience and just want to get to work:
 - [Github Desktop](https://desktop.github.com/)
 	- [Setup](https://help.github.com/en/desktop/getting-started-with-github-desktop/setting-up-github-desktop)
 	- The program itself is inherently directive, very easy to pick up.
-- [Sourcetree](https://www.sourcetreeapp.com/)
-	- [gitflow-intro](https://medium.com/@budioktaviyans/how-to-make-a-git-flow-using-sourcetree-20ab77fe6813)
+- [SourceTree](https://www.sourcetreeapp.com/)
+	- [GitFlow-Intro](https://medium.com/@budioktaviyans/how-to-make-a-git-flow-using-sourcetree-20ab77fe6813)
 
-As a beginner, there is no need to concern yourself with the specifics of GitFlow, just the proper nameing conventions.
+As a beginner, there is no need to concern yourself with the specifics of GitFlow, just the proper naming conventions.
 
 Fork 
 https://github.com/tcardlab/optimus_bind_sample/fork
@@ -97,7 +97,7 @@ If you are new to command line git, review [here](https://dont-be-afraid-to-comm
 
 Join as a contributor or [fork](https://github.com/tcardlab/optimus_bind_sample/fork).
 ```
-0) Clone approriate repo and enter directory
+0) Clone appropriate repo and enter directory
 
 1) Open [develop] branch
     $ git checkout develop  
@@ -106,7 +106,7 @@ Join as a contributor or [fork](https://github.com/tcardlab/optimus_bind_sample/
    Use one branch per feature / fix
     $ git checkout -b feature/your-branch-name
 
-3) Commit changes in relavent chunks as work proceeds 
+3) Commit changes in relevant chunks as work proceeds 
     $ git commit -am 'short commit description'
 
 4) Share code online
@@ -120,10 +120,10 @@ Join as a contributor or [fork](https://github.com/tcardlab/optimus_bind_sample/
     Submit pull request of [your-branch-name] 
     to original repo at [develop]
 ```
-[NOTE: Commits may occur after pull request](https://help.github.com/en/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork). After code review, if changes need to be made, the pull request will automatically update with new commits. If you are to clone a forked directory, make sure you clone to a different directory than where you keep the origional clone.
+[NOTE: Commits may occur after pull request](https://help.github.com/en/articles/committing-changes-to-a-pull-request-branch-created-from-a-fork). After code review, if changes need to be made, the pull request will automatically update with new commits. If you are to clone a forked directory, make sure you clone to a different directory than where you keep the original clone.
 
-[GitFlow extensions](https://danielkummer.github.io/git-flow-cheatsheet/) may provide useful for anything more complex. Primarily in regaurd to more complex branch managment and releases. 
-(Extensions currently maintained at: [gitflow-avh](https://github.com/petervanderdoes/gitflow-avh))
+[GitFlow extensions](https://danielkummer.github.io/git-flow-cheatsheet/) may provide useful for anything more complex. Primarily in regard to more complex branch management and releases. 
+(Extensions currently maintained at: [GitFlow-avh](https://github.com/petervanderdoes/gitflow-avh))
 <br></details>
 [Pull request checklist](https://github.com/kylelobo/The-Documentation-Compendium/blob/master/en/PULL_REQUEST_TEMPLATE.md)
 
@@ -139,7 +139,7 @@ See [ReadMe](https://github.com/tcardlab/optimus_bind_sample#project-organizatio
 <details>
 <summary><i>Python:</i></summary>
 
-Python submisson should follow [PEP8 guidlines](https://www.python.org/dev/peps/pep-0008/). Use a [PEP8 checker](http://pep8online.com/) or sufficient linter to ensure validity.
+Python submissions should follow [PEP8 guidelines](https://www.python.org/dev/peps/pep-0008/). Use a [PEP8 checker](http://pep8online.com/) or sufficient linter to ensure validity.
 
 *Exception:* comment spacing may be multiple of 2 as it is useful for collapsing section within functions in IDE's.
  <br></details>
@@ -159,7 +159,7 @@ Please make use of commit [descriptions](https://stackoverflow.com/questions/956
 ### 6) Testing:
 <details>
 <summary></summary>
-IDK... reffer to read me.~
+IDK... refer to read me.~
 lol
 <br></details>
 

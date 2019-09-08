@@ -199,7 +199,7 @@ too lazy to link them atm...
  - etc.
 
 ## Contributing
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426)(example) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/tcardlab/optimus_bind_sample/blob/develop/CONTRIBUTING.md) for details on getting set up and contributing code.
 
 **Collaboration kit:** 
  - Dev Space:  [Quora](https://www.quora.com/q/hxbiokqurmxybuec) open for Q&A and Announcements

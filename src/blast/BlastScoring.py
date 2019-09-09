@@ -578,6 +578,9 @@ Sequences can be search in two ways
 
 - 
 
+----
+
+
 """
 
 def psiBlastScoring(PATH, PSIBLASTPATH = None):

@@ -50,7 +50,7 @@ PDBList = ["1DAN.pdb","1DQJ.pdb","1DVF.pdb"] # PDB list in the test folder
 mutationFolder = ' ' # TODO
 FixedWTFolder = ' ' # TODO
 
-#pytest.fixture()
+
 def test_callialign():
 	"""
 	Purpose:

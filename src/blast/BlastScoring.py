@@ -720,7 +720,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						#
 						# 4. Hsp_evalue (I think
 
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq', 'Hit_id']
 						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
 						for stat in blast_statistics:

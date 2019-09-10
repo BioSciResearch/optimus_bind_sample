@@ -644,7 +644,6 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	  Path to where the psiblast binary is 
 	"""
 	try:
-		# imports from previous functions
 		from Bio.PDB.PDBIO import PDBIO
 		from Bio.PDB.PDBParser import PDBParser # PDBparser
 		from Bio.Data.IUPACData import protein_letters
@@ -653,19 +652,27 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 		from Bio.PDB.Polypeptide import standard_aa_names # Standard amino acid names - https://biopython.org/DIST/docs/api/Bio.PDB.Polypeptide-module.html 
 		from Bio.PDB.Polypeptide import aa1 #  aa1 = 'ACDEFGHIKLMNPQRSTVWY'
 		from Bio.PDB.Polypeptide import aa3 #  aa3 = ['ALA', 'CYS', 'ASP', 'GLU', 'PHE', 'GLY', 'HIS', 'ILE',... ]
-
 		from Bio import AlignIO
-		#from Bio.Blast.Applications import NcbiblastformatterCommandline as blastn
+
+		# ----------------------------------
+		# | Modules for implementing BLAST |
+		# ----------------------------------
+
 		from Bio.Blast.Applications import NcbipsiblastCommandline as psiblastn  # psiblast reader
 		from Bio.Blast import NCBIXML # For reading the BLAST output 
 
-		# Boilerplate modules to read the sequences
-		
+		# ---------------------------------------------
+		# | Boilerplate modules to read the sequences |
+		# ---------------------------------------------
+
 		from Bio.Seq import Seq
 		from Bio.Seq import translate, transcribe, back_transcribe
 		from Bio.PDB.Polypeptide import PPBuilder
 		from Bio.Alphabet import IUPAC
-		# Align module
+		# ----------------
+		# | Align module |
+		# ----------------
+		
 		from Bio.Align import MultipleSeqAlignment
 		from Bio.SeqRecord import SeqRecord
 		from Bio.Alphabet import generic_protein
@@ -694,33 +701,27 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 				model = structure[0]				
 				ppb = PPBuilder()
 				seq_rec = []
-				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)
-				
+				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
 						align = MultipleSeqAlignment([sequenceCreator])
-						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
-						
-						#						What to extract from each PSIBLAST record
-						#                        ----------------------------------------
-
-						# Corresponding with J. B. 
-
-
+						AlignIO.write(align,'{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
+						#                     ---------------------------------------------    
+						#					  |	What to extract from each PSIBLAST record |
+						#                     ---------------------------------------------
+						#
+						# Information required to build the blast tables according to  J. B. 
 						# 1. The aligned sequences.
-
+						#
 						# 2. the statistics for the alignment <Statistics set>.
-
+						#
 						# 3. The species name for each.#
+						#
+						# 4. Hsp_evalue (I think
 
-						# 4. Hsp_evalue (I think) for each.
-
-						XMLParse = ET.parse('{}_{}.xml'.format(strand_name[0], str(model.get_list()[index].id))).getroot() # Read XML results from blast
-						
-						# TODO - Need to read the sequences, statistics, species name, and the Hsp_values and tabulate
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
-						tree = ET.parse('{}_{}.xml',format(strand_name[0], str(model.get_list()[index].id)))
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
+						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
 						for stat in blast_statistics:
 							for m in root.iter(str(stat)):
@@ -762,4 +763,3 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 
 #    logger = logging.getLogger(__name__)
 #    logger.info('making final data set from raw data')
-	

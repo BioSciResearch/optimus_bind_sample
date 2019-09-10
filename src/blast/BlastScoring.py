@@ -623,6 +623,21 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 
 	4. Evaluate the mutation with this score  - This is where we need the mutation
 
+
+	-----------------------------------------------    
+	|	What to extract from each PSIBLAST record |
+	-----------------------------------------------
+
+	Information required to build the blast tables according to  J. B. 
+	
+	1. The aligned sequences.
+
+	2. the statistics for the alignment <Statistics set>.
+
+	3. The species name for each.
+
+	4. Hsp_evalue.
+
 	Notes:
 	------
 	-> Should not require an HPC to run each blast computation
@@ -707,19 +722,6 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
 						align = MultipleSeqAlignment([sequenceCreator])
 						AlignIO.write(align,'{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
-						#                     ---------------------------------------------    
-						#					  |	What to extract from each PSIBLAST record |
-						#                     ---------------------------------------------
-						#
-						# Information required to build the blast tables according to  J. B. 
-						# 1. The aligned sequences.
-						#
-						# 2. the statistics for the alignment <Statistics set>.
-						#
-						# 3. The species name for each.#
-						#
-						# 4. Hsp_evalue (I think
-
 						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
 						
@@ -728,19 +730,20 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
 						hspNumList = []
+						
 						for index in root.iter(): # Append all hsp_num
 							if index.tag == 'Hit_num':
 								hspNumList.append(index.text)
-								#print ("df",index.tag, index.text)
-							#else:
+							else:
+								pass
 								#print (index.tag, index.text)
+							#print (index_HIT, index.tag, index.text)
 						print (hspNumList)
 						hspNumList = []
 						for m in root.iter():
 							for i in hspNumList:
 								if m.text == i:
 									print (root.iter('Hsp_qseq').text)									
-
 					except IndexError:
 						print ("Error for {}!".format(file))
 	return WTArray

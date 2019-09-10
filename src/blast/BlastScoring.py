@@ -720,12 +720,14 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						#
 						# 4. Hsp_evalue (I think
 
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq', 'Hit_id']
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
 						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
 						for stat in blast_statistics:
-							for m in root.iter(str(stat)):
+							for m in root.iter:
 								print (m.text, stat)
+								print (m.tag, m.text)
+								
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
 						
 						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))

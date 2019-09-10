@@ -47,6 +47,10 @@ import matplotlib.pyplot as plt
 
 import tqdm as tqdm 
 
+# XML Parser
+
+import xml.etree.ElementTree as ET
+
 def SKEMPItoPandas(SKEMPI_loc):
     '''
     Purpose:
@@ -578,9 +582,6 @@ Sequences can be search in two ways
 
 - 
 
-----
-
-
 """
 
 def psiBlastScoring(PATH, PSIBLASTPATH = None):
@@ -671,9 +672,9 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")
 
-	# ----------
-	# PDB parser
-	# ----------
+	# --------------
+	# | PDB parser |
+	# --------------
 	
 	# Read the WT pdbs and 
 	BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-
@@ -700,7 +701,28 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
 						align = MultipleSeqAlignment([sequenceCreator])
 						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
+
+						#						What to extract from each PSIBLAST record
+						#                        ----------------------------------------
+
+						# Corresponding with J. B. 
+
+
+						# 1. The aligned sequences.
+
+						# 2. the statistics for the alignment <Statistics set>.
+
+						# 3. The species name for each.#
+
+						# 4. Hsp_evalue (I think) for each.
+
+						XMLParse = ET.parse('{}_{}.xml'.format(strand_name[0], str(model.get_list()[index].id))).getroot() # Read XML results from blast
+						
+						# TODO - Need to read the sequences, statistics, species name, and the Hsp_values and tabulate
+
+						
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
+						
 						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))
 						rh,eh = psiblastn_cline()
 					except IndexError:
@@ -708,19 +730,6 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	return WTArray
 
 """
-What to extract from each PSIBLAST record
------------------------------------------
-
-Corresponding with J. B. 
-
-
-1. The aligned sequences.
-
-2. the statistics for the alignment <Statistics set>.
-
-3. The species name for each.#
-
-4. Hsp_evalue (I think) for each.
 
 """
 

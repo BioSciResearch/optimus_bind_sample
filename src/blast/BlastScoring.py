@@ -701,7 +701,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
 						align = MultipleSeqAlignment([sequenceCreator])
 						AlignIO.write(align, '{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
-
+						
 						#						What to extract from each PSIBLAST record
 						#                        ----------------------------------------
 
@@ -719,8 +719,12 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						XMLParse = ET.parse('{}_{}.xml'.format(strand_name[0], str(model.get_list()[index].id))).getroot() # Read XML results from blast
 						
 						# TODO - Need to read the sequences, statistics, species name, and the Hsp_values and tabulate
-
-						
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
+						tree = ET.parse('{}_{}.xml',format(strand_name[0], str(model.get_list()[index].id)))
+						root = tree.getroot()
+						for stat in blast_statistics:
+							for m in root.iter(str(stat)):
+								print (m.text, stat)
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
 						
 						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))

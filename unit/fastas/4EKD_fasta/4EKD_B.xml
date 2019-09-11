@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>132</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>132</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|188659</Hit_id>
+  <Hit_def>cd07440, RGS, Regulator of G protein signaling (RGS) domain superfamily.  The RGS domain is an essential part of the Regulator of G-protein Signaling (RGS) protein family, a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). RGS proteins play critical regulatory roles as GTPase activating proteins (GAPs) of the heterotrimeric G-protein G-alpha-subunits. While inactive, G-alpha-subunits bind GDP, which is released and replaced by GTP upon agonist activation. GTP binding leads to dissociation of the alpha-subunit and the beta-gamma-dimer, allowing them to interact with effectors molecules and propagate signaling cascades associated with cellular growth, survival, migration, and invasion. Deactivation of the G-protein signaling controlled by the RGS domain accelerates GTPase activity of the alpha subunit by hydrolysis of GTP to GDP, which results in the reassociation of the alpha-subunit with the beta-gamma-dimer and thereby inhibition of downstream activity. As a major G-protein regulator, RGS domain containing proteins are involved in many crucial cellular processes such as regulation of intracellular trafficking, glial differentiation, embryonic axis formation, skeletal and muscle development, and cell migration during early embryogenesis. RGS proteins are also involved in apoptosis and cell proliferation, as well as modulation of cardiac development. Several RGS proteins can fine-tune immune responses, while others play important roles in neuronal signals modulation. Some RGS proteins are principal elements needed for proper vision.</Hit_def>
+  <Hit_accession>188659</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.834</Hsp_bit-score>
+      <Hsp_score>255</Hsp_score>
+      <Hsp_evalue>1.106e-29</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LASKYGLAAFRAFLKSEFCEENIEFWLACEDFKK-TKSPQKLSSKARKIYTDFIEKEAPKEINI--DFQTKTLIAQNIQEATSGCFTTAQKRVYSLMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>LRDPYGLEYFRQFLKSEHCEENLEFWLAVEKFKKTTSSDEELKSKAKEIYDKYISKDAPKEINIPESIREEIEENLEEPYPDPDCFDEAQEHILNLLEKDSYPRFLKSDLY</Hsp_hseq>
+      <Hsp_midline>L   YGL  FR FLKSE CEEN+EFWLA E FKK T S ++L SKA++IY  +I K+APKEINI    + +             CF  AQ+ + +L+E +SYPRFL+S+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|306968</Hit_id>
+  <Hit_def>pfam00615, RGS, Regulator of G protein signaling domain.  RGS family members are GTPase-activating proteins for heterotrimeric G-protein alpha-subunits.</Hit_def>
+  <Hit_accession>306968</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.55794e-26</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>AFDELLASKYGLAAFRAFLKSEFCEENIEFWLACEDFKKTKSPQKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNIQ-EATSGCFTTAQKRVYSLMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>SLDSLLEDQPGRRLFREFLESEFSEENLEFWLACEEFKKADPDEERLQKAKEIYNKFLAPDSPKEINLDSDTREEIKANLKNEPTRDLFDEAQREVYDLLEKDSYPRFLKSPLY</Hsp_hseq>
+      <Hsp_midline>+ D LL  + G   FR FL+SEF EEN+EFWLACE+FKK    ++   KA++IY  F+  ++PKEIN+D  T+  I  N++ E T   F  AQ+ VY L+E +SYPRFL+S  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|188660</Hit_id>
+  <Hit_def>cd08705, RGS_R7-like, Regulator of G protein signaling (RGS) domain found in the R7 subfamily of proteins.  The RGS (Regulator of G-protein Signaling) domain is an essential part of the R7 (Neuronal RGS) protein subfamily of the RGS protein family, a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). As a major G-protein regulator, RGS domain containing proteins are involved in many crucial cellular processes such as regulation of intracellular trafficking, glial differentiation, embryonic axis formation, skeletal and muscle development, and cell migration during early embryogenesis. The R7 subfamily includes RGS6, RGS7, RGS9, and RGS11, all of which, in humans, are expressed predominantly in the nervous system, form an obligatory complex with G-beta-5, and play important roles in the regulation of crucial neuronal processes. In addition, R7 proteins were found to bind many other proteins outside of the G protein signaling pathways including: m-opioid receptor, beta-arrestin, alpha-actinin-2, NMDAR, polycystin, spinophilin, guanylyl cyclase, among others.</Hit_def>
+  <Hit_accession>188660</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>2.71027e-25</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>129</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>WSEAFDELLASKYGLAAFRAFLKSEFCEENIEFWLACEDFKKTKSPQKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNIQEATSGCFTTAQKRVYSLMENNSYPRFLESEFYQD</Hsp_qseq>
+      <Hsp_hseq>WGFSFSELLKDPVGREQFLKFLEKEFSGENLRFWEACQDLKYGPQSQ-VPEKVQEIYQEFLAPGAPSWINIDSKTMEITLKNLKDPHRYTFDAAQEHIYMLMKKDSYPRFLRSDIYKE</Hsp_hseq>
+      <Hsp_midline>W  +F ELL    G   F  FL+ EF  EN+ FW AC+D K     Q +  K ++IY +F+   AP  INID +T  +  +N+++     F  AQ+ +Y LM+ +SYPRFL S+ Y++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|214613</Hit_id>
+  <Hit_def>smart00315, RGS, Regulator of G protein signalling domain.  RGS family members are GTPase-activating proteins for heterotrimeric G-protein alpha-subunits.</Hit_def>
+  <Hit_accession>214613</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>5.00635e-25</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>AFDELLASKYGLAAFRAFLKSEFCEENIEFWLACEDFKKTKSPQKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNI--QEATSGCFTTAQKRVYSLMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>SLESLLSDPIGRLLFREFLESEFSEENLEFWLAVEEFKKAEDDEERIAKAREIYDKFLSPNAPKEVNLDSDLREKIEENLESEEPPPDLFDEAQREVYELLEKDSFPRFLESDYY</Hsp_hseq>
+      <Hsp_midline>+ + LL+   G   FR FL+SEF EEN+EFWLA E+FKK +  ++  +KAR+IY  F+   APKE+N+D   +  I +N+  +E     F  AQ+ VY L+E +S+PRFLES++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|188661</Hit_id>
+  <Hit_def>cd08706, RGS_R12-like, Regulator of G protein signaling (RGS) domain found in the R12 subfamily of proteins.  The RGS (Regulator of G-protein Signaling) domain is an essential part of the R12 (Neuronal RGS) protein subfamily of the RGS protein family, a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). RGS proteins play a critical regulatory role as GTPase activating proteins (GAPs) of the heterotrimeric G-protein G-alpha-subunits. Deactivation of G-protein signaling, controlled by RGS domain, accelerates GTPase activity of the alpha subunit by hydrolysis of GTP to GDP that results in reassociation of the alpha-subunit with the beta-gamma-dimer and thereby inhibition of downstream activity. As a major G-protein regulator, RGS domain containing proteins are involved in many crucial cellular processes such as regulation of intracellular trafficking, glial differentiation, embryonic axis formation, skeletal and muscle development, and cell migration during early embryogenesis. The R12 RGS subfamily includes RGS10, RGS12 and RGS14 all of which are highly selective for G-alpha-i1 over G-alpha-q.</Hit_def>
+  <Hit_accession>188661</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.98034e-23</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>FDELLASKYGLAAFRAFLKSEFCEENIEFWLACEDFKKTKSPQKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNIQEATSGCFTTAQKRVYSLMENNSYPRFLESEFYQ</Hsp_qseq>
+      <Hsp_hseq>FERLLQDPVGVKYFTEFLKKEFSEENILFWQACEKFKKIPDKKQLVQEAREIYDTFLSSKASSPVNIDSQAQ-LAEEMLEEPHPDMFQKQQLQIFNLMKFDSYSRFLKSPLYQ</Hsp_hseq>
+      <Hsp_midline>F+ LL    G+  F  FLK EF EENI FW ACE FKK    ++L  +AR+IY  F+  +A   +NID Q + L  + ++E     F   Q ++++LM+ +SY RFL+S  YQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|188663</Hit_id>
+  <Hit_def>cd08708, RGS_FLBA, Regulator of G protein signaling (RGS) domain found in the FLBA (Fluffy Low BrlA) protein.  The RGS (Regulator of G-protein Signaling) domain is an essential part of the FLBA (Fluffy Low BrlA) protein. FLBA is a member of the RGS protein family, a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). As a major G-protein regulator, RGS domain containing proteins are involved in many crucial cellular processes such as regulation of intracellular trafficking, glial differentiation, embryonic axis formation, skeletal and muscle development, and cell migration during early embryogenesis. RGS proteins play a critical regulatory role as GTPase activating proteins (GAPs) of the heterotrimeric G-protein G-alpha-subunits. Deactivation of the G-protein signaling controlled by the RGS domain accelerates the GTPase activity of the alpha subunit by hydrolysis of GTP to GDP which results in reassociation of the alpha-subunit with the beta-gamma-dimer and thereby inhibition of downstream activity. As a major G-protein regulator, RGS domain containing proteins are involved in many crucial cellular processes. The RGS domain of the FLBA protein antagonizes G protein signaling to block proliferation and allow development. It is required for control of mycelial proliferation and activation of asexual sporulation in yeast.</Hit_def>
+  <Hit_accession>188663</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>2.74087e-07</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>FRAFLKSEFCEENIEFWLACEDFKKT----------KSPQKLS--------SKARKIYTDFIEKEAPKEINIDFQTKTLIAQNIQEATSG--------------CFTTAQKRVYS-LMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>FREHLEKEFCEENLSFYLEVKEFLKKMTILSKLLDFKSSQAADEDLDRESLAQAYHIYNTYLAPGSPCELNIDHNLRNRITTIMTEKIVGEDDSMAESLQGVEALFEEAQNAVFKPLMAGDSVPKFLKQPEY</Hsp_hseq>
+      <Hsp_midline>FR  L+ EFCEEN+ F+L  ++F K           KS Q           ++A  IY  ++   +P E+NID   +  I   + E   G               F  AQ  V+  LM  +S P+FL+   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|188688</Hit_id>
+  <Hit_def>cd08734, RGS-like_1, Uncharacterized Regulator of G protein Signaling (RGS) domain subfamily, child 1.  These uncharacterized RGS-like domains consists largely of hypothetical proteins. The RGS domain is an essential part of the Regulator of G-protein Signaling (RGS) protein family, a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). RGS proteins play critical regulatory role as GTPase activating proteins (GAPs) of the heterotrimeric G-protein G-alpha-subunits. As a major G-protein regulator, the RGS domain containing proteins that are involved in many crucial cellular processes. RGS proteins play critical regulatory role as GTPase activating proteins (GAPs) of the heterotrimeric G-protein G-alpha-subunits. RGS proteins regulate many aspects of embryonic development such as glial differentiation, embryonic axis formation, skeletal and muscle development, cell migration during early embryogenesis, as well as apoptosis, cell proliferation, and modulation of cardiac development. Several RGS proteins can fine-tune immune responses, while others play an important role in neuronal signal modulation. Some RGS proteins are the principal elements needed for proper vision.</Hit_def>
+  <Hit_accession>188688</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>4.46233e-06</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>123</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>KSEFCEENIEFWLACEDFKKTKSPQKLSSKARKIYTDFIEKEAPKEINI----------DFQTKTLIAQNIQEATSGCFTTAQKRVYSLMENNSYPRFLE</Hsp_qseq>
+      <Hsp_hseq>ESDFSGENLSFLTLVKEYKRLSNPAEKFTLASKIYKEFISSESPFQINISSAMLRRLDNDFELLTGAFANVD---SGLNTPFNEEISKIEASDLYPAFVK</Hsp_hseq>
+      <Hsp_midline>+S+F  EN+ F    +++K+  +P +  + A KIY +FI  E+P +INI          DF+  T    N+    SG  T   + +  +  ++ YP F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|188677</Hit_id>
+  <Hit_def>cd08722, RGS_SNX14, Regulator of G protein signaling (RGS) domain found in the Sorting Nexin14 (SNX14) protein.  The RGS (Regulator of G-protein Signaling) domain is an essential part of the SNX14 (Sorting Nexin14) protein, a member of  the RGS protein family. They are a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). RGS proteins regulate many aspects of embryonic development such as glial differentiation, embryonic axis formation, skeletal and muscle development, cell migration during early embryogenesis, as well as apoptosis, cell proliferation, and modulation of cardiac development. SNX14 is believed to regulates membrane trafficking in motor neurons.</Hit_def>
+  <Hit_accession>188677</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.000205287</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LLASKYGLAAFRAFLKSEFCEENIEFWLACEDF-KKTKSP-------QKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNIQEA--------TSGCFTTAQKRVYSLMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>ILDDQRLLFPFMQFLKEEGAVHLLQFCLTVEDFNRRILNPDLTDEEKQSLHKEAQEIYKTYFLPEAPDRIHFPPDIVEEIKQILEGGPEKIVKLRTSRPLFEAYEHVYSLLESVFCPLFCHSDEY</Hsp_hseq>
+      <Hsp_midline>+L  +  L  F  FLK E     ++F L  EDF ++  +P       Q L  +A++IY  +   EAP  I+        I Q ++          TS     A + VYSL+E+   P F  S+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|188676</Hit_id>
+  <Hit_def>cd08721, RGS_AKAP2_2, Regulator of G protein signaling (RGS) domain 2 found in the A-kinase anchoring protein, D-AKAP2.  The RGS (Regulator of G-protein Signaling) domain is an essential part of the D-AKAP2 (A-kinase anchoring protein), a member of the RGS protein family. They are a diverse group of multifunctional proteins that regulate cellular signaling events downstream of G-protein coupled receptors (GPCRs). RGS proteins regulate many aspects of embryonic development such as glial differentiation, embryonic axis formation, skeletal and muscle development, cell migration during early embryogenesis, as well as apoptosis, cell proliferation, and modulation of cardiac development. D-AKAP2 contains two RGS domains which play an important role in spatiotemporal localization of cAMP-dependent PKA (cyclic AMP-dependent protein kinase) that regulates many different signaling pathways by phosphorylation of target proteins. This cd contains the second RGS domain.</Hit_def>
+  <Hit_accession>188676</Hit_accession>
+  <Hit_len>121</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.000478966</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>127</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>FRAFLKSEFCEENIEFWLACEDFKKTKSP-------QKLSSKARKIYTDFIEKEAPKEINIDFQTKTLIAQNI---QEATSGCFTTAQKRVYSLMENNSYPRFLESEFY</Hsp_qseq>
+      <Hsp_hseq>FMEYMEQEGARNLLQFWLAADNFQSQLAAKEGQYDGQQAQNDAMIIYDKYFSLQATEPLGFDDKTRLEVESNICREGGPLPSCFEAPLLQALTTLEQHYLPGFLSSQLY</Hsp_hseq>
+      <Hsp_midline>F  +++ E     ++FWLA ++F+   +        Q+  + A  IY  +   +A + +  D +T+  +  NI         CF     +  + +E +  P FL S+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>83</Statistics_hsp-len>
+      <Statistics_eff-space>198356949</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

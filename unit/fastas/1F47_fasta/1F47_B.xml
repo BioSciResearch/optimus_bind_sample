@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>144</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>144</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|235124</Hit_id>
+  <Hit_def>PRK03427, PRK03427, cell division protein ZipA; Provisional.</Hit_def>
+  <Hit_accession>235124</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>7.95587e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>MDKPKRKEAVIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGPALFSLANMVKPGTFDPE-MKDFTTPGVTIFMQVPSYGDELQLFKLMLQSAQHIADEVGGVVLDDQRRMMTPQKLREYQDIIREVKDANA</Hsp_qseq>
+      <Hsp_hseq>MDKPKRKEAVIVMNVAAHHGSELNGEVLLNSIQQAGFQFGDMNIFHRHLSPDGSGPVLFSLANMVKPGTFDPEMMSDFTTPGVTIFMQVPSYGDALQNFKLMLQSAQHIADEVGGVVLDDQRRMMTPQKLREYQDRIREVKDANA</Hsp_hseq>
+      <Hsp_midline>MDKPKRKEAVI+MNVAAHHGSELNGE+LLNSIQQAGF FGDMNI+HRHLSPDGSGP LFSLANMVKPGTFDPE M DFTTPGVTIFMQVPSYGD LQ FKLMLQSAQHIADEVGGVVLDDQRRMMTPQKLREYQD IREVKDANA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|129010</Hit_id>
+  <Hit_def>smart00771, ZipA_C, ZipA, C-terminal domain (FtsZ-binding).  C-terminal domain of ZipA, a component of cell division in E.coli. It interacts with the FtsZ protein in one of the initial steps of septum formation. The structure of this domain is composed of three alpha-helices and a beta-sheet consisting of six antiparallel beta-strands.</Hit_def>
+  <Hit_accession>129010</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>2.00757e-47</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>EAVIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGPALFSLANMVKPGTFDPE-MKDFTTPGVTIFMQVPSYGDELQLFKLMLQSAQHIADEVGGVVLDDQRRMMTPQKLREYQ</Hsp_qseq>
+      <Hsp_hseq>DVVIGLNVVAKEGQPFSGAELLQALEQLGFVFGEDGIFHRHDDLAGSGPVLFSLANMVKPGTFDLDNMDNFSTPGVSFFLDLPSVGDALQNFDLMLQTARRLADDLGGVVLDDQRRPLTPQAIAEYR</Hsp_hseq>
+      <Hsp_midline>+ VI +NV A  G   +G  LL +++Q GF+FG+  I+HRH    GSGP LFSLANMVKPGTFD + M +F+TPGV+ F+ +PS GD LQ F LMLQ+A+ +AD++GGVVLDDQRR +TPQ + EY+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|335741</Hit_id>
+  <Hit_def>pfam04354, ZipA_C, ZipA, C-terminal FtsZ-binding domain.  This family represents the ZipA C-terminal domain. ZipA is involved in septum formation in bacterial cell division. Its C-terminal domain binds FtsZ, a major component of the bacterial septal ring. The structure of this domain is an alpha-beta fold with three alpha helices and a beta sheet of six antiparallel beta strands. The major loops protruding from the beta sheet surface are thought to form a binding site for FtsZ.</Hit_def>
+  <Hit_accession>335741</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>3.69891e-47</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>VIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGPALFSLANMVKPGTFDPE-MKDFTTPGVTIFMQVPSYGDELQLFKLMLQSAQHIADEVGGVVLDDQRRMMTPQKLREYQ</Hsp_qseq>
+      <Hsp_hseq>VIVLNVVAREGQPFSGTKLLQALEALGLRFGEMGIFHRHDDPDGEGPVLFSLANMVKPGTFDPDNMEEFSTPGVTLFMQLPGVGNALAAFDLMLQTARQLAEELGGVVLDDNRSPLTEQTIEHYR</Hsp_hseq>
+      <Hsp_midline>VI++NV A  G   +G  LL +++  G  FG+M I+HRH  PDG GP LFSLANMVKPGTFDP+ M++F+TPGVT+FMQ+P  G+ L  F LMLQ+A+ +A+E+GGVVLDD R  +T Q +  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|234977</Hit_id>
+  <Hit_def>PRK01741, PRK01741, cell division protein ZipA; Provisional.</Hit_def>
+  <Hit_accession>234977</Hit_accession>
+  <Hit_len>332</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.531</Hsp_bit-score>
+      <Hsp_score>262</Hsp_score>
+      <Hsp_evalue>1.88958e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>124</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>KPKRKEAVIIMNVAAHHGSELNGELLLNSIQQAGFIFGDMNIYHRHLSPDGSGPALFSLANMVKPGTFD-PEMKDFTTPGVTIFMQVPSYGDELQLFKLMLQSAQHIADEVGGVVLDDQRRMM</Hsp_qseq>
+      <Hsp_hseq>QPEATTNFIMLYVVAPENQQFQGAYLVQALENLGFIFGEYQIYHRHLDLSVASPVLFSVANIEQPGTFDLYNMEDFSTVGIVLFMQLPSPGNDLANLKMMIRAAKTLAQDLGGFVLTEQQEIF</Hsp_hseq>
+      <Hsp_midline>+P+     I++ V A    +  G  L+ +++  GFIFG+  IYHRHL    + P LFS+AN+ +PGTFD   M+DF+T G+ +FMQ+PS G++L   K+M+++A+ +A ++GG VL +Q+ + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>84</Statistics_hsp-len>
+      <Statistics_eff-space>241117260</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

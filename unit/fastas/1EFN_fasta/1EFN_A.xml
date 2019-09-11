@@ -1,0 +1,1106 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>57</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>57</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|212779</Hit_id>
+  <Hit_def>cd11845, SH3_Src_like, Src homology 3 domain of Src kinase-like Protein Tyrosine Kinases.  Src subfamily members include Src, Lck, Hck, Blk, Lyn, Fgr, Fyn, Yrk, Yes, and Brk. Src (or c-Src) proteins are cytoplasmic (or non-receptor) PTKs which are anchored to the plasma membrane. They contain an N-terminal SH4 domain with a myristoylation site, followed by SH3 and SH2 domains, a tyr kinase domain, and a regulatory C-terminal region containing a conserved tyr. They are activated by autophosphorylation at the tyr kinase domain, but are negatively regulated by phosphorylation at the C-terminal tyr by Csk (C-terminal Src Kinase). However, Brk lacks the N-terminal myristoylation sites. Src proteins are involved in signaling pathways that regulate cytokine and growth factor responses, cytoskeleton dynamics, cell proliferation, survival, and differentiation. They were identified as the first proto-oncogene products, and they regulate cell adhesion, invasion, and motility in cancer cells, and tumor vasculature, contributing to cancer progression and metastasis. Src kinases are overexpressed in a variety of human cancers, making them attractive targets for therapy. They are also implicated in acute inflammatory responses and osteoclast function. Src, Fyn, Yes, and Yrk are widely expressed, while Blk, Lck, Hck, Fgr, Lyn, and Brk show a limited expression pattern. This subfamily also includes Drosophila Src42A, Src oncogene at 42A (also known as Dsrc41) which accumulates at sites of cell-cell or cell-matrix adhesion, and participates in Drosphila development and wound healing. It has been shown to promote tube elongation in the tracheal system, is essential for proper cell-cell matching during dorsal closure, and regulates cell-cell contacts in developing Drosophila eyes. The SH3 domain of Src kinases contributes to substrate recruitment by binding adaptor proteins/substrates, and regulation of kinase activity through an intramolecular interaction. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212779</Hit_accession>
+  <Hit_len>52</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>1.28129e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNY</Hsp_qseq>
+      <Hsp_hseq>IYVALYDYEARTDDDLSFKKGDRLQILDDSDGDWWLARHLSTGKEGYIPSNY</Hsp_hseq>
+      <Hsp_midline>++VALYDYEA T+DDLSF KG++ QIL+ S+GDWW AR L+TG+ GYIPSNY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|212702</Hit_id>
+  <Hit_def>cd11768, SH3_Tec_like, Src Homology 3 domain of Tec-like Protein Tyrosine Kinases.  The Tec (Tyrosine kinase expressed in hepatocellular carcinoma) subfamily is composed of Tec, Btk, Bmx (Etk), Itk (Tsk, Emt), Rlk (Txk), and similar proteins. They are cytoplasmic (or nonreceptor) tyr kinases containing Src homology protein interaction domains (SH3, SH2) N-terminal to the catalytic tyr kinase domain. Most Tec subfamily members (except Rlk) also contain an N-terminal pleckstrin homology (PH) domain, which binds the products of PI3K and allows membrane recruitment and activation. In addition, some members contain the Tec homology (TH) domain, which contains proline-rich and zinc-binding regions. Tec kinases are expressed mainly by haematopoietic cells, although Tec and Bmx are also found in endothelial cells. B-cells express Btk and Tec, while T-cells express Itk, Txk, and Tec. Collectively, Tec kinases are expressed in a variety of myeloid cells such as mast cells, platelets, macrophages, and dendritic cells. Each Tec kinase shows a distinct cell-type pattern of expression. The function of Tec kinases in lymphoid cells have been studied extensively. They play important roles in the development, differentiation, maturation, regulation, survival, and function of B-cells and T-cells. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212702</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>7.41757e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVA</Hsp_qseq>
+      <Hsp_hseq>IVVALYDFQPIEPGDLPLEKGEEYVVLDDSNEHWWRARD-KNGNEGYIPSNYVT</Hsp_hseq>
+      <Hsp_midline>+ VALYD++ I   DL   KGE++ +L+ S   WW AR    G  GYIPSNYV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|212706</Hit_id>
+  <Hit_def>cd11772, SH3_OSTF1, Src Homology 3 domain of metazoan osteoclast stimulating factor 1.  OSTF1, also named OSF or SH3P2, is a signaling protein containing SH3 and ankyrin-repeat domains. It acts through a Src-related pathway to enhance the formation of osteoclasts and bone resorption. It also acts as a negative regulator of cell motility. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212706</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>1.02009e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>VFRALYDYEAQHPDELSFEEGDLLYISDKSDPNWWKAT--CGGKTGLIPSNYV</Hsp_hseq>
+      <Hsp_midline>+F ALYDYEA   D+LSF +G+   I + S+ +WW+A     G+TG IPSNYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|212783</Hit_id>
+  <Hit_def>cd11849, SH3_SPIN90, Src homology 3 domain of SH3 protein interacting with Nck, 90 kDa (SPIN90).  SPIN90 is also called NCK interacting protein with SH3 domain (NCKIPSD), Dia-interacting protein (DIP), 54 kDa vimentin-interacting protein (VIP54), or WASP-interacting SH3-domain protein (WISH). It is an F-actin binding protein that regulates actin polymerization and endocytosis. It associates with the Arp2/3 complex near actin filaments and determines filament localization at the leading edge of lamellipodia. SPIN90 is expressed in the early stages of neuronal differentiation and plays a role in regulating growth cone dynamics and neurite outgrowth. It also interacts with IRSp53 and regulates cell motility by playing a role in the formation of membrane protrusions. SPIN90 contains an N-terminal SH3 domain, a proline-rich domain, and a C-terminal VCA (verprolin-homology and cofilin-like acidic) domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212783</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>4.24473e-11</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>MYRALYDFKSAEPNTLSFSEGETFLLLERSNAHWWLVTN-HSGETGYVPANYV</Hsp_hseq>
+      <Hsp_midline>++ ALYD+++   + LSF +GE F +L  S   WW   +  +GETGY+P+NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|214620</Hit_id>
+  <Hit_def>smart00326, SH3, Src homology 3 domains.  Src homology 3 (SH3) domains bind to target proteins through sequences containing proline and hydrophobic amino acids. Pro-containing polypeptides may bind to SH3 domains in 2 different binding orientations.</Hit_def>
+  <Hit_accession>214620</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.02157e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYDYTAQDPDELSFKKGDIITVLEKSDDGWWKGR-LGRGKEGLFPSNYV</Hsp_hseq>
+      <Hsp_midline>ALYDY A   D+LSF KG+   +L  S+  WW+ R L  G+ G  PSNYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|212701</Hit_id>
+  <Hit_def>cd11767, SH3_Nck_3, Third Src Homology 3 domain of Nck adaptor proteins.  This group contains the third SH3 domain of Nck, the first SH3 domain of Caenorhabditis elegans Ced-2 (Cell death abnormality protein 2), and similar domains. Nck adaptor proteins regulate actin cytoskeleton dynamics by linking proline-rich effector molecules to protein tyrosine kinases and phosphorylated signaling intermediates. They contain three SH3 domains and a C-terminal SH2 domain. They function downstream of the PDGFbeta receptor and are involved in Rho GTPase signaling and actin dynamics. Vertebrates contain two Nck adaptor proteins: Nck1 (also called Nckalpha) and Nck2 (also called Nckbeta or Growth factor receptor-bound protein 4, Grb4), which show partly overlapping functions but also bind distinct targets. Their SH3 domains are involved in recruiting downstream effector molecules, such as the N-WASP/Arp2/3 complex, which when activated induces actin polymerization that results in the production of pedestals, or protrusions of the plasma membrane. The third SH3 domain of Nck appears to prefer ligands with a PxAPxR motif. SH3 domains are protein interaction domains that usually bind to proline-rich ligands with moderate affinity and selectivity, preferentially a PxxP motif. Ced-2 is a cell corpse engulfment protein that interacts with Ced-5 in a pathway that regulates the activation of Ced-10, a Rac small GTPase.</Hit_def>
+  <Hit_accession>212701</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.61888e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEG--DWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>VVVALYPFTGENDEELSFEKGERLEIIEKPEDDPDWWKARN-ALGTTGLVPRNYV</Hsp_hseq>
+      <Hsp_midline>+ VALY +    +++LSF KGE+ +I+   E   DWW+AR+   G TG +P NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|212700</Hit_id>
+  <Hit_def>cd11766, SH3_Nck_2, Second Src Homology 3 domain of Nck adaptor proteins.  Nck adaptor proteins regulate actin cytoskeleton dynamics by linking proline-rich effector molecules to protein tyrosine kinases and phosphorylated signaling intermediates. They contain three SH3 domains and a C-terminal SH2 domain. They function downstream of the PDGFbeta receptor and are involved in Rho GTPase signaling and actin dynamics. Vertebrates contain two Nck adaptor proteins: Nck1 (also called Nckalpha) and Nck2 (also called Nckbeta or Growth factor receptor-bound protein 4, Grb4), which show partly overlapping functions but also bind distinct targets. Their SH3 domains are involved in recruiting downstream effector molecules, such as the N-WASP/Arp2/3 complex, which when activated induces actin polymerization that results in the production of pedestals, or protrusions of the plasma membrane. The second SH3 domain of Nck appears to prefer ligands containing the APxxPxR motif. SH3 domains are protein interaction domains that usually bind to proline-rich ligands with moderate affinity and selectivity, preferentially a PxxP motif. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212700</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>7.34404e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>VALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>VVKFNYEAQREDELSLRKGDRVLVLEKSSDGWW--RGECNGQVGWFPSNYV</Hsp_hseq>
+      <Hsp_midline>V  ++YEA  ED+LS  KG++  +L  S   WW  R    G+ G+ PSNYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|212811</Hit_id>
+  <Hit_def>cd11878, SH3_Bem1p_1, First Src Homology 3 domain of Bud emergence protein 1 and similar domains.  Members of this subfamily bear similarity to Saccharomyces cerevisiae Bem1p, containing two Src Homology 3 (SH3) domains at the N-terminus, a central PX domain, and a C-terminal PB1 domain. Bem1p is a scaffolding protein that is critical for proper Cdc42p activation during bud formation in yeast. During budding and mating, Bem1p migrates to the plasma membrane where it can serve as an adaptor for Cdc42p and some other proteins. Bem1p also functions as an effector of the G1 cyclin Cln3p and the cyclin-dependent kinase Cdc28p in promoting vacuolar fusion. SH3 domains bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs; they play a role in the regulation of enzymes by intramolecular interactions, changing the subcellular localization of signal pathway components and mediate multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212811</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>7.92964e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSS-EGDWWEARSLTTGETGYIPSNY</Hsp_qseq>
+      <Hsp_hseq>ALYDYRAQTPGELSFSKGDFFHVIGEEDQGEWYEATNPVTGKRGLVPKSY</Hsp_hseq>
+      <Hsp_midline>ALYDY A T  +LSF KG+ F ++    +G+W+EA +  TG+ G +P +Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|212810</Hit_id>
+  <Hit_def>cd11877, SH3_PIX, Src Homology 3 domain of Pak Interactive eXchange factors.  PIX proteins are Rho guanine nucleotide exchange factors (GEFs), which activate small GTPases by exchanging bound GDP for free GTP. They act as GEFs for both Cdc42 and Rac 1, and have been implicated in cell motility, adhesion, neurite outgrowth, and cell polarity. Vertebrates contain two proteins from the PIX subfamily, alpha-PIX and beta-PIX. Alpha-PIX, also called ARHGEF6, is localized in dendritic spines where it regulates spine morphogenesis. Mutations in the ARHGEF6 gene cause X-linked intellectual disability in humans. Beta-PIX play roles in regulating neuroendocrine exocytosis, focal adhesion maturation, cell migration, synaptic vesicle localization, and insulin secretion. PIX proteins contain an N-terminal SH3 domain followed by RhoGEF (also called Dbl-homologous or DH) and Pleckstrin Homology (PH) domains, and a C-terminal leucine-zipper domain for dimerization. The SH3 domain of PIX binds to an atypical PxxxPR motif in p21-activated kinases (PAKs) with high affinity. The binding of PAKs to PIX facilitate the localization of PAKs to focal complexes and also localizes PAKs to PIX targets Cdc43 and Rac, leading to the activation of PAKs. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212810</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>8.10555e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>LVRAKFNFEGTNEDELSFDKGDIITVTQVVEGGWWEG--TLNGKTGWFPSNYV</Hsp_hseq>
+      <Hsp_midline>L  A +++E   ED+LSF KG+   +    EG WWE      G+TG+ PSNYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|212690</Hit_id>
+  <Hit_def>cd00174, SH3, Src Homology 3 domain superfamily.  Src Homology 3 (SH3) domains are protein interaction domains that bind proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. Thus, they are referred to as proline-recognition domains (PRDs). SH3 domains are less selective and show more diverse specificity compared to other PRDs. They have been shown to bind peptide sequences that lack the PxxP motif; examples include the PxxDY motif of Eps8 and the RKxxYxxY sequence in SKAP55. SH3 domain containing proteins play versatile and diverse roles in the cell, including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies, among others. Many members of this superfamily are adaptor proteins that associate with a number of protein partners, facilitating complex formation and signal transduction.</Hit_def>
+  <Hit_accession>212690</Hit_accession>
+  <Hit_len>51</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.04351e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNY</Hsp_qseq>
+      <Hsp_hseq>ALYDYEAQDDDELSFKKGDIITVLEKDDDGWWEG-ELNGGREGLFPANY</Hsp_hseq>
+      <Hsp_midline>ALYDYEA  +D+LSF KG+   +L   +  WWE   L  G  G  P+NY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|333770</Hit_id>
+  <Hit_def>pfam00018, SH3_1, SH3 domain.  SH3 (Src homology 3) domains are often indicative of a protein involved in signal transduction related to cytoskeletal organisation. First described in the Src cytoplasmic tyrosine kinase. The structure is a partly opened beta barrel.</Hit_def>
+  <Hit_accession>333770</Hit_accession>
+  <Hit_len>47</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>1.22038e-09</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>VALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPS</Hsp_qseq>
+      <Hsp_hseq>VALYDYTAREPDELSFKKGDVIIVLEKSDDGWWKGR-LKGGKEGLIPS</Hsp_hseq>
+      <Hsp_midline>VALYDY A   D+LSF KG+   +L  S+  WW+ R L  G+ G IPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|291278</Hit_id>
+  <Hit_def>pfam14604, SH3_9, Variant SH3 domain.  </Hit_def>
+  <Hit_accession>291278</Hit_accession>
+  <Hit_len>50</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.06032e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYPYEPRDDDELSLRRGDVITVLEESE-DGWLLGSNTTGRTGLVPANYV</Hsp_hseq>
+      <Hsp_midline>ALY YE   +D+LS  +G+   +L  SE D W   S TTG TG +P+NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|CDD|212739</Hit_id>
+  <Hit_def>cd11805, SH3_GRB2_like_C, C-terminal Src homology 3 domain of Growth factor receptor-bound protein 2 (GRB2) and related proteins.  This family includes the adaptor protein GRB2 and related proteins including Drosophila melanogaster Downstream of receptor kinase (DRK), Caenorhabditis elegans Sex muscle abnormal protein 5 (Sem-5), GRB2-related adaptor protein (GRAP), GRAP2, and similar proteins. Family members contain an N-terminal SH3 domain, a central SH2 domain, and a C-terminal SH3 domain. GRB2/Sem-5/DRK is a critical signaling molecule that regulates the Ras pathway by linking tyrosine kinases to the Ras guanine nucleotide releasing protein Sos (son of sevenless), which converts Ras to the active GTP-bound state. GRAP2 plays an important role in T cell receptor (TCR) signaling by promoting the formation of the SLP-76:LAT complex, which couples the TCR to the Ras pathway. GRAP acts as a negative regulator of T cell receptor (TCR)-induced lymphocyte proliferation by downregulating the signaling to the Ras/ERK pathway. The C-terminal SH3 domains (SH3c) of GRB2 and GRAP2 have been shown to bind to classical PxxP motif ligands, as well as to non-classical motifs. GRB2 SH3c binds Gab2 (Grb2-associated binder 2) through epitopes containing RxxK motifs, while the SH3c of GRAP2 binds to the phosphatase-like protein HD-PTP via a RxxxxK motif. SH3 domains are protein interaction domains that typically bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212739</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>8.09767e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVAP</Hsp_qseq>
+      <Hsp_hseq>ALYDFNPQEPGELEFRRGDIITVLDSSDPDWWKGE--LRGRVGIFPANYVQP</Hsp_hseq>
+      <Hsp_midline>ALYD+      +L F +G+   +L+SS+ DWW+      G  G  P+NYV P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|CDD|212704</Hit_id>
+  <Hit_def>cd11770, SH3_Nephrocystin, Src Homology 3 domain of Nephrocystin (or Nephrocystin-1).  Nephrocystin contains an SH3 domain involved in signaling pathways that regulate cell adhesion and cytoskeletal organization. It is a protein that in humans is associated with juvenile nephronophthisis, an inherited kidney disease characterized by renal fibrosis that lead to chronic renal failure in children. It is localized in cell-cell junctions in renal duct cells, and is known to interact with Ack1, an activated Cdc42-associated kinase. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212704</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>2.98126e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>LYEALSDFQAEQEGDLSFKKGEVLRIISKRADGWWLAEN-SKGNRGLVPKTYL</Hsp_hseq>
+      <Hsp_midline>L+ AL D++A  E DLSF KGE  +I++     WW A + + G  G +P  Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|CDD|212709</Hit_id>
+  <Hit_def>cd11775, SH3_Sla1p_3, Third Src Homology 3 domain of the fungal endocytic adaptor protein Sla1p.  Sla1p facilitates endocytosis by playing a role as an adaptor protein in coupling components of the actin cytoskeleton to the endocytic machinery. It interacts with Abp1p, Las17p and Pan1p, which are activator proteins of actin-related protein 2/3 (Arp2/3). Sla1p contains multiple domains including three SH3 domains, a SAM (sterile alpha motif) domain, and a Sla1 homology domain 1 (SHD1), which binds to the NPFXD motif that is found in many integral membrane proteins such as the Golgi-localized Arf-binding protein Lsb5p and the P4-ATPases, Drs2p and Dnf1p. The third SH3 domain of Sla1p can bind ubiquitin while retaining the ability to bind proline-rich ligands; monoubiquitination of target proteins signals internalization and sorting through the endocytic pathway. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212709</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>4.41787e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEG-DWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>VLYDFDAQSDDELTVKEGDVVYILDDKKSKDWWMVENVSTGKEGVVPASYI</Hsp_hseq>
+      <Hsp_midline> LYD++A ++D+L+  +G+   IL+  +  DWW   +++TG+ G +P++Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|CDD|212698</Hit_id>
+  <Hit_def>cd11764, SH3_Eps8, Src Homology 3 domain of Epidermal growth factor receptor kinase substrate 8 and similar proteins.  This group is composed of Eps8 and Eps8-like proteins including Eps8-like 1-3, among others. These proteins contain N-terminal Phosphotyrosine-binding (PTB), central SH3, and C-terminal effector domains. Eps8 binds either Abi1 (also called E3b1) or Rab5 GTPase activating protein RN-tre through its SH3 domain. With Abi1 and Sos1, it becomes part of a trimeric complex that is required to activate Rac. Together with RN-tre, it inhibits the internalization of EGFR. The SH3 domains of Eps8 and similar proteins recognize peptides containing a PxxDY motif, instead of the classical PxxP motif. SH3 domains are protein interaction domains that usually bind to proline-rich ligands with moderate affinity and selectivity. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212698</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>5.04338e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVAP</Hsp_qseq>
+      <Hsp_hseq>VLYDFTARNSKELSVLKGEYLEVLDDSR-QWWKVRN-SRGQVGYVPHNILEP</Hsp_hseq>
+      <Hsp_midline> LYD+ A    +LS  KGE  ++L+ S   WW+ R+ + G+ GY+P N + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|CDD|212790</Hit_id>
+  <Hit_def>cd11856, SH3_p47phox_like, Src homology 3 domains of the p47phox subunit of NADPH oxidase and similar domains.  This family is composed of the tandem SH3 domains of p47phox subunit of NADPH oxidase and Nox Organizing protein 1 (NoxO1), the four SH3 domains of Tks4 (Tyr kinase substrate with four SH3 domains), the five SH3 domains of Tks5, the SH3 domain of obscurin, Myosin-I,  and similar domains. Most members of this group also contain Phox homology (PX) domains, except for obscurin and Myosin-I. p47phox and NoxO1 are regulators of the phagocytic NADPH oxidase complex (also called Nox2 or gp91phox) and nonphagocytic NADPH oxidase Nox1, respectively. They play roles in the activation of their respective NADPH oxidase, which catalyzes the transfer of electrons from NADPH to molecular oxygen to form superoxide. Tks proteins are Src substrates and scaffolding proteins that play important roles in the formation of podosomes and invadopodia, the dynamic actin-rich structures that are related to cell migration and cancer cell invasion. Obscurin is a giant muscle protein that plays important roles in the organization and assembly of the myofibril and the sarcoplasmic reticulum. Type I myosins (Myosin-I) are actin-dependent motors in endocytic actin structures and actin patches. They play roles in membrane traffic in endocytic and secretory pathways, cell motility, and mechanosensing. Myosin-I contains an N-terminal actin-activated ATPase, a phospholipid-binding TH1 (tail homology 1) domain, and a C-terminal extension which includes an F-actin-binding TH2 domain, an SH3 domain, and an acidic peptide that participates in activating the Arp2/3complex. The SH3 domain of myosin-I is required for myosin-I-induced actin polymerization. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212790</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>6.49169e-08</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>FVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVAP</Hsp_qseq>
+      <Hsp_hseq>YVAIADYEAQGDDEISLQEGEVVEVLEKNDSGWWYVR--KGDKEGWVPASYLEP</Hsp_hseq>
+      <Hsp_midline>+VA+ DYEA  +D++S  +GE  ++L  ++  WW  R     + G++P++Y+ P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|CDD|212844</Hit_id>
+  <Hit_def>cd11911, SH3_CIP4-like, Src Homology 3 domain of Cdc42-Interacting Protein 4.  This subfamily is composed of Cdc42-Interacting Protein 4 (CIP4), Formin Binding Protein 17 (FBP17), FormiN Binding Protein 1-Like (FNBP1L), and similar proteins. CIP4 and FNBP1L are Cdc42 effectors that bind Wiskott-Aldrich syndrome protein (WASP) and function in endocytosis. CIP4 and FBP17 bind to the Fas ligand and may be implicated in the inflammatory response. CIP4 may also play a role in phagocytosis. It functions downstream of Cdc42 in PDGF-dependent actin reorganization and cell migration, and also regulates the activity of PDGFRbeta. It uses Src as a substrate in regulating the invasiveness of breast tumor cells. CIP4 may also play a role in the pathogenesis of Huntington&apos;s disease. Members of this subfamily typically contain an N-terminal F-BAR (FES-CIP4 Homology and Bin/Amphiphysin/Rvs) domain, a central Cdc42-binding HR1 domain, and a C-terminal SH3 domain. The SH3 domain of CIP4 associates with Gapex-5, a Rab31 GEF. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212844</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>8.81173e-08</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>VALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>TALYDFDGTSEGTLSMEEGEILLVLEEDGGDGWTRVRKNNGDEGYVPTSYI</Hsp_hseq>
+      <Hsp_midline> ALYD++  +E  LS  +GE   +L    GD W       G+ GY+P++Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|CDD|212796</Hit_id>
+  <Hit_def>cd11862, SH3_MPP, Src Homology 3 domain of Membrane Protein, Palmitoylated (or MAGUK p55 subfamily member) proteins.  The MPP/p55 subfamily of MAGUK (membrane-associated guanylate kinase) proteins includes at least eight vertebrate members (MPP1-7 and CASK), four Drosophila proteins (Stardust, Varicose, CASK and Skiff), and other similar proteins; they all contain one each of the core of three domains characteristic of MAGUK proteins: PDZ, SH3, and guanylate kinase (GuK). In addition, most members except for MPP1 contain N-terminal L27 domains and some also contain a Hook (Protein 4.1 Binding) motif in between the SH3 and GuK domains. CASK has an additional calmodulin-dependent kinase (CaMK)-like domain at the N-terminus. Members of this subfamily are scaffolding proteins that play important roles in regulating and establishing cell polarity, cell adhesion, and synaptic targeting and transmission, among others. The GuK domain in MAGUK proteins is enzymatically inactive; instead, the domain mediates protein-protein interactions and associates intramolecularly with the SH3 domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212796</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>1.15619e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ALYDYEA-------ITEDDLSFHKGEKFQILNSSEGDWWEARSL--TTGETGYIPS</Hsp_qseq>
+      <Hsp_hseq>ALFDYDPEEDPLIPCKEAGLSFKKGDILQIVNQDDPNWWQARKVGDPNGRAGLIPS</Hsp_hseq>
+      <Hsp_midline>AL+DY+          E  LSF KG+  QI+N  + +WW+AR +    G  G IPS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|CDD|212723</Hit_id>
+  <Hit_def>cd11789, SH3_Nebulin_family_C, C-terminal Src Homology 3 domain of the Nebulin family of proteins.  Nebulin family proteins contain multiple nebulin repeats, and may contain an N-terminal LIM domain and/or a C-terminal SH3 domain. They have molecular weights ranging from 34 to 900 kD, depending on the number of nebulin repeats, and they all bind actin. They are involved in the regulation of actin filament architecture and function as stabilizers and scaffolds for cytoskeletal structures with which they associate, such as long actin filaments or focal adhesions. Nebulin family proteins that contain a C-terminal SH3 domain include the giant filamentous protein nebulin, nebulette, Lasp1, and Lasp2. Lasp2, also called LIM-nebulette, is an alternatively spliced variant of nebulette. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212723</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>2.11554e-07</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>FVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>YRAMYDYAAADDDEVSFQEGDVIINVEIIDDGWMEGTVQRTGQSGMLPANYV</Hsp_hseq>
+      <Hsp_midline>+ A+YDY A  +D++SF +G+    +   +  W E     TG++G +P+NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|CDD|212737</Hit_id>
+  <Hit_def>cd11803, SH3_Endophilin_A, Src homology 3 domain of Endophilin-A.  Endophilins play roles in synaptic vesicle formation, virus budding, mitochondrial morphology maintenance, receptor-mediated endocytosis inhibition, and endosomal sorting. They are classified into two types, A and B. Vertebrates contain three endophilin-A isoforms (A1, A2, and A3). Endophilin-A proteins are enriched in the brain and play multiple roles in receptor-mediated endocytosis. They tubulate membranes and regulate calcium influx into neurons to trigger the activation of the endocytic machinery. They are also involved in the sorting of plasma membrane proteins, actin filament assembly, and the uncoating of clathrin-coated vesicles for fusion with endosomes. Endophilins contain an N-terminal N-BAR domain (BAR domain with an additional N-terminal amphipathic helix), followed by a variable region containing proline clusters, and a C-terminal SH3 domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212737</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>4.26227e-07</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYDFEPENEGELGFKEGDIITLTNQIDENWYEG--MVNGQSGFFPVNYV</Hsp_hseq>
+      <Hsp_midline>ALYD+E   E +L F +G+   + N  + +W+E   +  G++G+ P NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|CDD|212816</Hit_id>
+  <Hit_def>cd11883, SH3_Sdc25, Src Homology 3 domain of Sdc25/Cdc25 guanine nucleotide exchange factors.  This subfamily is composed of the Saccharomyces cerevisiae guanine nucleotide exchange factors (GEFs) Sdc25 and Cdc25, and similar proteins. These GEFs regulate Ras by stimulating the GDP/GTP exchange on Ras. Cdc25 is involved in the Ras/PKA pathway that plays an important role in the regulation of metabolism, stress responses, and proliferation, depending on available nutrients and conditions. Proteins in this subfamily contain an N-terminal SH3 domain as well as REM (Ras exchanger motif) and RasGEF domains at the C-terminus. SH3 domains bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs; they play a role in the regulation of enzymes by intramolecular interactions, changing the subcellular localization of signal pathway components and mediate multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212816</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>6.25149e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTG---ETGYIPSNY</Hsp_qseq>
+      <Hsp_hseq>VVVALYDFTPKSKNQLSFKAGDIIYVLNKDPSGWWDGVIISSSGKVKRGWFPSNY</Hsp_hseq>
+      <Hsp_midline>+ VALYD+   +++ LSF  G+   +LN     WW+   +++    + G+ PSNY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|CDD|212845</Hit_id>
+  <Hit_def>cd11912, SH3_Bzz1_1, First Src Homology 3 domain of Bzz1 and similar domains.  Bzz1 (or Bzz1p) is a WASP/Las17-interacting protein involved in endocytosis and trafficking to the vacuole. It physically interacts with type I myosins and functions in the early steps of endocytosis. Together with other proteins, it induces membrane scission in yeast. Bzz1 contains an N-terminal F-BAR (FES-CIP4 Homology and Bin/Amphiphysin/Rvs), a central coiled-coil, and two C-terminal SH3 domains. This model represents the first C-terminal SH3 domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212845</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>8.0405e-07</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>LYDYTASGDDEVSISEGEEVTVLEPDDGSGWTKVRNGSGEEGLVPTSYI</Hsp_hseq>
+      <Hsp_midline>LYDY A  +D++S  +GE+  +L   +G  W      +GE G +P++Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|CDD|212785</Hit_id>
+  <Hit_def>cd11851, SH3_RIM-BP, Src homology 3 domains of Rab3-interacting molecules (RIMs) binding proteins.  RIMs binding proteins (RBPs, RIM-BPs) associate with calcium channels present in photoreceptors, neurons, and hair cells; they interact simultaneously with specific calcium channel subunits, and active zone proteins, RIM1 and RIM2. RIMs are part of the matrix at the presynaptic active zone and are associated with synaptic vesicles through their interaction with the small GTPase Rab3. RIM-BPs play a role in regulating synaptic transmission by serving as adaptors and linking calcium channels with the synaptic vesicle release machinery. RIM-BPs contain three SH3 domains and two to three fibronectin III repeats. Invertebrates contain one, while vertebrates contain at least two RIM-BPs, RIM-BP1 and RIM-BP2. RIM-BP1 is also called peripheral-type benzodiazapine receptor associated protein 1 (PRAX-1). Mammals contain a third protein, RIM-BP3. RIM-BP1 and RIM-BP2 are predominantly expressed in the brain where they display overlapping but distinct expression patterns, while RIM-BP3 is almost exclusively expressed in the testis and is essential in spermiogenesis. The SH3 domains of RIM-BPs bind to the PxxP motifs of RIM1, RIM2, and L-type (alpha1D) and N-type (alpha1B) calcium channel subunits. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212785</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>2.8718e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAIT-------EDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>LMVALYDYNPETMSPNDDPEEELSFHAGDVVRVYGPMDEDGFYYGELEGGRKGLVPSNFV</Hsp_hseq>
+      <Hsp_midline>L VALYDY   T       E++LSFH G+  ++    + D +    L  G  G +PSN+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|CDD|212703</Hit_id>
+  <Hit_def>cd11769, SH3_CSK, Src Homology 3 domain of C-terminal Src kinase.  CSK is a cytoplasmic (or nonreceptor) tyr kinase containing the Src homology domains, SH3 and SH2, N-terminal to the catalytic tyr kinase domain. They negatively regulate the activity of Src kinases that are anchored to the plasma membrane. To inhibit Src kinases, CSK is translocated to the membrane via binding to specific transmembrane proteins, G-proteins, or adaptor proteins near the membrane. CSK catalyzes the tyr phosphorylation of the regulatory C-terminal tail of Src kinases, resulting in their inactivation. It is expressed in a wide variety of tissues and plays a role, as a regulator of Src, in cell proliferation, survival, and differentiation, and consequently, in cancer development and progression. In addition, CSK also shows Src-independent functions. It is a critical component in G-protein signaling, and plays a role in cytoskeletal reorganization and cell migration. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212703</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.27719e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>VALYDYEAITEDDLSFHKGEKFQILN-SSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>IAKYNFNGASEEDLPFKKGDILTIVAVTKDPNWYKAKN-KDGREGMIPANYV</Hsp_hseq>
+      <Hsp_midline>+A Y++   +E+DL F KG+   I+  + + +W++A++   G  G IP+NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|CDD|212697</Hit_id>
+  <Hit_def>cd11763, SH3_SNX9_like, Src Homology 3 domain of Sorting Nexin 9 and similar proteins.  Sorting nexins (SNXs) are Phox homology (PX) domain containing proteins that are involved in regulating membrane traffic and protein sorting in the endosomal system. SNXs differ from each other in their lipid-binding specificity, subcellular localization and specific function in the endocytic pathway. This subfamily consists of SH3 domain containing SNXs including SNX9, SNX18, SNX33, and similar proteins. SNX9 is localized to plasma membrane endocytic sites and acts primarily in clathrin-mediated endocytosis, while SNX18 is localized to peripheral endosomal structures, and acts in a trafficking pathway that is clathrin-independent but relies on AP-1 and PACS1. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212697</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.73003e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYDFDSQPSGELSLRAGEVLTITRQDVGDGWLEGRNSRGEVGLFPSSYV</Hsp_hseq>
+      <Hsp_midline>ALYD+++    +LS   GE   I     GD W     + GE G  PS+YV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|CDD|212807</Hit_id>
+  <Hit_def>cd11874, SH3_CD2AP-like_2, Second Src Homology 3 domain (SH3B) of CD2-associated protein and similar proteins.  This subfamily is composed of the second SH3 domain (SH3B) of CD2AP, CIN85 (Cbl-interacting protein of 85 kDa), and similar domains. CD2AP and CIN85 are adaptor proteins that bind to protein partners and assemble complexes that have been implicated in T cell activation, kidney function, and apoptosis of neuronal cells. They also associate with endocytic proteins, actin cytoskeleton components, and other adaptor proteins involved in receptor tyrosine kinase (RTK) signaling. CD2AP and the main isoform of CIN85 contain three SH3 domains, a proline-rich region, and a C-terminal coiled-coil domain. All of these domains enable CD2AP and CIN85 to bind various protein partners and assemble complexes that have been implicated in many different functions. SH3B of both proteins have been shown to bind to Cbl. In the case of CD2AP, its SH3B binds to Cbl at a site distinct from the c-Cbl/SH3A binding site. The CIN85 SH3B also binds ubiquitin. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212807</Hit_accession>
+  <Hit_len>53</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>6.65553e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVA</Hsp_qseq>
+      <Hsp_hseq>VLFSYTPQNEDELELKVGDTIEVLGEVEEGWWEGK--LNGKVGVFPSNFVK</Hsp_hseq>
+      <Hsp_midline> L+ Y    ED+L    G+  ++L   E  WWE +    G+ G  PSN+V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|CDD|212818</Hit_id>
+  <Hit_def>cd11885, SH3_SH3TC, Src Homology 3 domain of SH3 domain and tetratricopeptide repeat-containing (SH3TC) proteins and similar domains.  This subfamily is composed of vertebrate SH3TC proteins and hypothetical fungal proteins containing BAR and SH3 domains. Mammals contain two SH3TC proteins, SH3TC1 and SH3TC2. The function of SH3TC1 is unknown. SH3TC2 is localized in Schwann cells in the peripheral nervous system, where it interacts with Rab11 and plays a role in peripheral nerve myelination. Mutations in SH3TC2 are associated with Charcot-Marie-Tooth disease type 4C, a severe hereditary peripheral neuropathy with symptoms that include progressive scoliosis, delayed age of walking, muscular atrophy, distal weakness, and reduced nerve conduction velocity. SH3 domains bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs; they play a role in the regulation of enzymes by intramolecular interactions, changing the subcellular localization of signal pathway components and mediate multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212818</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>1.39605e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>53</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGD------WWEARSLTTGETGYIPSNY</Hsp_qseq>
+      <Hsp_hseq>AKMDFEGVEPGELSFRQGDSIEII----GDLIPGLQWFVGRSKSSGRVGFVPTNH</Hsp_hseq>
+      <Hsp_midline>A  D+E +   +LSF +G+  +I+    GD      W+  RS ++G  G++P+N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|CDD|212792</Hit_id>
+  <Hit_def>cd11858, SH3_Myosin-I_fungi, Src homology 3 domain of Type I fungal Myosins.  Type I myosins (myosin-I) are actin-dependent motors in endocytic actin structures and actin patches. They play roles in membrane traffic in endocytic and secretory pathways, cell motility, and mechanosensing. Saccharomyces cerevisiae has two myosins-I, Myo3 and Myo5, which are involved in endocytosis and the polarization of the actin cytoskeleton. Myosin-I contains an N-terminal actin-activated ATPase, a phospholipid-binding TH1 (tail homology 1) domain, and a C-terminal extension which includes an F-actin-binding TH2 domain, an SH3 domain, and an acidic peptide that participates in activating the Arp2/3complex. The SH3 domain of myosin-I is required for myosin-I-induced actin polymerization. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212792</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>1.49067e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>FVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>YKALYDFAGSVANELSLKKDDIVYIVQKEDNGWWLAKKLDESKEGWVPAAYL</Hsp_hseq>
+      <Hsp_midline>+ ALYD+     ++LS  K +   I+   +  WW A+ L   + G++P+ Y+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|CDD|212714</Hit_id>
+  <Hit_def>cd11780, SH3_Sorbs_3, Third (or C-terminal) Src Homology 3 domain of Sorbin and SH3 domain containing (Sorbs) proteins and similar domains.  This family, also called the vinexin family, is composed predominantly of adaptor proteins containing one sorbin homology (SoHo) and three SH3 domains. Members include the third SH3 domains of Sorbs1 (or ponsin), Sorbs2 (or ArgBP2), Vinexin (or Sorbs3), and similar domains. They are involved in the regulation of cytoskeletal organization, cell adhesion, and growth factor signaling. Members of this family bind multiple partners including signaling molecules like c-Abl, c-Arg, Sos, and c-Cbl, as well as cytoskeletal molecules such as vinculin and afadin. They may have overlapping functions. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212714</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.83469e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>FVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVA</Hsp_qseq>
+      <Hsp_hseq>YRALYSYTPQNEDELELREGDIVYVMEKCDDGWFVGTSERTGLFGTFPGNYVA</Hsp_hseq>
+      <Hsp_midline>+ ALY Y    ED+L   +G+   ++   +  W+   S  TG  G  P NYVA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|CDD|212795</Hit_id>
+  <Hit_def>cd11861, SH3_DLG-like, Src Homology 3 domain of Disks large homolog proteins.  The DLG-like proteins are scaffolding proteins that cluster at synapses and are also called PSD (postsynaptic density)-95 proteins or SAPs (synapse-associated proteins). They play important roles in synaptic development and plasticity, cell polarity, migration and proliferation. They are members of the MAGUK (membrane-associated guanylate kinase) protein family, which is characterized by the presence of a core of three domains: PDZ, SH3, and guanylate kinase (GuK). The GuK domain in MAGUK proteins is enzymatically inactive; instead, the domain mediates protein-protein interactions and associates intramolecularly with the SH3 domain. DLG-like proteins contain three PDZ domains and varying N-terminal regions. All DLG proteins exist as alternatively-spliced isoforms. Vertebrates contain four DLG proteins from different genes, called DLG1-4. DLG4 and DLG2 are found predominantly at postsynaptic sites and they mediate surface ion channel and receptor clustering. DLG3 is found axons and some presynaptic terminals. DLG1 interacts with AMPA-type glutamate receptors and is critical in their maturation and delivery to synapses. The SH3 domain of DLG4 binds and clusters the kainate subgroup of glutamate receptors via two proline-rich sequences in their C-terminal tail. It also binds AKAP79/150 (A-kinase anchoring protein). SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212795</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>1.90027e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>52</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>ALYDYE-----AITEDDLSFHKGEKFQILNSSEGDWWEARSLTTG----ETGYIPSN</Hsp_qseq>
+      <Hsp_hseq>ALFDYDPSRDSGLPSQGLSFKFGDILHVTNASDDEWWQARRVTPNGEEEEVGVIPSK</Hsp_hseq>
+      <Hsp_midline>AL+DY+      +    LSF  G+   + N+S+ +WW+AR +T      E G IPS </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|CDD|212753</Hit_id>
+  <Hit_def>cd11819, SH3_Cortactin_like, Src homology 3 domain of Cortactin and related proteins.  This subfamily includes cortactin, Abp1 (actin-binding protein 1), hematopoietic lineage cell-specific protein 1 (HS1), and similar proteins. These proteins are involved in regulating actin dynamics through direct or indirect interaction with the Arp2/3 complex, which is required to initiate actin polymerization. They all contain at least one C-terminal SH3 domain. Cortactin and HS1 bind Arp2/3 and actin through an N-terminal region that contains an acidic domain and several copies of a repeat domain found in cortactin and HS1. Abp1 binds actin via an N-terminal actin-depolymerizing factor (ADF) homology domain. Yeast Abp1 binds Arp2/3 directly through two acidic domains. Mammalian Abp1 does not directly interact with Arp2/3; instead, it regulates actin dynamics indirectly by interacting with dynamin and WASP family proteins. The C-terminal region of these proteins acts as an adaptor or scaffold that can connect membrane trafficking and signaling proteins that bind the SH3 domain within the actin network. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212753</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>3.86321e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYDYQAAEDNEISFVEGDIITQIEQIDEGWWLGVN-AKGQKGLFPANYV</Hsp_hseq>
+      <Hsp_midline>ALYDY+A  ++++SF +G+    +   +  WW   +   G+ G  P+NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|CDD|336757</Hit_id>
+  <Hit_def>pfam07653, SH3_2, Variant SH3 domain.  SH3 (Src homology 3) domains are often indicative of a protein involved in signal transduction related to cytoskeletal organisation. First described in the Src cytoplasmic tyrosine kinase. The structure is a partly opened beta barrel.</Hit_def>
+  <Hit_accession>336757</Hit_accession>
+  <Hit_len>52</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>4.27696e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>51</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>AIFDYVGTDPTELSLKKGDVIKVIDKDSDGWWEGE--TGGRRGLVPSSAV</Hsp_hseq>
+      <Hsp_midline>A++DY      +LS  KG+  ++++     WWE    T G  G +PS+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gnl|CDD|212791</Hit_id>
+  <Hit_def>cd11857, SH3_DBS, Src homology 3 domain of DBL&apos;s Big Sister (DBS), a guanine nucleotide exchange factor.  DBS, also called MCF2L (MCF2-transforming sequence-like protein) or OST, is a Rho GTPase guanine nucleotide exchange factor (RhoGEF), facilitating the exchange of GDP and GTP. It was originally isolated from a cDNA screen for sequences that cause malignant growth. It plays roles in regulating clathrin-mediated endocytosis and cell migration through its activation of Rac1 and Cdc42. Depending on cell type, DBS can also activate RhoA and RhoG. DBS contains a Sec14-like domain, spectrin-like repeats, a RhoGEF [or Dbl homology (DH)] domain, a Pleckstrin homology (PH) domain, and an SH3 domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212791</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>6.10213e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>56</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>FVALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVAP</Hsp_qseq>
+      <Hsp_hseq>YTVVADYEKGGPDDLTVKSGDLVQLIHEGDEGQWLVKNLSTRKEGWVPAANLQP</Hsp_hseq>
+      <Hsp_midline>+  + DYE    DDL+   G+  Q+++  +   W  ++L+T + G++P+  + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gnl|CDD|212727</Hit_id>
+  <Hit_def>cd11793, SH3_ephexin1_like, Src homology 3 domain of ephexin-1-like SH3 domain containing Rho guanine nucleotide exchange factors.  Members of this family contain RhoGEF (also called Dbl-homologous or DH), Pleckstrin Homology (PH), and C-terminal SH3 domains. They include the Rho guanine nucleotide exchange factors ARHGEF5, ARHGEF16, ARHGEF19, ARHGEF26, ARHGEF27 (also called ephexin-1), and similar proteins, and are also called ephexins because they interact directly with ephrin A receptors. GEFs interact with Rho GTPases via their DH domains to catalyze nucleotide exchange by stabilizing the nucleotide-free GTPase intermediate. They play important roles in neuronal development. The SH3 domains of ARHGEFs play an autoinhibitory role through intramolecular interactions with a proline-rich region N-terminal to the DH domain. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212727</Hit_accession>
+  <Hit_len>55</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>6.95662e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>CVHAYTAQQPDELTLEEGDVVNVLRKMPDGWYEGERLRDGERGWFPSSYT</Hsp_hseq>
+      <Hsp_midline> ++ Y A   D+L+  +G+   +L      W+E   L  GE G+ PS+Y </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gnl|CDD|212705</Hit_id>
+  <Hit_def>cd11771, SH3_Pex13p_fungal, Src Homology 3 domain of fungal peroxisomal membrane protein Pex13p.  Pex13p, located in the peroxisomal membrane, contains two transmembrane regions and a C-terminal SH3 domain. It binds to the peroxisomal targeting type I (PTS1) receptor Pex5p and the docking factor Pex14p through its SH3 domain. It is essential for both PTS1 and PTS2 protein import pathways into the peroxisomal matrix. Pex13p binds Pex14p, which contains a PxxP motif, in a classical fashion to the proline-rich ligand binding site of its SH3 domain. It binds the WxxxF/Y motif of Pex5p in a novel site that does not compete with Pex14p binding. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212705</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.000284452</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAIT-EDDLSFHKGEKFQILNSSE-----GDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYDFTPENPEMELSLKKGDIVAVLSKTDPLGRDSEWWKGRT-RDGRIGWFPSNYV</Hsp_hseq>
+      <Hsp_midline>ALYD+     E +LS  KG+   +L+ ++      +WW+ R+   G  G+ PSNYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gnl|CDD|212945</Hit_id>
+  <Hit_def>cd12012, SH3_RIM-BP_2, Second Src homology 3 domain of Rab3-interacting molecules (RIMs) binding proteins.  RIMs binding proteins (RBPs, RIM-BPs) associate with calcium channels present in photoreceptors, neurons, and hair cells; they interact simultaneously with specific calcium channel subunits, and active zone proteins, RIM1 and RIM2. RIMs are part of the matrix at the presynaptic active zone and are associated with synaptic vesicles through their interaction with the small GTPase Rab3. RIM-BPs play a role in regulating synaptic transmission by serving as adaptors and linking calcium channels with the synaptic vesicle release machinery. RIM-BPs contain three SH3 domains and two to three fibronectin III repeats. Invertebrates contain one, while vertebrates contain at least two RIM-BPs, RIM-BP1 and RIM-BP2. RIM-BP1 is also called peripheral-type benzodiazapine receptor associated protein 1 (PRAX-1). Mammals contain a third protein, RIM-BP3. RIM-BP1 and RIM-BP2 are predominantly expressed in the brain where they display overlapping but distinct expression patterns, while RIM-BP3 is almost exclusively expressed in the testis and is essential in spermiogenesis. The SH3 domains of RIM-BPs bind to the PxxP motifs of RIM1, RIM2, and L-type (alpha1D) and N-type (alpha1B) calcium channel subunits. SH3 domains are protein interaction domains that bind to proline-rich ligands with moderate affinity and selectivity. They play versatile and diverse roles in the cell including the regulation of enzymes, changing the subcellular localization of signaling pathway components, and mediating the formation of multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212945</Hit_accession>
+  <Hit_len>62</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>0.000289376</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>LFVALYDYEAIT--------EDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYVA</Hsp_qseq>
+      <Hsp_hseq>LFVALFDYDPLTMSPNPDAAEEELPFKEGQLIKVYGDKDADGFYLGEI-NGRRGLVPCNMVS</Hsp_hseq>
+      <Hsp_midline>LFVAL+DY+ +T        E++L F +G+  ++    + D +    +  G  G +P N V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gnl|CDD|212815</Hit_id>
+  <Hit_def>cd11882, SH3_GRAF-like, Src Homology 3 domain of GTPase Regulator Associated with Focal adhesion kinase and similar proteins.  This subfamily is composed of Rho GTPase activating proteins (GAPs) with similarity to GRAF. Members contain an N-terminal BAR domain, followed by a Pleckstrin homology (PH) domain, a Rho GAP domain, and a C-terminal SH3 domain. Although vertebrates harbor four Rho GAPs in the GRAF subfamily including GRAF, GRAF2, GRAF3, and Oligophrenin-1 (OPHN1), only three are included in this model. OPHN1 contains the BAR, PH and GAP domains, but not the C-terminal SH3 domain. GRAF and GRAF2 show GAP activity towards RhoA and Cdc42. GRAF influences Rho-mediated cytoskeletal rearrangements and binds focal adhesion kinase. GRAF2 regulates caspase-activated p21-activated protein kinase-2. The SH3 domain of GRAF and GRAF2 binds PKNbeta, a target of the small GTPase Rho. SH3 domains bind to proline-rich ligands with moderate affinity and selectivity, preferentially to PxxP motifs; they play a role in the regulation of enzymes by intramolecular interactions, changing the subcellular localization of signal pathway components and mediate multiprotein complex assemblies.</Hit_def>
+  <Hit_accession>212815</Hit_accession>
+  <Hit_len>54</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.000476045</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>54</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>ALYDYEAITEDDLSFHKGEKFQILNSSEGDWWEARSLTTGETGYIPSNYV</Hsp_qseq>
+      <Hsp_hseq>ALYACKAEDESELSFEPGQIITNVQPSDEPGWLEGTL-NGRTGLIPENYV</Hsp_hseq>
+      <Hsp_midline>ALY  +A  E +LSF  G+    +  S+   W   +L  G TG IP NYV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>28</Statistics_hsp-len>
+      <Statistics_eff-space>164415529</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

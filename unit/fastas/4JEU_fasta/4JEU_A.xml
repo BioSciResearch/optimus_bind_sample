@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>315</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>315</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|334339</Hit_id>
+  <Hit_def>pfam00995, Sec1, Sec1 family.  </Hit_def>
+  <Hit_accession>334339</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>2.82478e-39</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>KVLVVDQLSMRMLSSCCKMTDIMTEGITIVEDINKRREPLPSLEAVYLITPSEKSVHSLISDFKDPPTAKYRAAHVFFTDSCPDALFNELVKSRAAKVIKTLTEINIAFLPYESQVYSLDSADSFQSFYSPHKAQMKNPILERLAEQIATLCATLKE-YPAVRYRGEYKDNAL--LAQLIQDKLDAYKADDPTMGEGPDKARSQLLILDRGFDPSSPVLHELTFQAMSYDLLPIENDVYKYETSGIGEARVKEVLLDEDDDLWIALRHKHIAEVSQ</Hsp_qseq>
+      <Hsp_hseq>KVLVLDKELTKILSSVLKVSDLLEEGVTLVK-IEKLREPLPDVPAIYFVRPTPENIDRIADDLKKDP--RYKEYHIFFTPRLP----RELLEGLAGDV-KKVKELNLDFIPLESDLFSLELPLAFPDLYLDD-----NSLLERIAQGLFSVCLTLEGGIPIIRYKGPAAEMVAKKLADLLRDDIDSF----PNLFTRP---RPVLIILDRSVDLVTPLLHQWTYQALVHDLLGI-----KLNRVTVPKKKKKKDLL-SSDPFWVELRHLHFADVGE</Hsp_hseq>
+      <Hsp_midline>KVLV+D+   ++LSS  K++D++ EG+T+V+ I K REPLP + A+Y + P+ +++  +  D K  P  +Y+  H+FFT   P     EL++  A  V K + E+N+ F+P ES ++SL+   +F   Y        N +LER+A+ + ++C TL+   P +RY+G   +     LA L++D +D++    P +   P   R  L+ILDR  D  +P+LH+ T+QA+ +DLL I     K     + + + K+ LL   D  W+ LRH H A+V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|227487</Hit_id>
+  <Hit_def>COG5158, SEC1, Proteins involved in synaptic transmission and general secretion, Sec1 family [Intracellular trafficking and secretion].</Hit_def>
+  <Hit_accession>227487</Hit_accession>
+  <Hit_len>582</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>5.02028e-34</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>291</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>DVIKKVKKKGEWKVLVVDQLSMRMLSSCCKMTDIMTEGITIVEDINKRREPLPSLEAVYLITPSEKSVHSLISDFK--DPPTAKYRAAHVFFTDSCPDALFNELVKSRAAKVIKTLTEINIAFLPYESQVYSLDSADSFQSFYSPHKAQMKNPILERLAEQIATLCATLKEYPAVRYRGEYKDNALLAQLIQDKL--DAYKADDPTMGEGPDKARSQLLILDRGFDPSSPVLHELTFQAMSYDLLPIENDVYKYETSGIGEARVKEVLLDEDDDLWIALRHKHIAEVS</Hsp_qseq>
+      <Hsp_hseq>DEIFLVQPANIWKVLLLDKDTTSILSSLITTSELLEHGITLVDLIENKREPISDLPAIYFVRPTKENIDLILEDLEQWDPFYLNY---HISFLNTVTESLLELLAESGVFEKILSVYEIYLDFFVLESDLFSLNLPESFLESSLPSTTEA----LIKIVNGLFSLCVSLGRIPIIRYSGG-KNAEHMAKKLSDEIRNELSINFDGVVSKNP--LRPILIILDRSLDPITPLLHQWTYQAMLHDLLGINNNIVTIPSSSVNGPEKKFSLSDKDDPFWNDNKFLNFGEVG</Hsp_hseq>
+      <Hsp_midline>D I  V+    WKVL++D+ +  +LSS    ++++  GIT+V+ I  +REP+  L A+Y + P+++++  ++ D +  DP    Y   H+ F ++  ++L   L +S   + I ++ EI + F   ES ++SL+  +SF     P   +     L ++   + +LC +L   P +RY G  K+   +A+ + D++  +     D  + + P   R  L+ILDR  DP +P+LH+ T+QAM +DLL I N++    +S +     K  L D+DD  W   +  +  EV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>93</Statistics_hsp-len>
+      <Statistics_eff-space>833232822</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

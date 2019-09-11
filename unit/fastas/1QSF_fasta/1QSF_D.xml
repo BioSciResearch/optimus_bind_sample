@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>D &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>200</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>D &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>200</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|312704</Hit_id>
+  <Hit_def>pfam09291, DUF1968, Domain of unknown function (DUF1968).  Members of this family are found in mammalian T-cell antigen receptor, and adopt an immunoglobulin-like beta-sandwich fold, with seven strands in two beta-sheets in a Greek-key topology. Their exact function has not, as yet, been determined.</Hit_def>
+  <Hit_accession>312704</Hit_accession>
+  <Hit_len>80</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>1.39939e-31</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS</Hsp_qseq>
+      <Hsp_hseq>PAVYQLRSPKSSNTSVCLFTDFDSQINVSQSTESTVIKTDSTVLDMKSMDSKSNGAVAWSNDSDFGCADTFN-----ENTFYSS</Hsp_hseq>
+      <Hsp_midline>PAVYQLR  KSS+ SVCLFTDFDSQ NVSQS +S V  TD TVLDM+SMD KSN AVAWSN SDF CA+ FN     E+TF+ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|319287</Hit_id>
+  <Hit_def>cd04983, IgV_TCR_alpha, Immunoglobulin (Ig) variable (V) domain of T-cell receptor (TCR) alpha chain and similar proteins.  IgV_TCR_alpha: immunoglobulin (Ig) variable domain of the alpha chain of alpha/beta T-cell antigen receptors (TCRs). TCRs mediate antigen recognition by T lymphocytes, and are composed of alpha and beta, or gamma and delta, polypeptide chains with variable (V) and constant (C) regions. This group represents the variable domain of the alpha chain of TCRs and also includes the variable domain of delta chains of TCRs. Alpha/beta TCRs recognize antigen as peptide fragments presented by major histocompatibility complex (MHC) molecules. The variable domain of TCRs is responsible for antigen recognition, and is located at the N-terminus of the receptor.  Gamma/delta TCRs recognize intact protein antigens; they recognize proteins antigens directly and without antigen processing, and MHC independently of the bound peptide.</Hit_def>
+  <Hit_accession>319287</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.7449</Hsp_bit-score>
+      <Hsp_score>234</Hsp_score>
+      <Hsp_evalue>1.13639e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>VEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNG-DKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDSW-GKLQFGAGTQVVV</Hsp_qseq>
+      <Hsp_hseq>VTQSPQSLSVQEGENVTLNCNYSTSTFPYLFWYRQYPGQGPEFLLYISSNGEEKEKGRFSATLDKSRKSSSLHITAAQLSDSAVYYCALSESSGTGKLTFGQGTRLTV</Hsp_hseq>
+      <Hsp_midline>V Q+   LSV EG   +LNC YS       FWYRQY G+ PE ++ I SNG +KE GRF+A L+K+ +  SL I  +Q SDSA Y CA++  S  GKL FG GT++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|319322</Hit_id>
+  <Hit_def>cd07688, IgC_TCR_alpha, T cell receptor (TCR) alpha chain immunoglobulin domain.  IgC_TCR_alpha: Constant domain of the alpha chain of alpha/beta T-cell antigen receptors (TCRs). TCRs mediate antigen recognition by T lymphocytes, and are composed of alpha and beta, or gamma and delta, polypeptide chains with variable (V) and constant (C) regions. This group includes the variable domain of the alpha chain. Alpha/beta TCRs recognize antigen as peptide fragments presented by major histocompatibility complex (MHC) molecules. The antigen binding site is formed by the variable domains of the alpha and beta chains, located at the N-terminus of each chain. Alpha/beta TCRs recognize antigens differently from gamma/delta TCRs.</Hit_def>
+  <Hit_accession>319322</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.0485</Hsp_bit-score>
+      <Hsp_score>227</Hsp_score>
+      <Hsp_evalue>5.34032e-25</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>DPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAF</Hsp_qseq>
+      <Hsp_hseq>EPAVYQLKDPKSSDISVCLATDFFSQHNVTKITDSTVFKTETTVLDMSSMDSKSNGAVAWSDCSDFECESAF</Hsp_hseq>
+      <Hsp_midline>+PAVYQL+D KSSD SVCL TDF SQ NV++  DS V+ T+ TVLDM SMD KSN AVAWS+ SDF C +AF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|319275</Hit_id>
+  <Hit_def>cd00099, IgV, Immunoglobulin variable domain (IgV).  IgV: Immunoglobulin variable domain (IgV). Members of the IgV family are components of immunoglobulin (Ig) and T cell receptors. The basic structure of Ig molecules is a tetramer of two light chains and two heavy chains linked by disulfide bonds. In Ig, each chain is composed of one variable domain (IgV) and one or more constant domains (IgC); these names reflect the fact that the variability in sequences is higher in the variable domain than in the constant domain. Within the variable domain, there are regions of even more variability called the hypervariable or complementarity-determining regions (CDRs) which are responsible for antigen binding. A predominant feature of most Ig domains is the disulfide bridge connecting 2 beta-sheets with a tryptophan residue packed against the disulfide bond.</Hit_def>
+  <Hit_accession>319275</Hit_accession>
+  <Hit_len>103</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.05137e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LSVPEGAIASLNCTYSDRGSQSFF---WYRQYSGKSPELIMSIYSNGDKE-DGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDSWG--KLQFGAGTQVVV</Hsp_qseq>
+      <Hsp_hseq>VSVSTGESVTLNCVLS--GSFSLYSISWYRQKPGKQPQFLISGSSTGKPGIPGRFSGTRNGGSSSFSLTISNLRPEDSGTYYCAVSEGPGGGDKLVFGAGTRLTV</Hsp_hseq>
+      <Hsp_midline>+SV  G   +LNC  S  GS S +   WYRQ  GK P+ ++S  S G     GRF+   N  S   SL I + +P DS TY CAV+    G  KL FGAGT++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|336766</Hit_id>
+  <Hit_def>pfam07686, V-set, Immunoglobulin V-set domain.  This domain is found in antibodies as well as neural protein P0 and CTL4 amongst others.</Hit_def>
+  <Hit_accession>336766</Hit_accession>
+  <Hit_len>109</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.1662</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>2.35074e-15</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>108</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>LSVPEGAIASLNCTYSDRGSQS---FFWYRQYSGKSPELIMSIYSNG---DKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDSWGKLQFGAGTQVVV</Hsp_qseq>
+      <Hsp_hseq>VTVAEGGSVTLPCTYSSSMSEGSTSVYWYRQPPGKGPEELIAYYSNKSPEGKKKGRFSLRGDPSNSDFSLTIQNLTPSDSGTYFCAVGPN--GEGVFGKGTRLTV</Hsp_hseq>
+      <Hsp_midline>++V EG   +L CTYS   S+     +WYRQ  GK PE +++ YSN     K+ GRF+ + + ++   SL I++  PSDS TY CAV  +  G+  FG GT++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|143307</Hit_id>
+  <Hit_def>cd05899, IgV_TCR_beta, Immunoglobulin (Ig) variable (V) domain of T-cell receptor (TCR) bet a chain.  IgV_TCR_beta: immunoglobulin (Ig) variable domain of the beta chain of alpha/beta T-cell antigen receptors (TCRs). TCRs mediate antigen recognition by T lymphocytes, and are composed of alpha and beta, or gamma and delta, polypeptide chains with variable (V) and constant (C) regions. This group includes the variable domain of the alpha chain of alpha/beta TCRs. Alpha/beta TCRs recognize antigen as peptide fragments presented by major histocompatibility complex (MHC) molecules. The variable domain of TCRs is responsible for antigen recognition, and is located at the N-terminus of the receptor.  Gamma/delta TCRs recognize intact protein antigens; they recognize proteins antigens directly and without antigen processing, and MHC independently of the bound peptide.</Hit_def>
+  <Hit_accession>143307</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>4.59255e-08</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>EGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSN------GDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDSWG-KLQFGAGTQVVV</Hsp_qseq>
+      <Hsp_hseq>RGQSVTLRCSQTS-GHDNMYWYRQDPGKGLQLLFYSYGGSLNEKEGDPKD-RFSASRPSLTR-SSLTIKSAEPEDSAVYLCASSLGGGADEAYFGPGTRLTV</Hsp_hseq>
+      <Hsp_midline> G   +L C+ +  G  + +WYRQ  GK  +L+   Y        GD +D RF+A     ++  SL I+ ++P DSA YLCA +      +  FG GT++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|319286</Hit_id>
+  <Hit_def>cd04981, IgV_H, Immunoglobulin (Ig) heavy chain (H), variable (V) domain.  IgV_H: Immunoglobulin (Ig) heavy chain (H), variable (V) domain. The basic structure of Ig molecules is a tetramer of two light chains and two heavy chains linked by disulfide bonds. In Ig, each chain is composed of one variable domain (IgV) and one or more constant domains (IgC); these names reflect the fact that the variability in sequences is higher in the variable domain than in the constant domain. There are five types of heavy chains (alpha, gamma, delta, epsilon, and mu), which determine the type of immunoglobulin: IgA, IgG, IgD, IgE, and IgM, respectively. In higher vertebrates, there are two types of light chain, designated kappa and lambda, which can associate with any of the heavy chains. This family includes alpha, gamma, delta, epsilon, and mu heavy chains.</Hit_def>
+  <Hit_accession>319286</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>3.27584e-06</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>89</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>NSGPLSVPEGAIASLNCTYSDRGSQSFF--WYRQYSGKSPELIMSIYSNG------DKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCA</Hsp_qseq>
+      <Hsp_hseq>ESGPGLVKPGQSLSLSCKASGFTFTSYGVGWVRQAPGKGLEWIGGIYPGGGETYYADSVKGRFTITRDTSKSTVYLQLNSLTPEDTAVYYCA</Hsp_hseq>
+      <Hsp_midline> SGP  V  G   SL+C  S     S+   W RQ  GK  E I  IY  G      D   GRFT   + +   V L +    P D+A Y CA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|214650</Hit_id>
+  <Hit_def>smart00406, IGv, Immunoglobulin V-Type.  </Hit_def>
+  <Hit_accession>214650</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>1.42062e-05</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>90</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>81</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>ASLNCTYSDRGSQSFF--WYRQYSGKSPELIMSIYSNG-----DKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAV</Hsp_qseq>
+      <Hsp_hseq>VTLSCKFSGSTFSSYYVSWVRQPPGKGLEWLGYIGSNGSSYYQESYKGRFTISKDTSKNDVSLTISNLRVEDTGTYYCAV</Hsp_hseq>
+      <Hsp_midline> +L+C +S     S++  W RQ  GK  E +  I SNG     +   GRFT   + +   VSL I + +  D+ TY CAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|143183</Hit_id>
+  <Hit_def>cd04982, IgV_TCR_gamma, Immunoglobulin (Ig) variable (V) domain of T-cell receptor (TCR) gamma chain.  IgV_TCR_gamma: immunoglobulin (Ig) variable (V) domain of the gamma chain of gamma/delta T-cell receptors (TCRs). TCRs mediate antigen recognition by T lymphocytes, and are heterodimers consisting of alpha and beta chains or gamma and delta chains.  Each chain contains a variable (V) and a constant (C) region. The majority of T cells contain alpha/beta TCRs but a small subset contain gamma/delta TCRs. Alpha/beta TCRs recognize antigen as peptide fragments presented by major histocompatibility complex (MHC) molecules. Gamma/delta TCRs recognize intact protein antigens; they recognize protein antigens directly and without antigen processing, and MHC independently of the bound peptide. Gamma/delta T cells can also be stimulated by non-peptide antigens such as small phosphate- or amine-containing compounds. The variable domain of gamma/delta TCRs is responsible for antigen recognition and is located at the N-terminus of the receptor.</Hit_def>
+  <Hit_accession>143183</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000207533</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VEQNSGPLSVPEGAIASLNCTYS--DRGSQSFFWYRQYSGKSPELIMSIYSNGDKED------GRFTAQLNKASQYVSLLIRDSQPSDSATYLCAV--TTDSWGKLQFGAGTQVVV</Hsp_qseq>
+      <Hsp_hseq>LEQPQLSITREESKSVTISCKVSGIDFSTTYIHWYRQKPGQALERLLYVSSTSTQRKLSGGTKNKFEARKDVGKSTSTLTIQNLEKEDSATYYCAYWESGSSYYIKVFGSGTKLIV</Hsp_hseq>
+      <Hsp_midline>+EQ    ++  E    +++C  S  D  +    WYRQ  G++ E ++ + S   +         +F A+ +      +L I++ +  DSATY CA   +  S+    FG+GT+++V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>88</Statistics_hsp-len>
+      <Statistics_eff-space>436878512</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

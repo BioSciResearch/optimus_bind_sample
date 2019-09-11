@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>383</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>383</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|200496</Hit_id>
+  <Hit_def>cd11235, Sema_semaphorin, The Sema domain, a protein interacting module, of semaphorins.  Semaphorins are regulator molecules in the development of the nervous system and in axonal guidance. They also play important roles in other biological processes, such as angiogenesis, immune regulation, respiration systems and cancer. They can be divided into 7 classes. Vertebrates have members in classes 3-7, whereas classes 1 and 2 are known only in invertebrates. Class 2 and 3 semaphorins are secreted proteins; classes 1 and 4 through 6 are transmembrane proteins; and class 7 is membrane associated via glycosylphosphatidylinositol (GPI) linkage. The semaphorins exert their function through their receptors, the neuropilin and plexin families. The Sema domain is located at the N-terminus and contains four disulfide bonds formed by eight conserved cysteine residues. It serves as a receptor-recognition and -binding module.</Hit_def>
+  <Hit_accession>200496</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>1.21855e-16</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>LVCGTNNGNPKC-------WKIDGSEDPKYRGRGYAPYQ--NSKVTIISHNEC---VLSDINISKEGIKRWRRFDGPCGYDLYTADNVIPKDGVRGAFVDKDGTYDKVYILFTDTIDTKRIVKIPYIAQMCLNDEGGPSSLSSHRWSTFLKVELECDIDGR-----SYRQIIHSKAIKTDNDTILYVFFDSPYSK---SALCTYSMNAI----------KHSFSTSKLGGYTKQLPSPAPGICLPAGKVVPHTTFDIIEQYNELDDIIKP-LSQPIF</Hsp_qseq>
+      <Hsp_hseq>LVCGTNAFNPSCRNYNVETFELVGKEE---SGRGKCPYDPDHNSTALFADGELYSGTSADFLGTDPVIYRTLGHNPPLRTE-YHDSKWLNEPQFVGAFDIGDYVYFFFREIAVEYINCGKAV-YSRVARVCKNDQGGSRSLEK-KWTTFLKARLNCSVPGEFPFYFNELQDVFDLPSPSNKEKIFYAVFTTPYNSIPGSAVCAYSLSDIEAVFNGPFKEQHSSNSAWLPVPDERVPEPRPGTCVDDSSPLPDDTLNFIKSHPLMDEAVTPILNRPLF</Hsp_hseq>
+      <Hsp_midline>LVCGTN  NP C       +++ G E+    GRG  PY   ++   + +  E      +D   +   I R    + P   + Y     + +    GAF   D  Y     +  + I+  + V    +A++C ND+GG  SL   +W+TFLK  L C + G      +  Q +      ++ + I Y  F +PY+    SA+C YS++ I          +HS +++ L    +++P P PG C+     +P  T + I+ +  +D+ + P L++P+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|214747</Hit_id>
+  <Hit_def>smart00630, Sema, semaphorin domain.  </Hit_def>
+  <Hit_accession>214747</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>6.9119e-15</Hsp_evalue>
+      <Hsp_query-from>154</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>DKVYILFTDT-IDTKRIVKIPY--IAQMCLNDEGGPSSLSSHRWSTFLKVELECDIDGRS--YRQIIHSKAI---KTDNDTILYVFFDS---PYSKSALCTYSMNAIKHSF---------STSKLGGYTK-QLPSPAPGIC---LPAGKVVPHTTFDIIEQYNELDDIIKPLS-QPIF</Hsp_qseq>
+      <Hsp_hseq>DFVYFFFRETAVEDDNCGKAVHSRVARVCKNDVGGPRSLD-KKWTSFLKARLECSVPGEDPFYFNELQAAFLLPPGSESDDVLYGVFSTSSNPIPGSAVCAFSLSDINAVFNGPFKECETSTSQWLPYSRGKVPYPRPGTCPNKPPSSKDLPDETLNFIKSHPLMDEVVQPLTGRPLF</Hsp_hseq>
+      <Hsp_midline>D VY  F +T ++     K  +  +A++C ND GGP SL   +W++FLK  LEC + G    Y   + +  +    +++D +LY  F +   P   SA+C +S++ I   F         STS+   Y++ ++P P PG C    P+ K +P  T + I+ +  +D++++PL+ +P+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|200501</Hit_id>
+  <Hit_def>cd11240, Sema_4, The Sema domain, a protein interacting module, of class 4 semaphorins (Sema4).  Class 4 semaphorins (Sema4s) are transmembrane regulator molecules involved in the development of the nervous system, immune response, cytoskeletal organization, angiogenesis, and cell-cell interactions. There are 7 distinct subfamilies in class 4 semaphorins, named 4A to 4G. Several class 4 subfamilies play important roles in the immune system and are called &quot;immune semaphorins&quot;. Sema4A plays critical roles in T cell-DC interactions in the immune response. Sema4D/CD100, expressed by lymphocytes, promotes the aggregation and survival of B lymphocytes and inhibits cytokine-induced migration of immune cells in vitro. It is required for normal activation of B and T lymphocytes. Sema4B negatively regulates basophil functions through T cell-basophil contacts and significantly inhibits IL-4 and IL-6 production from basophils in response to various stimuli, including IL-3 and papain. Sema4s not only influence the activation state of cells but also modulate their migration and survival. The effects of Sema4s on nonlymphoid cells are mediated by plexin D1 and plexin Bs. The Sema4G and Sema4C genes are expressed in the developing cerebellar cortex and are involved in neural tube closure and development of cerebellar granules cells through receptor plexin B2. The Sema domain is located at the N-terminus and contains four disulfide bonds formed by eight conserved cysteine residues.  It serves as a receptor-recognition and -binding module.</Hit_def>
+  <Hit_accession>200501</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>8.64809e-14</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>193</Hsp_align-len>
+      <Hsp_qseq>VRGAFVDKDGTYDKVYILFTDTI---DTKRIVKIPYIAQMCLNDEGGPSSLSSHRWSTFLKVELECDI--DGRSYRQIIHSKAIKTD--NDTILYVFFDSPYS---KSALCTYSMNAIKHSFS---------TSKLGGYTKQLPSPAPGIC---------LPAGKVVPHTTFDIIEQYNELDDIIKPLSQPIF</Hsp_qseq>
+      <Hsp_hseq>IRESIDSPDGDDDKIYFFFTETAVEYDFYEKVTVSRVARVCKGDLGGQRTLQ-KKWTTFLKAQLVCSQPDSGLPFNVLRDVFVLSPDSWDATIFYGVFTSQWNVSGLSAVCAYSLEDIKKVFSGKYKEFNRETSKWSRYTGPVPDPRPGACITNSARSQGITSSLNLPDNVLTFVKDHPLMDEQVHPINRPLL</Hsp_hseq>
+      <Hsp_midline>+R +    DG  DK+Y  FT+T    D    V +  +A++C  D GG  +L   +W+TFLK +L C     G  +  +     +  D  + TI Y  F S ++    SA+C YS+  IK  FS         TSK   YT  +P P PG C         + +   +P      ++ +  +D+ + P+++P+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|200498</Hit_id>
+  <Hit_def>cd11237, Sema_1A, The Sema domain, a protein interacting module, of semaphorin 1A (Sema1A).  Sema1A is a transmembrane protein. It has been shown to mediate the defasciculation of motor axon bundles at specific choice points. Sema1A binds to its receptor plexin A (PlexA), which in turn triggers downstream signaling events involving the receptor tyrosine kinase Otk, the evolutionarily conserved flavoprotein monooxygenase molecule interacting with CasL (MICAL), and the A kinase anchoring protein Nervy, leading to repulsive growth-cone response. Sema1A has also been shown to be involved in synaptic formation. It is a member of the semaphorin family of proteins. Semaphorins are regulatory molecules in the development of the nervous system and in axonal guidance. They also play important roles in other biological processes, such as angiogenesis, immune regulation, respiration systems and cancer. The Sema domain is located at the N-terminus and contains four disulfide bonds formed by eight conserved cysteine residues. It serves as a receptor-recognition and -binding module.</Hit_def>
+  <Hit_accession>200498</Hit_accession>
+  <Hit_len>446</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.79655e-11</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>298</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>LVCGTNNGNPKCWKI---DGS--EDPKYRGRGYAPYQNSKVTIISHNECVLSDINISKEGIKRWRRFDGPCGYDLYTADNVIPKDGVRGA-----------FVDKDGTYDKVYILFTDT-IDTKRIVKIPY--IAQMCLNDEGGPSSLSSHRWSTFLKVELECDIDGRS--YRQIIHSKAIKTD------NDTILYVFFDSPY---SKSALCTYSMNAIKHSFSTSK----------LGGYTKQLPSPAPGICLPAGKVVPHTTFDIIEQYNELDDII</Hsp_qseq>
+      <Hsp_hseq>LVCGTNAYKPLCREYTVKDGGYRVEREFDGQGLCPYDPKHNSTAVYADGQLYSATVA----------------DFSGADPLIYREPLRTERYDLKQLNAPNFVSSFAYGDYVYFFFRETAVEYINCGKAIYSRVARVCKNDKGGPHPFRD-RWTSFLKARLNCSVPGEYPFYFNEIQSTSDIVEGGYGGKSAKLIYGVFTTPVNSISGSAVCAFSLQDILEVFDGSFKEQQDINSNWLPVPSNKVPEPRPGQCVNDSRTLPDVTVNFIKSHPLMDEAV</Hsp_hseq>
+      <Hsp_midline>LVCGTN   P C +    DG    + ++ G+G  PY     +   + +  L    ++                D   AD +I ++ +R             FV      D VY  F +T ++     K  Y  +A++C ND+GGP      RW++FLK  L C + G    Y   I S +   +      +  ++Y  F +P    S SA+C +S+  I   F  S           L   + ++P P PG C+   + +P  T + I+ +  +D+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|334525</Hit_id>
+  <Hit_def>pfam01403, Sema, Sema domain.  The Sema domain occurs in semaphorins, which are a large family of secreted and transmembrane proteins, some of which function as repellent signals during axon guidance. Sema domains also occur in the hepatocyte growth factor receptor and plexin-A3.</Hit_def>
+  <Hit_accession>334525</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.43212e-09</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>TNNNNYITTSIKVEDT--LVCGTNNGNPKCWKID----GSEDPKYRG-RGYAPY---QNSKVTIISHNECVLSDINISKEGIKRWRRFDGPCGYDLYTADNVIPKDGVRGAFVDKDGTYDKVYILFTDTI---DTKRIVKIPYIAQMCLNDEGGPSSLSSHRWSTFLKVELECDIDGRSY----RQIIHSKAIKTDNDTILYVFFDS---PYSKSALCTYSMNAIKHSF</Hsp_qseq>
+      <Hsp_hseq>TECANYIRVLQPLNDTHLYVCGTNAFQPVCALIDLGVFSLEDLSVEGGKGKCPFDPSQTSTAVVVDGELYSGTSIDFLGKDPVIFRSLSRPSLRTERSDSKWLNEPKFVGSF----EIGDSVYFFFRERAVEYDSRGKAIVSRVARVCKNDVGGQRTLQ-NKWTSFLKARLVCSVPGVEFYFNELQDVFLLGIGDEDDTVLYGVFSTGSNSFPGSAVCAFSLADINAVF</Hsp_hseq>
+      <Hsp_midline>T   NYI     + DT   VCGTN   P C  ID      ED    G +G  P+   Q S   ++       + I+   +    +R    P      +    + +    G+F       D VY  F +     D++    +  +A++C ND GG  +L  ++W++FLK  L C + G  +     Q +    I  ++DT+LY  F +    +  SA+C +S+  I   F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>95</Statistics_hsp-len>
+      <Statistics_eff-space>1063970208</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

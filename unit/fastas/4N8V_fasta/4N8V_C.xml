@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>C &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>100</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>C &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>100</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|336758</Hit_id>
+  <Hit_def>pfam07654, C1-set, Immunoglobulin C1-set domain.  </Hit_def>
+  <Hit_accession>336758</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>4.75005e-16</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>IQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERI-EKVEHSDLSFSKDWSFYLLYYTEFTPTE---KDEYACRVNH</Hsp_qseq>
+      <Hsp_hseq>VYVFPPSPEELGKPNTLTCLVTGFYPPDITVTWLKNGQEVTEGVTTTPPSPNSDWTYQLSSYLTVTPSDWESGDTYTCRVEH</Hsp_hseq>
+      <Hsp_midline>+ V+   P E GK N L C V+GF+P DI V  LKNG+ + E V  +  S + DW++ L  Y   TP++    D Y CRV H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|143322</Hit_id>
+  <Hit_def>cd07698, IgC_MHC_I_alpha3, Class I major histocompatibility complex (MHC) alpha chain immunoglobulin domain.  IgC_MHC_I_alpha3;  Immunoglobulin (Ig) domain of major histocompatibility complex (MHC) class I alpha chain. Class I MHC proteins bind antigenic peptide fragments and present them to CD8+ T lymphocytes.  Class I molecules consist of a transmembrane alpha chain and a small chain called the beta2 microglobulin. The alpha chain contains three extracellular domains, two of which fold together to form the peptide-binding cleft (alpha1 and alpha2), and one which has an Ig fold (alpha3).  Peptide binding to class I molecules occurs in the endoplasmic reticulum (ER) and involves both chaperones and dedicated factors to assist in peptide loading.  Class I MHC molecules are expressed on most nucleated cells.</Hit_def>
+  <Hit_accession>143322</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>1.79998e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGE-RIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWD</Hsp_qseq>
+      <Hsp_hseq>PEVRV-TRKRAPDG-SLTLSCHATGFYPRDIEVTWLRDGEDSVDDVESGEILPNGDGTYQLWVTLEVPPEDKARYSCRVEHSGLKEPLIVPWE</Hsp_hseq>
+      <Hsp_midline>P+++V +R  A +G S  L+C+ +GF+P DIEV  L++GE  ++ VE  ++  + D ++ L    E  P +K  Y+CRV H  L +P IV W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|143243</Hit_id>
+  <Hit_def>cd05766, IgC_MHC_II_beta, Class II major histocompatibility complex (MHC) beta chain immunoglobulin domain.  IgC_MHC_II_beta: Immunoglobulin (Ig) domain of major histocompatibility complex (MHC) class II beta chain.  MHC class II molecules play a key role in the initiation of the antigen-specific immune reponse. In both humans and in mice these molecules have been shown to be expressed constitutively on the cell surface of professional antigen-presenting cells (APCs), for example on B-lymphocytes, monocytes, and macrophages. The expression of these molecules has been shown to be induced in nonprofessional APCs such as keratinocyctes, and they are expressed on the surface of activated human T cells and on T cells from other species. The MHC II molecules present antigenic peptides to CD4(+) T-lymphocytes. These peptides derive mostly from protelytic processing via the endocytic pathway, of antigens internalized by the APC. These peptides bind to the MHC class II molecules in the endosome before they are transported to the cell surface. MHC class II molecules are heterodimers, comprised of two similarly-sized membrane-spanning chains, alpha and beta. Each chain had two globular domains (N- and C-terminal), and a membrane-anchoring transmembrane segment. The two chains form a compact four-domain structure. The peptide-binding site is a cleft in the structure.</Hit_def>
+  <Hit_accession>143243</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.5438</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>6.09642e-15</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>96</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>PKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNG-ERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKW</Hsp_qseq>
+      <Hsp_hseq>PSVKISPSQTGSLSHPHLLVCHVWGFYPPEITVKWFKNGQEETEGVVSTELIPNGDWTYQILVMLETTPSRGDTYTCVVEHSSLQEPLTVDW</Hsp_hseq>
+      <Hsp_midline>P +++           + L C+V GF+P +I V   KNG E  E V  ++L  + DW++ +L   E TP+  D Y C V H +L +P  V W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|143244</Hit_id>
+  <Hit_def>cd05767, IgC_MHC_II_alpha, Class II major histocompatibility complex (MHC) alpha chain immunoglobulin domain.  IgC_MHC_II_alpha: Immunoglobulin (Ig) domain of major histocompatibility complex (MHC) class II alpha chain.  MHC class II molecules play a key role in the initiation of the antigen-specific immune reponse. In both humans and in mice these molecules have been shown to be expressed constitutively on the cell surface of professional antigen-presenting cells (APCs), for example on B-lymphocytes, monocytes, and macrophages. The expression of these molecules has been shown to be induced in nonprofessional APCs such as keratinocyctes, and they are expressed on the surface of activated human T cells and on T cells from other species. The MHC II molecules present antigenic peptides to CD4(+) T-lymphocytes. These peptides derive mostly from protelytic processing via the endocytic pathway, of antigens internalized by the APC. These peptides bind to the MHC class II molecules in the endosome before they are transported to the cell surface. MHC class II molecules are heterodimers, comprised of two similarly-sized membrane-spanning chains, alpha and beta. Each chain had two globular domains (N- and C-terminal), and a membrane-anchoring transmembrane segment. The two chains form a compact four-domain structure. The peptide-binding site is a cleft in the structure.</Hit_def>
+  <Hit_accession>143244</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>1.05865e-13</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>97</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERI-EKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWD</Hsp_qseq>
+      <Hsp_hseq>PEVTVFSLKPVELGEPNTLICFVDNFFPPVLNVTWLKNGVPVTDGVSETRYYPRQDLSFQKFSYLNFTPEEGDIYSCIVEHWGLETPATRYWE</Hsp_hseq>
+      <Hsp_midline>P++ V+S  P E G+ N L C+V  F P  + V  LKNG  + + V  +     +D SF    Y  FTP E D Y+C V H  L  P    W+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|319274</Hit_id>
+  <Hit_def>cd00098, IgC, Immunoglobulin Constant (IgC) domain.  Members of the IgC family are components of immunoglobulin, T-cell receptors, CD1 cell surface glycoproteins, secretory glycoproteins A/C, and Major Histocompatibility Complex (MHC) class I/II molecules. In immunoglobulins, each chain is composed of one variable domain (IgV) and one or more IgC domains. These names reflect the fact that the variability in sequences is higher in the variable domain than in the constant domain. The IgV domain is responsible for antigen binding, and the IgC domain is involved in oligomerization and molecular interactions.</Hit_def>
+  <Hit_accession>319274</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>7.88689e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>89</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>GKSNFLNCYVSGFHPSDIEVDLLKNGERI-EKVEHSDLSFSKDWSFYLLYYTEFTPTEKDE---YACRVNHVTLSQP</Hsp_qseq>
+      <Hsp_hseq>GGTVTLVCLVSGFYPKDITVTWLKNGKEVTSGVSTTPPTKNSDGTFSVTSYLTVPPSDWDEGTTYTCEVSHESLSQP</Hsp_hseq>
+      <Hsp_midline>G +  L C VSGF+P DI V  LKNG+ +   V  +  + + D +F +  Y    P++ DE   Y C V+H +LSQP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|214651</Hit_id>
+  <Hit_def>smart00407, IGc1, Immunoglobulin C-Type.  </Hit_def>
+  <Hit_accession>214651</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>3.63857e-08</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>91</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>LNCYVSGFHPSDIEVDLLKNGERI-EKVEHSDLSFSKDWSFYLLYYTEFTPT---EKDEYACRVNHVTLSQP</Hsp_qseq>
+      <Hsp_hseq>LVCLVSGFYPPDITVTWLRNGQEVTEGVSTTDPLKNSDGTYFLSSYLTVPASTWESGDVYTCQVTHEGLKEP</Hsp_hseq>
+      <Hsp_midline>L C VSGF+P DI V  L+NG+ + E V  +D   + D +++L  Y     +     D Y C+V H  L +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>65</Statistics_hsp-len>
+      <Statistics_eff-space>160255935</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

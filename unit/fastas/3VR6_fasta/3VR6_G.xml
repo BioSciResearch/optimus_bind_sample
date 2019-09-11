@@ -1,0 +1,920 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>G &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>455</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>G &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>455</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|235251</Hit_id>
+  <Hit_def>PRK04196, PRK04196, V-type ATP synthase subunit B; Provisional.</Hit_def>
+  <Hit_accession>235251</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>702.975</Hsp_bit-score>
+      <Hsp_score>1813</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>395</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>454</Hsp_align-len>
+      <Hsp_qseq>IKEYRTIKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTITETLDLGWELLAMLPRTELKRIKDDLLDKYLP</Hsp_qseq>
+      <Hsp_hseq>LKEYRTVSEIKGPLLFVEGVEGVAYGEIVEIELPNGEKRRGQVLEVSEDKAVVQVFEGTTGLDLKDTKVRFTGEPLKLPVSEDMLGRIFDGLGRPIDGGPEIIPEKRLDINGAPINPVAREYPEEFIQTGISAIDGLNTLVRGQKLPIFSGSGLPHNELAAQIARQAKVLGEEENFAVVFAAMGITFEEANFFMEDFEETGALERSVVFLNLADDPAIERILTPRMALTAAEYLAFEKGMHVLVILTDMTNYCEALREISAAREEVPGRRGYPGYMYTDLATIYERAGRIKGKKGSITQIPILTMPDDDITHPIPDLTGYITEGQIVLSRELHRKGIYPPIDVLPSLSRLMKDGIGEGKTREDHKDVANQLYAAYARGKDLRELAAIVGEEALSERDRKYLKFADAFEREFVNQGFDENRSIEETLDLGWELLSILPESELKRIKDEYIEKYHP</Hsp_hseq>
+      <Hsp_midline>+KEYRT+ E+ GPL+ VE V GV Y E++E+ + NGE RRGQVLEV EDKA+VQ+FEGT+G++LK++ VRF G PL+L VSEDM+GR+FDGLGRP D GPEI+PEK LDING  INP+AR+YP+EFIQTGISAID LNTLVRGQKLP+FSGSGLPH ELAAQIARQA VL   ++FAVVFAA+GITFEEA FFMEDF +TGA++RSV+F+NLA+DPAIERI TPRMALTAAEYLA+EKGMHVLVI+TDMTNY EALREISAAR EVPGRRGYPGY+YT+LAT++ERAGRI+G KGS+TQIPILTMP+DD THPIPDLTGYITEGQI+L+REL++ GI PPIDVLPSLSRL   G G GKTREDH    NQL+AAYA+GK  +ELA ++GE ALS+ D+ Y KFA+ FE E+VNQGF  NR+I ETLDLGWELL++LP +ELKRIKD+ ++KY P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|224078</Hit_id>
+  <Hit_def>COG1156, NtpB, Archaeal/vacuolar-type H+-ATPase subunit B [Energy production and conversion].</Hit_def>
+  <Hit_accession>224078</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.833</Hsp_bit-score>
+      <Hsp_score>1701</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>315</Hsp_identity>
+      <Hsp_positive>380</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>455</Hsp_align-len>
+      <Hsp_qseq>MIKEYRTIKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTITETLDLGWELLAMLPRTELKRIKDDLLDKYLP</Hsp_qseq>
+      <Hsp_hseq>MVKEYTTISEIKGPLIIVEGVEGASYGELVEIETPDGEVRRGQVLEVRGDKAVVQVFEGTSGLDTKGTTVRFTGETLKIPVSEDLLGRIFNGSGKPIDGGPEIVPEDRLDINGAPINPYARIYPEEFIQTGISAIDGMNTLVRGQKLPIFSGSGLPHNELAAQIARQATVDGEEEEFAVVFAAMGITHEEALFFMDEFEETGALDRAVLFLNLADDPAVERIITPRMALTVAEYLAFEKDMHVLVILTDMTNYCEALREISAAREEVPGRRGYPGYMYTDLATIYERAGRIRGRKGSITQIPILTMPGDDITHPIPDLTGYITEGQIVLSRDLHRKGIYPPINVLPSLSRLMKDGIGEGKTREDHGDVSNQLYAAYAEGRDLRELVAVVGEEALSERDRKYLKFADLFEQRFIKQGRYENRSIEETLDLGWELLSILPESELTRIKPDLIDKYHP</Hsp_hseq>
+      <Hsp_midline>M+KEY TI E+ GPL+ VE V G  Y EL+E+   +GE+RRGQVLEV+ DKA+VQ+FEGTSG++ K ++VRF G  L++ VSED++GR+F+G G+P D GPEI+PE  LDING  INP AR YP+EFIQTGISAID +NTLVRGQKLP+FSGSGLPH ELAAQIARQATV    ++FAVVFAA+GIT EEA FFM++F +TGA+DR+V+F+NLA+DPA+ERI TPRMALT AEYLA+EK MHVLVI+TDMTNY EALREISAAR EVPGRRGYPGY+YT+LAT++ERAGRIRG KGS+TQIPILTMP DD THPIPDLTGYITEGQI+L+R+L++ GI PPI+VLPSLSRL   G G GKTREDH    NQL+AAYA+G+  +EL  V+GE ALS+ D+ Y KFA+ FE  ++ QG Y NR+I ETLDLGWELL++LP +EL RIK DL+DKY P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|238555</Hit_id>
+  <Hit_def>cd01135, V_A-ATPase_B, V/A-type ATP synthase (non-catalytic) subunit B. These ATPases couple ATP hydrolysis to the build up of a H+ gradient, but V-type ATPases do not catalyze the reverse reaction. The Vacuolar (V-type) ATPase is found in the membranes of vacuoles, the golgi apparatus and in other coated vesicles in eukaryotes. Archaea have a protein which is similar in sequence to V-ATPases, but functions like an F-ATPase (called A-ATPase).  A similar protein is also found in a few bacteria. This subfamily consists of the non-catalytic beta subunit.</Hit_def>
+  <Hit_accession>238555</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.647</Hsp_bit-score>
+      <Hsp_score>1119</Hsp_score>
+      <Hsp_evalue>2.0066e-153</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>241</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>LQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRL</Hsp_qseq>
+      <Hsp_hseq>LKVPVSEDMLGRIFNGSGKPIDGGPEILAEEYLDINGPPINPVARIYPEEMIQTGISAIDGMNTLVRGQKIPIFSGSGLPHNELAAQIARQAGVVGEEENFAVVFAAMGITMEDARFFKDDFEETGALERVVLFLNLANDPTIERIITPRMALTTAEYLAYEKGKHVLVILTDMTNYAEALREISAAREEVPGRRGYPGYMYTDLATIYERAGRVEGRNGSITQIPILTMPNDDITHPIPDLTGYITEGQIVLDRQLHNRGIYPPINVLPSLSRL</Hsp_hseq>
+      <Hsp_midline>L++ VSEDM+GR+F+G G+P D GPEIL E+YLDING  INP+AR YP+E IQTGISAID +NTLVRGQK+P+FSGSGLPH ELAAQIARQA V+   ++FAVVFAA+GIT E+A FF +DF +TGA++R V+F+NLANDP IERI TPRMALT AEYLAYEKG HVLVI+TDMTNYAEALREISAAR EVPGRRGYPGY+YT+LAT++ERAGR+ G  GS+TQIPILTMP DD THPIPDLTGYITEGQI+L R+L+  GI PPI+VLPSLSRL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|333759</Hit_id>
+  <Hit_def>pfam00006, ATP-synt_ab, ATP synthase alpha/beta family, nucleotide-binding domain.  This entry includes the ATP synthase alpha and beta subunits, the ATP synthase associated with flagella and the termination factor Rho.</Hit_def>
+  <Hit_accession>333759</Hit_accession>
+  <Hit_len>212</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>8.3772e-53</Hsp_evalue>
+      <Hsp_query-from>131</Hsp_query-from>
+      <Hsp_query-to>349</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>212</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>GISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLS</Hsp_qseq>
+      <Hsp_hseq>GIRAIDGLLPIGRGQRIGIFGGSGVGKTVLAGMIARQA-----SADGVVVYALIGERGREVREFIEELLESGALDRTVVVVATSDEPPLARYLAPYTALTIAEYF-RDQGKDVLLIMDSLTRFAEALREISLLLGEPPGREGYPPSVFSLLARLLERAGRVKK-KGSITAIPTVLVPGDDITDPIPDNTRSILDGQIVLSRDLAEKGHYPAIDVLLSVS</Hsp_hseq>
+      <Hsp_midline>GI AID L  + RGQ++ +F GSG+    LA  IARQA     S D  VV+A IG    E   F+E+  ++GA+DR+V+ +  +++P + R   P  ALT AEY   ++G  VL+IM  +T +AEALREIS    E PGR GYP  +++ LA L ERAGR++  KGS+T IP + +P DD T PIPD T  I +GQI+L+R+L + G  P IDVL S+S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|274191</Hit_id>
+  <Hit_def>TIGR02546, III_secr_ATP, type III secretion apparatus H+-transporting two-sector ATPase.  [Protein fate, Protein and peptide secretion and trafficking, Cellular processes, Pathogenesis].</Hit_def>
+  <Hit_accession>274191</Hit_accession>
+  <Hit_len>422</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>165.622</Hsp_bit-score>
+      <Hsp_score>418</Hsp_score>
+      <Hsp_evalue>1.19405e-46</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>412</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>407</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>418</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLD---INGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGE----------SALSDIDKIYAKFAERFENEY</Hsp_qseq>
+      <Hsp_hseq>VTEVSGTLLKA-VLPGARVGELCLIRRRDPSQLLAEVVGFTGDEALLSPLGELHGIS-PGSEVIPTGRPLSIRVGEALLGRVLDGFGRPLDGKGE-LPAGEIETRPLDADPPPPMSRQPIDQPLPTGVRAIDGLLTCGEGQRIGIFAGAGVGKSTLLGMIARGA-----SADVNVI-ALIGERGREVREFIEHHLGEEGRKRSVLVVSTSDRPSLERLKAAYTATAIAEYF-RDQGKRVLLMMDSLTRFARALREIGLAAGEPPARGGYPPSVFSSLPRLLERAG--NGEKGSITALYTVLVEGDDMNDPIADEVRSILDGHIVLSRALAERNHYPAIDVLASLSRVMSQVVSTEHRRA--AGKLRRLLATYKE----VELLIRLGEYQPGSDPETDDAIDKIDAIRA-FLRQSTDEY</Hsp_hseq>
+      <Hsp_midline>+ EV G L+    + G +  EL  +R ++      +V+    D+A++       GI+   S V   G PL + V E ++GRV DG GRP D   E LP   ++   ++ +   P++R   D+ + TG+ AID L T   GQ++ +F+G+G+    L   IAR A     S D  V+ A IG    E   F+E         RSV+ ++ ++ P++ER+     A   AEY   ++G  VL++M  +T +A ALREI  A  E P R GYP  ++++L  L ERAG   G KGS+T +  + +  DD   PI D    I +G I+L+R L +    P IDVL SLSR+  +       R   A  + +L A Y +     EL + LGE           A+  ID I A F  +  +EY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|224079</Hit_id>
+  <Hit_def>COG1157, FliI, Flagellar biosynthesis/type III secretory pathway ATPase [Cell motility and secretion / Intracellular trafficking and secretion].</Hit_def>
+  <Hit_accession>224079</Hit_accession>
+  <Hit_len>441</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>161.384</Hsp_bit-score>
+      <Hsp_score>407</Hsp_score>
+      <Hsp_evalue>7.29076e-45</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>428</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>433</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>427</Hsp_align-len>
+      <Hsp_qseq>EVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNG--PEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEA-EFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDH---AATMNQLFAAYAQGKQAKELAVVLGES--ALSDIDKIYAKFAERFENEYVNQGFYTNRTITETLD</Hsp_qseq>
+      <Hsp_hseq>EAVGPQARIGELCKIE-------RSRGSEKVLAEVVGFNEERVLLMPFEPVEGVS-PGAEVVPTGRPLSVPVGDALLGRVLDGLGRPLDGGGLPDGTERRPLD--APPPNPLKRRPIEEPLDTGVRAIDGLLTCGKGQRIGIFAGSGVGKSTLLGMIAR-----NTEADVNVI-ALIGERGREVREFIEKDLGEEG-LKRSVVVVATSDESALMRLKAAFTATTIAEYF-RDQGKRVLLIMDSLTRFAMAQREIGLAAGEPPATKGYPPSVFSELPRLLERAG--NGDKGSITAFYTVLVEGDDMNDPIADEVRSILDGHIVLSRALAEAGHYPAIDVLASISRVMPQ-----IVSEEHRKAARRLRQLLSRYEENEDLIRIGAYQKGSDPELDKAIKLYPKI-----EQFLKQGIDEKSSFEETLE</Hsp_hseq>
+      <Hsp_midline>E VGP   + ++  ++       R +  E    +V+   E++ ++  FE   G++   + V   G PL + V + ++GRV DGLGRP D G  P+    + LD      NP+ R   +E + TG+ AID L T  +GQ++ +F+GSG+    L   IAR     ++  D  V+ A IG    E  EF  +D  + G + RSV+ +  +++ A+ R+     A T AEY   ++G  VL+IM  +T +A A REI  A  E P  +GYP  +++ L  L ERAG   G KGS+T    + +  DD   PI D    I +G I+L+R L ++G  P IDVL S+SR+  +        E+H   A  + QL + Y + +    +      S   L    K+Y K       +++ QG     +  ETL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|274607</Hit_id>
+  <Hit_def>TIGR03496, FliI_clade1, flagellar protein export ATPase FliI.  Members of this protein family are the FliI protein of bacterial flagellum systems. This protein acts to drive protein export for flagellar biosynthesis. The most closely related family is the YscN family of bacterial type III secretion systems. This model represents one (of three) segment of the FliI family tree. These have been modeled separately in order to exclude the type III secretion ATPases more effectively. [Cellular processes, Chemotaxis and motility].</Hit_def>
+  <Hit_accession>274607</Hit_accession>
+  <Hit_len>411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>2.12701e-44</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>428</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>IEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSD--IDKIYAKFAERFENEYVNQGFYTNRTITETLD</Hsp_qseq>
+      <Hsp_hseq>CEIESSDGDPIEAEVVGFRGDRVLLMPLEDVEGLR-PGARVFPLGGPLRLPVGDSLLGRVIDGLGRPLDGKGPLDAGERVPLYAPPINPLKRAPIDEPLDVGVRAINGLLTVGRGQRMGIFAGSGVGKSTLLGMMARY------TEADVVVVGLIGERGREVKEFIEDILGEEGLARSVVVAATADESPLMRLRAAFYATAIAEYF-RDQGKDVLLLMDSLTRFAMAQREIALAIGEPPATKGYPPSVFAKLPQLVERAGNGEEGKGSITAFYTVLVEGDDQQDPIADAARAILDGHIVLSRELAEQGHYPAIDILASISRVMPDVV--SPEHRQAARRFKQLLSRY---QENRDLISIGAYQAGSDPELDQAIALYP-RIEA-FLQQGMRERASFEESLE</Hsp_hseq>
+      <Hsp_midline> E+   +G+    +V+  + D+ ++   E   G+    + V  LG PL+L V + ++GRV DGLGRP D    +   + + +    INP+ R   DE +  G+ AI+ L T+ RGQ++ +F+GSG+    L   +AR       ++   VV   IG    E + F+ED      + RSV+    A++  + R+     A   AEY   ++G  VL++M  +T +A A REI+ A  E P  +GYP  ++  L  L ERAG     KGS+T    + +  DD+  PI D    I +G I+L+REL + G  P ID+L S+SR+              A    QL + Y   ++ ++L  +    A SD  +D+  A +  R E  ++ QG     +  E+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|274608</Hit_id>
+  <Hit_def>TIGR03497, FliI_clade2, flagellar protein export ATPase FliI.  Members of this protein family are the FliI protein of bacterial flagellum systems. This protein acts to drive protein export for flagellar biosynthesis. The most closely related family is the YscN family of bacterial type III secretion systems. This model represents one (of three) segment of the FliI family tree. These have been modeled separately in order to exclude the type III secretion ATPases more effectively. [Cellular processes, Chemotaxis and motility].</Hit_def>
+  <Hit_accession>274608</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.14811e-42</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>434</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>ELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDH---AATMNQLFAAYAQGKQAKELAVVLGESALSDIDKI--YAKFAERFENEYVNQGFYTNRTITETLDLGWELL</Hsp_qseq>
+      <Hsp_hseq>ELCSILTKGGKPVLAEVVGFKEENVLLMPLGEVEGIG-PGSLVIATGRPLAIKVGKGLLGRVLDGLGRPLDGEGPIIGEEPYPLDNPPPNPLKRPRIRDPLETGIKAIDGLLTIGKGQRVGIFAGSGVGKSTLLGMIARNAKA-----DINVI-ALIGERGREVRDFIEKDLGEEGLKRSVVVVATSDQPALMRLKAAFTATAIAEYF-RDQGKDVLLMMDSVTRFAMAQREIGLAVGEPPTTRGYTPSVFSLLPKLLERSGNSQ--KGSITGFYTVLVDGDDMNEPIADAVRGILDGHIVLSRELAAKNHYPAIDVLASVSRVMNE-----IVSEEHKELAGKLRELLAVY---KEAEDL-INIGAYKRGSNPKIDEAIRYIEKI-NSFLKQGIDEKFTFEETVQLLKELL</Hsp_hseq>
+      <Hsp_midline>EL  +  + G+    +V+  +E+  ++       GI    S V   G PL + V + ++GRV DGLGRP D    I+ E+   ++    NP+ R    + ++TGI AID L T+ +GQ++ +F+GSG+    L   IAR A       D  V+ A IG    E   F+E       + RSV+ +  ++ PA+ R+     A   AEY   ++G  VL++M  +T +A A REI  A  E P  RGY   +++ L  L ER+G  +  KGS+T    + +  DD   PI D    I +G I+L+REL      P IDVL S+SR+ ++        E+H   A  + +L A Y   K+A++L + +G        KI    ++ E+  N ++ QG     T  ET+ L  ELL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|349747</Hit_id>
+  <Hit_def>cd18112, ATP-synt_V_A-type_beta_C, V/A-type ATP synthase beta (B) subunit, C-terminal domain.  The beta (B) subunit of the V1/A1 complexes of V/A-type ATP synthases, C-terminal domain.  The V- and A-type family of ATPases are composed of two linked multi-subunit complexes: the V1 and A1 complexes contain three copies each of the alpha and beta subunits that form the soluble catalytic core, which is involved in ATP synthesis/hydrolysis, and the Vo or Ao complex that forms the membrane-embedded proton pore. The A-ATP synthase (AoA1-ATPase) is found in archaea and functions like F-ATP synthase. Structurally, however, the A-ATP synthase is more closely related to the V-ATP synthase (vacuolar VoV1-ATPase), which is a proton-translocating ATPase responsible for acidification of eukaryotic intracellular compartments and for ATP synthesis in archaea and some eubacteria. Collectively, the V- and A-type synthases can function in both ATP synthesis and hydrolysis modes. This subfamily consists of the non-catalytic beta subunit.</Hit_def>
+  <Hit_accession>349747</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>1.31386e-38</Hsp_evalue>
+      <Hsp_query-from>359</Hsp_query-from>
+      <Hsp_query-to>453</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>GKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTITETLDLGWELLAMLPRTELKRIKDDLLDKY</Hsp_qseq>
+      <Hsp_hseq>GKTREDHRDVSNQLYAAYARGKDVRALAAIVGEEALSEEDRLYLEFADRFEREFINQGFYENRSIEETLDLGWELLSILPKEELKRISEEYIDKY</Hsp_hseq>
+      <Hsp_midline>GKTREDH    NQL+AAYA+GK  + LA ++GE ALS+ D++Y +FA+RFE E++NQGFY NR+I ETLDLGWELL++LP+ ELKRI ++ +DKY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|238556</Hit_id>
+  <Hit_def>cd01136, ATPase_flagellum-secretory_path_III, Flagellum-specific ATPase/type III secretory pathway virulence-related protein. This group of ATPases are responsible for the export of flagellum and virulence-related proteins. The bacterial flagellar motor is similar to the F0F1-ATPase, in that they both are proton driven rotary molecular devices. However, the main function of the bacterial flagellar motor is to rotate the flagellar filament for cell motility. Intracellular pathogens such as Salmonella and Chlamydia also have proteins which are similar to the flagellar-specific ATPase, but function in the secretion of virulence-related proteins via the type III secretory pathway.</Hit_def>
+  <Hit_accession>238556</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>138.272</Hsp_bit-score>
+      <Hsp_score>347</Hsp_score>
+      <Hsp_evalue>2.43721e-37</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>PLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEA-EFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQ</Hsp_qseq>
+      <Hsp_hseq>PLSVPVGDALLGRVLDAFGEPLDGKGPLGKEVRYPLLRTPPNPLKRRPIDEVLPTGVRAIDGLLTVGKGQRLGIFAGSGVGKSTLLGMIARGTTA-----DVNVI-ALIGERGREVREFIEKDLGEEG-LKRSVVVVATSDESPLLRVKAAYTATAIAEYF-RDQGKDVLLLMDSLTRFAMAQREIGLAAGEPPTTKGYPPSVFALLPRLLERAGNSD--KGSITAFYTVLVEGDDLNEPIADAVRSILDGHIVLSRALAAAGHYPAIDVLKSISRLMN--AVVTPEHKEAARKLRELLSAYQE</Hsp_hseq>
+      <Hsp_midline>PL + V + ++GRV D  G P D    +  E    +     NP+ R   DE + TG+ AID L T+ +GQ+L +F+GSG+    L   IAR  T      D  V+ A IG    E  EF  +D  + G + RSV+ +  +++  + R+     A   AEY   ++G  VL++M  +T +A A REI  A  E P  +GYP  ++  L  L ERAG     KGS+T    + +  DD   PI D    I +G I+L+R L  +G  P IDVL S+SRL +         ++ A  + +L +AY +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|183615</Hit_id>
+  <Hit_def>PRK12597, PRK12597, F0F1 ATP synthase subunit beta; Provisional.</Hit_def>
+  <Hit_accession>183615</Hit_accession>
+  <Hit_len>461</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.813</Hsp_bit-score>
+      <Hsp_score>351</Hsp_score>
+      <Hsp_evalue>7.53198e-37</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>TSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIA-RDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHK----ELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTIT</Hsp_qseq>
+      <Hsp_hseq>TSGLA-RGDEVRNTGGPIEVPVGEAVLGRLLDVLGEPLDGGPPLPAEERRPIH-STIPPLAEQDTSTEILETGIKVIDLLCPIAKGGKTGLFGGAGVGKTVLMMELIFNISKQHS-------GSSVFAGVGERSREGHELYHEMKESGVLDKTVMVYGQMNEPPGARMRVVLTGLTIAEYLRDEEKEDVLLFIDNIFRFVQAGSEVSGLLGRMPSRVGYQPTLASEVAELQERIASTK--NGSITSIQAVYVPADDLTDPAAVAIFSHLDSTVVLSRAQAAKGIYPAIDPLASSSNLLDPLV-VGERHYDAAIEVKRILQRY---KELEDVIAILGIDELSAEDKIIVKRARQLQR-FLTQPFFVTEAFT</Hsp_hseq>
+      <Hsp_midline>TSG+  +   VR  G P+++ V E ++GR+ D LG P D GP +  E+   I+   I P+A +D   E ++TGI  ID L  + +G K  +F G+G+       EL   I++Q +        + VFA +G    E      + +++G +D++VM     N+P   R+      LT AEYL  E+   VL+ + ++  + +A  E+S     +P R GY   L + +A L ER    +   GS+T I  + +P DD T P         +  ++L+R     GI P ID L S S L D     G+   D A  + ++   Y   K+ +++  +LG   LS  DKI  K A + +  ++ Q F+     T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|163293</Hit_id>
+  <Hit_def>TIGR03498, FliI_clade3, flagellar protein export ATPase FliI.  Members of this protein family are the FliI protein of bacterial flagellum systems. This protein acts to drive protein export for flagellar biosynthesis. The most closely related family is the YscN family of bacterial type III secretion systems. This model represents one (of three) segment of the FliI family tree. These have been modeled separately in order to exclude the type III secretion ATPases more effectively.</Hit_def>
+  <Hit_accession>163293</Hit_accession>
+  <Hit_len>418</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>1.67615e-35</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>343</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVS-GVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDN-GPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDK</Hsp_qseq>
+      <Hsp_hseq>VTAVTGLLIEVRGLSRAVRLGDRCAIRARDGRPVLAEVVGFNGDRVLLMPFEPLEGVGL-GCAVFAREGPLAVRPHPSWLGRVINALGEPIDGKGPLPQGERRYPLRASPPPAMSRARVGEPLDTGVRVIDTFLPLCRGQRLGIFAGSGVGKSTLLSMLAR------NTDADVVVIALVGERGREVREFLEDDLGEEGLKRSVVVVATSDESPLMRRQAAYTATAIAEYF-RDQGKDVLLLMDSVTRFAMAQREIGLAAGEPPVARGYTPSVFSELPRLLERAGPGAEGKGSITGIFTVLVDGDDHNEPVADAVRGILDGHIVLDRAIAERGRYPAINVLASVSRLAPR</Hsp_hseq>
+      <Hsp_midline>+  V G L+ V  +S  V+  +   +R ++G     +V+    D+ ++  FE   G+ L   +V     PL +      +GRV + LG P D  GP    E+   +       ++R    E + TG+  ID    L RGQ+L +F+GSG+    L + +AR      ++D   VV A +G    E   F+ED      + RSV+ +  +++  + R      A   AEY   ++G  VL++M  +T +A A REI  A  E P  RGY   +++ L  L ERAG     KGS+T I  + +  DD   P+ D    I +G I+L R + + G  P I+VL S+SRL  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|CDD|236447</Hit_id>
+  <Hit_def>PRK09280, PRK09280, F0F1 ATP synthase subunit beta; Validated.</Hit_def>
+  <Hit_accession>236447</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>2.22801e-34</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>435</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVSG--VKYEELIEVRMQNGEIRRGQVLEVQE---DKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKD-NGPEILPEKYLDINGEVINPIARDYPD--------EFIQTGISAIDHLNTLVRGQKLPVFSGSGLPH----KELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTIT</Hsp_qseq>
+      <Hsp_hseq>IVQVIGPVVDVEFPRGELPKIYNALEVEKGDG---KKLVLEVAQHLGDGVVRTIAMGSTDGLVRGMEVIDTGAPISVPVGKATLGRIFNVLGEPIDEKGP---------IGAEERWPIHRKAPSFEELSTKTEILETGIKVIDLLAPYAKGGKIGLFGGAGVGKTVLIQELINNIAKEHGGYS-------VFAGVGERTREGNDLYHEMKESGVLDKTALVFGQMNEPPGARLRVALTGLTMAEYFRDVEGQDVLLFIDNIFRFTQAGSEVSALLGRMPSAVGYQPTLATEMGQLQERITSTK--KGSITSVQAVYVPADDLTDPAPATTFAHLDATTVLSRQIAELGIYPAVDPLDSTSRILDPLI-VGEEHYDVAREVQQILQRY---KELQDIIAILGMDELSEEDKLTVARARKIQR-FLSQPFFVAEQFT</Hsp_hseq>
+      <Hsp_midline>I +V+GP++ VE   G   K    +EV   +G   +  VLEV +   D  +  I  G++   ++   V   G P+ + V +  +GR+F+ LG P D  GP         I  E   PI R  P         E ++TGI  ID L    +G K+ +F G+G+      +EL   IA++            VFA +G    E      + +++G +D++ +     N+P   R+      LT AEY    +G  VL+ + ++  + +A  E+SA    +P   GY   L T +  L ER    +  KGS+T +  + +P DD T P P  T    +   +L+R++ + GI P +D L S SR+ D     G+   D A  + Q+   Y   K+ +++  +LG   LS+ DK+    A + +  +++Q F+     T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|CDD|236166</Hit_id>
+  <Hit_def>PRK08149, PRK08149, ATP synthase SpaL; Validated.</Hit_def>
+  <Hit_accession>236166</Hit_accession>
+  <Hit_len>428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>9.10512e-34</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>VVGPLMAVEKVSGVKYEELIEVRM---QNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGR-------PKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRL</Hsp_qseq>
+      <Hsp_hseq>IQGPIIEAE-LPDVAIGEICEIRAGWHSNEVIARAQVVGFQRERTILSLIGNAQGLS-RQVVLKPTGKPLSVWVGEALLGAVLDPTGKIVERFDAPPTVGP-ISEERVIDVAPP--SYAERRPIREPLITGVRAIDGLLTCGVGQRMGIFASAGCGKTSLMNML------IEHSEADVFVIGLIGERGREVTEFVESLRASSRREKCVLVYATSDFSSVDRCNAALVATTVAEYF-RDQGKRVVLFIDSMTRYARALRDVALAAGELPARRGYPASVFDSLPRLLERPGAT--LAGSITAFYTVLLESEEEPDPIGDEIRSILDGHIYLSRKLAAKGHYPAIDVLKSVSRV</Hsp_hseq>
+      <Hsp_midline>+ GP++  E +  V   E+ E+R     N  I R QV+  Q ++ ++ +     G++ +   ++  G PL + V E ++G V D  G+       P   GP I  E+ +D+     +   R    E + TG+ AID L T   GQ++ +F+ +G     L   +      ++ S+    V   IG    E   F+E  R +   ++ V+    ++  +++R     +A T AEY   ++G  V++ +  MT YA ALR+++ A  E+P RRGYP  ++ +L  L ER G    L GS+T    + +  +++  PI D    I +G I L+R+L   G  P IDVL S+SR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|CDD|223133</Hit_id>
+  <Hit_def>COG0055, AtpD, F0F1-type ATP synthase, beta subunit [Energy production and conversion].</Hit_def>
+  <Hit_accession>223133</Hit_accession>
+  <Hit_len>468</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.954</Hsp_bit-score>
+      <Hsp_score>328</Hsp_score>
+      <Hsp_evalue>1.14097e-33</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>417</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVSGVKYEELIE-VRMQNGEIRRGQVLEVQE---DKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPD--------EFIQTGISAIDHLNTLVRGQKLPVFSGSGLPH----KELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTIT</Hsp_qseq>
+      <Hsp_hseq>VVQVIGPVVDVEFPEEDELPEIYNALEVQNGN-QGTLVLEVAQHLGDNVVRTIAMGSTDGLVRGLEVIDTGKPISVPVGKGTLGRIFNVLGEPIDEKGPIKAEDFEKW------PIHRKAPSFEELSTKTEILETGIKVIDLLAPYAKGGKIGLFGGAGVGKTVLIQELINNIAKEHGGYS-------VFAGVGERTREGNDLYHEMKESGVLDKTALVFGQMNEPPGARMRVALTGLTMAEYFRDEEGQDVLLFIDNIFRFTQAGSEVSALLGRMPSAVGYQPTLATEMGQLQERITSTK--KGSITSVQAVYVPADDLTDPAPATTFAHLDATTVLSRQIAALGIYPAVDPLDSTSRALDPKI----VGEEHYEVAREVQSILQRYKELQDIIAILGMDELSEEDKLTVARARKIQR-FLSQPFFVAEVFT</Hsp_hseq>
+      <Hsp_midline>+ +V+GP++ VE     +  E+   + +QNG  +   VLEV +   D  +  I  G++   ++   V   G P+ + V +  +GR+F+ LG P D    I  E +         PI R  P         E ++TGI  ID L    +G K+ +F G+G+      +EL   IA++            VFA +G    E      + +++G +D++ +     N+P   R+      LT AEY   E+G  VL+ + ++  + +A  E+SA    +P   GY   L T +  L ER    +  KGS+T +  + +P DD T P P  T    +   +L+R++   GI P +D L S SR  D         E+H     ++ +   + K+ +++  +LG   LS+ DK+    A + +  +++Q F+     T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|CDD|235666</Hit_id>
+  <Hit_def>PRK06002, fliI, flagellum-specific ATP synthase; Validated.</Hit_def>
+  <Hit_accession>235666</Hit_accession>
+  <Hit_len>450</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>9.31382e-33</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>398</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>TIKEVVGPLMAVEKVSG-VKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDN-GPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAAT------MNQLFAAYAQGKQAKELAVVLGESALSDID</Hsp_qseq>
+      <Hsp_hseq>TVSEVTASHYRVRGLSRFVRLGDFVAIRADGG-THLGEVVRVDPDGVTVKPFEPRIEIGLGDAV--FRKGPLRIRPDPSWKGRVINALGEPIDGLGPLAPGTRPMSIDATAPPAMTRARVETGLRTGVRVIDIFTPLCAGQRIGIFAGSGVGKSTLLAMLAR-ADAFDT-----VVIALVGERGREVREFLEDTLADN-LKKAVAVVATSDESPMMRRLAPLTATAIAEYF-RDRGENVLLIVDSVTRFAHAAREVALAAGEPPVARGYPPSVFSELPRLLERAGPGAEGGGSITGIFSVLVDGDDHNDPVADSIRGTLDGHIVLDRAIAEQGRYPAVDPLASISRLA-----------RHAWTPEQRKLVSRLKSMIARFEETRDLRLIGGYRAGSDPD</Hsp_hseq>
+      <Hsp_midline>T+ EV      V  +S  V+  + + +R   G    G+V+ V  D   V+ FE    I L ++   F   PL++       GRV + LG P D  GP     + + I+      + R   +  ++TG+  ID    L  GQ++ +F+GSG+    L A +AR A   D+     VV A +G    E   F+ED      + ++V  +  +++  + R   P  A   AEY   ++G +VL+I+  +T +A A RE++ A  E P  RGYP  +++ L  L ERAG      GS+T I  + +  DD   P+ D      +G I+L R + + G  P +D L S+SRL             HA T      +++L +  A+ ++ ++L ++ G  A SD D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|CDD|183987</Hit_id>
+  <Hit_def>PRK13343, PRK13343, F0F1 ATP synthase subunit alpha; Provisional.</Hit_def>
+  <Hit_accession>183987</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.43922e-32</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>366</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>VSGVKYEELIEV-RMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGL--KGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTG------AGKTREDHA</Hsp_qseq>
+      <Hsp_hseq>VSGLPDAALDELLRFEGGS--RGFAFNLEEELVGAVLLDDTADI-LAGTEVRRTGRVLEVPVGDGLLGRVIDPLGRPLDGGGPLQATARRPLERPAPAIIERDFVTEPLQTGIKVVDALIPIGRGQRELIIGD----RQTGKTAIAIDAIINQKDSDVICVYVAIGQKASAVARVIETLREHGALEYTTVVVAEASDPPGLQYLAPFAGCAIAEYF-RDQGQDALIVYDDLSKHAAAYRELSLLLRRPPGREAYPGDIFYLHSRLLERAAKLSPELGGGSLTALPIIETLAGELSAYIPTNLISITDGQIYLDSDLFAAGQRPAVDVGLSVSRVGGKAQHPAIRKESGRLRLDYA</Hsp_hseq>
+      <Hsp_midline>VSG+    L E+ R + G   RG    ++E+     + + T+ I L  + VR  G  L++ V + ++GRV D LGRP D G  +       +       I RD+  E +QTGI  +D L  + RGQ+  +        +     IA  A +     D   V+ AIG         +E  R+ GA++ + + +  A+DP   +   P      AEY   ++G   L++  D++ +A A RE+S   R  PGR  YPG ++   + L ERA ++      GS+T +PI+     + +  IP     IT+GQI L  +L+ +G +P +DV  S+SR+  K         +G+ R D+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|CDD|223134</Hit_id>
+  <Hit_def>COG0056, AtpA, F0F1-type ATP synthase, alpha subunit [Energy production and conversion].</Hit_def>
+  <Hit_accession>223134</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.257</Hsp_bit-score>
+      <Hsp_score>321</Hsp_score>
+      <Hsp_evalue>1.63497e-32</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>436</Hsp_align-len>
+      <Hsp_qseq>IKEYRTIKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDS-----SDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGL--KGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAG-KTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFE--NEYVNQGFYTNRTITETL</Hsp_qseq>
+      <Hsp_hseq>VKEVGTVISVGDGIARVSGLENVMAGELVEF---PGGVK-GMALNLEEDSVGAVILGDYSDIK-EGDEVKRTGRILEVPVGEELLGRVVDALGNPIDGKGPIDATKTRPVEKKAPGVMDRKSVNEPLQTGIKAIDALIPIGRGQRELIIGDR---------QTGKTAIAIDTIINQKGSGVKCIYVAIGQKRSTVANVVRTLEEHGAMDYTIVVAASASDSAPLQYLAPYAGCAMAEYF-RDNGKDVLIVYDDLSKHAVAYREISLLLRRPPGREAYPGDVFYLHSRLLERAAKLSDELGGGSITALPIIETQAGDVSAYIPTNVISITDGQIFLETDLFNAGIRPAINVGLSVSRV---GSAAQIKAMKKVAGSLRLILAQYRELEAFSQFG--------SDLDKATRKQLERGKRLTELLKQPQYSPLSVEEQV</Hsp_hseq>
+      <Hsp_midline>+KE  T+  V   +  V  +  V   EL+E     G ++ G  L ++ED     I    S I  +   V+  G  L++ V E+++GRV D LG P D    I   K   +  +    + R   +E +QTGI AID L  + RGQ+  +             Q  + A  +D+           ++ AIG         +    + GA+D +++    A+D A  +   P      AEY   + G  VL++  D++ +A A REIS   R  PGR  YPG ++   + L ERA ++      GS+T +PI+     D +  IP     IT+GQI L  +L+ +GI+P I+V  S+SR+   G+ A  K  +  A ++  + A Y + +   +          SD+DK   K  ER +   E + Q  Y+  ++ E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|CDD|176999</Hit_id>
+  <Hit_def>CHL00059, atpA, ATP synthase CF1 alpha subunit.</Hit_def>
+  <Hit_accession>176999</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>5.69516e-32</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSS-DDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGL--KGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRL</Hsp_qseq>
+      <Hsp_hseq>EGSSVKATGKIAQIPVSEAYLGRVVNALAKPIDGKGEISASESRLIESPAPGIISRRSVYEPLQTGLIAIDSMIPIGRGQRELIIGDRQTGKTAVATD-----TILNQKGQNVICVYVAIGQKASSVAQVVTTLQERGAMEYTIVVAETADSPATLQYLAPYTGAALAEYFMY-RGRHTLIIYDDLSKQAQAYRQMSLLLRRPPGREAYPGDVFYLHSRLLERAAKLSSQLGEGSMTALPIVETQAGDVSAYIPTNVISITDGQIFLSADLFNAGIRPAINVGISVSRV</Hsp_hseq>
+      <Hsp_midline>+ SSV+  G   Q+ VSE  +GRV + L +P D   EI   +   I       I+R    E +QTG+ AID +  + RGQ+  +          +A       T+L+    +   V+ AIG         +   ++ GA++ +++    A+ PA  +   P      AEY  Y +G H L+I  D++  A+A R++S   R  PGR  YPG ++   + L ERA ++     +GS+T +PI+     D +  IP     IT+GQI L+ +L+ +GI+P I+V  S+SR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|CDD|238553</Hit_id>
+  <Hit_def>cd01133, F1-ATPase_beta, F1 ATP synthase beta subunit, nucleotide-binding domain. The F-ATPase is found in bacterial plasma membranes, mitochondrial inner membranes and in chloroplast thylakoid membranes. It has also been found in the archaea Methanosarcina barkeri. It uses a proton gradient to drive ATP synthesis and hydrolyzes ATP to build the proton gradient. The extrinisic membrane domain, F1,  is composed of alpha, beta, gamma, delta and epsilon subunits with a stoichiometry of 3:3:1:1:1. The beta subunit of ATP synthase is catalytic.</Hit_def>
+  <Hit_accession>238553</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>7.59331e-29</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>353</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>PLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKD</Hsp_qseq>
+      <Hsp_hseq>PISVPVGPETLGRIFNVLGEPIDERGPIKTKKTWPIHREAPEFVEQSTKTEILETGIKVIDLLAPYAKGGKIGLFGGAGVGKTVLIMELINN--IAKAHGGYSV-FAGVGERTREGNDLYHEMKESGVLSKTALVYGQMNEPPGARARVALTGLTMAEYFRDEEGQDVLLFIDNIFRFTQAGSEVSALLGRMPSAVGYQPTLATEMGALQERITSTK--KGSITSVQAVYVPADDLTDPAPATTFAHLDATTVLSRAIAELGIYPAVDPLDSTSRILD</Hsp_hseq>
+      <Hsp_midline>P+ + V  + +GR+F+ LG P D    I  +K   I+ E    + +    E ++TGI  ID L    +G K+ +F G+G+    L  ++     +  +   ++V FA +G    E      + +++G + ++ +     N+P   R       LT AEY   E+G  VL+ + ++  + +A  E+SA    +P   GY   L T +  L ER    +  KGS+T +  + +P DD T P P  T    +   +L+R + + GI P +D L S SR+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|CDD|238552</Hit_id>
+  <Hit_def>cd01132, F1_ATPase_alpha, F1 ATP synthase alpha, central domain. The F-ATPase is found in bacterial plasma membranes, mitochondrial inner membranes and in chloroplast thylakoid membranes. It has also been found in the archaea Methanosarcina barkeri. It uses a proton gradient to drive ATP synthesis and hydrolyzes ATP to build the proton gradient. The extrinisic membrane domain, F1, is composed of alpha, beta, gamma, delta and epsilon subunits with a stoichiometry of 3:3:1:1:1. The alpha subunit of the F1 ATP synthase can bind nucleotides, but is non-catalytic.</Hit_def>
+  <Hit_accession>238552</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.31669e-28</Hsp_evalue>
+      <Hsp_query-from>81</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>VSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGL--KGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRL</Hsp_qseq>
+      <Hsp_hseq>VGEALLGRVVDALGNPIDGKGPIETKERRPIESKAPGIIPRKSVNEPLQTGIKAIDAMIPIGRGQRELIIGD----RQTGKTAIAIDTIINQKGKKVYCIYVAIGQKASTVAQVVKTLEEHGAMEYTIVVAATASDPAPLQYLAPYTGCAMGEYF-MDNGKHALIIYDDLSKQAVAYRQMSLLLRRPPGREAYPGDVFYLHSRLLERAAKLNDELGGGSLTALPIIETQAGDVSAYIPTNVISITDGQIFLETDLFNKGIRPAINVGLSVSRV</Hsp_hseq>
+      <Hsp_midline>V E ++GRV D LG P D    I  ++   I  +    I R   +E +QTGI AID +  + RGQ+  +        +     IA    +         ++ AIG         ++   + GA++ +++    A+DPA  +   P       EY   + G H L+I  D++  A A R++S   R  PGR  YPG ++   + L ERA ++      GS+T +PI+     D +  IP     IT+GQI L  +L+  GI+P I+V  S+SR+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|CDD|236448</Hit_id>
+  <Hit_def>PRK09281, PRK09281, F0F1 ATP synthase subunit alpha; Validated.</Hit_def>
+  <Hit_accession>236448</Hit_accession>
+  <Hit_len>502</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.005</Hsp_bit-score>
+      <Hsp_score>284</Hsp_score>
+      <Hsp_evalue>1.58058e-27</Hsp_evalue>
+      <Hsp_query-from>42</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>GQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDS-----SDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGL--KGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTREDHAATMNQLFAAY</Hsp_qseq>
+      <Hsp_hseq>GIALNLEEDNVGAVILGDYEDIK-EGDTVKRTGRILEVPVGEALLGRVVNPLGQPIDGKGPIEATETRPVERKAPGVIDRKSVHEPLQTGIKAIDAMIPIGRGQRELIIGDR---------QTGKTAIAIDTIINQKGKDVICIYVAIGQKASTVAQVVRKLEEHGAMEYTIVVAATASDPAPLQYLAPYAGCAMGEYF-MDNGKDALIVYDDLSKQAVAYRQLSLLLRRPPGREAYPGDVFYLHSRLLERAAKLSDELGGGSLTALPIIETQAGDVSAYIPTNVISITDGQIFLESDLFNAGIRPAINVGISVSRV--GGAAQIKAMKKVAGTLRLDLAQY</Hsp_hseq>
+      <Hsp_midline>G  L ++ED     I      I  +  +V+  G  L++ V E ++GRV + LG+P D    I   +   +  +    I R    E +QTGI AID +  + RGQ+  +             Q  + A  +D+       D   ++ AIG         +    + GA++ +++    A+DPA  +   P       EY   + G   L++  D++  A A R++S   R  PGR  YPG ++   + L ERA ++      GS+T +PI+     D +  IP     IT+GQI L  +L+ +GI+P I+V  S+SR+   G    K  +  A T+    A Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|CDD|236351</Hit_id>
+  <Hit_def>PRK08927, fliI, flagellum-specific ATP synthase; Validated.</Hit_def>
+  <Hit_accession>236351</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.538</Hsp_bit-score>
+      <Hsp_score>275</Hsp_score>
+      <Hsp_evalue>1.28204e-26</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>EVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDN-GPEILPEKYLDINGEVINPIA--RDYPDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSR</Hsp_qseq>
+      <Hsp_hseq>EVAGPIHALS----VGARIVVETR--GGRPVPCEVVGFRGDRALLMPFGPLEGVR-RGCRAVIANAAAAVRPSRAWLGRVVNALGEPIDGKGP--LPQGPVPYPLRAPPPPAHSRARVGEPLDLGVRALNTFLTCCRGQRMGIFAGSGVGKSVLLSMLARNA------DADVSVIGLIGERGREVQEFLQDDLGPEGLARSVVVVATSDEPALMRRQAAYLTLAIAEYF-RDQGKDVLCLMDSVTRFAMAQREIGLSAGEPPTTKGYTPTVFAELPRLLERAGPGPIGEGTITGLFTVLVDGDDHNEPVADAVRGILDGHIVMERAIAERGRYPAINVLKSVSR</Hsp_hseq>
+      <Hsp_midline>EV GP+ A+     V    ++E R   G     +V+  + D+A++  F    G+  +            +  S   +GRV + LG P D  GP  LP+  +        P A  R    E +  G+ A++   T  RGQ++ +F+GSG+    L + +AR A      D    V   IG    E + F++D      + RSV+ +  +++PA+ R     + L  AEY   ++G  VL +M  +T +A A REI  +  E P  +GY   ++  L  L ERAG     +G++T +  + +  DD   P+ D    I +G I++ R + + G  P I+VL S+SR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|CDD|214349</Hit_id>
+  <Hit_def>CHL00060, atpB, ATP synthase CF1 beta subunit.</Hit_def>
+  <Hit_accession>214349</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>7.87808e-25</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>424</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>448</Hsp_align-len>
+      <Hsp_qseq>KEYRTIKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQ----VLEVQE----DKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDN-GPEILPEKYLDINGEVINPIARDYPDEFIQ---------TGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAID-------RSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSR-LKDKGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFYTNRTIT</Hsp_qseq>
+      <Hsp_hseq>KNLGRITQIIGPVLDVAFPPG-KMPNIYNALVVKGRDTAGQEINVTCEVQQLLGNNRVRAVAMSATDGL-MRGMEVIDTGAPLSVPVGGATLGRIFNVLGEPVDNLGP---------VDTRTTSPIHRSAP-AFIQLDTKLSIFETGIKVVDLLAPYRRGGKIGLFGGAGVGKTVLIMELINN--IAKAHGGVSVFGGVGERTREGNDLYME-MKESGVINEQNIAESKVALVYGQMNEPPGARMRVGLTALTMAEYFRDVNKQDVLLFIDNIFRFVQAGSEVSALLGRMPSAVGYQPTLSTEMGSLQERITSTK--EGSITSIQAVYVPADDLTDPAPATTFAHLDATTVLSRGLAAKGIYPAVDPLDSTSTMLQPRIVG-----EEHYETAQRVKQTLQRYKELQDIIAILGLDELSEEDRLTVARARKIE-RFLSQPFFVAEVFT</Hsp_hseq>
+      <Hsp_midline>K    I +++GP++ V    G K   +    +  G    GQ      EVQ+    ++        T G+ ++   V   G PL + V    +GR+F+ LG P DN GP         ++    +PI R  P  FIQ         TGI  +D L    RG K+ +F G+G+    L  ++     +  +    +V       T E  + +ME  +++G I+       +  +     N+P   R+     ALT AEY        VL+ + ++  + +A  E+SA    +P   GY   L T + +L ER    +  +GS+T I  + +P DD T P P  T    +   +L+R L   GI P +D L S S  L+ +  G     E+H  T  ++     + K+ +++  +LG   LS+ D++    A + E  +++Q F+     T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|CDD|349742</Hit_id>
+  <Hit_def>cd18118, ATP-synt_V_A-type_beta_N, V/A-type ATP synthase beta (B) subunit, N-terminal domain.  The beta (B) subunit of the V1/A1 complexes of V/A-type ATP synthases, N-terminal domain.  The V- and A-type family of ATPases are composed of two linked multi-subunit complexes: the V1 or A1 complex which contains three copies each of the alpha and beta subunits that form the soluble catalytic core, that is involved in ATP synthesis/hydrolysis, and the Vo or Ao complex which forms the membrane-embedded proton pore. The A-ATP synthase (AoA1-ATPase) is found in archaea and functions like F-ATP synthase. Structurally, however, the A-ATP synthase is more closely related to the V-ATP synthase (vacuolar VoV1-ATPase), which is a proton-translocating ATPase responsible for acidification of eukaryotic intracellular compartments and for ATP synthesis in archaea and some eubacteria. Collectively, the V- and A-type synthases can function in both ATP synthesis and hydrolysis modes. This subfamily consists of the non-catalytic beta subunit.</Hit_def>
+  <Hit_accession>349742</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.1885e-24</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>75</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>EYRTIKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGH</Hsp_qseq>
+      <Hsp_hseq>EYRTVSEINGPLVIVEGVKGVKYGEIVEITLPDGEVRRGQVLEVSGDKAVVQVFEGTSGLDLKGTKVRFTGE</Hsp_hseq>
+      <Hsp_midline>EYRT+ E+ GPL+ VE V GVKY E++E+ + +GE+RRGQVLEV  DKA+VQ+FEGTSG++LK + VRF G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|CDD|235951</Hit_id>
+  <Hit_def>PRK07165, PRK07165, F0F1 ATP synthase subunit alpha; Validated.</Hit_def>
+  <Hit_accession>235951</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>7.1412e-21</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>MQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGR---PKDNGPEILPEKYLDINGEVINP----IARDYPDEFIQTGISAIDHLNTLVRGQKLPVFSG--SGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQTGAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGA---GKTREDHAATMNQLFAAYAQ</Hsp_qseq>
+      <Hsp_hseq>LKNNPNVKAFVISATEDKAYLLINNEKGKIKINDELIE-LNNTNKVKTSKEYFGKIIDIDGNIIYPEAQNP--LSKKFLPNTSSIFNLAHGLMTVKTLNEQLYTGIIAIDLLIPIGKGQRELIIGDRQTGKTHIALNTIINQKNT------NVKCIYVAIGQKRENLSRIYETLKEHDALKNTIIIDAPSTSPY-EQYLAPYVAMAHAENISYNDD--VLIVFDDLTKHANIYREIALLTNKPVGKEAFPGDMFFAHSKLLERAGKFKNRK-TITALPILQTVDNDITSLISSNIISITDGQIVTSSDLFASGKLPAIDIDLSVSR-----TGSSVQSKTITKVAGEISKIYRAYKR</Hsp_hseq>
+      <Hsp_midline>++N    +  V+   EDKA + I      I + +  +  L +  ++  S++  G++ D  G    P+   P  L +K+L     + N     +     +E + TGI AID L  + +GQ+  +     +G  H  L   I ++ T      +   ++ AIG   E      E  ++  A+  +++    +  P  E+   P +A+  AE ++Y     VL++  D+T +A   REI+    +  G+  +PG ++   + L ERAG+ +  K ++T +PIL   ++D T  I      IT+GQI+ + +L+ SG  P ID+  S+SR     TG+    KT    A  +++++ AY +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|CDD|235248</Hit_id>
+  <Hit_def>PRK04192, PRK04192, V-type ATP synthase subunit A; Provisional.</Hit_def>
+  <Hit_accession>235248</Hit_accession>
+  <Hit_len>586</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.02246e-19</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>418</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>506</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>307</Hsp_align-len>
+      <Hsp_qseq>PDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQ-----TG--AIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIR---GLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKDKGTGAGKTR--EDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFY</Hsp_qseq>
+      <Hsp_hseq>PVEPLITGQRVIDTFFPVAKG------GTAAIPGPFGSGKTVTQHQLAKWADADIVIYVGCGERGNEMTEVLEEFPELIDPKTGRPLMERTVLIANTSNMPVAAREASIYTGITIAEYYR-DMGYDVLLMADSTSRWAEALREISGRLEEMPGEEGYPAYLASRLAEFYERAGRVKTLGGEEGSVTIIGAVSPPGGDFSEPVTQNTLRIVKVFWALDAELADRRHFPAINWLTSYSLYLDQVAPWWEENVDPDWRELRDEAMDLLQREAELQEIVRLVGPDALPEEDRLILEVARLIREDFLQQNAF</Hsp_hseq>
+      <Hsp_midline>P E + TG   ID    + +G        + +P    + +   Q  +   +D   V++   G    E    +E+F +     TG   ++R+V+  N +N P   R A+    +T AEY   + G  VL++    + +AEALREIS    E+PG  GYP YL + LA  +ERAGR++   G +GSVT I  ++ P  D + P+   T  I +    L  EL      P I+ L S S   D+     +     D     ++      +  + +E+  ++G  AL + D++  + A     +++ Q  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>58.5362</Hsp_bit-score>
+      <Hsp_score>140</Hsp_score>
+      <Hsp_evalue>2.41602e-09</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>99</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRRGQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDN</Hsp_qseq>
+      <Hsp_hseq>IVRVSGPLVVAEGMGGARMYEVVRVG-EEGLI--GEIIRIEGDKATIQVYEETSGIK-PGEPVEFTGEPLSVELGPGLLGSIFDGIQRPLDE</Hsp_hseq>
+      <Hsp_midline>I  V GPL+  E + G +  E++ V  + G I  G+++ ++ DKA +Q++E TSGI      V F G PL + +   ++G +FDG+ RP D </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|CDD|238554</Hit_id>
+  <Hit_def>cd01134, V_A-ATPase_A, V/A-type ATP synthase catalytic subunit A. These ATPases couple ATP hydrolysis to the build up of a H+ gradient, but V-type ATPases do not catalyze the reverse reaction.  The Vacuolar (V-type) ATPase is found in the membranes of vacuoles, the golgi apparatus and in other coated vesicles in eukaryotes. Archaea have a protein which is similar in sequence to V-ATPases, but functions like an F-ATPase (called A-ATPase).  A similar protein is also found in a few bacteria.</Hit_def>
+  <Hit_accession>238554</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.14759e-19</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>PDEFIQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQ-----TGA--IDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIR-----GLKGSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSR</Hsp_qseq>
+      <Hsp_hseq>PNEPLLTGQRVLDTLFPVVKGGT------AAIPGPFGCGKTVIQQSLSKYSNSDIVIYVGCGERGNEMTEVLEEFPELTDPVTGEPLMKRTVLIANTSNMPVAAREASIYTGITIAEYFR-DMGYNVALMADSTSRWAEALREISGRLEEMPGEEGYPAYLGARLASFYERAGRVKCLGSPGREGSVTIVGAVSPPGGDFSEPVTQATLRIVQVFWGLDKKLAQRRHFPSINWLISYSK</Hsp_hseq>
+      <Hsp_midline>P+E + TG   +D L  +V+G        + +P      +   Q ++   S+   V++   G    E    +E+F +     TG   + R+V+  N +N P   R A+    +T AEY   + G +V ++    + +AEALREIS    E+PG  GYP YL   LA+ +ERAGR++     G +GSVT +  ++ P  D + P+   T  I +    L ++L +    P I+ L S S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|CDD|224077</Hit_id>
+  <Hit_def>COG1155, NtpA, Archaeal/vacuolar-type H+-ATPase subunit A [Energy production and conversion].</Hit_def>
+  <Hit_accession>224077</Hit_accession>
+  <Hit_len>588</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>1.2711e-18</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>418</Hsp_query-to>
+      <Hsp_hit-from>197</Hsp_hit-from>
+      <Hsp_hit-to>505</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>PIARDYPDEF-IQTGISAIDHLNTLVRGQKLPVFSGSGLPHKELAAQIARQATVLDSSDDFAVVFAAIGITFEEAEFFMEDFRQ-----TGA--IDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTN-YAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLK-----GSVTQIPILTMPEDDKTHPIPDLTGYITEGQIILTRELYKSGIQPPIDVLPSLSRLKD--KGTGAGKTREDHAATMNQLFAAYAQGKQAKELAVVLGESALSDIDKIYAKFAERFENEYVNQGFY</Hsp_qseq>
+      <Hsp_hseq>PVKRKLPPEIPLVTGQRVIDTLFPVAKG------GTAAVPGPFGSGKTVSQHTLSKLADGDIVIYVGCGERGNEMTEVLQEFPELKDPNTGQPLMDRTVLIANTSNMPVAAREASIYTGITIAEY--YRDMGYDVALMADSTSRWAEALREISGRLEEMPGEEGYPAYLGSRLAEFYERAGRVRLVSPEERFGSITVIGAVSPPGGDFSEPVTQNTLRVVRVFWALDAALANRRHFPSINWLNSYSLYTEDLRSWYDENVSPEWGALRDQAMEILQRESELQEIVQLVGYDALPEKEKSILDVARIIREDFLQQNAF</Hsp_hseq>
+      <Hsp_midline>P+ R  P E  + TG   ID L  + +G        + +P    + +   Q T+   +D   V++   G    E    +++F +     TG   +DR+V+  N +N P   R A+    +T AEY  Y    + + +M D T+ +AEALREIS    E+PG  GYP YL + LA  +ERAGR+R +      GS+T I  ++ P  D + P+   T  +      L   L      P I+ L S S   +  +         +  A  +Q      +  + +E+  ++G  AL + +K     A     +++ Q  +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.17135e-05</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>111</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>IKEVVGPLMAVEKVSGVKYEELIEVRMQNGEIRR-GQVLEVQEDKAMVQIFEGTSGINLKNSSVRFLGHPLQLGVSEDMIGRVFDGLGRPKDNGPEILPEKYLDINGEVINPIARD</Hsp_qseq>
+      <Hsp_hseq>IIRISGPVVVAEGMEGAKMYDVVKV----GEMGLIGEIIRIEGNRATIQVYEDTAGIR-PGEKVENTGRPLSVELGPGLLKSIYDGIQRPLD----VIKETSGDFIARGLNPPALD</Hsp_hseq>
+      <Hsp_midline>I  + GP++  E + G K  ++++V    GE+   G+++ ++ ++A +Q++E T+GI      V   G PL + +   ++  ++DG+ RP D    ++ E   D     +NP A D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|CDD|238540</Hit_id>
+  <Hit_def>cd01120, RecA-like_NTPases, RecA-like NTPases. This family includes the NTP binding domain of F1 and V1 H+ATPases, DnaB and related helicases as well as bacterial RecA and related eukaryotic and archaeal recombinases. This group also includes bacterial conjugation proteins and related DNA transfer proteins involved in type II and type IV secretion.</Hit_def>
+  <Hit_accession>238540</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>4.76303e-06</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>GAIDRSVMFMNLANDPAIERIATPRMALTAAEYLAYEKGMHVLVIMTDMTNYAEALREISAARREVPGRRGYPGYLYTNLATLFERAGRIRGLKGSVTQIPILTMPEDDKTHP</Hsp_qseq>
+      <Hsp_hseq>GALDNLIIVFATADDPAAARL------LSKAERL-RERGGDDLIILDELTRLVRALREI---------REGYPGELDEELRELLERA-----RKGGVTVIFTLQVPSGDKGDP</Hsp_hseq>
+      <Hsp_midline>GA+D  ++    A+DPA  R+      L+ AE L  E+G   L+I+ ++T    ALREI         R GYPG L   L  L ERA      KG VT I  L +P  DK  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>96</Statistics_hsp-len>
+      <Statistics_eff-space>1315685099</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

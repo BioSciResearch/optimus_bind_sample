@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>E &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>48</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>E &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>48</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|319288</Hit_id>
+  <Hit_def>cd04985, IgC_CH1_IgAEGM, CH1 domain (first constant Ig domain of the heavy chain) in immunoglobulin.  IgC_CH2: The first immunoglobulin constant domain of alpha, epsilon, gamma, and mu heavy chains. This domain is found on the Fab antigen-binding fragment. The basic structure of Ig molecules is a tetramer of two light chains and two heavy chains linked by disulfide bonds. There are two types of light chains: kappa and lambda; each composed of a constant domain and a variable domain. There are five types of heavy chains: alpha, delta, epsilon, gamma and mu, all consisting of a variable domain (VH) and three (in alpha, delta and gamma) or four (in epsilon and mu) constant domains (CH1 to CH4). Ig molecules are modular proteins, in which the variable and constant domains have clear, conserved sequence patterns.</Hit_def>
+  <Hit_accession>319288</Hit_accession>
+  <Hit_len>96</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.2402</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>6.21943e-17</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LGCLVKDYFPEPVTVSWNSGA-LTSGVHTFPAVLQSSGLYSLSSVVTVP</Hsp_qseq>
+      <Hsp_hseq>LGCLATGFFPEPVTFTWNSGSNSTSGVKTFPAVLQSGGLYTASSQLTVP</Hsp_hseq>
+      <Hsp_midline>LGCL   +FPEPVT +WNSG+  TSGV TFPAVLQS GLY+ SS +TVP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|319274</Hit_id>
+  <Hit_def>cd00098, IgC, Immunoglobulin Constant (IgC) domain.  Members of the IgC family are components of immunoglobulin, T-cell receptors, CD1 cell surface glycoproteins, secretory glycoproteins A/C, and Major Histocompatibility Complex (MHC) class I/II molecules. In immunoglobulins, each chain is composed of one variable domain (IgV) and one or more IgC domains. These names reflect the fact that the variability in sequences is higher in the variable domain than in the constant domain. The IgV domain is responsible for antigen binding, and the IgC domain is involved in oligomerization and molecular interactions.</Hit_def>
+  <Hit_accession>319274</Hit_accession>
+  <Hit_len>95</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>1.974e-07</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LGCLVKDYFPEPVTVSW--NSGALTSGVHTFPAVLQSSGLYSLSSVVTVP</Hsp_qseq>
+      <Hsp_hseq>LVCLVSGFYPKDITVTWLKNGKEVTSGVSTTPPTKNSDGTFSVTSYLTVP</Hsp_hseq>
+      <Hsp_midline>L CLV  ++P+ +TV+W  N   +TSGV T P    S G +S++S +TVP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|214651</Hit_id>
+  <Hit_def>smart00407, IGc1, Immunoglobulin C-Type.  </Hit_def>
+  <Hit_accession>214651</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>4.41818e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>48</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>53</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>LGCLVKDYFPEPVTVSW--NSGALTSGVHTFPAVLQSSGLYSLSSVVTVP</Hsp_qseq>
+      <Hsp_hseq>LVCLVSGFYPPDITVTWLRNGQEVTEGVSTTDPLKNSDGTYFLSSYLTVP</Hsp_hseq>
+      <Hsp_midline>L CLV  ++P  +TV+W  N   +T GV T   +  S G Y LSS +TVP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|336758</Hit_id>
+  <Hit_def>pfam07654, C1-set, Immunoglobulin C1-set domain.  </Hit_def>
+  <Hit_accession>336758</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>5.36607e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>47</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>49</Hsp_align-len>
+      <Hsp_qseq>LGCLVKDYFPEPVTVSW--NSGALTSGVHTFPAVLQSSGLYSLSSVVTV</Hsp_qseq>
+      <Hsp_hseq>LTCLVTGFYPPDITVTWLKNGQEVTEGVTTTPPSPNSDWTYQLSSYLTV</Hsp_hseq>
+      <Hsp_midline>L CLV  ++P  +TV+W  N   +T GV T P    S   Y LSS +TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>21</Statistics_hsp-len>
+      <Statistics_eff-space>158648247</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>E &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>170</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>E &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>170</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|306707</Hit_id>
+  <Hit_def>pfam00246, Peptidase_M14, Zinc carboxypeptidase.  </Hit_def>
+  <Hit_accession>306707</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.882</Hsp_bit-score>
+      <Hsp_score>468</Hsp_score>
+      <Hsp_evalue>3.8314e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>SLCVGVDANRNWDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYT-TQSIPDKTELNQVAKSAVAAL-KSLYGTSYKYGSIIT---TIYQASGGSIDWSYNQ-GIKYSFTFELRDTGRYGFLLPASQIIPTAQETW</Hsp_qseq>
+      <Hsp_hseq>SSCVGVDLNRNFPDHWNEVGASSNPCSETYRGPAPFSEPETKAVIDFIRSKTPFVLYIDLHSYSQLLLYPYGYTRSEPPPDDEELKSLARAAAKALQKMVRGTSYTYG--ITNGDTIYPASGGSDDWAYGRLGIKYSYTIELRDTGRYGFLLPASQIIPTWEETW</Hsp_hseq>
+      <Hsp_midline>S CVGVD NRN+   + + GASS+PCSETY G    SE E K+++DF++    F  ++ +HSYSQLLLYPYGYT ++  PD  EL  +A++A  AL K + GTSY YG  IT   TIY ASGGS DW+Y + GIKYS+T ELRDTGRYGFLLPASQIIPT +ETW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|349433</Hit_id>
+  <Hit_def>cd03860, M14_CP_A-B_like, Peptidase M14 carboxypeptidase subfamily A/B-like.  The Peptidase M14 Carboxypeptidase (CP) A/B subfamily is one of two main M14 CP subfamilies defined by sequence and structural homology, the other being the N/E subfamily. CPs hydrolyze single, C-terminal amino acids from polypeptide chains. They have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. Enzymes belonging to the A/B subfamily are normally synthesized as inactive precursors containing preceding signal peptide, followed by a globular N-terminal pro-region linked to the enzyme; these proenzymes are called procarboxypeptidases. The A/B enzymes can be further divided based on their substrate specificity; Carboxypeptidase A-like (CPA-like) enzymes favor hydrophobic residues while carboxypeptidase B-like (CPB-like) enzymes only cleave the basic residues lysine or arginine. There are nine members in the A/B family: CPA1, CPA2, CPA3, CPA4, CPA5, CPA6, CPB, CPO and CPU. CPA1, CPA2 and CPB are produced by the pancreas. The A forms have slightly different specificities, with CPA1 preferring aliphatic and small aromatic residues, and CPA2 preferring the bulkier aromatic side chains. CPA3 is found in secretory granules of mast cells and functions in inflammatory processes. CPA4 is detected in hormone-regulated tissues, and is thought to play a role in prostate cancer. CPA5 is present in discrete regions of pituitary and other tissues, and cleaves aliphatic C-terminal residues. CPA6 is highly expressed in embryonic brain and optic muscle, suggesting that it may play a specific role in cell migration and axonal guidance. CPU (also called CPB2) is produced and secreted by the liver as the inactive precursor, PCPU, commonly referred to as thrombin-activatable fibrinolysis inhibitor (TAFI). Little is known about CPO but it has been suggested to have specificity for acidic residues.</Hit_def>
+  <Hit_accession>349433</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.18795e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>SLCVGVDANRNWDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHG---NFKAFLSIHSYSQLLLYPYGYTTQSIP-DKTELNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSIDWSYNQG-IKYSFTFELRDTGRYGFLLPASQIIPTAQETWLGV</Hsp_qseq>
+      <Hsp_hseq>SSCVGIDLNRNWGYKWGGPGASTNPCSETYRGPSAFSAPETKALADFINALAAGQGIKGFIDLHSYSQLILYPYGYSCDAVPPDLENLMELALGAAKAIRAVHGTTYTVGPACSTLYPASGSSLDWAYDVAKIKYSYTIELRDTGTYGFLLPPEQILPTGEETWAGV</Hsp_hseq>
+      <Hsp_midline>S CVG+D NRNW   +G  GAS++PCSETY G  A S  E K++ DF+         K F+ +HSYSQL+LYPYGY+  ++P D   L ++A  A  A+++++GT+Y  G   +T+Y ASG S+DW+Y+   IKYS+T ELRDTG YGFLLP  QI+PT +ETW GV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|214748</Hit_id>
+  <Hit_def>smart00631, Zn_pept, Zn_pept domain.  </Hit_def>
+  <Hit_accession>214748</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>3.83125e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>155</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>SLCVGVDANRNWDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYTTQSIPDKT-ELNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSIDWSYN-QGIKYSFTFELRDTGRYGFLLPASQIIPTA</Hsp_qseq>
+      <Hsp_hseq>SNCRGVDLNRNFPFHWGETG---NPCSETYAGPSPFSEPETKAVRDFIRSNRRFKLYIDLHSYSQLILYPYGYTKNDLPPNVDDLDAVAKALAKALASVHGTRYTYGISNGAIYPASGGSDDWAYGVLGIPFSFTLELRDDGRYGFLLPPSQIIPTG</Hsp_hseq>
+      <Hsp_midline>S C GVD NRN+   +G+ G   +PCSETY G    SE E K++ DF++ +  FK ++ +HSYSQL+LYPYGYT   +P    +L+ VAK+   AL S++GT Y YG     IY ASGGS DW+Y   GI +SFT ELRD GRYGFLLP SQIIPT </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|349432</Hit_id>
+  <Hit_def>cd03859, M14_CPT, Peptidase M14 Carboxypeptidase T subfamily.  Peptidase M14-like domain of carboxypeptidase (CP) T (CPT), CPT belongs to the M14 family of metallocarboxypeptidases (MCPs). The M14 family are zinc-binding CPs which hydrolyze single, C-terminal amino acids from polypeptide chains, and have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. CPT has moderate similarity to CPA and CPB, and exhibits dual-substrate specificity by cleaving C-terminal hydrophobic amino acid residues like CPA and C-terminal positively charged residues like CPB. CPA and CPB are M14 family peptidases but do not belong to this CPT group. The substrate specificity difference between CPT and CPA and CPB is ascribed to a few amino acid substitutions at the substrate-binding pocket while the spatial organization of the binding site remains the same as in all Zn-CPs. CPT has increased thermal stability in presence of Ca2+ ions, and two disulfide bridges which give an additional stabilization factor.</Hit_def>
+  <Hit_accession>349432</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>4.56608e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>288</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>GVDANRNWDAGFG--KAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYTTQS-IPDKTELNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSIDWSYNQGIKYSFTFELRDTGRYGFLLPASQIIPTAQET</Hsp_qseq>
+      <Hsp_hseq>GVDLNRNYGYHWGGDNGGSSPDPSSETYRGPAPFSEPETQAIRDLVESH-DFKVAISYHSYGELVLYPWGYTSDAPTPDEDVFEELAEE----MASYNGGGYT-PQQSSDLYPTNGDTDDWMYGEKGIIAFTPELGPEFYPFYPP-PSQIDPLAEEN</Hsp_hseq>
+      <Hsp_midline>GVD NRN+   +G    G+S  P SETY G    SE E ++I D V+ H +FK  +S HSY +L+LYP+GYT+ +  PD+    ++A+     + S  G  Y      + +Y  +G + DW Y +    +FT EL       +    SQI P A+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|349427</Hit_id>
+  <Hit_def>cd00596, Peptidase_M14_like, M14 family of metallocarboxypeptidases and related proteins.  The M14 family of metallocarboxypeptidases (MCPs), also known as funnelins, are zinc-binding carboxypeptidases (CPs) which hydrolyze single, C-terminal amino acids from polypeptide chains, and have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. Two major subfamilies of the M14 family, defined based on sequence and structural homology, are the A/B and N/E subfamilies. Enzymes belonging to the A/B subfamily are normally synthesized as inactive precursors containing preceding signal peptide, followed by an N-terminal pro-region linked to the enzyme; these proenzymes are called procarboxypeptidases. The A/B enzymes can be further divided based on their substrate specificity; Carboxypeptidase A-like (CPA-like) enzymes favor hydrophobic residues while carboxypeptidase B-like (CPB-like) enzymes only cleave the basic residues lysine or arginine. The A forms have slightly different specificities, with Carboxypeptidase A1 (CPA1) preferring aliphatic and small aromatic residues, and CPA2 preferring the bulky aromatic side chains. Enzymes belonging to the N/E subfamily enzymes are not produced as inactive precursors and instead rely on their substrate specificity and subcellular compartmentalization to prevent inappropriate cleavage. They contain an extra C-terminal transthyretin-like domain, thought to be involved in folding or formation of oligomers. MCPs can also be classified based on their involvement in specific physiological processes; the pancreatic MCPs participate only in alimentary digestion and include carboxypeptidase A and B (A/B subfamily), while others, namely regulatory MCPs or the N/E subfamily, are involved in more selective reactions, mainly in non-digestive tissues and fluids, acting on blood coagulation/fibrinolysis, inflammation and local anaphylaxis, pro-hormone and neuropeptide processing, cellular response and others.  Another MCP subfamily, is that of succinylglutamate desuccinylase /aspartoacylase, which hydrolyzes N-acetyl-L-aspartate (NAA), and deficiency in which is the established cause of Canavan disease. Another subfamily (referred to as subfamily C) includes an exceptional type of activity in the MCP family, that of dipeptidyl-peptidase activity of gamma-glutamyl-(L)-meso-diaminopimelate peptidase I which is involved in bacterial cell wall metabolism.</Hit_def>
+  <Hit_accession>349427</Hit_accession>
+  <Hit_len>216</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>9.11821e-18</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>GVDANRNWDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYTTQSIPDKTELNQVAKSAVAALKSL-YGTSYKYGSIITTIYQASGGSIDWSYNQGIKYSFTFEL</Hsp_qseq>
+      <Hsp_hseq>GVDLNRNFPYNWGKDG-TSGPSSPTYRGPAPFSEPETQALRDLAKSH-RFDLAVSYHSSSEAILYPYGYTNEPPPDFSEFQELAAGLARALGAGEYGYGYSY-----TWYSTTGTADDWLYGELGILAFTVEL</Hsp_hseq>
+      <Hsp_midline>GVD NRN+   +GK G +S P S TY G    SE E +++ D  K H  F   +S HS S+ +LYPYGYT +  PD +E  ++A     AL +  YG  Y Y     T Y  +G + DW Y +    +FT EL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|349447</Hit_id>
+  <Hit_def>cd06228, M14-like, Peptidase M14-like domain; uncharacterized subfamily.  A functionally uncharacterized subgroup of the M14 family of metallocarboxypeptidases (MCPs). The M14 family are zinc-binding carboxypeptidases (CPs) which hydrolyze single, C-terminal amino acids from polypeptide chains, and have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. Two major subfamilies of the M14 family, defined based on sequence and structural homology, are the A/B and N/E subfamilies. Enzymes belonging to the A/B subfamily are normally synthesized as inactive precursors containing preceding signal peptide, followed by an N-terminal pro-region linked to the enzyme; these proenzymes are called procarboxypeptidases. The A/B enzymes can be further divided based on their substrate specificity; Carboxypeptidase A-like (CPA-like) enzymes favor hydrophobic residues while carboxypeptidase B-like (CPB-like) enzymes only cleave the basic residues lysine or arginine. The A forms have slightly different specificities, with Carboxypeptidase A1 (CPA1) preferring aliphatic and small aromatic residues, and CPA2 preferring the bulky aromatic side chains. Enzymes belonging to the N/E subfamily enzymes are not produced as inactive precursors and instead rely on their substrate specificity and subcellular compartmentalization to prevent inappropriate cleavages. They contain an extra C-terminal transthyretin-like domain, thought to be involved in folding or formation of oligomers.  MCPs can also be classified based on their involvement in specific physiological processes; the pancreatic MCPs participate only in alimentary digestion and include carboxypeptidase A and B (A/B subfamily), while others, namely regulatory MCPs or the N/E subfamily, are involved in more selective reactions, mainly in non-digestive tissues and fluids, acting on blood coagulation/fibrinolysis, inflammation and local anaphylaxis, pro-hormone and neuropeptide processing, cellular response and others.   Another MCP subfamily, is that of succinylglutamate desuccinylase /aspartoacylase, which hydrolyzes N-acetyl-L-aspartate (NAA), and deficiency in which is the established cause of Canavan disease. Another subfamily (referred to as subfamily C) includes an exceptional type of activity in the MCP family, that of dipeptidyl-peptidase activity of gamma-glutamyl-(L)-meso-diaminopimelate peptidase I which is involved in bacterial cell wall metabolism.</Hit_def>
+  <Hit_accession>349447</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>9.82209e-15</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>CVGVDANRNWDAGF--------GKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYG</Hsp_qseq>
+      <Hsp_hseq>CIGVDINRNFDFLWDFPRYFDPGRVPASTSPCSETYHGPSAFSEPETRNVVWLFDAYPNIRWFVDVHSASELILYSWG</Hsp_hseq>
+      <Hsp_midline>C+GVD NRN+D  +        G+  AS+SPCSETYHG  A SE E +++V     + N + F+ +HS S+L+LY +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|349446</Hit_id>
+  <Hit_def>cd06227, M14-CPA-like, Peptidase M14 carboxypeptidase A-like domain; uncharacterized subfamily.  A functionally uncharacterized subgroup of the M14 family of metallocarboxypeptidases (MCPs). The M14 family are zinc-binding carboxypeptidases (CPs) which hydrolyze single, C-terminal amino acids from polypeptide chains, and have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. Two major subfamilies of the M14 family, defined based on sequence and structural homology, are the A/B and N/E subfamilies. Enzymes belonging to the A/B subfamily are normally synthesized as inactive precursors containing preceding signal peptide, followed by an N-terminal pro-region linked to the enzyme; these proenzymes are called procarboxypeptidases. The A/B enzymes can be further divided based on their substrate specificity; Carboxypeptidase A-like (CPA-like) enzymes favor hydrophobic residues while carboxypeptidase B-like (CPB-like) enzymes only cleave the basic residues lysine or arginine. The A forms have slightly different specificities, with Carboxypeptidase A1 (CPA1) preferring aliphatic and small aromatic residues, and CPA2 preferring the bulky aromatic side chains. Enzymes belonging to the N/E subfamily enzymes are not produced as inactive precursors and instead rely on their substrate specificity and subcellular compartmentalization to prevent inappropriate cleavages. They contain an extra C-terminal transthyretin-like domain, thought to be involved in folding or formation of oligomers.  MCPs can also be classified based on their involvement in specific physiological processes; the pancreatic MCPs participate only in alimentary digestion and include carboxypeptidase A and B (A/B subfamily), while others, namely regulatory MCPs or the N/E subfamily, are involved in more selective reactions, mainly in non-digestive tissues and fluids, acting on blood coagulation/fibrinolysis, inflammation and local anaphylaxis, pro-hormone and neuropeptide processing, cellular response and others.   Another MCP subfamily, is that of succinylglutamate desuccinylase /aspartoacylase, which hydrolyzes N-acetyl-L-aspartate (NAA), and deficiency in which is the established cause of Canavan disease. Another subfamily (referred to as subfamily C) includes an exceptional type of activity in the MCP family, that of dipeptidyl-peptidase activity of gamma-glutamyl-(L)-meso-diaminopimelate peptidase I which is involved in bacterial cell wall metabolism.</Hit_def>
+  <Hit_accession>349446</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>6.68432e-10</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>136</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>GVDANRNWDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFV---KDHGNFKAFLSIHSYSQLLLYPYGYTTQSIPDKTE-------LNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSIDWSYNQ-GIKYSFTFEL</Hsp_qseq>
+      <Hsp_hseq>GVDLNRNWGVDWGK-GEKGAP-SEEYPGPKPFSEPETRALRDLALSFKPH----AFVSVHSGMLAIYTPYAYSA-SVPRPNRAADMDDLLDVVAKASCGDC-----TVGSAGKLVG--YLADGTAMDYMYGKLKVPYSFTFEI</Hsp_hseq>
+      <Hsp_midline>GVD NRNW   +GK G   +P SE Y G    SE E +++ D     K H    AF+S+HS    +  PY Y+  S+P           L+ VAK++         T    G ++   Y A G ++D+ Y +  + YSFTFE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|349476</Hit_id>
+  <Hit_def>cd06905, M14-like, Peptidase M14-like domain; uncharacterized subfamily.  A functionally uncharacterized subgroup of the M14 family of metallocarboxypeptidases (MCPs). The M14 family are zinc-binding carboxypeptidases (CPs) which hydrolyze single, C-terminal amino acids from polypeptide chains, and have a recognition site for the free C-terminal carboxyl group, which is a key determinant of specificity. Two major subfamilies of the M14 family, defined based on sequence and structural homology, are the A/B and N/E subfamilies. Enzymes belonging to the A/B subfamily are normally synthesized as inactive precursors containing preceding signal peptide, followed by an N-terminal pro-region linked to the enzyme; these proenzymes are called procarboxypeptidases. The A/B enzymes can be further divided based on their substrate specificity; Carboxypeptidase A-like (CPA-like) enzymes favor hydrophobic residues while carboxypeptidase B-like (CPB-like) enzymes only cleave the basic residues lysine or arginine. The A forms have slightly different specificities, with Carboxypeptidase A1 (CPA1) preferring aliphatic and small aromatic residues, and CPA2 preferring the bulky aromatic side chains. Enzymes belonging to the N/E subfamily enzymes are not produced as inactive precursors and instead rely on their substrate specificity and subcellular compartmentalization to prevent inappropriate cleavages. They contain an extra C-terminal transthyretin-like domain, thought to be involved in folding or formation of oligomers.  MCPs can also be classified based on their involvement in specific physiological processes; the pancreatic MCPs participate only in alimentary digestion and include carboxypeptidase A and B (A/B subfamily), while others, namely regulatory MCPs or the N/E subfamily, are involved in more selective reactions, mainly in non-digestive tissues and fluids, acting on blood coagulation/fibrinolysis, inflammation and local anaphylaxis, pro-hormone and neuropeptide processing, cellular response and others.   Another MCP subfamily, is that of succinylglutamate desuccinylase /aspartoacylase, which hydrolyzes N-acetyl-L-aspartate (NAA), and deficiency in which is the established cause of Canavan disease. Another subfamily (referred to as subfamily C) includes an exceptional type of activity in the MCP family, that of dipeptidyl-peptidase activity of gamma-glutamyl-(L)-meso-diaminopimelate peptidase I which is involved in bacterial cell wall metabolism.</Hit_def>
+  <Hit_accession>349476</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>6.54414e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>GVDANRN----WDAGFGKAGASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYTTQSIPDKTELNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSI-----DWSY-NQGIKYSFTFELRD</Hsp_qseq>
+      <Hsp_hseq>GVDLNRNFPYNWQPFYVQPGA----------GPYPLSEPETRAVADFLLAHPNIAAVLTFHTSGGMILRPPGTGPDS--DMPPADRRVYDAIGK-KGVELTGYPVSSVYKDFYTVPGGPLDGDFFDWAYFHLGIP-SFSTELWD</Hsp_hseq>
+      <Hsp_midline>GVD NRN    W   + + GA          G Y  SE E +++ DF+  H N  A L+ H+   ++L P G    S  D    ++    A+   K +  T Y   S+    Y   GG +     DW+Y + GI  SF+ EL D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|349448</Hit_id>
+  <Hit_def>cd06229, M14_Endopeptidase_I, Peptidase M14 carboxypeptidase family-like domain of Endopeptidase I.  Peptidase M14-like domain of Gamma-D-glutamyl-L-diamino acid endopeptidase 1 (also known as Gamma-D-glutamyl-meso-diaminopimelate peptidase I, and Endopeptidase I (ENP1); EC 3.4.19.11). ENP1 is a member of the M14 family of metallocarboxypeptidases (MCPs), and is classified as belonging to subfamily C. However it has an exceptional type of activity of hydrolyzing the gamma-D-Glu-(L)meso-diaminopimelic acid (gamma-D-Glu-Dap) bond of L-Ala-gamma-D-Glu-(L)meso-diaminopimelic acid and L-Ala-gamma-D-Glu-(L)meso-diaminopimelic acid(L)-D-Ala peptides. ENP1 has a different substrate specificity and cellular role than MpaA (MpaA does not belong to this group). ENP1 hydrolyzes the gamma-D-Glu-Dap bond of MurNAc-tripeptide and MurNAc-tetrapeptide, as well as the amide bond of free tripeptide and tetrapeptide. ENP1 is active on spore cortex peptidoglycan, and is produced at stage IV of sporulation in forespore and spore integuments.</Hit_def>
+  <Hit_accession>349448</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>1.81345e-05</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>151</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>GVDANRNWDAGFGKAG--ASSSPCSETYHGKYANSEVEVKSIVDFVKDHGNFKAFLSIHSYSQLLLYPYGYTTQSIPDKTELNQVAKSAVAALKSLYGTSYKYGSIITTIYQASGGSIDWSYNQGIKYSFTFELRDTGRYGFLLPASQI</Hsp_qseq>
+      <Hsp_hseq>GVDLNRNFPAGWEKEKRLGPKAPGPRDYPGKEPLSEPETKAMAALTRQN-DFDLVLAYHSQGEEIYWGY-------------NGLEPEESKAMAEKFASVSGYEPVEAEAIDSYGGFKDWFIYEFKKPSFTIE---TGKGNNPLPISQF</Hsp_hseq>
+      <Hsp_midline>GVD NRN+ AG+ K       +P    Y GK   SE E K++    + + +F   L+ HS  + + + Y             N +      A+   + +   Y  +      + GG  DW   +  K SFT E   TG+    LP SQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>86</Statistics_hsp-len>
+      <Statistics_eff-space>332611524</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

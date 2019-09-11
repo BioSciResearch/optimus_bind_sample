@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>188</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>188</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|225242</Hit_id>
+  <Hit_def>COG2367, PenP, Beta-lactamase class A [Defense mechanisms].</Hit_def>
+  <Hit_accession>225242</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.03313e-24</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDG-MTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDR-WEPELNE-AIPNDERD---TTMPVAMATTLRKLLTGELLTLASR</Hsp_qseq>
+      <Hsp_hseq>GRVGVYVLDVDTGELI-AINGDERFPAASTIKLPVLAALLEQVDAGRIGLDERLTITKDDRVGGSGVLQYLVGGGGSTLRELLTKMITASDNTATNMLIERLGGPKALNEWLRSIGLPNTRLRRPYMPDLNRFNGPYDPRDSGKTTTPADDAATLLQLILGAVLSPSDR</Hsp_hseq>
+      <Hsp_midline> RVG   LD+++G+++ +   +ERFP  ST K+ +  A+L ++DAG+  L  R+  +++D V  S V +  +  G  T+REL +  IT SDNTA N+L+  +GGPK L  +L ++G   TRL R + P+LN    P D RD   TT P   A TL +L+ G +L+ + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|338696</Hit_id>
+  <Hit_def>pfam13354, Beta-lactamase2, Beta-lactamase enzyme family.  This family is closely related to Beta-lactamase, pfam00144, the serine beta-lactamase-like superfamily, which contains the distantly related pfam00905 and PF00768 D-alanyl-D-alanine carboxypeptidase.</Hit_def>
+  <Hit_accession>338696</Hit_accession>
+  <Hit_len>199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.65339e-14</Hsp_evalue>
+      <Hsp_query-from>38</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>EERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLT</Hsp_qseq>
+      <Hsp_hseq>DRKFPAASTIKVPILAAVFEAVEEGKLSLDETLTVTAEDIVGGSGILQYLPGKTLSLRDLLTLMIAVSDNTATNLLIDRL-GLDAVNAWLKSLGLRDTRLRRKLPDL-EAAPKGRENTTTARDMARLLEALYRGELLS</Hsp_hseq>
+      <Hsp_midline>+ +FP  ST KV +  AV   ++ G+  L   +  +  D+V  S + +      +++R+L +  I +SDNTA NLL+  + G   + A+L ++G   TRL R  P+L EA P    +TT    MA  L  L  GELL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|224600</Hit_id>
+  <Hit_def>COG1686, DacC, D-alanyl-D-alanine carboxypeptidase [Cell envelope biogenesis, outer membrane].</Hit_def>
+  <Hit_accession>224600</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.00028522</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>130</Hsp_query-to>
+      <Hsp_hit-from>42</Hsp_hit-from>
+      <Hsp_hit-to>149</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDG--MTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNM</Hsp_qseq>
+      <Hsp_hseq>IVIDADSGKVLYSKNADARRPPASLTKLMTAYVVLEALKAGKIKLDDKVTISENAWAK-GGGSKMFLKPGETVTVRDLLKGLLVQSANDAAVALAEHLAGSED--AFVAKM</Hsp_hseq>
+      <Hsp_midline>I +D +SGK+L S   + R P  S  K++    VL  + AG+ +L  ++  S+N   +    ++  L  G  +TVR+L    +  S N AA  L   + G ++  AF+  M</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>88</Statistics_hsp-len>
+      <Statistics_eff-space>390070100</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>D &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>397</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>D &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>397</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|317276</Hit_id>
+  <Hit_def>pfam14843, GF_recep_IV, Growth factor receptor domain IV.  This is the fourth extracellular domain of receptor tyrosine protein kinases. Interaction between this domain and the furin-like domain (pfam00757) regulates the binding of ligands to the receptor L domains (pfam01030).</Hit_def>
+  <Hit_accession>317276</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>2.54249e-54</Hsp_evalue>
+      <Hsp_query-from>274</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>VCHALCSPEGCWGPEPRDCVSCRNVSRGRECVDKCNLLEGEPREFVENSECIQCHPECLPQAMNITCTGRGPDNCIQCAHYIDGPHCVKTCPAGVMGENNTLVWKYADAGHVCHLCHPNCTYGC</Hsp_qseq>
+      <Hsp_hseq>VCDPLCSSEGCWGPGPDQCLSCRNFSRGGTCVESCNILQGEPREYVVNSTCVPCHPECLPQNGTATCSGPGADNCTKCAHFRDGPHCVSSCPSGVLGEND-LIWKYADANGVCQPCHPNCTQGC</Hsp_hseq>
+      <Hsp_midline>VC  LCS EGCWGP P  C+SCRN SRG  CV+ CN+L+GEPRE+V NS C+ CHPECLPQ    TC+G G DNC +CAH+ DGPHCV +CP+GV+GEN+ L+WKYADA  VC  CHPNCT GC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|307072</Hit_id>
+  <Hit_def>pfam00757, Furin-like, Furin-like cysteine rich region.  </Hit_def>
+  <Hit_accession>307072</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>9.26509e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>104</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>CHNQCAAGCTGPRESDCLVCRKFRDEATCKDTCPPLMLYNPTTYQMDVNPEGKYSFGATCV--KKCPR------NYVVTDHGSCVRACGADSYEMEEDGVRKCKKCEGPCRK</Hsp_qseq>
+      <Hsp_hseq>CHEQCLGGCTGPNDSDCLACRHFNDEGTCVDTCPP----------------GTYQFGWRCVTFKECPKSHLPGYNPLVIHNGECVRECPSGYTEVENNS-RKCEPCEGLCPK</Hsp_hseq>
+      <Hsp_midline>CH QC  GCTGP +SDCL CR F DE TC DTCPP                G Y FG  CV  K+CP+      N +V  +G CVR C +   E+E +  RKC+ CEG C K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|334353</Hit_id>
+  <Hit_def>pfam01030, Recep_L_domain, Receptor L domain.  The L domains from these receptors make up the bilobal ligand binding site. Each L domain consists of a single-stranded right hand beta-helix. This Pfam entry is missing the first 50 amino acid residues of the domain.</Hit_def>
+  <Hit_accession>334353</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>1.73792e-17</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>NCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVV-SLNITSLGLRSLKEISDGDVIISGNKNLCYANT-INWK</Hsp_qseq>
+      <Hsp_hseq>NCTVIYGNLEITLRDENGDS---------ELLSFLSTVEEITGYLLIAN--TNLVSLSFLPNLRIIRGRNLFEDNYALYILDNPNLTELGLPSLKEITSGGVYIHNNPKLCYSETEIDWK</Hsp_hseq>
+      <Hsp_midline>NCT I G+L I      GDS         + L  L TV+EITG+LLI     N   L    NL IIRGR      ++L ++ + N+T LGL SLKEI+ G V I  N  LCY+ T I+WK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|214589</Hit_id>
+  <Hit_def>smart00261, FU, Furin-like repeats.  </Hit_def>
+  <Hit_accession>214589</Hit_accession>
+  <Hit_len>45</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>7.97927e-07</Hsp_evalue>
+      <Hsp_query-from>321</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>45</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>NSECIQCHPECLPQAMNITCTGRGPDNCIQCAH--YIDGPHCVKTCPAGVM</Hsp_qseq>
+      <Hsp_hseq>DGECKPCHPEC------ATCTGPGPDDCTSCKHGFFLDGGKCVSECPPGTY</Hsp_hseq>
+      <Hsp_midline>+ EC  CHPEC       TCTG GPD+C  C H  ++DG  CV  CP G  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|238021</Hit_id>
+  <Hit_def>cd00064, FU, Furin-like repeats. Cysteine rich region. Exact function of the domain is not known. Furin is a serine-kinase dependent proprotein processor. Other members of this family include endoproteases and cell surface receptors.</Hit_def>
+  <Hit_accession>238021</Hit_accession>
+  <Hit_len>49</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>4.03738e-05</Hsp_evalue>
+      <Hsp_query-from>327</Hsp_query-from>
+      <Hsp_query-to>376</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>CHPECLPQAMNITCTGRGPDNCIQCAH--YIDGPHCVKTCPAGVMGENNTLV</Hsp_qseq>
+      <Hsp_hseq>CHPSC------ATCTGPGPDQCTSCRHGFYLDGGTCVSECPEGTYADTEGGV</Hsp_hseq>
+      <Hsp_midline>CHP C       TCTG GPD C  C H  Y+DG  CV  CP G   +    V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>95</Statistics_hsp-len>
+      <Statistics_eff-space>1115690982</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

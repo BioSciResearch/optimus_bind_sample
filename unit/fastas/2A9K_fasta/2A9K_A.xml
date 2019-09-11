@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>170</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>170</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|214541</Hit_id>
+  <Hit_def>smart00173, RAS, Ras subfamily of RAS small GTPases.  Similar in fold and function to the bacterial EF-Tu GTPase. p21Ras couples receptor Tyr kinases and G protein receptors to protein kinase cascades.</Hit_def>
+  <Hit_accession>214541</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>207.994</Hsp_bit-score>
+      <Hsp_score>528</Hsp_score>
+      <Hsp_evalue>8.36109e-70</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>HKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIRAR</Hsp_qseq>
+      <Hsp_hseq>YKLVVLGSGGVGKSALTIQFIQGHFVDDYDPTIEDSYRKQIEIDGEVCLLDILDTAGQEEFSAMRDQYMRTGEGFLLVYSITDRQSFEEIKKFREQILRVKDRDDVPIVLVGNKCDLESERVVSTEEGKELARQWGCPFLETSAKERVNVDEAFYDLVREIRKK</Hsp_hseq>
+      <Hsp_midline>+K++++GSGGVGKSALT+QF+   FV+DY+PT  DSYRK++ +DGE   +DILDTAGQE+++A+RD Y R+GEGFL V+SIT+ +SF     FREQILRVK+ ++VP +LVGNK DLE +R VS EE K  A QW   ++ETSAK R NVD+ F+DL+REIR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|206642</Hit_id>
+  <Hit_def>cd00876, Ras, Rat sarcoma (Ras) family of small guanosine triphosphatases (GTPases).  The Ras family of the Ras superfamily includes classical N-Ras, H-Ras, and K-Ras, as well as R-Ras, Rap, Ral, Rheb, Rhes, ARHI, RERG, Rin/Rit, RSR1, RRP22, Ras2, Ras-dva, and RGK proteins. Ras proteins regulate cell growth, proliferation and differentiation. Ras is activated by guanine nucleotide exchange factors (GEFs) that release GDP and allow GTP binding. Many RasGEFs have been identified. These are sequestered in the cytosol until activation by growth factors triggers recruitment to the plasma membrane or Golgi, where the GEF colocalizes with Ras. Active GTP-bound Ras interacts with several effector proteins: among the best characterized are the Raf kinases, phosphatidylinositol 3-kinase (PI3K), RalGEFs and NORE/MST1. Most Ras proteins contain a lipid modification site at the C-terminus, with a typical sequence motif CaaX, where a = an aliphatic amino acid and X = any amino acid. Lipid binding is essential for membrane attachment, a key feature of most Ras proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206642</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>200.29</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>6.14662e-67</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KLVVLGAGGVGKSALTIRFVSGEFVEEYDPTIEDSYRKQIVVDGETYTLDILDTAGQEEFSAMRDQYIRNGDGFILVYSITSRESFEEIKNIREQILRVKDKEDVPIVLVGNKCDLENERQVSTEEGEALAEEWGCPFLETSAKTNINIDELFNTLVREI</Hsp_hseq>
+      <Hsp_midline>K++++G+GGVGKSALT++F+  EFVE+Y+PT  DSYRK++V+DGE   +DILDTAGQE+++A+RD Y R+G+GF+ V+SIT  ESF    + REQILRVK+ E+VP +LVGNK DLE++RQVS EE +  AE+W   ++ETSAKT  N+D++F  L+REI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|197466</Hit_id>
+  <Hit_def>smart00010, small_GTPase, Small GTPase of the Ras superfamily; ill-defined subfamily.  SMART predicts Ras-like small GTPases of the ARF, RAB, RAN, RAS, and SAR subfamilies. Others that could not be classified in this way are predicted to be members of the small GTPase superfamily without predictions of the subfamily.</Hit_def>
+  <Hit_accession>197466</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.734</Hsp_bit-score>
+      <Hsp_score>478</Hsp_score>
+      <Hsp_evalue>3.33942e-62</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>KSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIR</Hsp_qseq>
+      <Hsp_hseq>KSALTIQFVQGHFVDEYDPTIEDSYRKQIEIDGEVCLLDILDTAGQEEFSAMRDQYMRTGEGFLLVYSITDRQSFEEIAKFREQILRVKDRDDVPIVLVGNKCDLENERVVSTEEGKELARQWGCPFLETSAKERINVDEAFYDLVREIR</Hsp_hseq>
+      <Hsp_midline>KSALT+QF+   FV++Y+PT  DSYRK++ +DGE   +DILDTAGQE+++A+RD Y R+GEGFL V+SIT+ +SF   A FREQILRVK+ ++VP +LVGNK DLE++R VS EE K  A QW   ++ETSAK R NVD+ F+DL+REIR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|333814</Hit_id>
+  <Hit_def>pfam00071, Ras, Ras family.  Includes sub-families Ras, Rab, Rac, Ral, Ran, Rap Ypt1 and more. Shares P-loop motif with GTP_EFTU, arf and myosin_head. See pfam00009 pfam00025, pfam00063. As regards Rab GTPases, these are important regulators of vesicle formation, motility and fusion. They share a fold in common with all Ras GTPases: this is a six-stranded beta-sheet surrounded by five alpha-helices.</Hit_def>
+  <Hit_accession>333814</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>2.19528e-46</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPT-KADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KLVLVGDGGVGKSSLLIRFTQNKFPEEYIPTIGVDFYTKTIEVDGKTVKLQIWDTAGQERFRALRPLYYRGAQGFLLVYDITNRDSFENVKNWVEEILR-HADDNVPIVLVGNKCDLEDQRVVSTEEGEALAKELGLPFMETSAKTNENVEEAFEELAREI</Hsp_hseq>
+      <Hsp_midline>K+++VG GGVGKS+L ++F  ++F E+Y PT   D Y K + +DG+ V++ I DTAGQE + A+R  Y+R  +GFL V+ IT  +SF    ++ E+ILR   D+NVP +LVGNK DLED+R VS EE +  A++  + ++ETSAKT  NV++ F +L REI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|206709</Hit_id>
+  <Hit_def>cd04137, RheB, Ras Homolog Enriched in Brain (RheB) is a small GTPase.  Rheb (Ras Homolog Enriched in Brain) subfamily. Rheb was initially identified in rat brain, where its expression is elevated by seizures or by long-term potentiation. It is expressed ubiquitously, with elevated levels in muscle and brain. Rheb functions as an important mediator between the tuberous sclerosis complex proteins, TSC1 and TSC2, and the mammalian target of rapamycin (TOR) kinase to stimulate cell growth. TOR kinase regulates cell growth by controlling nutrient availability, growth factors, and the energy status of the cell. TSC1 and TSC2 form a dimeric complex that has tumor suppressor activity, and TSC2 is a GTPase activating protein (GAP) for Rheb. The TSC1/TSC2 complex inhibits the activation of TOR kinase through Rheb. Rheb has also been shown to induce the formation of large cytoplasmic vacuoles in a process that is dependent on the GTPase cycle of Rheb, but independent of the TOR kinase, suggesting Rheb plays a role in endocytic trafficking that leads to cell growth and cell-cycle progression. Most Ras proteins contain a lipid modification site at the C-terminus, with a typical sequence motif CaaX, where a = an aliphatic amino acid and X = any amino acid. Lipid binding is essential for membrane attachment, a key feature of most Ras proteins.</Hit_def>
+  <Hit_accession>206709</Hit_accession>
+  <Hit_len>180</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>1.69315e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KIAVLGSRSVGKSSLTVQFVEGHFVESYYPTIENTFSKIITYKGQEYHLEIVDTAGQDEYSILPQKYSIGIHGYILVYSVTSRKSFEVVKVIYDKILDMLGKESVPIVLVGNKSDLHMERQVSAEEGKKLAESWGAAFLESSAKENENVEEAFELLIEEI</Hsp_hseq>
+      <Hsp_midline>K+ ++GS  VGKS+LT+QF+   FVE Y PT  +++ K +   G+E  ++I+DTAGQ++Y+ +   Y     G++ V+S+T  +SF       ++IL +   E+VP +LVGNKSDL  +RQVS EE K  AE W   ++E+SAK   NV++ F  L+ EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|206640</Hit_id>
+  <Hit_def>cd00154, Rab, Ras-related in brain (Rab) family of small guanosine triphosphatases (GTPases).  Rab GTPases form the largest family within the Ras superfamily. There are at least 60 Rab genes in the human genome, and a number of Rab GTPases are conserved from yeast to humans. Rab GTPases are small, monomeric proteins that function as molecular switches to regulate vesicle trafficking pathways. The different Rab GTPases are localized to the cytosolic face of specific intracellular membranes, where they regulate distinct steps in membrane traffic pathways. In the GTP-bound form, Rab GTPases recruit specific sets of effector proteins onto membranes. Through their effectors, Rab GTPases regulate vesicle formation, actin- and tubulin-dependent vesicle movement, and membrane fusion. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which mask C-terminal lipid binding and promote cytosolic localization. While most unicellular organisms possess 5-20 Rab members, several have been found to possess 60 or more Rabs; for many of these Rab isoforms, homologous proteins are not found in other organisms. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Since crystal structures often lack C-terminal residues, the lipid modification site is not available for annotation in many of the CDs in the hierarchy, but is included where possible.</Hit_def>
+  <Hit_accession>206640</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.331</Hsp_bit-score>
+      <Hsp_score>316</Hsp_score>
+      <Hsp_evalue>1.04123e-37</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>159</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMR</Hsp_qseq>
+      <Hsp_hseq>KIVLIGDSGVGKTSLLLRFVDNKFSENYKSTIGVDFKSKTIEVDGKKVKLQIWDTAGQERFRSITSSYYRGAHGAILVYDVTNRESFENLDKWLNE-LKEYAPPNIPIILVGNKSDLEDERQVSTEEAQQFAKENGLLFFETSAKTGENVDEAFESLAR</Hsp_hseq>
+      <Hsp_midline>K++++G  GVGK++L L+F+ ++F E+Y+ T    ++ K + +DG++V++ I DTAGQE + +I  +Y+R   G + V+ +T  ESF     +  + L+     N+P +LVGNKSDLED+RQVS EEA+  A++  + + ETSAKT  NVD+ F  L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|197555</Hit_id>
+  <Hit_def>smart00175, RAB, Rab subfamily of small GTPases.  Rab GTPases are implicated in vesicle trafficking.</Hit_def>
+  <Hit_accession>197555</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>6.27503e-34</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>166</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIRAR</Hsp_qseq>
+      <Hsp_hseq>KIILIGDSGVGKSSLLSRFTDGKFSEQYKSTIGVDFKTKTIEVDGKRVKLQIWDTAGQERFRSITSSYYRGAVGALLVYDITNRESFENLENWLKE-LREYASPNVVIMLVGNKSDLEEQRQVSREEAEAFAEEHGLPFFETSAKTNTNVEEAFEELAREILKR</Hsp_hseq>
+      <Hsp_midline>K+I++G  GVGKS+L  +F   +F E Y+ T    ++ K + +DG+ V++ I DTAGQE + +I  +Y+R   G L V+ IT  ESF    ++ ++ LR     NV  +LVGNKSDLE++RQVS EEA+  AE+  + + ETSAKT  NV++ F +L REI  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|206715</Hit_id>
+  <Hit_def>cd04148, RGK, Rem, Rem2, Rad, Gem/Kir (RGK) subfamily of Ras GTPases.  RGK subfamily. The RGK (Rem, Rem2, Rad, Gem/Kir) subfamily of Ras GTPases are expressed in a tissue-specific manner and are dynamically regulated by transcriptional and posttranscriptional mechanisms in response to environmental cues. RGK proteins bind to the beta subunit of L-type calcium channels, causing functional down-regulation of these voltage-dependent calcium channels, and either termination of calcium-dependent secretion or modulation of electrical conduction and contractile function. Inhibition of L-type calcium channels by Rem2 may provide a mechanism for modulating calcium-triggered exocytosis in hormone-secreting cells, and has been proposed to influence the secretion of insulin in pancreatic beta cells. RGK proteins also interact with and inhibit the Rho/Rho kinase pathway to modulate remodeling of the cytoskeleton. Two characteristics of RGK proteins cited in the literature are N-terminal and C-terminal extensions beyond the GTPase domain typical of Ras superfamily members. The N-terminal extension is not conserved among family members; the C-terminal extension is reported to be conserved among the family and lack the CaaX prenylation motif typical of membrane-associated Ras proteins. However, a putative CaaX motif has been identified in the alignment of the C-terminal residues of this CD.</Hit_def>
+  <Hit_accession>206715</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>2.98194e-33</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>167</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>HKVIMVGSGGVGKSALTLQFMYDEFVED--YEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREIRARK</Hsp_qseq>
+      <Hsp_hseq>YRVVLLGDSGVGKSSLANIFTAGVY-EDSAYEASGDDTYERTVSVDGEEATLVVYDHWEQEDGMWLEDSCMQVGDAYVIVYSVTDRSSFEKASELRIQLRRARQAEDIPIILVGNKSDLVRSREVSVQEGRACAVVFDCKFIETSAALQHNVDELFEGIVRQVRLRR</Hsp_hseq>
+      <Hsp_midline>++V+++G  GVGKS+L   F    + ED  YE +  D+Y + V +DGEE  + + D   QED   + D+  + G+ ++ V+S+T+  SF   ++ R Q+ R ++ E++P +LVGNKSDL   R+VSV+E +  A  ++  ++ETSA  + NVD++F  ++R++R R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|206713</Hit_id>
+  <Hit_def>cd04146, RERG_RasL11_like, Ras-related and Estrogen-Regulated Growth inhibitor (RERG) and Ras-like 11 (RasL11)-like families.  RERG (Ras-related and Estrogen- Regulated Growth inhibitor) and Ras-like 11 are members of a novel subfamily of Ras that were identified based on their behavior in breast and prostate tumors, respectively. RERG expression was decreased or lost in a significant fraction of primary human breast tumors that lack estrogen receptor and are correlated with poor clinical prognosis. Elevated RERG expression correlated with favorable patient outcome in a breast tumor subtype that is positive for estrogen receptor expression. In contrast to most Ras proteins, RERG overexpression inhibited the growth of breast tumor cells in vitro and in vivo. RasL11 was found to be ubiquitously expressed in human tissue, but down-regulated in prostate tumors. Both RERG and RasL11 lack the C-terminal CaaX prenylation motif, where a = an aliphatic amino acid and X = any amino acid, and are localized primarily in the cytoplasm. Both are believed to have tumor suppressor activity.</Hit_def>
+  <Hit_accession>206713</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>4.18334e-33</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQ---EDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKE-DENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETS-AKTRANVDKVFFDLMREIR</Hsp_qseq>
+      <Hsp_hseq>KIAVLGASGVGKSALTVRFLTKRFIGEYEPNLESLYSRQVTIDGEQVSLEIQDTPGQQQNEDPESL-ERSLRWADGFVLVYSITDRSSFDVVSQLLQLIREIKKRDGEIPVILVGNKADLLHSRQVSTEEGQKLALELGCLFFEVSAAENYLEVQNVFHELCREVR</Hsp_hseq>
+      <Hsp_midline>K+ ++G+ GVGKSALT++F+   F+ +YEP     Y ++V +DGE+V ++I DT GQ   ED  ++ +   R  +GF+ V+SIT+  SF   +   + I  +K+ D  +P +LVGNK+DL   RQVS EE +  A +    + E S A+    V  VF +L RE+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|206659</Hit_id>
+  <Hit_def>cd01867, Rab8_Rab10_Rab13_like, Rab GTPase families 8, 10, 13 (Rab8, Rab10, Rab13).  Rab8/Sec4/Ypt2 are known or suspected to be involved in post-Golgi transport to the plasma membrane. It is likely that these Rabs have functions that are specific to the mammalian lineage and have no orthologs in plants. Rab8 modulates polarized membrane transport through reorganization of actin and microtubules, induces the formation of new surface extensions, and has an important role in directed membrane transport to cell surfaces. The Ypt2 gene of the fission yeast Schizosaccharomyces pombe encodes a member of the Ypt/Rab family of small GTP-binding proteins, related in sequence to Sec4p of Saccharomyces cerevisiae but closer to mammalian Rab8. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206659</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>1.3869e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LHKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>LFKLLLIGDSGVGKSCLLLRFSEDSFNPSFISTIGIDFKIRTIELDGKKIKLQIWDTAGQERFRTITTSYYRGAMGIILVYDITDEKSFENIKNWMRNIDE-HASEDVERMLVGNKCDMEEKRVVSKEEGEALAREYGIKFLETSAKANINVEEAFLTLAKDI</Hsp_hseq>
+      <Hsp_midline>L K++++G  GVGKS L L+F  D F   +  T    ++ + + LDG+++++ I DTAGQE +  I  +Y+R   G + V+ IT+ +SF    ++   I      E+V  +LVGNK D+E+KR VS EE +  A ++ + ++ETSAK   NV++ F  L ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|206660</Hit_id>
+  <Hit_def>cd01868, Rab11_like, Rab GTPase family 11 (Rab11)-like includes Rab11a, Rab11b, and Rab25.  Rab11a, Rab11b, and Rab25 are closely related, evolutionary conserved Rab proteins that are differentially expressed. Rab11a is ubiquitously synthesized, Rab11b is enriched in brain and heart and Rab25 is only found in epithelia. Rab11/25 proteins seem to regulate recycling pathways from endosomes to the plasma membrane and to the trans-Golgi network. Furthermore, Rab11a is thought to function in the histamine-induced fusion of tubulovesicles containing H+, K+ ATPase with the plasma membrane in gastric parietal cells and in insulin-stimulated insertion of GLUT4 in the plasma membrane of cardiomyocytes. Overexpression of Rab25 has recently been observed in ovarian cancer and breast cancer, and has been correlated with worsened outcomes in both diseases. In addition, Rab25 overexpression has also been observed in prostate cancer, transitional cell carcinoma of the bladder, and invasive breast tumor cells. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206660</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.0202e-31</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>LHKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>LFKIVLIGDSGVGKSNLLSRFTRNEFNLDSKSTIGVEFATRTIQIDGKTIKAQIWDTAGQERYRAITSAYYRGAVGALLVYDITKKSTFENVERWLKE-LRDHADSNIVIMLVGNKSDLRHLRAVPTEEAKAFAEKNGLSFIETSALDGTNVEEAFKQLLTEI</Hsp_hseq>
+      <Hsp_midline>L K++++G  GVGKS L  +F  +EF  D + T    +  + + +DG+ ++  I DTAGQE Y AI   Y+R   G L V+ IT+  +F     + ++ LR   D N+  +LVGNKSDL   R V  EEAK  AE+  ++++ETSA    NV++ F  L+ EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|206653</Hit_id>
+  <Hit_def>cd01860, Rab5_related, Rab-related GTPase family includes Rab5 and Rab22; regulates early endosome fusion.  The Rab5-related subfamily includes Rab5 and Rab22 of mammals, Ypt51/Ypt52/Ypt53 of yeast, and RabF of plants. The members of this subfamily are involved in endocytosis and endocytic-sorting pathways. In mammals, Rab5 GTPases localize to early endosomes and regulate fusion of clathrin-coated vesicles to early endosomes and fusion between early endosomes. In yeast, Ypt51p family members similarly regulate membrane trafficking through prevacuolar compartments. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206653</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.997</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>6.29831e-31</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KLVLLGDSSVGKSSIVLRFVKNEFSENQESTIGAAFLTQTVNLDDTTVKFEIWDTAGQERYRSLAPMYYRGAAAAIVVYDITSEESFEKAKSWVKE-LQEHGPPNIVIALAGNKADLESKRQVSTEEAQEYADENGLLFMETSAKTGENVNELFTEIARKL</Hsp_hseq>
+      <Hsp_midline>K++++G   VGKS++ L+F+ +EF E+ E T   ++  + V LD   V+ +I DTAGQE Y ++   Y+R     + V+ IT  ESF     + ++ L+     N+   L GNK+DLE KRQVS EEA+  A++  + ++ETSAKT  NV+++F ++ R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|CDD|206655</Hit_id>
+  <Hit_def>cd01862, Rab7, Rab GTPase family 7 (Rab7).  Rab7 subfamily. Rab7 is a small Rab GTPase that regulates vesicular traffic from early to late endosomal stages of the endocytic pathway. The yeast Ypt7 and mammalian Rab7 are both involved in transport to the vacuole/lysosome, whereas Ypt7 is also required for homotypic vacuole fusion. Mammalian Rab7 is an essential participant in the autophagic pathway for sequestration and targeting of cytoplasmic components to the lytic compartment. Mammalian Rab7 is also proposed to function as a tumor suppressor. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206655</Hit_accession>
+  <Hit_len>172</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>3.84375e-30</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPT-KADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQIL---RVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQW-----NVNYVETSAKTRANVDKVFFDLMR</Hsp_qseq>
+      <Hsp_hseq>KVIILGDSGVGKTSLMNQYVNKKFSNQYKATIGADFLTKEVTVDDRLVTLQIWDTAGQERFQSLGVAFYRGADCCVLVYDVTNPKSFESLDSWRDEFLIQASPRDPENFPFVVLGNKIDLEEKRQVSTK----KAQQWCKSKGNIPYFETSAKEAINVDQAFETIAR</Hsp_hseq>
+      <Hsp_midline>KVI++G  GVGK++L  Q++  +F   Y+ T  AD   K+V +D   V + I DTAGQE + ++   ++R  +  + V+ +T  +SF +   +R++ L     ++ EN PF+++GNK DLE+KRQVS +    +A+QW     N+ Y ETSAK   NVD+ F  + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|CDD|133323</Hit_id>
+  <Hit_def>cd04123, Rab21, Rab GTPase family 21 (Rab21).  The localization and function of Rab21 are not clearly defined, with conflicting data reported. Rab21 has been reported to localize in the ER in human intestinal epithelial cells, with partial colocalization with alpha-glucosidase, a late endosomal/lysosomal marker. More recently, Rab21 was shown to colocalize with and affect the morphology of early endosomes. In Dictyostelium, GTP-bound Rab21, together with two novel LIM domain proteins, LimF and ChLim, has been shown to regulate phagocytosis. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>133323</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.78115e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPT-KADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KVVLLGEGRVGKTSLVLRYVENKFNEKHESTTQASFFQKTVNIGGKRIDLAIWDTAGQERYHALGPIYYRDADGAILVYDITDADSFQKVKKWIKELKQMRGN-NISLVIVGNKIDLERQRVVSKSEAEEYAKSVGAKHFETSAKTGKGIEELFLSLAKRM</Hsp_hseq>
+      <Hsp_midline>KV+++G G VGK++L L+++ ++F E +E T +A  ++K V + G+ + + I DTAGQE Y A+   Y+R  +G + V+ IT+ +SF     + +++ +++ + N+  ++VGNK DLE +R VS  EA+  A+     + ETSAKT   ++++F  L + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|CDD|206654</Hit_id>
+  <Hit_def>cd01861, Rab6, Rab GTPase family 6 (Rab6).  Rab6 is involved in microtubule-dependent transport pathways through the Golgi and from endosomes to the Golgi. Rab6A of mammals is implicated in retrograde transport through the Golgi stack, and is also required for a slow, COPI-independent, retrograde transport pathway from the Golgi to the endoplasmic reticulum (ER). This pathway may allow Golgi residents to be recycled through the ER for scrutiny by ER quality-control systems. Yeast Ypt6p, the homolog of the mammalian Rab6 GTPase, is not essential for cell viability. Ypt6p acts in endosome-to-Golgi, in intra-Golgi retrograde transport, and possibly also in Golgi-to-ER trafficking. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206654</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>2.92017e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>HKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKA-DSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVF</Hsp_qseq>
+      <Hsp_hseq>HKLVFLGDQSVGKTSIITRFMYDTFDNQYQATIGIDFLSKTMYVDDKTVRLQLWDTAGQERFRSLIPSYIRDSSVAVVVYDITNRQSFDNTDKWIDDV-RDERGNDVIIVLVGNKTDLSDKRQVSTEEGEKKAKENNAMFIETSAKAGHNVKQLF</Hsp_hseq>
+      <Hsp_midline>HK++ +G   VGK+++  +FMYD F   Y+ T   D   K + +D + V++ + DTAGQE + ++  +Y R     + V+ IT  +SF  T  + + + R +   +V  +LVGNK+DL DKRQVS EE + +A++ N  ++ETSAK   NV ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|CDD|206656</Hit_id>
+  <Hit_def>cd01863, Rab18, Rab GTPase family 18 (Rab18).  Rab18 subfamily. Mammalian Rab18 is implicated in endocytic transport and is expressed most highly in polarized epithelial cells. However, trypanosomal Rab, TbRAB18, is upregulated in the BSF (Blood Stream Form) stage and localized predominantly to elements of the Golgi complex. In human and mouse cells, Rab18 has been identified in lipid droplets, organelles that store neutral lipids. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins. Due to the presence of truncated sequences in this CD, the lipid modification site is not available for annotation.</Hit_def>
+  <Hit_accession>206656</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.064</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>2.55747e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYR-KKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KILLIGDSGVGKSSLLLRFTDDTFDEDLSSTIGVDFKVKTVTVDGKKVKLAIWDTAGQERFRTLTSSYYRGAQGVILVYDVTRRDTFDNLDTWLNELDTYSTNPDAVKMLVGNKIDKEN-REVTREEGQKFARKHNMLFIETSAKTRIGVQQAFEELVEKI</Hsp_hseq>
+      <Hsp_midline>K++++G  GVGKS+L L+F  D F ED   T    ++ K V +DG++V++ I DTAGQE +  +  +Y+R  +G + V+ +T  ++F     +  ++     + +   +LVGNK D E+ R+V+ EE +  A + N+ ++ETSAKTR  V + F +L+ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|CDD|206641</Hit_id>
+  <Hit_def>cd00157, Rho, Ras homology family (Rho) of small guanosine triphosphatases (GTPases).  Members of the Rho (Ras homology) family include RhoA, Cdc42, Rac, Rnd, Wrch1, RhoBTB, and Rop. There are 22 human Rho family members identified currently. These proteins are all involved in the reorganization of the actin cytoskeleton in response to external stimuli. They also have roles in cell transformation by Ras in cytokinesis, in focal adhesion formation and in the stimulation of stress-activated kinase. These various functions are controlled through distinct effector proteins and mediated through a GTP-binding/GTPase cycle involving three classes of regulating proteins: GAPs (GTPase-activating proteins), GEFs (guanine nucleotide exchange factors), and GDIs (guanine nucleotide dissociation inhibitors). Most Rho proteins contain a lipid modification site at the C-terminus, with a typical sequence motif CaaX, where a = an aliphatic amino acid and X = any amino acid. Lipid binding is essential for membrane attachment, a key feature of most Rho proteins. Since crystal structures often lack C-terminal residues, this feature is not available for annotation in many of the CDs in the hierarchy.</Hit_def>
+  <Hit_accession>206641</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>3.63677e-23</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESF--AATADFREQILRVKE-DENVPFLLVGNKSDLED-----------KRQVSVEEAKNRAEQWN-VNYVETSAKTRANVDKVFFDLMR</Hsp_qseq>
+      <Hsp_hseq>KIVVVGDGAVGKTCLLISYTTNKFPTEYVPTVFDNYSANVTVDGKQVNLGLWDTAGQEEYDRLRPLSYPQTDVFLLCFSVDSPSSFENVKTKWYPE----IKHYCPNVPIILVGTKIDLRDDGNTLKKLEKKQKPITPEEGEKLAKEIGAVKYMECSALTQEGLKEVFDEAIR</Hsp_hseq>
+      <Hsp_midline>K+++VG G VGK+ L + +  ++F  +Y PT  D+Y   V +DG++V + + DTAGQE+Y  +R   +   + FL  FS+    SF    T  + E    +K    NVP +LVG K DL D           ++ ++ EE +  A++   V Y+E SA T+  + +VF + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|CDD|224025</Hit_id>
+  <Hit_def>COG1100, COG1100, GTPase SAR1 and related small G proteins [General function prediction only].</Hit_def>
+  <Hit_accession>224025</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.36355e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>184</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKAD--------SYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNR----------------AEQWNVNYVETSAK--TRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KIVVLGDGGVGKTTLLNRLVGDEFPEGYPPTIGNLDPAKTIEPYRRNI-------KLQLWDTAGQEEYRSLRPEYYRGANGILIVYDSTLRESSDELTEEWLEELRELAPDDVPILLVGNKIDLFDE-QSSSEEILNQLNREVVLLVLAPKAVLPEVANPALLETSAKSLTGPNVNELFKELLRKL</Hsp_hseq>
+      <Hsp_midline>K++++G GGVGK+ L  + + DEF E Y PT  +         YR+ +       ++ + DTAGQE+Y ++R  Y+R   G L V+  T  ES     +   + LR    ++VP LLVGNK DL D+ Q S EE  N+                 E  N   +ETSAK  T  NV+++F +L+R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|CDD|206643</Hit_id>
+  <Hit_def>cd00877, Ran, Ras-related nuclear proteins (Ran)/TC4 family of small GTPases.  Ran GTPase is involved in diverse biological functions, such as nuclear transport, spindle formation during mitosis, DNA replication, and cell division. Among the Ras superfamily, Ran is a unique small G protein. It does not have a lipid modification motif at the C-terminus to bind to the membrane, which is often observed within the Ras superfamily. Ran may therefore interact with a wide range of proteins in various intracellular locations. Like other GTPases, Ran exists in GTP- and GDP-bound conformations that interact differently with effectors. Conversion between these forms and the assembly or disassembly of effector complexes requires the interaction of regulator proteins. The intrinsic GTPase activity of Ran is very low, but it is greatly stimulated by a GTPase-activating protein (RanGAP1) located in the cytoplasm. By contrast, RCC1, a guanine nucleotide exchange factor that generates RanGTP, is bound to chromatin and confined to the nucleus. Ran itself is mobile and is actively imported into the nucleus by a mechanism involving NTF-2. Together with the compartmentalization of its regulators, this is thought to produce a relatively high concentration of RanGTP in the nucleus.</Hit_def>
+  <Hit_accession>206643</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.01081e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>158</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPT-KADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KLVLVGDGGTGKTTFVKRHLTGEFEKKYVATLGVEVHPLDFHTNRGKIRFNVWDTAGQEKFGGLRDGYYIQGQCAIIMFDVTSRVTYKNVPNWHRDLVRV--CENIPIVLCGNKVDIKDRKVKPKQITFHRKK--NLQYYEISAKSNYNFEKPFLWLARKL</Hsp_hseq>
+      <Hsp_midline>K+++VG GG GK+    + +  EF + Y  T   + +      +  +++ ++ DTAGQE +  +RD Y+  G+  + +F +T   ++    ++   ++RV   EN+P +L GNK D++D++    +   +R +  N+ Y E SAK+  N +K F  L R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|CDD|133319</Hit_id>
+  <Hit_def>cd04119, RJL, Rab GTPase family J-like (RabJ-like).  RJLs are found in many protists and as chimeras with C-terminal DNAJ domains in deuterostome metazoa. They are not found in plants, fungi, and protostome metazoa, suggesting a horizontal gene transfer between protists and deuterostome metazoa. RJLs lack any known membrane targeting signal and contain a degenerate phosphate/magnesium-binding 3 (PM3) motif, suggesting an impaired ability to hydrolyze GTP. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization.</Hit_def>
+  <Hit_accession>133319</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.05979e-21</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYR-KKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKED----ENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KVISMGNSGVGKSCIIKRYCEGRFVSKYLPTIGIDYGVKKVSVRNKEVRVNFFDLSGHPEYLEVRNEFYKDTQGVLLVYDVTDRQSFEALDSWLKEMKQEGGPHGNMENIVVVVCANKIDLTKHRAVSEDEGRLWAESKGFKYFETSACTGEGVNEMFQTLFSSI</Hsp_hseq>
+      <Hsp_midline>KVI +G+ GVGKS +  ++    FV  Y PT    Y  KKV +  +EV+++  D +G  +Y  +R+ +++  +G L V+ +T+ +SF A   + +++ +        EN+  ++  NK DL   R VS +E +  AE     Y ETSA T   V+++F  L   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|CDD|197554</Hit_id>
+  <Hit_def>smart00174, RHO, Rho (Ras homology) subfamily of Ras-like small GTPases.  Members of this subfamily of Ras-like small GTPases include Cdc42 and Rac, as well as Rho isoforms.</Hit_def>
+  <Hit_accession>197554</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>1.49324e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKE-DENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWN-------------VNYVETSAKTRANVDKVFFDLMR</Hsp_qseq>
+      <Hsp_hseq>LVVVGDGAVGKTCLLIVYTTNAFPEDYVPTVFENYSADVEVDGKPVELGLWDTAGQEDYDRLRPLSYPDTDVFLICFSVDSPASFENVKE--KWYPEVKHFCPNVPIILVGTKLDLRNDKSTLEELSKKKQEPVTYEQGQALAKRIGAVKYLECSALTQEGVREVFEEAIR</Hsp_hseq>
+      <Hsp_midline>+++VG G VGK+ L + +  + F EDY PT  ++Y   V +DG+ V++ + DTAGQEDY  +R   +   + FL  FS+    SF    +  +    VK    NVP +LVG K DL + +    E +K + E                V Y+E SA T+  V +VF + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|CDD|272973</Hit_id>
+  <Hit_def>TIGR00231, GTP-binding_protein_placental_isoform, small GTP-binding protein domain.  Proteins with a small GTP-binding domain recognized by this model include Ras, RhoA, Rab11, translation elongation factor G, translation initiation factor IF-2, tetratcycline resistance protein TetM, CDC42, Era, ADP-ribosylation factors, tdhF, and many others. In some proteins the domain occurs more than once.This model recognizes a large number of small GTP-binding proteins and related domains in larger proteins. Note that the alpha chains of heterotrimeric G proteins are larger proteins in which the NKXD motif is separated from the GxxxxGK[ST] motif (P-loop) by a long insert and are not easily detected by this model. [Unknown function, General].</Hit_def>
+  <Hit_accession>272973</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.0182</Hsp_bit-score>
+      <Hsp_score>175</Hsp_score>
+      <Hsp_evalue>9.79653e-17</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>157</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDE-FVEDYEPTKADSYRKKVVL-DGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQIL--RVKE-----DENVPFLLVGNKSDLED---KRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVF</Hsp_qseq>
+      <Hsp_hseq>KIVIVGHPNVGKSTLLNSLLGNKGSITEYYPGTTRNYVTTVIEEDGKTYKFNLLDTAGQEDYDAIRRLYYPQVERSLRVFDIVIL-----VLDV-EEILEKQTKEIIHHADSGVPIILVGNKIDLKDADLKTHVASEFAKLNGEPI----IPLSAETGKNIDSAF</Hsp_hseq>
+      <Hsp_midline>K+++VG   VGKS L    + ++  + +Y P    +Y   V+  DG+  + ++LDTAGQEDY AIR  Y+   E  L VF I  +       D  E+IL  + KE     D  VP +LVGNK DL+D   K  V+ E AK   E      +  SA+T  N+D  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|CDD|206704</Hit_id>
+  <Hit_def>cd04132, Rho4_like, Ras homology family 4 (Rho4) of small guanosine triphosphatases (GTPases)-like.  Rho4 is a GTPase that controls septum degradation by regulating secretion of Eng1 or Agn1 during cytokinesis. Rho4 also plays a role in cell morphogenesis. Rho4 regulates septation and cell morphology by controlling the actin cytoskeleton and cytoplasmic microtubules. The localization of Rho4 is modulated by Rdi1, which may function as a GDI, and by Rga9, which is believed to function as a GAP. In S. pombe, both Rho4 deletion and Rho4 overexpression result in a defective cell wall, suggesting a role for Rho4 in maintaining cell wall integrity. Most Rho proteins contain a lipid modification site at the C-terminus, with a typical sequence motif CaaX, where a = an aliphatic amino acid and X = any amino acid. Lipid binding is essential for membrane attachment, a key feature of most Rho proteins.</Hit_def>
+  <Hit_accession>206704</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>6.03261e-16</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>156</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKV-VLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATAD-FREQILRVKEDENVPFLLVGNKSDL-EDKRQVS-----------VEEAKNRAEQWN-VNYVETSAKTRANVDKVF</Hsp_qseq>
+      <Hsp_hseq>KIVVVGDGGCGKTCLLMVYAQGSFPEEYVPTVFENYVTTLQVPNGKIIELALWDTAGQEDYDRLRPLSYPDVDVILICYSVDNPTSLDNVEDKWYPEVNHFC--PGTPIVLVGLKTDLRKDKNSVSKLRAQGLEPVTPEQGESVAKSIGAVAYIECSAKLMENVDEVF</Hsp_hseq>
+      <Hsp_midline>K+++VG GG GK+ L + +    F E+Y PT  ++Y   + V +G+ +++ + DTAGQEDY  +R   +   +  L  +S+    S     D +  ++         P +LVG K+DL +DK  VS            E+ ++ A+    V Y+E SAK   NVD+VF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|CDD|206692</Hit_id>
+  <Hit_def>cd04107, Rab32_Rab38, Rab GTPase families 18 (Rab18) and 32 (Rab32).  Rab38/Rab32 subfamily. Rab32 and Rab38 are members of the Rab family of small GTPases. Human Rab32 was first identified in platelets but it is expressed in a variety of cell types, where it functions as an A-kinase anchoring protein (AKAP). Rab38 has been shown to be melanocyte-specific. GTPase activating proteins (GAPs) interact with GTP-bound Rab and accelerate the hydrolysis of GTP to GDP. Guanine nucleotide exchange factors (GEFs) interact with GDP-bound Rabs to promote the formation of the GTP-bound state. Rabs are further regulated by guanine nucleotide dissociation inhibitors (GDIs), which facilitate Rab recycling by masking C-terminal lipid binding and promoting cytosolic localization. Most Rab GTPases contain a lipid modification site at the C-terminus, with sequence motifs CC, CXC, or CCX. Lipid binding is essential for membrane attachment, a key feature of most Rab proteins.</Hit_def>
+  <Hit_accession>206692</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>2.45349e-15</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVV-LDGEEV-QIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQI---LRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWN--VNYVETSAKTRANVDKVFFDLMREI</Hsp_qseq>
+      <Hsp_hseq>KVLVIGDLGVGKTSIIKRYVHGVFSQHYKATIGVDFALKVIEWDPNTVVRLQLWDIAGQERFGGMTRVYYKGAVGAIIVFDVTRPSTFEAVLKWKADLDSKVTLPNGEPIPALLLANKCDLKKERLAKDPEQMDQFCKENGFIGWFETSAKENINIEEAMRFLVKNI</Hsp_hseq>
+      <Hsp_midline>KV+++G  GVGK+++  ++++  F + Y+ T    +  KV+  D   V ++ + D AGQE +  +   Y++   G + VF +T   +F A   ++  +   + +   E +P LL+ NK DL+ +R     E  ++  + N  + + ETSAK   N+++    L++ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|CDD|312094</Hit_id>
+  <Hit_def>pfam08477, Roc, Ras of Complex, Roc, domain of DAPkinase.  Roc, or Ras of Complex, proteins are mitochondrial Rho proteins (Miro-1, and Miro-2) and atypical Rho GTPases. Full-length proteins have a unique domain organisation, with tandem GTP-binding domains and two EF hand domains (pfam00036) that may bind calcium. They are also larger than classical small GTPases. It has been proposed that they are involved in mitochondrial homeostasis and apoptosis.</Hit_def>
+  <Hit_accession>312094</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>1.11148e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVL----DGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKE-DENVPFLLVGNKSD</Hsp_qseq>
+      <Hsp_hseq>KIVLLGDSGVGKTSLLKRFVDDTFDPKYQSTIGVDFKTKTVLENDDNGKKVKLNIWDTAGQERFRSLHPFYYRGAAAALLVY---DSRTF---SNLKYWLRELREYAGNSPVILVGNKID</Hsp_hseq>
+      <Hsp_midline>K++++G  GVGK++L  +F+ D F   Y+ T    ++ K VL    +G++V+++I DTAGQE + ++   Y+R     L V+   +  +F   ++ +  +  ++E   N P +LVGNK D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|CDD|206680</Hit_id>
+  <Hit_def>cd01893, Miro1, Mitochondrial Rho family 1 (Miro1), N-terminal.  Miro1 subfamily. Miro (mitochondrial Rho) proteins have tandem GTP-binding domains separated by a linker region containing putative calcium-binding EF hand motifs. Genes encoding Miro-like proteins were found in several eukaryotic organisms. This CD represents the N-terminal GTPase domain of Miro proteins. These atypical Rho GTPases have roles in mitochondrial homeostasis and apoptosis. Most Rho proteins contain a lipid modification site at the C-terminus; however, Miro is one of few Rho subfamilies that lack this feature.</Hit_def>
+  <Hit_accession>206680</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.88874e-10</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>157</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLED-KRQVSVEEAKNRAEQWNV--------NYVETSAKTRANVDKVFF</Hsp_qseq>
+      <Hsp_hseq>RIVLIGDEGVGKSSLIMSLVSEEFPENV-PRVLPEITIPADVTPERVPTTIVDTSSRPQDRANLAAEIRKANVICLVYSVDRPSTLERIRTKWLPLIR-RLGVKVPIILVGNKSDLRDGSSQAGLEE-----EMLPIMNEFREIETCVECSAKTLINVSEVFY</Hsp_hseq>
+      <Hsp_midline>+++++G  GVGKS+L +  + +EF E+  P           +  E V   I+DT+ +    A      R       V+S+    +          ++R +    VP +LVGNKSDL D   Q  +EE     E   +          VE SAKT  NV +VF+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|CDD|206724</Hit_id>
+  <Hit_def>cd04159, Arl10_like, Arf-like 9 (Arl9) and 10 (Arl10) GTPases.  Arl10-like subfamily. Arl9/Arl10 was identified from a human cancer-derived EST dataset. No functional information about the subfamily is available at the current time, but crystal structures of human Arl10b and Arl10c have been solved.</Hit_def>
+  <Hit_accession>206724</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>1.54395e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVSVEEAKNRAEQWNVNYV--------ETSAKTRANVDKVFFDLMRE</Hsp_qseq>
+      <Hsp_hseq>ITLVGLQNSGKTTLVNVIASGQFSEDTIPTVGFNMRK--VTKGN-VTIKVWDLGGQPRFRSMWERYCRGVNAIVYVVDAADREKLEVAKNELHDLLEKPSLEGIPLLVLGNKNDLPG--ALSVDEL---IEQMNLKSITDREVSCYSISAKEKTNIDIVLDWLIKH</Hsp_hseq>
+      <Hsp_midline>+ +VG    GK+ L       +F ED  PT   + RK  V  G  V I + D  GQ  + ++ + Y R     + V    + E      +    +L     E +P L++GNK+DL     +SV+E     EQ N+  +          SAK + N+D V   L++ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|CDD|206725</Hit_id>
+  <Hit_def>cd04160, Arfrp1, Arf-related protein 1 (Arfrp1).  Arfrp1 (Arf-related protein 1), formerly known as ARP, is a membrane-associated Arf family member that lacks the N-terminal myristoylation motif. Arfrp1 is mainly associated with the trans-Golgi compartment and the trans-Golgi network, where it regulates the targeting of Arl1 and the GRIP domain-containing proteins, golgin-97 and golgin-245, onto Golgi membranes. It is also involved in the anterograde transport of the vesicular stomatitis virus G protein from the Golgi to the plasma membrane, and in the retrograde transport of TGN38 and Shiga toxin from endosomes to the trans-Golgi network. Arfrp1 also inhibits Arf/Sec7-dependent activation of phospholipase D. Deletion of Arfrp1 in mice causes embryonic lethality at the gastrulation stage and apoptosis of mesodermal cells, indicating its importance in development.</Hit_def>
+  <Hit_accession>206725</Hit_accession>
+  <Hit_len>168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>2.26433e-06</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>127</Hsp_align-len>
+      <Hsp_qseq>VIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQID-----ILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLEDKRQVS</Hsp_qseq>
+      <Hsp_hseq>VLILGLDNAGKTTF-LEQTKTKFSKNYKGLNPSKITPTVGLNIGTIEVGKARLMFWDLGGQEELRSLWDKYYAESHGVIYVIDSTDRERFNESKSAFEKVINNEALEGVPLLVLANKQDLPDALSVA</Hsp_hseq>
+      <Hsp_midline>V+++G    GK+   L+    +F ++Y+          V L+   +++        D  GQE+  ++ D Y+    G + V   T+ E F  +    E+++  +  E VP L++ NK DL D   V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|CDD|206741</Hit_id>
+  <Hit_def>cd09914, RocCOR, Ras of complex proteins (Roc) C-terminal of Roc (COR) domain family.  RocCOR (or Roco) protein family is characterized by a superdomain containing a Ras-like GTPase domain, called Roc (Ras of complex proteins), and a characteristic second domain called COR (C-terminal of Roc). A kinase domain and diverse regulatory domains are also often found in Roco proteins. Their functions are diverse; in Dictyostelium discoideum, which encodes 11 Roco proteins, they are involved in cell division, chemotaxis and development, while in human, where 4 Roco proteins (LRRK1, LRRK2, DAPK1, and MFHAS1) are encoded, these proteins are involved in epilepsy and cancer. Mutations in LRRK2 (leucine-rich repeat kinase 2) are known to cause familial Parkinson&apos;s disease.</Hit_def>
+  <Hit_accession>206741</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>5.43661e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYR--KKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENV-PFLLVGNKSD</Hsp_qseq>
+      <Hsp_hseq>KLMLVGQGGVGKTSLCKQLIGEKFDGDESSTHGINVQDWKIPAPERKKIRLNVWDFGGQEIYHATHQFFLTSRSLYLLVFDLRTGDEVSRVPYWLRQI---KAFGGVSPVILVGTHID</Hsp_hseq>
+      <Hsp_midline>K+++VG GGVGK++L  Q + ++F  D   T   + +  K    + +++++++ D  GQE Y A    +  S   +L VF +   +  +    +  QI   K    V P +LVG   D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|CDD|206645</Hit_id>
+  <Hit_def>cd00879, Sar1, Sar1 is an essential component of COPII vesicle coats.  Sar1 is an essential component of COPII vesicle coats involved in export of cargo from the ER. The GTPase activity of Sar1 functions as a molecular switch to control protein-protein and protein-lipid interactions that direct vesicle budding from the ER. Activation of the GDP to the GTP-bound form of Sar1 involves the membrane-associated guanine nucleotide exchange factor (GEF) Sec12. Sar1 is unlike all Ras superfamily GTPases that use either myristoyl or prenyl groups to direct membrane association and function, in that Sar1 lacks such modification. Instead, Sar1 contains a unique nine-amino-acid N-terminal extension. This extension contains an evolutionarily conserved cluster of bulky hydrophobic amino acids, referred to as the Sar1-N-terminal activation recruitment (STAR) motif. The STAR motif mediates the recruitment of Sar1 to ER membranes and facilitates its interaction with mammalian Sec12 GEF leading to activation.</Hit_def>
+  <Hit_accession>206645</Hit_accession>
+  <Hit_len>191</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>4.87232e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSD</Hsp_qseq>
+      <Hsp_hseq>KIVFLGLDNAGKTTL-LHMLKDDRLAQHVPTLHPTSEELTI---GNVKFTTFDLGGHEQARRVWKDYFPEVDGIVFLVDAADPERFQESKEELDSLLNDEELANVPILILGNKID</Hsp_hseq>
+      <Hsp_midline>K++ +G    GK+ L L  + D+ +  + PT   +  +  +     V+    D  G E    +  +YF   +G + +    + E F  + +  + +L  +E  NVP L++GNK D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|CDD|133353</Hit_id>
+  <Hit_def>cd04153, Arl5_Arl8, Arf-like 5 (Arl5) and 8 (Arl8) GTPases.  Arl5/Arl8 subfamily. Arl5 (Arf-like 5) and Arl8, like Arl4 and Arl7, are localized to the nucleus and nucleolus. Arl5 is developmentally regulated during embryogenesis in mice. Human Arl5 interacts with the heterochromatin protein 1-alpha (HP1alpha), a nonhistone chromosomal protein that is associated with heterochromatin and telomeres, and prevents telomere fusion. Arl5 may also play a role in embryonic nuclear dynamics and/or signaling cascades. Arl8 was identified from a fetal cartilage cDNA library. It is found in brain, heart, lung, cartilage, and kidney. No function has been assigned for Arl8 to date.</Hit_def>
+  <Hit_accession>133353</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>6.78396e-05</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>HKVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDLE</Hsp_qseq>
+      <Hsp_hseq>YKVIIVGLDNAGKTTILYQFLLGEVVHT-SPTIGSNVEEIVY---KNIRFLMWDIGGQESLRSSWNTYYTNTDAVILVIDSTDRERLPLTKEELYKMLAHEDLRKAVLLVLANKQDLK</Hsp_hseq>
+      <Hsp_midline>+KVI+VG    GK+ +  QF+  E V    PT   +  + V    + ++  + D  GQE   +  + Y+ + +  + V   T+ E    T +   ++L  ++      L++ NK DL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|CDD|206648</Hit_id>
+  <Hit_def>cd00882, Ras_like_GTPase, Rat sarcoma (Ras)-like superfamily of small guanosine triphosphatases (GTPases).  Ras-like GTPase superfamily. The Ras-like superfamily of small GTPases consists of several families with an extremely high degree of structural and functional similarity. The Ras superfamily is divided into at least four families in eukaryotes: the Ras, Rho, Rab, and Sar1/Arf families. This superfamily also includes proteins like the GTP translation factors, Era-like GTPases, and G-alpha chain of the heterotrimeric G proteins. Members of the Ras superfamily regulate a wide variety of cellular functions: the Ras family regulates gene expression, the Rho family regulates cytoskeletal reorganization and gene expression, the Rab and Sar1/Arf families regulate vesicle trafficking, and the Ran family regulates nucleocytoplasmic transport and microtubule organization. The GTP translation factor family regulates initiation, elongation, termination, and release in translation, and the Era-like GTPase family regulates cell division, sporulation, and DNA replication. Members of the Ras superfamily are identified by the GTP binding site, which is made up of five characteristic sequence motifs, and the switch I and switch II regions.</Hit_def>
+  <Hit_accession>206648</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>9.11399e-05</Hsp_evalue>
+      <Hsp_query-from>36</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDN-----YFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSD-LEDKRQVSVEEAKNRAEQWNVNYVETSAKTRANVDKVFFDLM</Hsp_qseq>
+      <Hsp_hseq>PDVYVKE--LDKGKVKLVLVDTPGLDEFGGLGREELARLLLRGADLILLVVDSTDRES---EEDAKLLILRRLRKEGIPIILVGNKIDLLEEREVEELLRLEELAKILGVPVFEVSAKTGEGVDELFEKLI</Hsp_hseq>
+      <Hsp_midline> D Y K+  LD  +V++ ++DT G +++  +          R  +  L V   T+ ES     D +  ILR    E +P +LVGNK D LE++    +   +  A+   V   E SAKT   VD++F  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gnl|CDD|206644</Hit_id>
+  <Hit_def>cd00878, Arf_Arl, ADP-ribosylation factor(Arf)/Arf-like (Arl) small GTPases.  Arf (ADP-ribosylation factor)/Arl (Arf-like) small GTPases. Arf proteins are activators of phospholipase D isoforms. Unlike Ras proteins they lack cysteine residues at their C-termini and therefore are unlikely to be prenylated. Arfs are N-terminally myristoylated. Members of the Arf family are regulators of vesicle formation in intracellular traffic that interact reversibly with membranes of the secretory and endocytic compartments in a GTP-dependent manner. They depart from other small GTP-binding proteins by a unique structural device, interswitch toggle, that implements front-back communication from N-terminus to the nucleotide binding site. Arf-like (Arl) proteins are close relatives of the Arf, but only Arl1 has been shown to function in membrane traffic like the Arf proteins. Arl2 has an unrelated function in the folding of native tubulin, and Arl4 may function in the nucleus. Most other Arf family proteins are so far relatively poorly characterized. Thus, despite their significant sequence homologies, Arf family proteins may regulate unrelated functions.</Hit_def>
+  <Hit_accession>206644</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000188129</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KVIMVGSGGVGKSALTLQFMYDEFVEDYEPTKADSYRKKVVLDGEEVQIDILDTAGQEDYAAIRDNYFRSGEGFLCVFSITEMESFAATADFREQILRVKEDENVPFLLVGNKSDL</Hsp_qseq>
+      <Hsp_hseq>RILMLGLDGAGKTTILYKLKLGEVVTTI-PTIGFNVE---TVEYKNVKFTVWDVGGQDKIRPLWKHYYENTDGLIFVVDSSDRERIEEAKNELHKLLNEEELKGAPLLILANKQDL</Hsp_hseq>
+      <Hsp_midline>+++M+G  G GK+ +  +    E V    PT   +      ++ + V+  + D  GQ+    +  +Y+ + +G + V   ++ E      +   ++L  +E +  P L++ NK DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>86</Statistics_hsp-len>
+      <Statistics_eff-space>332611524</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

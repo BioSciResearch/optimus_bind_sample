@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>123</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>123</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|119387</Hit_id>
+  <Hit_def>cd06265, RNase_A_canonical, Canonical RNase A family includes all vertebrate homologues to the bovine pancreatic ribonuclease A (RNase A) that contain the catalytic site, necessary for RNase activity.  In the human genome 8 RNases , refered to as &quot;canonical&quot; RNases, have been identified, pancreatic RNase (RNase 1), Eosinophil Derived Neurotoxin (SEDN/RNASE 2), Eosinophil Cationic Protein (ECP/RNase 3), RNase 4, Angiogenin (RNase 5), RNase 6 or k6, the skin derived RNase (RNase 7) and RNase 8. The eight human genes are all located in a cluster on chromosome 14. Canonical RNase A enzymes have special biological activities; for example, some stimulate the development of vascular endothelial cells, dendritic cells, and neurons, are cytotoxic/anti-tumoral and/or anti-pathogenic. RNase A is involved in endonucleolytic cleavage of 3&apos;-phosphomononucleotides and 3&apos;-phosphooligonucleotides ending in C-P or U-P with 2&apos;,3&apos;-cyclic phosphate intermediates. The catalytic mechanism is a transphosphorylation of P-O 5&apos; bonds on the 3&apos; side of pyrimidines and subsequent hydrolysis to generate 3&apos; phosphate groups. The canonical RNase A family proteins have a conserved catalytic triad (two histidines and one lysine). They also share 6 to 8 cysteines that form three to four disulfide bonds. Two disulfide bonds that are close to the N and C termini contribute most significantly to conformational stability. Angiogenin or RNAse 5 has been implicated in tumor-associated angiogenesis. Comparative analysis in mammals and birds indicates that the whole family may have originated from a RNase 5-like gene. This hypothesis is supported by the fact that only RNase 5-like RNases have been reported outside the mammalian class. The RNase 5 group would therefore be the most ancient form of this family, and all other members would have arisen during mammalian evolution.</Hit_def>
+  <Hit_accession>119387</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>2.09493e-29</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>SRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSP-CKDINTFIHGNKRSIKAICEN-----KNGNPHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENGLPVHLD</Hsp_qseq>
+      <Hsp_hseq>TRYQKFLRQHVDPPRTG--IRYCNVMMRRRNMTKGRCKPVNTFIHESFADVRAVCTNPNVTCKNG---RNNCHKSNSPFPVTDCNLTGGSRYPNCRYRGTPSTRKIVVACENGVPVHLD</Hsp_hseq>
+      <Hsp_midline>+RY  FL QH D    G   RYC  +MRRR +T   CK +NTFIH +   ++A+C N     KNG   R N   S S F VT C L GGS +P C+YR T   R +VVACENG+PVHLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|333817</Hit_id>
+  <Hit_def>pfam00074, RnaseA, Pancreatic ribonuclease.  Ribonucleases. Members include pancreatic RNAase A and angiogenins. Structure is an alpha+beta fold -- long curved beta sheet and three helices.</Hit_def>
+  <Hit_accession>333817</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>96.6709</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.88179e-27</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>RYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSP-CKDINTFIHGNKRSIKAICENKNGN-PHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACE--NGLPVHLD</Hsp_qseq>
+      <Hsp_hseq>RAQWFLRQHIDYPPPGGSPRYCNSMMRRRNMTTGRCKPENTFLHESFANVQAVCGTPNVPCKNRKNCHRSKSPVPITDCRLTGGSPYPNCRYRTTASNRYIVVACEPPQPVPVHLD</Hsp_hseq>
+      <Hsp_midline>R   FL QH D  P G   RYC S+MRRR +T+  CK  NTF+H +  +++A+C   N    +R+N   SKS   +T C+L GGSP+P C+YR TA  R +VVACE    +PVHLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|128403</Hit_id>
+  <Hit_def>smart00092, RNAse_Pc, Pancreatic ribonuclease.  </Hit_def>
+  <Hit_accession>128403</Hit_accession>
+  <Hit_len>123</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>8.23225e-25</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>SRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTSP-CKDINTFIHGNKRSIKAICENKNGNPH--RENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENG--LPVHLDQSI</Hsp_qseq>
+      <Hsp_hseq>TRAQKFLRQHIDSTPSSSSSNYCNQMMKRRNMTQGRCKPVNTFVHESLADVKAVCSQKNVTCKNGQTNCYQSNSRFHITDCRLTGSSKYPNCRYKTTQANKHIIVACEGNPYVPVHFDASV</Hsp_hseq>
+      <Hsp_midline>+R   FL QH D+ P      YC  +M+RR +T   CK +NTF+H +   +KA+C  KN      + N   S S F +T C+L G S +P C+Y+ T   ++++VACE    +PVH D S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|119386</Hit_id>
+  <Hit_def>cd00163, RNase_A, RNase A family, or Pancreatic RNases family; includes vertebrate RNase homologs to the bovine pancreatic ribonuclease A (RNase A). Many of these enzymes have special biological activities; for example, some stimulate the development of vascular endothelial cells, dendritic cells, and neurons, are cytotoxic/anti-tumoral and/or anti-pathogenic. RNase A is involved in endonucleolytic cleavage of 3&apos;-phosphomononucleotides and 3&apos;-phosphooligonucleotides ending in C-P or U-P with 2&apos;,3&apos;-cyclic phosphate intermediates. The catalytic mechanism is a transphosphorylation of P-O 5&apos; bonds on the 3&apos; side of pyrimidines and subsequent hydrolysis to generate 3&apos; phosphate groups. The RNase A family proteins have a conserved catalytic triad (two histidines and one lysine); recently some family members lacking the catalytic residues have been identified. They also share three or four disulfide bonds. The most conserved disulfide bonds are close to the N and C termini and contribute most significantly to the conformational stability. 8 RNase A homologs had initially been identified in the human genome, pancreatic RNase (RNase 1), Eosinophil Derived Neurotoxin (EDN/RNASE 2), Eosinophil Cationic Protein (ECP/RNase 3), RNase 4, Angiogenin (RNase 5), RNase 6 or k6, the skin derived RNase (RNase 7) and RNase 8. These eight human genes are all located in a cluster on chromosome 14. Recent genomic analysis has extended the family to 13 sequences. However only the first eight identified human RNases, which are refered to as &quot;canonical&quot; RNases, contain the catalytic residues required for RNase A activity. The new genes corresponding to RNases 9-13 are also located in the same chromosome cluster and seem to be related to male-reproductive functions. RNases 9-13 have the characteristic disulfide bridge pattern but are unlikely to share RNase activity. The RNase A family most likely started off in vertebrates as a host-defense protein, and comparative analysis in mammals and birds indicates that the family may have originated from a RNase 5-like gene. This hypothesis is supported by the fact that only RNase 5-like RNases have been reported outside the mammalian class. The RNase 5 group would therefore be the most ancient form of this family, and all other members would have arisen during mammalian evolution.</Hit_def>
+  <Hit_accession>119386</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>2.75513e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>SRYTHFLTQHYDAKPQGRDDRYCESIMRRRGLTS--PCKDINTFIHGNKRSIKAICEN-----KNGNPHRENLRISKSSFQVTTCKLHGGSPWPPCQYRATAGFRNVVVACENG--LPVHLD</Hsp_qseq>
+      <Hsp_hseq>SKARTFRRQHIDYPKSNGDPRYCNSMMRRKKVTENGSCKKQHTFIHESLEEVQAVCNNPSVFCKNGG---ENCHRSKRPLDLTVCKLTGGSRIPNCRYNTTYTEKFILVTCDDKPIVPVHLD</Hsp_hseq>
+      <Hsp_midline>S+   F  QH D      D RYC S+MRR+ +T    CK  +TFIH +   ++A+C N     KNG    EN   SK    +T CKL GGS  P C+Y  T   + ++V C++   +PVHLD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>82</Statistics_hsp-len>
+      <Statistics_eff-space>167180821</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

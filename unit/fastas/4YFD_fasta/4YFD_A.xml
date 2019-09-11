@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>491</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>491</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|238020</Hit_id>
+  <Hit_def>cd00063, FN3, Fibronectin type 3 domain; One of three types of internal repeats found in the plasma protein fibronectin. Its tenth fibronectin type III repeat contains an RGD cell recognition sequence in a flexible loop between 2 strands. Approximately 2% of all animal proteins contain the FN3 repeat; including extracellular and intracellular proteins, membrane spanning cytokine receptors, growth hormone receptors, tyrosine phosphatase receptors, and adhesion molecules. FN3-like domains are also found in bacterial glycosyl hydrolases.</Hit_def>
+  <Hit_accession>238020</Hit_accession>
+  <Hit_len>93</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.87036e-11</Hsp_evalue>
+      <Hsp_query-from>303</Hsp_query-from>
+      <Hsp_query-to>392</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PKPPGTPVVTESTATSITLTW----DSGNPEPVSYYIIQHKPKNSEEPYKEIDGI--ATTRYSVAGLSPYSDYEFRVVAVNNIGRGPASEPVLTQT</Hsp_qseq>
+      <Hsp_hseq>PSPPTNLRVTDVTSTSVTLSWTPPEDDGGP--ITGYVVEYREKGSGD-WKEVEVTPGSETSYTLTGLKPGTEYEFRVRAVNGGGESPPSESVTVTT</Hsp_hseq>
+      <Hsp_midline>P PP    VT+ T+TS+TL+W    D G P  ++ Y+++++ K S + +KE++    + T Y++ GL P ++YEFRV AVN  G  P SE V   T</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.000173097</Hsp_evalue>
+      <Hsp_query-from>399</Hsp_query-from>
+      <Hsp_query-to>491</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>93</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>SAPRDVQARMLSSTTILVQWKEPEEPNGQIQGYRVYYTMDPTQHVNNWMKHNVADSQIT--TIGNLVPQKTYSVKVLAFTSIGDGPLSSDIQVIT</Hsp_qseq>
+      <Hsp_hseq>SPPTNLRVTDVTSTSVTLSWTPPEDDGGPITGYVVEYRE---KGSGDWKEVEVTPGSETSYTLTGLKPGTEYEFRVRAVNGGGESPPSESVTVTT</Hsp_hseq>
+      <Hsp_midline>S P +++   ++ST++ + W  PE+  G I GY V Y     +   +W +  V     T  T+  L P   Y  +V A    G+ P S  + V T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|336764</Hit_id>
+  <Hit_def>pfam07679, I-set, Immunoglobulin I-set domain.  </Hit_def>
+  <Hit_accession>336764</Hit_accession>
+  <Hit_len>90</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>7.04952e-11</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>PRFTRTPVDQTGVSGGVASFICQATGDPRPKIVWNKKGKKV-SNQRFEVIEFDDGSGSVLRIQPLRTPRDEAIYECVASNNVGEISVSTRLTV</Hsp_qseq>
+      <Hsp_hseq>PKFTQKPKDVEVSEGESARFTCTVTGDPDPEVSWFKDGSPLRSSSRFRVTY--EGGTYTLTISNVQID-DSGKYTCVATNSAGEAEASAELTV</Hsp_hseq>
+      <Hsp_midline>P+FT+ P D     G  A F C  TGDP P++ W K G  + S+ RF V    +G    L I  ++   D   Y CVA+N+ GE   S  LTV</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>7.77179e-11</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>PTIDMGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATNSAG</Hsp_qseq>
+      <Hsp_hseq>PKFTQKPKDVEVSEGESARFTCTVTGDPDPEVSWFKDGSPLRSSS------RFRVTYEGGTYT---LTISNVQIDDSGKYTCVATNSAG</Hsp_hseq>
+      <Hsp_midline>P     P+   V    +A   C  +G+PDPE++WFKD  P+ +S+      + R    GGT     L I   +  D GKY CVATNSAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>4.68479e-08</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>90</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>PRFSIPPTNHEIMPGGSVNITCVAVGSPMPYVKWMLGAEDLTPEDDMPI----GRNVLELNDVR--QSANYTCVAMSTLGVIEAIAQITV</Hsp_qseq>
+      <Hsp_hseq>PKFTQKPKDVEVSEGESARFTCTVTGDPDPEVSWFKDGSPLRSSSRFRVTYEGGTYTLTISNVQIDDSGKYTCVATNSAGEAEASAELTV</Hsp_hseq>
+      <Hsp_midline>P+F+  P + E+  G S   TC   G P P V W      L       +    G   L +++V+   S  YTCVA ++ G  EA A++TV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|214495</Hit_id>
+  <Hit_def>smart00060, FN3, Fibronectin type 3 domain.  One of three types of internal repeat within the plasma protein, fibronectin. The tenth fibronectin type III repeat contains a RGD cell recognition sequence in a flexible loop between 2 strands. Type III modules are present in both extracellular and intracellular proteins.</Hit_def>
+  <Hit_accession>214495</Hit_accession>
+  <Hit_len>83</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>3.09287e-10</Hsp_evalue>
+      <Hsp_query-from>303</Hsp_query-from>
+      <Hsp_query-to>382</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>PKPPGTPVVTESTATSITLTWDSGNPEPVSYYIIQHKPKNSEE--PYKEIDGI-ATTRYSVAGLSPYSDYEFRVVAVNNIGRG</Hsp_qseq>
+      <Hsp_hseq>PSPPSNLRVTDVTSTSVTLSWEPPPDDGITGYIVGYRVEYREEGSEWKEVNVTPSSTSYTLTGLKPGTEYEFRVRAVNGAGEG</Hsp_hseq>
+      <Hsp_midline>P PP    VT+ T+TS+TL+W+    + ++ YI+ ++ +  EE   +KE++   ++T Y++ GL P ++YEFRV AVN  G G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000212023</Hsp_evalue>
+      <Hsp_query-from>399</Hsp_query-from>
+      <Hsp_query-to>481</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>SAPRDVQARMLSSTTILVQWKEPEEPNGQIQGYRVYYTMDPTQHVNNWMKHNVADSQIT-TIGNLVPQKTYSVKVLAFTSIGDG</Hsp_qseq>
+      <Hsp_hseq>SPPSNLRVTDVTSTSVTLSWEPP--PDDGITGYIVGYRVEYREEGSEWKEVNVTPSSTSYTLTGLKPGTEYEFRVRAVNGAGEG</Hsp_hseq>
+      <Hsp_midline>S P +++   ++ST++ + W+ P  P+  I GY V Y ++  +  + W + NV  S  + T+  L P   Y  +V A    G+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|333790</Hit_id>
+  <Hit_def>pfam00041, fn3, Fibronectin type III domain.  </Hit_def>
+  <Hit_accession>333790</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.17318e-09</Hsp_evalue>
+      <Hsp_query-from>311</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>VTESTATSITLTWD---SGNPEPVSYYIIQHKPKNSEEPYKEIDGIATT-RYSVAGLSPYSDYEFRVVAVNNIGRGP</Hsp_qseq>
+      <Hsp_hseq>VTDVTSTSLTVSWTPPPDGN-GPITGYRVEYRPVNGGEPWNEITVPGTTTSVTLTGLRPGTEYEVRVQAVNGGGEGP</Hsp_hseq>
+      <Hsp_midline>VT+ T+TS+T++W     GN  P++ Y ++++P N  EP+ EI    TT   ++ GL P ++YE RV AVN  G GP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>1.05711e-06</Hsp_evalue>
+      <Hsp_query-from>399</Hsp_query-from>
+      <Hsp_query-to>482</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>83</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>SAPRDVQARMLSSTTILVQWKEPEEPNGQIQGYRVYYTMDPTQHVNNWMKHNVADSQIT-TIGNLVPQKTYSVKVLAFTSIGDGP</Hsp_qseq>
+      <Hsp_hseq>SAPTNLSVTDVTSTSLTVSWTPPPDGNGPITGYRVEY--RPVNGGEPWNEITVPGTTTSVTLTGLRPGTEYEVRVQAVNGGGEGP</Hsp_hseq>
+      <Hsp_midline>SAP ++    ++ST++ V W  P + NG I GYRV Y   P      W +  V  +  + T+  L P   Y V+V A    G+GP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|197706</Hit_id>
+  <Hit_def>smart00408, IGc2, Immunoglobulin C-2 Type.  </Hit_def>
+  <Hit_accession>197706</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>3.18243e-07</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>RTATMLCAASGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATNSAG</Hsp_qseq>
+      <Hsp_hseq>QSVTLTCPAEGNPVPNITWLKDGKPLPESN--------RFVASGST-----LTIKSVSLEDSGLYTCVAENSAG</Hsp_hseq>
+      <Hsp_midline>++ T+ C A GNP P ITW KD  P+  SN        R  + G T     L I+     D G Y CVA NSAG</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>6.20461e-05</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>GGVASFICQATGDPRPKIVWNKKGKKV-SNQRFEVIEFDDGSGSVLRIQPLRTPRDEAIYECVASNNVG</Hsp_qseq>
+      <Hsp_hseq>GQSVTLTCPAEGNPVPNITWLKDGKPLPESNRFVA------SGSTLTIKSVSL-EDSGLYTCVAENSAG</Hsp_hseq>
+      <Hsp_midline>G   +  C A G+P P I W K GK +  + RF        SGS L I+ +    D  +Y CVA N+ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|339005</Hit_id>
+  <Hit_def>pfam13927, Ig_3, Immunoglobulin domain.  This family contains immunoglobulin-like domains.</Hit_def>
+  <Hit_accession>339005</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>2.1067e-06</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>SFICQATGDPRPKIVWNKKGKKVSNQRFEVIEFDDGSGSVLRIQPLRTPRDEAIYECVASN</Hsp_qseq>
+      <Hsp_hseq>TLTCEATGGPPPTITWYKNGEEISSGSTSARISVSGSNSTLTISNV-TREDSGTYTCVASN</Hsp_hseq>
+      <Hsp_midline>+  C+ATG P P I W K G+++S+          GS S L I  + T  D   Y CVASN</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>5.28975e-06</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>191</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>79</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>TMLCAASGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATN</Hsp_qseq>
+      <Hsp_hseq>TLTCEATGGPPPTITWYKNGEEISSGSTSARISVSGSNS--------TLTISNVTREDSGTYTCVASN</Hsp_hseq>
+      <Hsp_midline>T+ C A+G P P ITW+K+   + + + + RI    S S         L I      D G Y CVA+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|319305</Hit_id>
+  <Hit_def>cd05748, Ig_Titin_like, Immunoglobulin (Ig)-like domain of titin and similar domains.  Ig_Titin_like: immunoglobulin (Ig)-like domain found in titin-like proteins. Titin (also called connectin) is a fibrous sarcomeric protein specifically found in vertebrate striated muscle. Titin is a giant protein; depending on isoform composition, it ranges from 2970 to 3700 kDa, and is of a length that spans half a sarcomere. Titin largely consists of multiple repeats of Ig-like and fibronectin type 3 (FN-III)-like domains. Titin connects the ends of myosin thick filaments to Z disks and extends along the thick filament to the H zone.  It appears to function similarly to an elastic band, keeping the myosin filaments centered in the sarcomere during muscle contraction or stretching. Within the sarcomere, titin is also attached to or is associated with myosin binding protein C (MyBP-C). MyBP-C appears to contribute to the generation of passive tension by titin, and similar to titin has repeated Ig-like and FN-III domains. Also included in this group are worm twitchin and insect projectin, thick filament proteins of invertebrate muscle, which also have repeated Ig-like and FN-III domains.</Hit_def>
+  <Hit_accession>319305</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>8.67531e-06</Hsp_evalue>
+      <Hsp_query-from>130</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>SGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATNSAGTRYSAPANLYV</Hsp_qseq>
+      <Hsp_hseq>SGRPTPTVTWSKDGQPLKLS---GRVQ------IETTATSTSLVIKNAKRSDSGKYTLTLKNSAGEK-SATVNVKV</Hsp_hseq>
+      <Hsp_midline>SG P P +TW KD  P+  S   GR++      I  T    +L I+ ++ SD GKY     NSAG + SA  N+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|319273</Hit_id>
+  <Hit_def>cd00096, Ig, Immunoglobulin domain.  Immunoglobulin (Ig) domain found in the Ig superfamily. The Ig superfamily is a heterogenous group of proteins, built on a common fold comprised of a sandwich of two beta sheets. Members of this group are components of immunoglobulin, neuroglia, cell surface glycoproteins, such as, T-cell receptors, CD2, CD4, CD8, and membrane glycoproteins, such as, butyrophilin and chondroitin sulfate proteoglycan core protein. A predominant feature of most Ig domains is a disulfide bridge connecting the two beta-sheets with a tryptophan residue packed against the disulfide bond.</Hit_def>
+  <Hit_accession>319273</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>8.70975e-05</Hsp_evalue>
+      <Hsp_query-from>124</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>TMLCAASGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECV</Hsp_qseq>
+      <Hsp_hseq>TLTCSASGNPPPTITWLKNGKPLPSS------SRFRRRSSGG---NGTLTISNVTPEDSGTYTCV</Hsp_hseq>
+      <Hsp_midline>T+ C+ASGNP P ITW K+  P+ +S       + R  S GG    G L I      D G Y CV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|333796</Hit_id>
+  <Hit_def>pfam00047, ig, Immunoglobulin domain.  Members of the immunoglobulin superfamily are found in hundreds of proteins of different functions. Examples include antibodies, the giant muscle kinase titin and receptor tyrosine kinases. Immunoglobulin-like domains may be involved in protein-protein and protein-ligand interactions.</Hit_def>
+  <Hit_accession>333796</Hit_accession>
+  <Hit_len>86</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.000194289</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>194</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>PQLKVVERTRTATMLCAAS-GNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATNSAG</Hsp_qseq>
+      <Hsp_hseq>PSVTVLEG-ESATLTCSASTGSPLPDVTWSKE--------GGTLIESLRVGHDNGRTTQSSLLISNVTLEDAGTYTCVVNNPGG</Hsp_hseq>
+      <Hsp_midline>P + V+E   +AT+ C+AS G+P P++TW K+            I+ LR     G   + +L I      D G Y CV  N  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|214653</Hit_id>
+  <Hit_def>smart00410, IG_like, Immunoglobulin like.  IG domains that cannot be classified into one of IGv1, IGc1, IGc2, IG.</Hit_def>
+  <Hit_accession>214653</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000233207</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GGVASFICQATGDPRPKIVWNKKGKKV--SNQRFEVIEFDDGSGSVLRIQPLRTPRDEAIYECVASNNVGEISVSTRLTV</Hsp_qseq>
+      <Hsp_hseq>GESVTLSCEASGSPPPEVTWYKQGGKLLAESGRFSVSR--SGSTSTLTISNV-TPEDSGTYTCAATNSSGSASSGTTLTV</Hsp_hseq>
+      <Hsp_midline>G   +  C+A+G P P++ W K+G K+   + RF V     GS S L I  + TP D   Y C A+N+ G  S  T LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|214652</Hit_id>
+  <Hit_def>smart00409, IG, Immunoglobulin.  </Hit_def>
+  <Hit_accession>214652</Hit_accession>
+  <Hit_len>85</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.000233207</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>95</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>85</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>GGVASFICQATGDPRPKIVWNKKGKKV--SNQRFEVIEFDDGSGSVLRIQPLRTPRDEAIYECVASNNVGEISVSTRLTV</Hsp_qseq>
+      <Hsp_hseq>GESVTLSCEASGSPPPEVTWYKQGGKLLAESGRFSVSR--SGSTSTLTISNV-TPEDSGTYTCAATNSSGSASSGTTLTV</Hsp_hseq>
+      <Hsp_midline>G   +  C+A+G P P++ W K+G K+   + RF V     GS S L I  + TP D   Y C A+N+ G  S  T LTV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|316418</Hit_id>
+  <Hit_def>pfam13895, Ig_2, Immunoglobulin domain.  This domain contains immunoglobulin-like domains.</Hit_def>
+  <Hit_accession>316418</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>0.000281868</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>MGPQLKVVERTRTATMLCAASGNPDPEITWFKDFLPVDTSNNNGRIKQLRSESIGGTPIRGALQIEQSEESDQGKYECVATNSAGTRYSAPANLYV</Hsp_qseq>
+      <Hsp_hseq>LTPSPTVVTEGEPVTLTCSAPGNPPANYTWYKGGEALNSSPN--FISSVSAE-------------------DSGTYTCVARNGRGGKVSNPVELTV</Hsp_hseq>
+      <Hsp_midline>+ P   VV      T+ C+A GNP    TW+K    +++S N   I  + +E                   D G Y CVA N  G + S P  L V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>97</Statistics_hsp-len>
+      <Statistics_eff-space>1432340114</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

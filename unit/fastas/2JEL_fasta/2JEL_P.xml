@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>P &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>85</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>P &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>85</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|273389</Hit_id>
+  <Hit_def>TIGR01003, Phosphocarrier_protein_HPr, Phosphotransferase System HPr (HPr) Family.  The HPr family are bacterial proteins (or domains of proteins) which function in phosphoryl transfer system (PTS) systems. They include energy-coupling components which catalyze sugar uptake via a group translocation mechanism. The functions of most of these proteins are not known, but they presumably function in PTS-related regulatory capacities. All seed members are stand-alone HPr proteins, although the model also recognizes HPr domains of PTS fusion proteins. This family includes the related NPr protein. [Signal transduction, PTS].</Hit_def>
+  <Hit_accession>273389</Hit_accession>
+  <Hit_len>82</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.1741e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>80</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKL</Hsp_qseq>
+      <Hsp_hseq>MLSKEVTIINKVGLHARPAAILVKLASGFDSEITLTKNGKEVNAKSIMGIMMLGAGQGTEVTVSADGEDEAEALEALAKL</Hsp_hseq>
+      <Hsp_midline>M  +EVTI    GLH RPAA  VK A GF SEIT+T NGK  +AKS+  +  LG  QGT VT+SA+GEDE +A+E L KL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|238217</Hit_id>
+  <Hit_def>cd00367, PTS-HPr_like, Histidine-containing phosphocarrier protein (HPr)-like proteins. HPr is a central component of the bacterial phosphoenolpyruvate sugar phosphotransferase system (PTS). The PTS catalyses the phosphorylation of sugar substrates during their translocation across the cell membrane. The phosphoryl group from phosphoenolpyruvate is transferred to HPr by enzyme I (EI). Phospho-HPr then transfers the phosphoryl group to one of several sugar-specific phosphoprotein intermediates. The conserved histidine in the N-terminus of HPr serves as an acceptor for the phosphoryl group of EI. In addition to the phosphotransferase proteins HPr and E1, this family also includes the closely related Carbon Catabolite Repressor (CCR) proteins which use the same phosphorylation mechanism and interact with transcriptional regulators to control expression of genes coding for utilization of less favored carbon sources.</Hit_def>
+  <Hit_accession>238217</Hit_accession>
+  <Hit_len>77</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>3.75847e-18</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>VTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAEGED</Hsp_qseq>
+      <Hsp_hseq>VTITNPLGLHARPAALLVQLASKFKSDITLRKGGRKANAKSILGLMSLGAKQGDEITLSAEGED</Hsp_hseq>
+      <Hsp_midline>VTIT P GLH RPAA  V+ A  F S+IT+   G+ A+AKS+  L +LG  QG  +T+SAEGED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|224836</Hit_id>
+  <Hit_def>COG1925, FruB, Phosphotransferase system, HPr-related proteins [Carbohydrate transport and metabolism].</Hit_def>
+  <Hit_accession>224836</Hit_accession>
+  <Hit_len>88</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>1.12028e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MFQQEVTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTIS</Hsp_qseq>
+      <Hsp_hseq>MLSKTVTIKNKNGLHARPAAKLVKLASKFDSEITLTNNGKEANAKSIMGLMALGAKKGDEIELS</Hsp_hseq>
+      <Hsp_midline>M  + VTI   NGLH RPAA+ VK A  F SEIT+T+NGK A+AKS+  L  LG  +G  + +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|334048</Hit_id>
+  <Hit_def>pfam00381, PTS-HPr, PTS HPr component phosphorylation site.  </Hit_def>
+  <Hit_accession>334048</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>2.04149e-14</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>VTITAPNGLHTRPAAQFVKEAKGFTSEITVTSNGKSASAKSLFKLQTLGLTQGTVVTISAE</Hsp_qseq>
+      <Hsp_hseq>VTITNPLGLHARPAAKLVQAASKFDSDITLEKGGKKVNAKSIMGLMSLGAKQGDEITISAE</Hsp_hseq>
+      <Hsp_midline>VTIT P GLH RPAA+ V+ A  F S+IT+   GK  +AKS+  L +LG  QG  +TISAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|236849</Hit_id>
+  <Hit_def>PRK11109, PRK11109, bifunctional PTS system fructose-specific transporter subunit IIA/HPr protein; Provisional.</Hit_def>
+  <Hit_accession>236849</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.36156e-11</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>289</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>EVTITAPNGLHTRPAAQFVKEAKGFTSEITVTS---NGKSASAKSLFKLQTLGLTQGTVVTISAEGEDEQKAVEHLVKLMA</Hsp_qseq>
+      <Hsp_hseq>EFVIRNEHGLHARPGAMLVNTIKQFNSEITVTNLDGTGKPANGRSLMKVVALGVKKGHRLRFTAQGEDAEQALKAIGEAIA</Hsp_hseq>
+      <Hsp_midline>E  I   +GLH RP A  V   K F SEITVT+    GK A+ +SL K+  LG+ +G  +  +A+GED ++A++ + + +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>52</Statistics_hsp-len>
+      <Statistics_eff-space>163745373</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

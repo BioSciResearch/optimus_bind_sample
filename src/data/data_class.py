@@ -52,19 +52,6 @@ class MutantDataset(pd.DataFrame):
         self['ddG'] = self['dgMut']-self['dgWT']
         return self
 
-    def solve_ddG2(self, wild, mutant, tmp_key='Temperature'):
-        '''ddG is the changes in affinity upon mutation:
-              Gibbs Free Energy = R * Temp * ln(kd)  AKA: dG
-              ddG = dG_Mutant-dG_wild_Type
-        '''
-        R = 1.9872036e-3  # Ideal Gas Constant in kcal
-        gibbsEq = lambda tmp, kd: R * self[tmp] * np.log(self[kd])  # log is ln in np
-
-        self['dgWT'] = gibbsEq(tmp_key, wild)
-        self['dgMut'] = gibbsEq(tmp_key, mutant)
-        self['ddG'] = self['dgMut']-self['dgWT']
-        return self
-
     def _ChainCheck(self, df):
         '''Utalizes subtracted sets and xor to identify if
            mutated chains are unique to a single protein

@@ -18,7 +18,7 @@ def Clean_Skempi(path):
         3. For multiple measurements, keeps the median value
         4. Eliminates entries with mutations on both sides of the interface
     Input:
-        path : Location of SKEMPI CSV file
+        path : Location of SKEMPI CSV file or pd.DataFrame
     Output:
         SKEMPI_SingleSided : MutantDataset(pd.DataFrame)
     Note:
@@ -41,8 +41,8 @@ def Clean_Skempi(path):
   # Median and duplicate ddG/tmp values
     group_keys = ['#Pdb', 'Mutation(s)_PDB']
     skempi['ddgMedian'] = skempi.groupby(group_keys)['ddG'].transform('median')
-    skempi.drop_duplicates(subset=[*group_keys, 'Temperature'],
-                                    keep='first', inplace=True)
+    skempi.drop_duplicates(subset=[*group_keys, 'Temperature'], keep='first',
+                           inplace=True)
 
   # Flag multiple mutations in the same protein
     skempi['MutSplit'] = skempi['Mutation(s)_PDB'].str.split(',')

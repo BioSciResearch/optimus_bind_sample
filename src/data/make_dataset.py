@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
+# Install and File Managment:
 import click
 import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
+# Cleaning Datasets:
+import pandas as pd
+import numpy as np
+from data_class import MutantDataset
 
 
-def SKEMPItoPandas(SKEMPI_loc):
+def Clean_Skempi(path):
     '''
     Purpose:
         1. Loads SKEMPI CSV file.
@@ -13,90 +18,93 @@ def SKEMPItoPandas(SKEMPI_loc):
         3. For multiple measurements, keeps the median value
         4. Eliminates entries with mutations on both sides of the interface
     Input:
-        SKEMPI_loc : Location of SKEMPI CSV file
+        path : Location of SKEMPI CSV file or pd.DataFrame
     Output:
-        SKEMPI_df : Pandas dataframe    
+        SKEMPI_SingleSided : MutantDataset(pd.DataFrame)
+    Note:
+        SKEMPI specific steps are coded out here while universal
+        steps are handeled by MutantDataset methods.
+        Content and order subject to change with additional datasets.
+        It is foreseeable that some steps may occur post combination.
     '''
-    import pandas as pd
-    import numpy as np
-    import re
-    # fix this
-    pd.options.mode.chained_assignment = None  # default='warn'
+    # Initialize class
+    skempi = MutantDataset(path, sep=';')
 
-    # Constants
-    R = 1.9872036e-3  # Ideal Gas Constant in kcal
-
-    SKEMPI_df = pd.read_csv(SKEMPI_loc, sep=';')
-
-    # Convert non numeric temperature comments to numeric values. Default is 298K 
-    ConvertTemp = lambda x: int(re.search(r'\d+', x).group(0) or 298)
-    BadTemps = SKEMPI_df.Temperature.str.isnumeric() == 0
-    SKEMPI_df['Temperature'].loc[BadTemps] = SKEMPI_df['Temperature'].loc[BadTemps].map(ConvertTemp)
-    SKEMPI_df['Temperature'] = pd.to_numeric(SKEMPI_df['Temperature'], errors='coerce')
-
-    # Drop missing values
-    SKEMPI_df.dropna(subset=['Affinity_wt_parsed'], inplace=True)
-    SKEMPI_df.dropna(subset=['Affinity_mut_parsed'], inplace=True)
+    # Convert 'Temperature' comments/str's to numeric values. Default is 298
+    skempi['Temperature'] = skempi['Temperature'].str.extract(r'(\d+)')
+    skempi['Temperature'] = skempi.to_numeric('Temperature')
+    skempi['Temperature'].fillna(value=298, inplace=True)  # 6665-6668 blank
 
     # Calculate free energies
-    SKEMPI_df['dgWT'] = -R*SKEMPI_df['Temperature']*np.log(SKEMPI_df['Affinity_wt_parsed'])
-    SKEMPI_df['dgMut'] = -R*SKEMPI_df['Temperature']*np.log(SKEMPI_df['Affinity_mut_parsed'])
-    SKEMPI_df['ddG'] = SKEMPI_df['dgWT']-SKEMPI_df['dgMut']
+    dropna_lst = ['Affinity_wt_parsed', 'Affinity_mut_parsed']
+    skempi.dropna(subset=dropna_lst, inplace=True)
+    skempi = skempi.solve_ddG('Affinity_wt_parsed', 'Affinity_mut_parsed')
 
-    # Create a key for unique mutations based on PDB and 
-    SKEMPI_df['MutKey'] = SKEMPI_df['#Pdb']+'_'+SKEMPI_df['Mutation(s)_PDB']
-    # Replace multiple measurements of the same mutation with the group mean
-    # May consider grouping by experimental method as well
-    SKEMPI_df['ddgMedian'] = SKEMPI_df.groupby('MutKey')['ddG'].transform('median')        
-    SKEMPI_df = SKEMPI_df.drop_duplicates(subset=['MutKey', 'Temperature'], keep='first', inplace=False)
+    # Median and duplicate ddG/tmp values
+    group_keys = ['#Pdb', 'Mutation(s)_cleaned']
+    skempi['ddgMedian'] = skempi.groupby(group_keys)['ddG'].transform('median')
+    skempi.drop_duplicates(subset=[*group_keys, 'Temperature'], keep='first',
+                           inplace=True)
 
     # Flag multiple mutations in the same protein
-    SKEMPI_df['NumMutations'] = SKEMPI_df['Mutation(s)_PDB'].str.count(',')+1 
+    skempi['MutSplit'] = skempi['Mutation(s)_cleaned'].str.split(',')
+    skempi['NumMutations'] = skempi['MutSplit'].apply(len)
 
-    # Extract Chains and remove cross chain mutations. Chain is the second position in the mutation code
-    SKEMPI_df['Prot1Chain'] = SKEMPI_df['#Pdb'].str.split('_').str[1]
-    SKEMPI_df['Prot2Chain'] = SKEMPI_df['#Pdb'].str.split('_').str[2]
-    SKEMPI_df['MutSplit'] = SKEMPI_df['Mutation(s)_PDB'].str.split(',')
-
-    def ChainCheck(df):
-        if df['NumMutations'] == 1:
-            CrossChain = False
-            return CrossChain
-        else:
-            Chain = df['MutSplit'][0][1]
-            if Chain in df['Prot1Chain']:
-                ChainSet = df['Prot1Chain']
-            elif Chain in df['Prot2Chain']:
-                ChainSet = df['Prot2Chain']
-            for i in range(len(df['MutSplit'])):
-                Chain = df['MutSplit'][i][1]
-                if Chain in ChainSet:
-                    CrossChain = False
-                else:
-                    CrossChain = True
-                    break
-        return CrossChain
-
-    SKEMPI_df['CrossChain'] = SKEMPI_df.apply(ChainCheck, axis=1)
-    SKEMPI_SingleSided = SKEMPI_df[SKEMPI_df.CrossChain == False]
-
-    NumProteins = SKEMPI_SingleSided['#Pdb'].nunique()
-    NumMutations = SKEMPI_SingleSided['#Pdb'].count()
-    print("There are %s unique single sided mutations in %s proteins" % (NumMutations, NumProteins))             
+    # Extract Chains and remove cross chain mutations.
+    skempi['CrossChain'] = skempi.find_cross_chains()
+    SKEMPI_SingleSided = skempi[~skempi.CrossChain]  # cool trick inverts bool
     return SKEMPI_SingleSided
 
 
-@click.command()
-# fix this patchwork later
-# http://click.palletsprojects.com/en/5.x/arguments/#file-arguments
-# @click.argument('input_filepath', type=click.Path(exists=True))
-# @click.argument('output_filepath', type=click.Path())
-def main():  # main(input_filepath, output_filepath):
+def Clean_Other(path):
+    '''Future dataset cleaned here'''
+    pass
+
+
+# @click commands removed, extra complexity and CLI unnecessary ATM
+def main():
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
+
+        1) clean each dataset to create consistant MutantDataset's
+            1a) store indeviduals in ~/data/intermediate
+        2) combine into uniform MutantDataset
+            2a) store in ~/data/final
+        (may not save indeviduals. Rather, uniform saved to intermediate.
+         then features is run(folx, iAlign) to produce final. such a change
+         will be made with the implementation of feature scripts.)
     """
-    input_filepath = 'data/raw/'
-    SKEMPItoPandas(f'{input_filepath}skempi_2.0.csv')  # GENERALIZE!
+    # Static
+    filepath = {
+      'input': 'data/raw/',
+      'interim': 'data/interim/',
+      'output': 'data/processed/'
+    }
+
+    columns = ['#Pdb', 'Mutation(s)_cleaned', 'Temperature',
+               'ddgMedian', 'NumMutations']
+
+    # 1.0 – Clean skempi
+    skempi_cleaned = Clean_Skempi(filepath['input'] + 'skempi_2.0.csv')
+    skempi_final = skempi_cleaned[columns]
+    # Log Info
+    NumProteins = skempi_final['#Pdb'].nunique()
+    NumMutations = skempi_final['#Pdb'].count()
+    print(f'There are {NumMutations} unique single sided'
+          f'mutations in {NumProteins} proteins')
+    # 1.0a save intermediate to interim
+    skempi_final.to_csv(filepath['interim'] + 'skempi_final.csv')
+
+    # 1.1 – Import Other
+    #   other_final = Clean_Other(filepath['input'] + 'other.csv')
+    # 1.1a – save intermediate to intermediates
+    #   Other_final.to_csv('data/intermediate')
+
+    # 2 – Combine datasets
+    #   code
+    # 2a – save final to processed
+    #   combined.to_csv(data/processed')
+    skempi_final.to_csv(filepath['output'] + 'skempi_final.csv')
 
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')

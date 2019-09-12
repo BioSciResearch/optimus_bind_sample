@@ -111,7 +111,7 @@ def skempi_download(v=None):
     # Init variables
     # ADD AS INPUTS WHEN PROPERLY FORMATTED
     vkey, versions = skempi_scraper()  # should be called out side of function
-    os.system('ls')
+    # os.system('ls')
     raw_path = 'data/raw/'  # '../../data/raw/'    # make file path output at the bottom and make input to this function!
     print(versions)
 

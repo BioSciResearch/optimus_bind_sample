@@ -65,22 +65,24 @@ def main():
             2a) store in ~/data/final
     """
   # Paths
-    input_filepath = 'data/raw/'
-    interim_filepath = 'data/interim/'
-    output_filepath = 'data/processed/'
+    filepath = {
+      'input': 'data/raw/'
+      'interim': 'data/interim/'
+      'output': 'data/processed/'
+    }
 
   # 1.0 – Clean skempi
-    skempi_final = Clean_Skempi(input_filepath + 'skempi_2.0.csv')
+    skempi_final = Clean_Skempi(filepath['input'] + 'skempi_2.0.csv')
     # Log Info
     NumProteins = skempi_final['#Pdb'].nunique()
     NumMutations = skempi_final['#Pdb'].count()
     print(f'There are {NumMutations} unique single sided'
           f'mutations in {NumProteins} proteins')
   # 1.0a save intermediate to interim
-    skempi_final.to_csv(interim_filepath + 'skempi_final.csv')
+    skempi_final.to_csv(filepath['interim'] + 'skempi_final.csv')
 
   # 1.1 – Import Other
-    # other_final = Clean_Other(input_filepath + 'other.csv')
+    # other_final = Clean_Other(filepath['input'] + 'other.csv')
   # 1.1a – save intermediate to intermediates
     # Other_final.to_csv('data/intermediate')
 
@@ -88,7 +90,7 @@ def main():
     # code
   # 2a – save final to processed
     # combined.to_csv(data/processed')
-    skempi_final.to_csv(output_filepath + 'skempi_final.csv')
+    skempi_final.to_csv(filepath['output'] + 'skempi_final.csv')
 
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')

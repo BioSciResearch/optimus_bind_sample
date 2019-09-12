@@ -22,6 +22,8 @@ def Clean_Skempi(path):
     Output:
         SKEMPI_SingleSided : MutantDataset(pd.DataFrame)
     Note:
+        SKEMPI specific steps are coded out here while universal
+        steps are handeled by MutantDataset methods. 
         Content and order subject to change with additional datasets.
         It is foreseeable that some steps may occur post combination.
     '''
@@ -39,19 +41,24 @@ def Clean_Skempi(path):
     skempi = skempi.solve_ddG('Affinity_wt_parsed', 'Affinity_mut_parsed')
 
   # Median and duplicate ddG/tmp values
-    group_keys = ['#Pdb', 'Mutation(s)_PDB']
+    group_keys = ['#Pdb', 'Mutation(s)_cleaned']
     skempi['ddgMedian'] = skempi.groupby(group_keys)['ddG'].transform('median')
     skempi.drop_duplicates(subset=[*group_keys, 'Temperature'], keep='first',
                            inplace=True)
 
   # Flag multiple mutations in the same protein
-    skempi['MutSplit'] = skempi['Mutation(s)_PDB'].str.split(',')
+    skempi['MutSplit'] = skempi['Mutation(s)_cleaned'].str.split(',')
     skempi['NumMutations'] = skempi['MutSplit'].apply(len)
 
   # Extract Chains and remove cross chain mutations.
     skempi['CrossChain'] = skempi.find_cross_chains()
     SKEMPI_SingleSided = skempi[skempi.CrossChain == False]
     return SKEMPI_SingleSided
+
+
+def Clean_Other(path):
+    '''Future dataset cleaned here'''
+    pass
 
 
 # @click commands removed, extra complexity and CLI unnecessary ATM
@@ -63,16 +70,23 @@ def main():
             1a) store indeviduals in ~/data/intermediate
         2) combine into uniform MutantDataset
             2a) store in ~/data/final
+        (may not save indeviduals. Rather, uniform saved to intermediate.
+         then features is run(folx, iAlign) to produce final. such a change
+         will be made with the implementation of feature scripts.)
     """
-  # Paths
+  # Static
     filepath = {
       'input': 'data/raw/'
       'interim': 'data/interim/'
       'output': 'data/processed/'
     }
 
+    columns = ['#Pdb', 'Mutation(s)_cleaned', 'Temperature',
+               'ddgMedian', 'NumMutations']
+
   # 1.0 – Clean skempi
-    skempi_final = Clean_Skempi(filepath['input'] + 'skempi_2.0.csv')
+    skempi_cleaned = Clean_Skempi(filepath['input'] + 'skempi_2.0.csv')
+    skempi_final = skempi_cleaned[columns]
     # Log Info
     NumProteins = skempi_final['#Pdb'].nunique()
     NumMutations = skempi_final['#Pdb'].count()

@@ -22,16 +22,6 @@ class MutantDataset(pd.DataFrame):
                                             dtype=dtype,
                                             copy=copy)
 
-    def Mutations(self, row):
-        ''' Returns dictionary of mutation identifiers.
-            key: initAA , chain, loc, mutAA
-        '''
-        keys = ['initAA', 'chain', 'loc', 'mutAA']  # code key
-        mut_codes = self.loc[row]['Mutation(s)_cleaned'].split(',')
-        unzip_code = zip(*[re.findall('(\d+|.)', mut) for mut in mut_codes])
-        mut_dct = dict(zip(keys, unzip_code))
-        return mut_dct
-
     def to_numeric(self, keys):
         '''converts column of single or list of keys to numeric'''
         self[keys] = self[keys].apply(pd.to_numeric, errors='coerce')

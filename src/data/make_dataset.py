@@ -76,8 +76,8 @@ def main():
     """
   # Static
     filepath = {
-      'input': 'data/raw/'
-      'interim': 'data/interim/'
+      'input': 'data/raw/',
+      'interim': 'data/interim/',
       'output': 'data/processed/'
     }
 

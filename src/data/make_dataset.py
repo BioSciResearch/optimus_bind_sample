@@ -23,36 +23,36 @@ def Clean_Skempi(path):
         SKEMPI_SingleSided : MutantDataset(pd.DataFrame)
     Note:
         SKEMPI specific steps are coded out here while universal
-        steps are handeled by MutantDataset methods. 
+        steps are handeled by MutantDataset methods.
         Content and order subject to change with additional datasets.
         It is foreseeable that some steps may occur post combination.
     '''
-  # Initialize class
+    # Initialize class
     skempi = MutantDataset(path, sep=';')
 
-  # Convert 'Temperature' comments/str's to numeric values. Default is 298
+    # Convert 'Temperature' comments/str's to numeric values. Default is 298
     skempi['Temperature'] = skempi['Temperature'].str.extract(r'(\d+)')
     skempi['Temperature'] = skempi.to_numeric('Temperature')
     skempi['Temperature'].fillna(value=298, inplace=True)  # 6665-6668 blank
 
-  # Calculate free energies
+    # Calculate free energies
     dropna_lst = ['Affinity_wt_parsed', 'Affinity_mut_parsed']
     skempi.dropna(subset=dropna_lst, inplace=True)
     skempi = skempi.solve_ddG('Affinity_wt_parsed', 'Affinity_mut_parsed')
 
-  # Median and duplicate ddG/tmp values
+    # Median and duplicate ddG/tmp values
     group_keys = ['#Pdb', 'Mutation(s)_cleaned']
     skempi['ddgMedian'] = skempi.groupby(group_keys)['ddG'].transform('median')
     skempi.drop_duplicates(subset=[*group_keys, 'Temperature'], keep='first',
                            inplace=True)
 
-  # Flag multiple mutations in the same protein
+    # Flag multiple mutations in the same protein
     skempi['MutSplit'] = skempi['Mutation(s)_cleaned'].str.split(',')
     skempi['NumMutations'] = skempi['MutSplit'].apply(len)
 
-  # Extract Chains and remove cross chain mutations.
+    # Extract Chains and remove cross chain mutations.
     skempi['CrossChain'] = skempi.find_cross_chains()
-    SKEMPI_SingleSided = skempi[skempi.CrossChain == False]
+    SKEMPI_SingleSided = skempi[~skempi.CrossChain]  # cool trick inverts bool
     return SKEMPI_SingleSided
 
 
@@ -74,7 +74,7 @@ def main():
          then features is run(folx, iAlign) to produce final. such a change
          will be made with the implementation of feature scripts.)
     """
-  # Static
+    # Static
     filepath = {
       'input': 'data/raw/',
       'interim': 'data/interim/',
@@ -84,7 +84,7 @@ def main():
     columns = ['#Pdb', 'Mutation(s)_cleaned', 'Temperature',
                'ddgMedian', 'NumMutations']
 
-  # 1.0 – Clean skempi
+    # 1.0 – Clean skempi
     skempi_cleaned = Clean_Skempi(filepath['input'] + 'skempi_2.0.csv')
     skempi_final = skempi_cleaned[columns]
     # Log Info
@@ -92,18 +92,18 @@ def main():
     NumMutations = skempi_final['#Pdb'].count()
     print(f'There are {NumMutations} unique single sided'
           f'mutations in {NumProteins} proteins')
-  # 1.0a save intermediate to interim
+    # 1.0a save intermediate to interim
     skempi_final.to_csv(filepath['interim'] + 'skempi_final.csv')
 
-  # 1.1 – Import Other
-    # other_final = Clean_Other(filepath['input'] + 'other.csv')
-  # 1.1a – save intermediate to intermediates
-    # Other_final.to_csv('data/intermediate')
+    # 1.1 – Import Other
+    #   other_final = Clean_Other(filepath['input'] + 'other.csv')
+    # 1.1a – save intermediate to intermediates
+    #   Other_final.to_csv('data/intermediate')
 
-  # 2 – Combine datasets
-    # code
-  # 2a – save final to processed
-    # combined.to_csv(data/processed')
+    # 2 – Combine datasets
+    #   code
+    # 2a – save final to processed
+    #   combined.to_csv(data/processed')
     skempi_final.to_csv(filepath['output'] + 'skempi_final.csv')
 
     logger = logging.getLogger(__name__)

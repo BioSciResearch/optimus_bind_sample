@@ -41,8 +41,8 @@ def Clean_Skempi(path):
   # Median and duplicate ddG/tmp values
     group_keys = ['#Pdb', 'Mutation(s)_PDB']
     skempi['ddgMedian'] = skempi.groupby(group_keys)['ddG'].transform('median')
-    skempi = skempi.drop_duplicates(subset=[*group_keys, 'Temperature'],
-                                    keep='first', inplace=False)
+    skempi.drop_duplicates(subset=[*group_keys, 'Temperature'],
+                                    keep='first', inplace=True)
 
   # Flag multiple mutations in the same protein
     skempi['MutSplit'] = skempi['Mutation(s)_PDB'].str.split(',')

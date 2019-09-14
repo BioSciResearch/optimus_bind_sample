@@ -7,7 +7,7 @@
 
 Version: 0.0.1
 
-Last Updated: 04/09/2019
+Last Updated: 11/09/2019
 
 Description: Functions which generate a database to plug into the machine learning framework 
              (Needs to be expanded)
@@ -699,10 +699,15 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 	# --------------
 	
 	# Read the WT pdbs and 
-	BLAST_EXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-
+
+	BLASTEXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-
+
 	# First things - need 
+
 	WTArray = []
+
 	nameArray = []
+	TotalDict = {}
 	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
 		if file.endswith(".pdb"):
 			if file[0] == '.':
@@ -710,43 +715,39 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 			else:
 				FileLocation = os.path.join(PATH, file)
 				WTArray.append(FileLocation) # Array with the appended path and the pdb file
-				parser = PDBParser(PERMISSIVE=1)
-				strand_name = file.split('.')
-				structure = parser.get_structure(str(strand_name[0]), FileLocation)
-				model = structure[0]				
-				ppb = PPBuilder()
-				seq_rec = []
-				subprocess.Popen("mkdir {}_fasta".format(strand_name[0]), shell = True)				
+				Parser = PDBParser(PERMISSIVE=1)
+				strandName = file.split('.')
+				structure = Parser.get_structure(str(strandName[0]), FileLocation)
+				model = structure[0] # PDB loader 
+				ppb = PPBuilder()  # PDB builder 
+				seqRec = []
+				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True)				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
 						align = MultipleSeqAlignment([sequenceCreator])
-						AlignIO.write(align,'{}_{}.fasta'.format(strand_name[0], str(model.get_list()[index].id)), 'fasta')
+						NAME = "{}_{}".format(strandName[0], str(model.get_list()[index].id))
+						AlignIO.write(align,'{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
 						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
-						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strand_name[0], str(model.get_list()[index].id), strand_name[0]), shell = True)
+						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						
-						psiblastn_cline = psiblastn(cmd = BLAST_EXE, query = '{}_fasta/{}_{}.fasta'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strand_name[0], strand_name[0], str(model.get_list()[index].id) ))
-						rh,eh = psiblastn_cline()
-						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strand_name[0], strand_name[0], str(model.get_list()[index].id)))
+						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
+						rh,eh = psiblastnCline()
+						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
-						hspNumList = []
-						
-						for index in root.iter(): # Append all hsp_num
-							if index.tag == 'Hit_num':
-								hspNumList.append(index.text)
-							else:
-								pass
-								#print (index.tag, index.text)
-							#print (index_HIT, index.tag, index.text)
-						print (hspNumList)
-						hspNumList = []
-						for m in root.iter():
-							for i in hspNumList:
-								if m.text == i:
-									print (root.iter('Hsp_qseq').text)									
+						hspNumList = [] 
+						A = 0  # Default index 
+						TotalDict[NAME] = []
+						for ind in root.iter(): # Append all hsp_num
+							if ind.tag == 'Hit_num':
+								hspNumList.append(ind.text)
+								A = ind.text
+							TotalDict[NAME].append(['{}_{}'.format(strandName[0], str(model.get_list()[index].id)), A, ind.tag, ind.text])
+							#print (hspNumList)
 					except IndexError:
 						print ("Error for {}!".format(file))
-	return WTArray
+	subprocess.Popen("rm -r *_fasta", shell = True)
+	return TotalDict
 
 """
 

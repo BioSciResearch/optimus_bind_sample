@@ -329,6 +329,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 				model = structure[0] # PDB loader 
 				ppb = PPBuilder()  # PDB builder 
 				seqRec = []
+				hspNumList = [] 
 				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True)				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
@@ -336,53 +337,30 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						align = MultipleSeqAlignment([sequenceCreator])
 						NAME = "{}_{}".format(strandName[0], str(model.get_list()[index].id))
 						AlignIO.write(align,'{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
+						Hsp_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
 						rh,eh = psiblastnCline()
 						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
-						hspNumList = [] 
 						A = 0  # Default index 
 						TotalDict[NAME] = []
 						for ind in root.iter(): # Append all hsp_num
 							if ind.tag == 'Hit_num':
 								hspNumList.append(ind.text)
 								A = ind.text
-							TotalDict[NAME].append(['{}_{}'.format(strandName[0], str(model.get_list()[index].id)), A, ind.tag, ind.text])
-							#print (hspNumList)
+							TotalDict[NAME].append([A, str(model.get_list()[index].id), ind.tag, ind.text])
+						numList = [int(row[0]) for row in TotalDict[NAME]]
+						numList = list(set(numList))
+						numList.sort()
+						for i in numList:
+							D = [row for row in TotalDict[NAME] if row[2] in Hsp_statistics]
+							print (D)
+						#print (hspNumList)
 					except IndexError:
 						print ("Error for {}!".format(file))
 	subprocess.Popen("rm -r *_fasta", shell = True)
 	return TotalDict
 
-"""
-
-"""
-
-#if __name__ == '__main__':
-#    log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-#    logging.basicConfig(level=logging.INFO, format=log_fmt)#
-#   # not used in this stub but often useful for finding various files
-#    project_dir = Path(__file__).resolve().parents[2]
-
-   # find .env automagically by walking up directories until it's found, then
-   # load up the .env entries as environment variables
-#    load_dotenv(find_dotenv())
-#    main()
-
-
-#@click.command()
-# fix this patchwork later
-#@click.argument('input_filepath', type=click.Path(exists=True))
-#@click.argument('output_filepath', type=click.Path())
-#def main(): #main(input_filepath, output_filepath):
-#    """ Runs data processing scripts to turn raw data from (../raw) into
-#        cleaned data ready to be analyzed (saved in ../processed).
-#    """
-#    input_filepath = 'data/raw/'
-#    SKEMPItoPandas('skempi_v2.csv')  # GENERALIZE!
-
-#    logger = logging.getLogger(__name__)
-#    logger.info('making final data set from raw data')

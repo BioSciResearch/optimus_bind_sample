@@ -298,6 +298,11 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 		from Bio.Align import MultipleSeqAlignment
 		from Bio.SeqRecord import SeqRecord
 		from Bio.Alphabet import generic_protein
+
+		# PANDAS_TABLE
+
+		from pandas import DataFrame
+		
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")
 
@@ -315,6 +320,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 
 	nameArray = []
 	TotalDict = {}
+	FULL = []
 	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
 		if file.endswith(".pdb"):
 			if file[0] == '.':
@@ -344,29 +350,42 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id)))
 						root = tree.getroot()
 						A = 0  # Default index 
+						RAND = []
 						TotalDict[NAME] = []
 						for ind in root.iter(): # Append all hsp_num
 							if ind.tag == 'Hit_num':
-								hspNumList.append(ind.text)
 								A = ind.text
-							TotalDict[NAME].append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+							RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+						TotalDict[NAME] = RAND
+						print (TotalDict[NAME])
 						numList = [int(row[1]) for row in TotalDict[NAME]]
 						numList = list(set(numList))
 						numList.sort()
 						if len(numList) == 0:
-							print ("SINGLE")
-							D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
-							print (D_1)
+							#D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
+							#D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
+							#print (D_1)
+							#FULL.append(D_1)
+							pass
 						else:
-							print ("MULTIPLE")
 							for i in numList:
+								D_1 = []		
 								if i == 0:
 									pass
 								else:
-									D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
-									print (D_1)
+									for tag in blast_statistics:
+										for row in TotalDict[NAME]:
+											if row[3] == tag:
+												D_1.append(row[4])
+												D_1.insert(0, i)
+												D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
+												print (D_1)
+								FULL.append(D_1)
 					except IndexError:
 						print ("Error for {}!".format(file))
 	subprocess.Popen("rm -r *_fasta", shell = True)
-	return TotalDict
+	#data_transposed = zip(FULL)
+	df = pd.DataFrame(FULL)
+	df.to_csv("psiblastData.csv", sep = ',')
+	return df
 

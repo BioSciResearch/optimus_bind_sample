@@ -193,7 +193,6 @@ Sequences can be search in two ways
 """
 
 def psiBlastScoring(PATH, PSIBLASTPATH = None):
-
 	"""
 	Biopython has a wrapper for each BLAST executable, so you can run a blast program from inside your 
 	script. The wrapper for blastn 
@@ -337,8 +336,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						align = MultipleSeqAlignment([sequenceCreator])
 						NAME = "{}_{}".format(strandName[0], str(model.get_list()[index].id))
 						AlignIO.write(align,'{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
-						Hsp_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
+						blast_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq','Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
@@ -351,14 +349,22 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 							if ind.tag == 'Hit_num':
 								hspNumList.append(ind.text)
 								A = ind.text
-							TotalDict[NAME].append([A, str(model.get_list()[index].id), ind.tag, ind.text])
-						numList = [int(row[0]) for row in TotalDict[NAME]]
+							TotalDict[NAME].append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+						numList = [int(row[1]) for row in TotalDict[NAME]]
 						numList = list(set(numList))
 						numList.sort()
-						for i in numList:
-							D = [row for row in TotalDict[NAME] if row[2] in Hsp_statistics]
-							print (D)
-						#print (hspNumList)
+						if len(numList) == 0:
+							print ("SINGLE")
+							D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
+							print (D_1)
+						else:
+							print ("MULTIPLE")
+							for i in numList:
+								if i == 0:
+									pass
+								else:
+									D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
+									print (D_1)
 					except IndexError:
 						print ("Error for {}!".format(file))
 	subprocess.Popen("rm -r *_fasta", shell = True)

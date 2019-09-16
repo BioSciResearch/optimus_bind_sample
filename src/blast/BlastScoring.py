@@ -342,7 +342,8 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						align = MultipleSeqAlignment([sequenceCreator])
 						NAME = "{}_{}".format(strandName[0], str(model.get_list()[index].id))
 						AlignIO.write(align,'{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
-						blast_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq','Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
+						Hsp_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']
+						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
@@ -355,12 +356,16 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						for ind in root.iter(): # Append all hsp_num
 							if ind.tag == 'Hit_num':
 								A = ind.text
-							RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+							for stat in Hsp_statistics:
+								if ind.tag == stat:
+									RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
 						TotalDict[NAME] = RAND
+						
 						print (TotalDict[NAME])
 						numList = [int(row[1]) for row in TotalDict[NAME]]
 						numList = list(set(numList))
 						numList.sort()
+						print (numList)
 						if len(numList) == 0:
 							#D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
 							#D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
@@ -368,24 +373,23 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 							#FULL.append(D_1)
 							pass
 						else:
-							for i in numList:
-								D_1 = []		
-								if i == 0:
+							for j in numList:
+								D_1 = []
+								if j == 0:
 									pass
 								else:
-									for tag in blast_statistics:
-										for row in TotalDict[NAME]:
-											if row[3] == tag:
-												D_1.append(row[4])
-												D_1.insert(0, i)
-												D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
-												print (D_1)
+									for row in TotalDict[NAME]:
+										if int(row[1]) == j:
+											print(int(row[1]), j, row)
+											D_1.append(row[4])
+								D_1.insert(0,j)
+								D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
 								FULL.append(D_1)
 					except IndexError:
 						print ("Error for {}!".format(file))
 	subprocess.Popen("rm -r *_fasta", shell = True)
 	#data_transposed = zip(FULL)
-	df = pd.DataFrame(FULL)
+	df = pd.DataFrame(FULL, columns = ['PDB', 'HIT', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq'])
 	df.to_csv("psiblastData.csv", sep = ',')
 	return df
 

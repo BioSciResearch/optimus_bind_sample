@@ -341,6 +341,7 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 				seqRec = []
 				hspNumList = [] 
 				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True)				
+
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
@@ -364,9 +365,10 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 							for stat in Hsp_statistics:
 								if ind.tag == stat:
 									RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+							for stat in blast_statistics:
+								if ind.tag == stat:
+									RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
 						TotalDict[NAME] = RAND
-						
-						print (TotalDict[NAME])
 						numList = [int(row[1]) for row in TotalDict[NAME]]
 						numList = list(set(numList))
 						numList.sort()
@@ -389,18 +391,20 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 											for stat in Hsp_statistics:
 												if row[3] == stat: # If the xml matches the Hsp statistics tags, we append
 													D_1.append(row[4])
+											for stat in blast_statistics:
+												if row[3] == stat: # If the xml matches the Hsp statistics tags, we append
+													D_1.append(row[4])
 											#print(int(row[1]), hitIndex, row)
 								D_1.insert(0,hitIndex)
 								D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
 								print(D_1)
-								if len(D_1) == 5: # There is an issue that some have multiple hits.. so will
-									              # have more then 5 for the length, so need to take that into account 
+								if len(D_1) == 12: # There is an issue that some have multiple hits.. so will									              # have more then 5 for the length, so need to take that into account 
 									FULL.append(D_1)
 					except IndexError:
 						print ("Error for {}!".format(file))
 	subprocess.Popen("rm -r *_fasta", shell = True)
 	#data_transposed = zip(FULL)
-	df = pd.DataFrame(FULL, columns = ['PDB_res', 'Index', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq']) 
+	df = pd.DataFrame(FULL, columns = ['PDB_res', 'Index', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq','Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']) 
 	df.to_csv("psiblastData.csv", sep = ',')
 	return df
 

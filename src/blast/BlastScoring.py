@@ -190,7 +190,8 @@ Sequences can be search in two ways
 
 """
 
-def psiBlastScoring(PATH, PSIBLASTPATH = None):
+def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast'):
+
 	"""
 	Biopython has a wrapper for each BLAST executable, so you can run a blast program from inside your 
 	script. The wrapper for blastn 
@@ -309,23 +310,14 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 		from pandas import DataFrame
 		
 	except ImportError:
-		print ("Error - cannot imoort BLAST python modules")
-
-	# --------------
-	# | PDB parser |
-	# --------------
-	
-	# Read the WT pdbs and 
-
-	BLASTEXE = '/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/ncbi-blast-2.9.0+/bin/psiblast' # The example given is /home/sb/opt/ncbi-
-
-	# First things - need 
-
+		print ("Error - cannot imoort BLAST python modules")	
+	# psiblast executable (bin) 
+	BLASTEXE = PSIBLASTPATHBIN
 	WTArray = []
-
 	nameArray = []
-	TotalDict = {}
-	FULL = []
+	
+	TotalDict = {} # Dictionary to store each vlaue 
+	FULL = [] # List to append to in the end which we will convert into a pandas table 
 	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
 		if file.endswith(".pdb"):
 			if file[0] == '.':
@@ -351,28 +343,29 @@ def psiBlastScoring(PATH, PSIBLASTPATH = None):
 						Hsp_statistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq'] # xml tabs for Hsp 
 						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy'] # xml tabs for statistics
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
-						
+						# Call psiblast on the generated fasta files
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
 						rh,eh = psiblastnCline()
-						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id)))
-						root = tree.getroot()
-						A = 0  # Default index 
+
+						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id))) # READ XML file
+						root = tree.getroot() # 
+						uniqueHIT = 0  # Default index 
 						RAND = []
 						TotalDict[NAME] = []
-						for ind in root.iter(): # Append all hsp_num
+						for ind in root.iter(): # Append all hsp_num values 
 							if ind.tag == 'Hit_num':
-								A = ind.text
+								uniqueHIT = ind.text
 							for stat in Hsp_statistics:
 								if ind.tag == stat:
-									RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+									RAND.append([strandName[0], uniqueHIT, str(model.get_list()[index].id), ind.tag, ind.text])
 							for stat in blast_statistics:
 								if ind.tag == stat:
-									RAND.append([strandName[0], A, str(model.get_list()[index].id), ind.tag, ind.text])
+									RAND.append([strandName[0], uniqueHIT, str(model.get_list()[index].id), ind.tag, ind.text])
 						TotalDict[NAME] = RAND
+						# Get a set of the indices of the HIT and use to loop over each Hsp set of values 
 						numList = [int(row[1]) for row in TotalDict[NAME]]
 						numList = list(set(numList))
 						numList.sort()
-						print (numList)
 						if len(numList) == 0: # I havent made the code to deal with 
 							#D_1 = [row[4] for row in TotalDict[NAME] if row[3] in blast_statistics]
 							#D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))

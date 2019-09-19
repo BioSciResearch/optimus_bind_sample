@@ -4,7 +4,6 @@
 ----------------
 
 ------------------------------------------------------------------------------------------------
-
 Version: 0.0.1
 
 Last Updated: 17/09/2019
@@ -12,7 +11,7 @@ Last Updated: 17/09/2019
 Description: Functions which generate a database to plug into the machine learning framework 
              (Needs to be expanded)
 
-Contributors: Sang Young Noh. Jeffrey Brender, Thomas J  
+Contributors: Sang Young Noh. Jeffrey Brender, Thomas J Card, Mahesh Jethelia, Sahil 
 
 Contact: sangyoung123@googlemail.com
 -------------------------------------------------------------------------------------------------
@@ -51,6 +50,12 @@ import tqdm as tqdm
 # XML Parser
 
 import xml.etree.ElementTree as ET
+
+try:
+    from tqdm import tqdm
+    return tqdm(some_iter)
+except ModuleNotFoundError:
+    return some_iter
 
 def SKEMPItoPandas(SKEMPI_loc):
     '''
@@ -142,9 +147,7 @@ def SKEMPItoPandas(SKEMPI_loc):
     print("There are %s unique single sided mutations in %s proteins" % (NumMutations, NumProteins))             
     return SKEMPI_SingleSided
 
-DataFrame = SKEMPItoPandas('skempi_v2.csv')
-
-
+#DataFrame = SKEMPItoPandas('skempi_v2.csv')
 
 """
 ---------
@@ -306,19 +309,24 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 		# ----------------
 		# | PANDAS_TABLE |
 		# ----------------
-
+		import pandas as pd
 		from pandas import DataFrame
 		
+		# --------
+		# | TQDM |
+		# --------
+		import tqdm
+		from tqdm import tqdm
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")	
 	# psiblast executable (bin) 
 	BLASTEXE = PSIBLASTPATHBIN
 	WTArray = []
 	nameArray = []
-	
+	FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/foldx"
 	TotalDict = {} # Dictionary to store each vlaue 
 	FULL = [] # List to append to in the end which we will convert into a pandas table 
-	for file in os.listdir(PATH): # List the fxout files in the directory, and store them in the array 
+	for file in tqdm(os.listdir(PATH)): # List the fxout files in the directory, and store them in the array 
 		if file.endswith(".pdb"):
 			if file[0] == '.':
 				pass
@@ -333,7 +341,6 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 				seqRec = []
 				hspNumList = [] 
 				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True)				
-
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))
@@ -346,8 +353,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 						# Call psiblast on the generated fasta files
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
 						rh,eh = psiblastnCline()
-
-						tree = ET.parse('fastas/{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id))) # READ XML file
+						tree = ET.parse('{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id))) # READ XML file
 						root = tree.getroot() # 
 						uniqueHIT = 0  # Default index 
 						RAND = []
@@ -390,7 +396,6 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 											#print(int(row[1]), hitIndex, row)
 								D_1.insert(0,hitIndex)
 								D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
-								print(D_1)
 								if len(D_1) == 12: # There is an issue that some have multiple hits.. so will									              # have more then 5 for the length, so need to take that into account 
 									FULL.append(D_1)
 					except IndexError:

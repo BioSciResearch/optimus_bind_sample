@@ -309,14 +309,17 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 		# ----------------
 		# | PANDAS_TABLE |
 		# ----------------
+
 		import pandas as pd
 		from pandas import DataFrame
 		
 		# --------
 		# | TQDM |
 		# --------
+		
 		import tqdm
 		from tqdm import tqdm
+		
 	except ImportError:
 		print ("Error - cannot imoort BLAST python modules")	
 	# psiblast executable (bin) 
@@ -352,6 +355,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						# Call psiblast on the generated fasta files
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
+
 						rh,eh = psiblastnCline()
 						tree = ET.parse('{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id))) # READ XML file
 						root = tree.getroot() # 
@@ -380,7 +384,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 							pass
 						else:
 							for hitIndex in numList:
-								D_1 = []
+								pdRow = []
 								if hitIndex == 0: # 0 is micelleneous part in the xml file - ignore
 									print ("Ignoring the top of the xml output of psiblast...")
 									pass
@@ -389,20 +393,19 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 										if int(row[1]) == hitIndex: # Find the Hsp depending on specific Hit 
 											for stat in Hsp_statistics:
 												if row[3] == stat: # If the xml matches the Hsp statistics tags, we append
-													D_1.append(row[4])
+													pdRow.append(row[4])
 											for stat in blast_statistics:
 												if row[3] == stat: # If the xml matches the Hsp statistics tags, we append
-													D_1.append(row[4])
+													pdRow.append(row[4])
 											#print(int(row[1]), hitIndex, row)
-								D_1.insert(0,hitIndex)
-								D_1.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
-								if len(D_1) == 12: # There is an issue that some have multiple hits.. so will									              # have more then 5 for the length, so need to take that into account 
-									FULL.append(D_1)
+								pdRow.insert(0,hitIndex)
+								pdRow.insert(0, "{}_{}".format(strandName[0], str(model.get_list()[index].id)))
+								if len(pdRow) == 12: # There is an issue that some have multiple hits.. so will									              # have more then 5 for the length, so need to take that into account 
+									FULL.append(pdRow)
 					except IndexError:
 						print ("Error for {}!".format(file))
-	subprocess.Popen("rm -r *_fasta", shell = True)
-	#data_transposed = zip(FULL)
-	df = pd.DataFrame(FULL, columns = ['PDB_res', 'Index', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq','Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy']) 
+	subprocess.Popen("rm -r *_fasta", shell = True) # Remove all the files that was formed in the psiblast analysis
+	df = pd.DataFrame(FULL, columns = ['PDB_res', 'Index', 'Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq','Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy'])  # Column names for the pandas table
 	df.to_csv("psiblastData.csv", sep = ',')
 	return df
 

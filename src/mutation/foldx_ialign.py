@@ -373,7 +373,7 @@ def GenerateMutations(DataFrame, PDB, PATH):
 	Both single mutations and multiple comma separated mutations 
 	are taken in to account. 
 
->	If there are multiple mutation indices for the same protein, 
+	If there are multiple mutation indices for the same protein, 
 	then this will generate multiple pdb files.
 
 	Parameters

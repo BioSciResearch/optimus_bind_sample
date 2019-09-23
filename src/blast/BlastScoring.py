@@ -341,9 +341,10 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 				structure = Parser.get_structure(str(strandName[0]), FileLocation)
 				model = structure[0] # PDB loader 
 				ppb = PPBuilder()  # PDB builder 
-				seqRec = []
 				hspNumList = [] 
-				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True)				
+				subprocess.Popen("mkdir {}_fasta".format(strandName[0]), shell = True) # Make a directory to store the fasta files and the xml files				
+				# General top-down explanation for this loop - TODO 
+				
 				for index, pp in enumerate(ppb.build_peptides(structure)):
 					try:
 						sequenceCreator = SeqRecord(Seq(str(pp.get_sequence()), generic_protein), id = str(model.get_list()[index].id))

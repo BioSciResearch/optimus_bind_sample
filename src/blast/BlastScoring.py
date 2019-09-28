@@ -270,6 +270,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
       Path to where the wild type PDBs are found 
 	PSIBLASTPATH:
 	  Path to where the psiblast binary is 
+
 	"""
 	try:
 		from Bio.PDB.PDBIO import PDBIO
@@ -321,7 +322,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 		from tqdm import tqdm
 		
 	except ImportError:
-		print ("Error - cannot imoort BLAST python modules")	
+		print ("Error - cannot import BLAST python modules")	
 	# psiblast executable (bin) 
 	BLASTEXE = PSIBLASTPATHBIN
 	WTArray = []
@@ -355,8 +356,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy'] # xml tabs for statistics
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						# Call psiblast on the generated fasta files
-						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))
-
+						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id)))
 						rh,eh = psiblastnCline()
 						tree = ET.parse('{}_fasta/{}_{}.xml'.format(strandName[0], strandName[0], str(model.get_list()[index].id))) # READ XML file
 						root = tree.getroot() # 

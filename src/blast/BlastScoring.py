@@ -319,7 +319,7 @@ def psiBlastScoring(PATH, PSIBLASTPATHBIN ='/home/oohnohnoh1/Desktop/ACADEMIA/Pa
 						pdbName = "{}_{}".format(strandName[0], str(model.get_list()[index].id))
 						AlignIO.write(align,'{}_{}.fasta'.format(strandName[0], str(model.get_list()[index].id)), 'fasta')
 						HspStatistics = ['Hsp_evalue', 'Hsp_qseq', 'Hsp_hseq'] # xml tabs for Hsp 
-						blast_statistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy'] # xml tabs for statistics
+						blastStatistics = ['Statistics_db-num', 'Statistics_db-len', 'Statistics_hsp-len', 'Statistics_eff-space', 'Statistics_kappa', 'Statistics_lambda', 'Statistics_entropy'] # xml tabs for statistics
 						subprocess.Popen("mv {}_{}.fasta {}_fasta/.".format(strandName[0], str(model.get_list()[index].id), strandName[0]), shell = True)
 						# Call psiblast on the generated fasta files
 						psiblastnCline = psiblastn(cmd = BLASTEXE, query = '{}_fasta/{}_{}.fasta'.format(strandName[0], strandName[0], str(model.get_list()[index].id)), db = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta", evalue = .0005, outfmt=5, out="{}_fasta/{}_{}.xml".format(strandName[0], strandName[0], str(model.get_list()[index].id) ))

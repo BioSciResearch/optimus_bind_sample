@@ -7,16 +7,18 @@ Created on Sun Oct 13 13:26:33 2019
 # =============================================================================
 # These should be set as global variables in an initialization script
 # =============================================================================
+#FOLDX_loc="/home/jbrender/optimus"
 FOLDX_loc="C:/Users/Jeeves/Documents/optimus"
 WT_loc="./SKEMPI2_PDBs/PDBs" #must be given as relative path from FOLDX executable
-RepairedPDBs_loc="./Repaired2" #must be given as relative path from FOLDX executable
-MutantPDBs_loc="./Mutant_Structures2" #must be given as relative path from FOLDX executable
+RepairedPDBs_loc="./Soft" #must be given as relative path from FOLDX executable
+MutantPDBs_loc="./Soft" #must be given as relative path from FOLDX executable
 # =============================================================================
  
 import subprocess
 import os
 import shutil
-import linecache 
+#import linecache 
+import numpy as np
 
 class foldx:
     def __init__(self):
@@ -39,7 +41,7 @@ class foldx:
         self.PDB_loc=WT_loc        
         cmd_str=(self.FOLDX_loc+"/foldx"
                  +" --command=RepairPDB"
-                 +"--output-dir="+self.out_dir
+                 +" --output-dir="+self.out_dir
                  +water
                  +temp
                  +pH
@@ -50,7 +52,7 @@ class foldx:
         try:
             subprocess.run(cmd_str,shell=True)
         except:
-            file = open(FOLDX_loc+"/repair_errors.txt","w+")  
+            file = open(FOLDX_loc+"/repair_errors.txt","a+")  
             file.write(self.PDB_loc+pdb+"\n")
             
 # =============================================================================
@@ -99,7 +101,7 @@ class foldx:
             os.remove(pdb_file_str)
 # =============================================================================
         except:
-            file = open(FOLDX_loc+"/errors_mutation.txt","w+")  
+            file = open(FOLDX_loc+"/errors_mutation.txt","a+")  
             file.write(pdb+"\n")
 
 # =============================================================================
@@ -134,7 +136,7 @@ class foldx:
         try:
             subprocess.run(cmd_str,shell=True)
         except:
-            file = open(FOLDX_loc+"/optimize_errors.txt","w+")  
+            file = open(FOLDX_loc+"/optimize_errors.txt","a+")  
             file.write(pdbdir+pdb+"\n")
             
 # =============================================================================
@@ -154,7 +156,9 @@ class foldx:
                    ion=" --ionStrength=0.15",
                    pH=" --pH=7.3",
                    vdw=" --vdwDesign=1", #0=soft,1=medium, 2=hard repulsion                   
-                   temp=" --temperature=298"):             
+                   temp=" --temperature=298",
+                   key="999",
+                   mutation="NA"):             
         cmd_str=(self.FOLDX_loc+"/foldx"
                  +"  --command=AnalyseComplex"
                  +" --output-dir="+outdir
@@ -169,33 +173,43 @@ class foldx:
         try:
             subprocess.run(cmd_str,shell=True)
             name=outdir+"/Interaction_"+pdb[0:-4]+"_AC.fxout" #not sure of meaning of AC
-            nrg=linecache.getline(name, 10)
-            nrgFields=nrg.split('\t')            
-            rowValue = {#'ClashA:':nrgFields[3],
-                        #'ClashB:':nrgFields[4],
-                        'TotalFoldX':nrgFields[5],
-                        'Backbone_HBond':nrgFields[6],
-                        'Sidechain_Hbond':nrgFields[7],
-                        'Van_der_Waals':nrgFields[8],
-                        'Electrostatics':nrgFields[9],
-                        'Solvation_Polar':nrgFields[10],
-                        'Solvation_Hydrophobic':nrgFields[11],
-                        'clashes':nrgFields[12],
-                        'entropy_sidechain':nrgFields[13],
-                        'entropy_mainchain':nrgFields[14],
-                        'sloop_entropy':nrgFields[15],
-                        'mloop_entropy':nrgFields[16],
-                        'cis_bond':nrgFields[17],
-                        'torsional_clash':nrgFields[18],
-                        'backbone_clash':nrgFields[19],
-                        'helix_dipole':nrgFields[20],
-                        'water_bridge':nrgFields[21],
-                        'disulfide':nrgFields[22],
-                        'kon':nrgFields[23],
-                        'partial_covalent':nrgFields[24],
-                        'Ion':nrgFields[25],
-                        'Entropy Complex':nrgFields[26]}
+            #nrg=linecache.getline(name, 10)
+            with open(name) as file:
+                fileAsList = file.readlines()
+                energy=[0]*21
+                for i in range(9, len(fileAsList)):
+                    nrg=fileAsList[i]
+                    nrgFields=nrg.split('\t')
+                    if ((chainA.find(nrgFields[1])!=-1) and (chainB.find(nrgFields[2])!=-1)) or (
+                        (chainB.find(nrgFields[1])!=-1) and (chainA.find(nrgFields[2])!=-1)):
+                        energy=np.add(list(map(float, nrgFields[5:26])), energy)                       
+                rowValue = {
+                        'Key':key,
+                        'Mutation':mutation,                        
+                        'TotalFoldX':energy[0],
+                        'Backbone_HBond':nrgFields[1],
+                        'Sidechain_Hbond':nrgFields[2],
+                        'Van_der_Waals':nrgFields[3],
+                        'Electrostatics':nrgFields[4],
+                        'Solvation_Polar':nrgFields[5],
+                        'Solvation_Hydrophobic':nrgFields[6],
+                        'clashes':nrgFields[7],
+                        'entropy_sidechain':nrgFields[8],
+                        'entropy_mainchain':nrgFields[9],
+                        'sloop_entropy':nrgFields[10],
+                        'mloop_entropy':nrgFields[11],
+                        'cis_bond':nrgFields[12],
+                        'torsional_clash':nrgFields[13],
+                        'backbone_clash':nrgFields[14],
+                        'helix_dipole':nrgFields[15],
+                        'water_bridge':nrgFields[16],
+                        'disulfide':nrgFields[17],
+                        'kon':nrgFields[18],
+                        'partial_covalent':nrgFields[19],
+                        'Ion':nrgFields[20],
+                        'Entropy Complex':nrgFields[21]}
             return rowValue
         except:
-            file = open(FOLDX_loc+"/char_errors.txt","w+")  
+            file = open(FOLDX_loc+"/char_errors.txt","a+")  
             file.write(pdbdir+pdb+"\n")
+            

@@ -87,3 +87,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# ignore unit test generated files
+unit/fastas/*

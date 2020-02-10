@@ -1,18 +1,13 @@
 """
+Last Updated: 02/10/2020 (mm/dd/yyyy)
 
-------------
-OPTIMUS BIND 
-------------
+Description:
+    Functions which generate a database to plug into the machine
+    learning framework (Needs to be expanded)
 
-Version: 0.0.1
-
-Description: Functions which generate a database to plug into the machine learning framework 
-             (Needs to be expanded)
-
-Contributors:  
-
-Contact: 
+Contact: sangyoung123@googlemail.com
 """
+
 import sys
 import os
 from os import listdir
@@ -26,7 +21,7 @@ from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
 import re
 
-# Subprocess modules for calling on making the 
+# Subprocess modules to handle files and call iAlign
 
 import subprocess
 from subprocess import call
@@ -43,97 +38,8 @@ import matplotlib.pyplot as plt
 
 import tqdm as tqdm 
 
-def SKEMPItoPandas(SKEMPI_loc):
-    '''
-    Purpose:
-        1. Loads SKEMPI CSV file.
-        2. Calculates ddG
-        3. For multiple measurements, keeps the median value
-        4. Eliminates entries with mutations on both sides of the interface
-    Input:
-        SKEMPI_loc : Location of SKEMPI CSV file
-    Output:
-        SKEMPI_df : Pandas dataframe    
-    '''
-    import pandas as pd
-    import numpy as np
-    import re
-	# fix this
-    pd.options.mode.chained_assignment = None  # default='warn'
 
-    # Constants
-    R = 1.9872036e-3  # Ideal Gas Constant in kcal
-
-    SKEMPI_df = pd.read_csv(SKEMPI_loc, sep=';')
-
-    # Convert non numeric temperature comments to numeric values. Default is 298K 
-    ConvertTemp = lambda x: int(re.search(r'\d+', x).group(0) or 298)
-    BadTemps = SKEMPI_df.Temperature.str.isnumeric() == 0
-    SKEMPI_df['Temperature'].loc[BadTemps] = SKEMPI_df['Temperature'].loc[BadTemps].map(ConvertTemp)
-    SKEMPI_df['Temperature'] = pd.to_numeric(SKEMPI_df['Temperature'], errors='coerce')
-
-    # Drop missing values
-    SKEMPI_df.dropna(subset=['Affinity_wt_parsed'], inplace=True)
-    SKEMPI_df.dropna(subset=['Affinity_mut_parsed'], inplace=True)
-
-    # Calculate free energies
-    SKEMPI_df['dgWT'] = -R*SKEMPI_df['Temperature']*np.log(SKEMPI_df['Affinity_wt_parsed'])
-    SKEMPI_df['dgMut'] = -R*SKEMPI_df['Temperature']*np.log(SKEMPI_df['Affinity_mut_parsed'])
-    SKEMPI_df['ddG'] = SKEMPI_df['dgWT']-SKEMPI_df['dgMut']
-
-    # Create a key for unique mutations based on PDB and 
-    SKEMPI_df['MutKey'] = SKEMPI_df['#Pdb']+'_'+SKEMPI_df['Mutation(s)_PDB']
-    # Replace multiple measurements of the same mutation with the group mean
-    # May consider grouping by experimental method as well
-    SKEMPI_df['ddgMedian'] = SKEMPI_df.groupby('MutKey')['ddG'].transform('median')        
-    SKEMPI_df = SKEMPI_df.drop_duplicates(subset=['MutKey', 'Temperature'], keep='first', inplace=False)
-
-    # Flag multiple mutations in the same protein
-    SKEMPI_df['NumMutations'] = SKEMPI_df['Mutation(s)_PDB'].str.count(',')+1 
-
-    # Extract Chains and remove cross chain mutations. Chain is the second position in the mutation code
-    SKEMPI_df['Prot1Chain'] = SKEMPI_df['#Pdb'].str.split('_').str[1]
-    SKEMPI_df['Prot2Chain'] = SKEMPI_df['#Pdb'].str.split('_').str[2]
-    SKEMPI_df['MutSplit'] = SKEMPI_df['Mutation(s)_PDB'].str.split(',')
-    SKEMPI_df['MutCleanSplit'] = SKEMPI_df['Mutation(s)_cleaned'].str.split(',')
-
-	# SYN added - Added a pdb name column to make it easier to identiy pdb when it comes to implementing
-	# mutations
-	
-    NAME = [] 
-    for pdbname in SKEMPI_df['#Pdb']:
-        name = pdbname.split('_')[0]
-        NAME.append(name)
-    SKEMPI_df['NAME'] = NAME
-
-    def ChainCheck(df):
-        if df['NumMutations'] == 1:
-            CrossChain = False
-            return CrossChain
-        else:
-            Chain = df['MutSplit'][0][1]
-            if Chain in df['Prot1Chain']:
-                ChainSet = df['Prot1Chain']
-            elif Chain in df['Prot2Chain']:
-                ChainSet = df['Prot2Chain']
-            for i in range(len(df['MutSplit'])):
-                Chain = df['MutSplit'][i][1]
-                if Chain in ChainSet:
-                    CrossChain = False
-                else:
-                    CrossChain = True
-                    break
-        return CrossChain
-
-    SKEMPI_df['CrossChain'] = SKEMPI_df.apply(ChainCheck, axis=1)
-    SKEMPI_SingleSided = SKEMPI_df[SKEMPI_df.CrossChain == False]
-
-    NumProteins = SKEMPI_SingleSided['#Pdb'].nunique()
-    NumMutations = SKEMPI_SingleSided['#Pdb'].count()
-    print("There are %s unique single sided mutations in %s proteins" % (NumMutations, NumProteins))             
-    return SKEMPI_SingleSided
-
-DataFrame = SKEMPItoPandas('skempi_v2.csv')
+DataFrame =  # Access our skempi dataframe
 
 
 # -----------------------
@@ -157,7 +63,7 @@ FoldxPath = "/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/FoldX/fo
 #subprocess.call(IalignPath)
 
 def callialign(folder, pdb1, chain1, pdb2, chain2, mut, Ialignpath = None): # Default None for Ialignpath for now
-	"""
+	'''
 	Purpose:
 	
 	Function to call ialign with subprocess
@@ -176,7 +82,7 @@ def callialign(folder, pdb1, chain1, pdb2, chain2, mut, Ialignpath = None): # De
 	    Chain in pdb1 
 	Ialignpath: placeholder
 	    ---
-	"""
+	'''
 	# TODO - add timeit 
 	try:
 		import os
@@ -201,7 +107,7 @@ def callialign(folder, pdb1, chain1, pdb2, chain2, mut, Ialignpath = None): # De
 		   
 		
 def callfoldx(pdb, foldxpath = None): # Default None for Ialignpath for now
-	"""
+	'''
 	Purpose:
 	
 	Function to call folx with subprocess
@@ -212,7 +118,7 @@ def callfoldx(pdb, foldxpath = None): # Default None for Ialignpath for now
 	    The string of the pdb file
     foldxpath: path/to/binary
 	    The path to the foldx binary
-	"""
+	'''
 	# We need to make sure the rotabase.txt file is in the pdb folder
 	try:
 		import errno
@@ -266,7 +172,7 @@ def callfoldx(pdb, foldxpath = None): # Default None for Ialignpath for now
 		raise FileNotFoundError(errno.ENOENT, os.strerror(errno.ENOENT), output_PDB)
 
 def ReadEnergy(PATH):
-	"""
+	'''
 	Purpose:
 	
 	placeholder
@@ -275,7 +181,7 @@ def ReadEnergy(PATH):
 	----------
 	PATH:
 	   The path to where the fxout files are stored
-	"""
+	'''
 	# Find fxout files and parse the results within them
 	try:
 		import itertools
@@ -309,7 +215,7 @@ def ReadEnergy(PATH):
 
 	
 def function_to_read_ialign_profiles(outputdata, PDBname, foldPandasInput = None):
-	"""
+	'''
 	Purpose:
 
 	- IS-Score - brief explanation  
@@ -341,7 +247,7 @@ def function_to_read_ialign_profiles(outputdata, PDBname, foldPandasInput = None
 	1f6fAB | A |  B  | 48  | 45 | 0.566 | NSK----V---I--PNSK-AI-HRSKYTYRICC | KEE----TSIWKII--Y-DTYDVKTGWT-DH-
 	1        2    3    4     5    6       7                                   8
 	
-	"""	
+	'''
 	Entries = ['IS-score', 'P-value', 'Z-score', 'Number of aligned residues', 'Number of aligned Contacts', 'RMSD', 'Seq Identity']
 	ialignOutput = open(str(outputdata), "r")
 	ialignLines = ialignOutput.readlines()
@@ -364,7 +270,7 @@ def function_to_read_ialign_profiles(outputdata, PDBname, foldPandasInput = None
 	return output
 		   
 def GenerateMutations(DataFrame, PDB, PATH):
-	"""
+	'''
 	Purpose:
 	
 	This function returns the mutated pdb protein files 
@@ -382,7 +288,7 @@ def GenerateMutations(DataFrame, PDB, PATH):
 	    The pandas table to read_csv
 	PDB: str
 	    The string of the pdb file
-	"""
+	'''
 	try:
 		from Bio.PDB.PDBIO import PDBIO
 		from Bio.PDB.PDBParser import PDBParser

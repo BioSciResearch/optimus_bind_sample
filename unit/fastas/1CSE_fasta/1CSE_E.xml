@@ -1,0 +1,938 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>E &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>274</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>E &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>274</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|173803</Hit_id>
+  <Hit_def>cd07477, Peptidases_S8_Subtilisin_subset, Peptidase S8 family domain in Subtilisin proteins.  This group is composed of many different subtilisins: Pro-TK-subtilisin, subtilisin Carlsberg, serine protease Pb92 subtilisin, and BPN subtilisins just to name a few. Pro-TK-subtilisin is a serine protease from the hyperthermophilic archaeon Thermococcus kodakaraensis and consists of a signal peptide, a propeptide, and a mature domain.  TK-subtilisin is matured from pro-TK-subtilisin upon autoprocessing and degradation of the propeptide. Unlike other subtilisins though, the folding of the unprocessed form of pro-TK-subtilisin is induced by Ca2+ binding which is almost completed prior to autoprocessing. Ca2+ is required for activity unlike the bacterial subtilisins. The propeptide is not required for folding of the mature domain unlike the bacterial subtilases because of the stability produced from Ca2+ binding.  Subtilisin Carlsberg is extremely similar in structure to subtilisin BPN&apos;/Novo thought it has a 30% difference in amino acid sequence.  The substrate binding regions are also similar and 2 possible Ca2+ binding sites have been identified recently. Subtilisin Carlsberg possesses the highest commercial importance as a proteolytic additive for detergents. Serine protease Pb92, the serine protease from the alkalophilic Bacillus strain PB92, also contains two calcium ions and the overall  folding of the polypeptide chain closely resembles that of the subtilisins.   Members of the peptidases S8 and S35 clan include endopeptidases, exopeptidases and also a tripeptidyl-peptidase. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The S53 family contains a catalytic triad Glu/Asp/Ser. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173803</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.70551e-98</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDL--NVVGGASFVAGEAYN-TDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSST</Hsp_qseq>
+      <Hsp_hseq>VKVAVIDTGIDSSHPDLKLNIVGGANFTGDDNNDYQDGNGHGTHVAGIIAALDNGVGVVGVAPEADLYAVKVLNDDGSGTYSDIIAGIEWAIENGMDIINMSLGGPSDSPALREAIKKAYAAGILVVAAAGNSGNGDS--SYDYPAKYPSVIAVGAVDSNNNRASFSSTGPEVELAAPGVDILSTYPNNDYAYLSGTSMATPHVAGVAALVWSKRPELTNAQVRQALNKT</Hsp_hseq>
+      <Hsp_midline>VKVAV+DTGI +SHPDL  N+VGGA+F   +  +  DGNGHGTHVAG +AALDN  GV+GVAP   LYAVKVLN  GSG+YS I++GIEWA  NGMD+INMSLGG S S A+++A+  AYA G++VVAAAGNSGN  S  +  YPAKY SVIAVGAVDSN+NRASFSS G E+E+ APG  + STYP N YA L+GTSMA+PHVAG AAL+ SK P L+ +QVR  L+ T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|173810</Hit_id>
+  <Hit_def>cd07484, Peptidases_S8_Thermitase_like, Peptidase S8 family domain in Thermitase-like proteins.  Thermitase is a non-specific, trypsin-related serine protease with a very high specific activity.  It contains a subtilisin like domain. The tertiary structure of thermitase is similar to that of subtilisin BPN&apos;.  It contains a Asp/His/Ser catalytic triad. Members of the peptidases S8 (subtilisin and kexin) and S53 (sedolisin) clan include endopeptidases and  exopeptidases. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. Serine acts as a nucleophile, aspartate as an electrophile, and histidine as a base. The S53 family contains a catalytic triad Glu/Asp/Ser with an additional acidic residue Asp in the oxyanion hole, similar to that of subtilisin.  The serine residue here is the nucleophilic equivalent of the serine residue in the S8 family, while glutamic acid has the same role here as the histidine  base.   However, the aspartic acid residue that acts as an electrophile  is quite different.  In S53 the it follows glutamic acid, while in S8 it precedes histidine. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity.  There is a great diversity in the characteristics of their members: some contain disulfide bonds, some are intracellular while others are extracellular, some function at extreme temperatures, and others at high or low pH values.</Hit_def>
+  <Hit_accession>173810</Hit_accession>
+  <Hit_len>260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>1.7851e-68</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDL---NVVGGASFVAGEAYNTDGNGHGTHVAGTVAA-LDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYLG</Hsp_qseq>
+      <Hsp_hseq>GSGVTVAVVDTGVDPTHPDLLKVKFVLGYDFVDNDSDAMDDNGHGTHVAGIIAAATNNGTGVAGVAPKAKIMPVKVLDANGSGSLADIANGIRYAADKGAKVINLSLGGGLGSTALQEAINYAWNKGVVVVAAAGNEGVS----SVSYPAAYPGAIAVAATDQDDKRASFSNYGKWVDVSAPGGGILSTTPDGDYAYMSGTSMATPHVAGVAALLYSQGP-LSASEVRDALKKTADDIG</Hsp_hseq>
+      <Hsp_midline>G+ V VAV+DTG+  +HPDL     V G  FV  ++   D NGHGTHVAG +AA  +N TGV GVAP   +  VKVL+++GSGS + I +GI +A   G  VIN+SLGG  GSTA+++A++ A+ +GVVVVAAAGN G S    ++ YPA Y   IAV A D +  RASFS+ G  ++V APG G+ ST P   YA ++GTSMA+PHVAG AAL+ S+ P LSAS+VR+ L  TA  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|224322</Hit_id>
+  <Hit_def>COG1404, AprE, Subtilisin-like serine proteases [Posttranslational modification, protein turnover, chaperones].</Hit_def>
+  <Hit_accession>224322</Hit_accession>
+  <Hit_len>508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>171.4</Hsp_bit-score>
+      <Hsp_score>433</Hsp_score>
+      <Hsp_evalue>3.31646e-50</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>273</Hsp_query-to>
+      <Hsp_hit-from>138</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>GFKGANVKVAVLDTGIQASHPDL--NVVGGASFVAG--EAYNTDGNGHGTHVAGTVAAL--DNTTGVLGVAPSVSLYAVKVLNSSGSG-SYSGIVSGIEWATTNG--MDVINMSLGGASGSTA----MKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDS--VIAVGAVDSNSNRASFSSVGAE--LEVMAPGAGVYSTYPTNT-------YATLNGTSMASPHVAGAAALILSKHPN-LSASQVRNRLSSTA--TYL-GSSFYYGKGLINVEAAA</Hsp_qseq>
+      <Hsp_hseq>GLTGKGVTVAVIDTGVDASHPDLAGSAVAGGDFVDGDPEPPFLDDNGHGTHVAGTIAAVIFDNGAGVAGVAPGAKLLLVKVLGSGGGSGELSDVAEGIEGAANLGGPADVINLSLGGSLSDSASPALGDALAAAANAGGVVIVAAAGNDGSNASGGDLAYPASYPAPNVIAVGALDLSDTVASFSNDGSPTGVDIAAPGVNILSLSAVNTLPGDGADYVTLSGTSMAAPHVSGVAALVLSANPNELTPAQVRNLIVTTAGLTPLSGVDNLVGGGLANLDAAA</Hsp_hseq>
+      <Hsp_midline>G  G  V VAV+DTG+ ASHPDL  + V G  FV G  E    D NGHGTHVAGT+AA+  DN  GV GVAP   L  VKVL S G     S +  GIE A   G   DVIN+SLGG+   +A           A A GVV+VAAAGN G++ S   + YPA Y +  VIAVGA+D +   ASFS+ G+   +++ APG  + S    NT       Y TL+GTSMA+PHV+G AAL+LS +PN L+ +QVRN + +TA  T L G     G GL N++AAA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|333824</Hit_id>
+  <Hit_def>pfam00082, Peptidase_S8, Subtilase family.  Subtilases are a family of serine proteases. They appear to have independently and convergently evolved an Asp/Ser/His catalytic triad, like that found in the trypsin serine proteases (see pfam00089). Structure is an alpha/beta fold containing a 7-stranded parallel beta sheet, order 2314567.</Hit_def>
+  <Hit_accession>333824</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.458</Hsp_bit-score>
+      <Hsp_score>402</Hsp_score>
+      <Hsp_evalue>1.03787e-47</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>271</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDL--NVVGGASFVAGEA------YNTDGNG-HGTHVAGTVAALDNTTG-VLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGS--------TAMKQAVDNAYARGVVVVAAAGNSGNSGST----NTIGY-PAKYDSVIAVGAVDSNSNRASFSSVGA------ELEVMAPGAGVYSTYP--------TNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYL</Hsp_qseq>
+      <Hsp_hseq>GKGVVVAVLDTGIDPSHPDLSGNYDGKIDFNDEDADTYEPDWGVDDNGGHGTHVAGIIAAGDNNGGGVLGVAPGAKLESVRVLDPSGGSDTTDIYGAIRWAAEDGADVINMSLGGPSDDGKPSSWSAALALAVNNAQEEKGSLFVWAAGNGGNTGDTVLQDNCPVYDPAQYWNVITVGAVTPEGKLAPFSSRGPSSDGRIKPDIVAPGGNILSTYTGGANAGCGLQGYTSMSGTSMATPHVAGAAALLKQAYPNLTPEELRALLVNTATDL</Hsp_hseq>
+      <Hsp_midline>G  V VAVLDTGI  SHPDL  N  G   F   +A      +  D NG HGTHVAG +AA DN  G VLGVAP   L +V+VL+ SG    + I   I WA  +G DVINMSLGG S                 +    +G + V AAGN GN+G T    N   Y PA+Y +VI VGAV      A FSS G       + +++APG  + STY            Y +++GTSMA+PHVAGAAAL+   +PNL+  ++R  L +TAT L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|173822</Hit_id>
+  <Hit_def>cd07498, Peptidases_S8_15, Peptidase S8 family domain, uncharacterized subfamily 15.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173822</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>1.11039e-45</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDLN----VVGGASFVAGEAYNTDGNGHGTHVAGTVAAL-DNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNA--YAR---GVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYST---------YPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSST</Hsp_qseq>
+      <Hsp_hseq>VVVAIIDTGVDLNHPDLSGKPKLVPGWNFVSNNDPTSDIDGHGTACAGVAAAVGNNGLGVAGVAPGAKLMPVRIADSLGYAYWSDIAQAITWAADNGADVISNSWGGSDSTESISSAIDNAATYGRNGKGGVVLFAAGNSGRSVSS---GYAAN-PSVIAVAATDSNDARASYSNYGNYVDLVAPGVGIWTTGTGRGSAGDYPGGGYGSFSGTSFASPVAAGVAALILSANPNLTPAEVEDILTST</Hsp_hseq>
+      <Hsp_midline>V VA++DTG+  +HPDL+    +V G +FV+     +D +GHGT  AG  AA+ +N  GV GVAP   L  V++ +S G   +S I   I WA  NG DVI+ S GG+  + ++  A+DNA  Y R   G VV+ AAGNSG S S+   GY A   SVIAV A DSN  RAS+S+ G  ++++APG G+++T         YP   Y + +GTS ASP  AG AALILS +PNL+ ++V + L+ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|173814</Hit_id>
+  <Hit_def>cd07489, Peptidases_S8_5, Peptidase S8 family domain, uncharacterized subfamily 5.  gap in seq This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173814</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>4.40102e-43</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>273</Hsp_align-len>
+      <Hsp_qseq>DKVQAQGFKGANVKVAVLDTGIQASHPDL--------NVVGGASFVAGEAYN-----------TDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAV--DNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGA--EL----EVMAPGAGVYSTYPT--NTYATLNGTSMASPHVAGAAALIL-SKHPNLSASQVRNRLSSTATYL</Hsp_qseq>
+      <Hsp_hseq>DKLHAEGITGKGVKVAVVDTGIDYTHPALGGCFGPGCKVAGGYDFV-GDDYDGTNPPVPDDDPMDCQGHGTHVAGIIAANPNAYGFTGVAPEATLGAYRVFGCSGSTTEDTIIAAFLRAYEDGADVITASLGGPSGWSEDPWAVVASRIVDAGVVVTIAAGNDGERGPFYA-SSPASGRGVIAVASVDSY-----FSSWGPTNELYLKPDVAAPGGNILSTYPLAGGGYAVLSGTSMATPYVAGAAALLIQARHGKLSPAELRDLLASTAKPL</Hsp_hseq>
+      <Hsp_midline>DK+ A+G  G  VKVAV+DTGI  +HP L         V GG  FV G+ Y+            D  GHGTHVAG +AA  N  G  GVAP  +L A +V   SGS +   I++    A  +G DVI  SLGG SG +    AV        GVVV  AAGN G  G       PA    VIAV +VDS      FSS G   EL    +V APG  + STYP     YA L+GTSMA+P+VAGAAAL++ ++H  LS +++R+ L+STA  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|173812</Hit_id>
+  <Hit_def>cd07487, Peptidases_S8_1, Peptidase S8 family domain, uncharacterized subfamily 1.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173812</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>4.50761e-43</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDLN--VVGGASFVA---GEAYNTDGNGHGTHVAGTVAALDNTTG--VLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTN----GMDVINMSLGGAS----GSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRAS----FSSVGA------ELEVMAPGAGVYSTYPT---------NTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>GKGITVAVLDTGIDAPHPDFDGRIIRFADFVNTVNGRTTPYDDNGHGTHVAGIIAGSGRASNGKYKGVAPGANLVGVKVLDDSGSGSESDIIAGIDWVVENNEKYNIRVVNLSLGAPPDPSYGEDPLCQAVERLWDAGIVVVVAAGNSGP--GPGTITSPGNSPKVITVGAVDDNGPHDDGISYFSSRGPTGDGRIKPDVVAPGENIVSCRSPGGNPGAGVGSGYFEMSGTSMATPHVSGAIALLLQANPILTPDEVKCILRDTAT</Hsp_hseq>
+      <Hsp_midline>G  + VAVLDTGI A HPD +  ++  A FV    G     D NGHGTHVAG +A     +     GVAP  +L  VKVL+ SGSGS S I++GI+W   N     + V+N+SLG       G   + QAV+  +  G+VVV AAGNSG      TI  P     VI VGAVD N         FSS G       + +V+APG  + S             + Y  ++GTSMA+PHV+GA AL+L  +P L+  +V+  L  TAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|274856</Hit_id>
+  <Hit_def>TIGR03921, T7SS_mycosin, type VII secretion-associated serine protease mycosin.  Members of this family are subtilisin-related serine proteases, found strictly in the Actinobacteria and associated with type VII secretion operons. The designation mycosin is used for members from Mycobacterium. [Protein fate, Protein and peptide secretion and trafficking, Protein fate, Protein modification and repair].</Hit_def>
+  <Hit_accession>274856</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>8.33568e-43</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>281</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>QAQGFK-GANVKVAVLDTGIQASHPDLN--VVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNT-TGVLGVAPSVSLYAVKVLN--------SSGSGSYSGIVSGIEWATTNGMDVINMSL------GGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYP-TNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYL---GSSFYYGKGLINVEAA</Hsp_qseq>
+      <Hsp_hseq>QAWKFSTGAGVTVAVIDTGVD-DHPRLPGLVLPGGDFVGSGDGTDDCDGHGTLVAGIIAGRPGEGDGFSGVAPDARILPIRQTSAAFEPDEGTSGVGDLGTLAKAIRRAADLGADVINISLVACLPAGSGADDPELGAAVRYALDKGVVVVAAAGNTGGDGQKTTVVYPAWYPGVLAVGSIDRDGTPSSFSLPGPWVDLAAPGENIVSLSPGGDGLATTSGTSFAAPFVSGTAALVRSRFPDLTAAQVRRRIEATADHPARGGRDDYVGYGVVDPVAA</Hsp_hseq>
+      <Hsp_midline>QA  F  GA V VAV+DTG+   HP L   V+ G  FV       D +GHGT VAG +A       G  GVAP   +  ++  +        +SG G    +   I  A   G DVIN+SL      G  +    +  AV  A  +GVVVVAAAGN+G  G   T+ YPA Y  V+AVG++D +   +SFS  G  +++ APG  + S  P  +  AT +GTS A+P V+G AAL+ S+ P+L+A+QVR R+ +TA +    G   Y G G+++  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|173820</Hit_id>
+  <Hit_def>cd07496, Peptidases_S8_13, Peptidase S8 family domain, uncharacterized subfamily 13.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173820</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>1.23521e-42</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDLN--VVGGASFVAGEAYNTDGNG--------------------------------HGTHVAGTVAAL-DNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWA----------TTNGMDVINMSLGGASGSTA-MKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYST-----YPTN----------TYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSST</Hsp_qseq>
+      <Hsp_hseq>VVVAVLDTGVLFHHPDLAGVLLPGYDFISDPAIANDGDGRDSDPTDPGDWVTGDDVPPGGFCGSGVSPSSWHGTHVAGTIAAVTNNGVGVAGVAWGARILPVRVLGKCG-GTLSDIVDGMRWAAGLPVPGVPVNPNPAKVINLSLGGDGACSATMQNAINDVRARGVLVVVAAGNEGSSASVDA---PANCRGVIAVGATDLRGQRASYSNYGPAVDVSAPGGDCASDVNGDGYPDSNTGTTSPGGSTYGFLQGTSMAAPHVAGVAALMKSVNPSLTPAQIESLLQST</Hsp_hseq>
+      <Hsp_midline>V VAVLDTG+   HPDL   ++ G  F++  A   DG+G                                HGTHVAGT+AA+ +N  GV GVA    +  V+VL   G G+ S IV G+ WA            N   VIN+SLGG    +A M+ A+++  ARGV+VV AAGN G+S S +    PA    VIAVGA D    RAS+S+ G  ++V APG    S      YP +          TY  L GTSMA+PHVAG AAL+ S +P+L+ +Q+ + L ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|173790</Hit_id>
+  <Hit_def>cd04077, Peptidases_S8_PCSK9_ProteinaseK_like, Peptidase S8 family domain in ProteinaseK-like proteins.  The peptidase S8 or Subtilase clan of proteases have a Asp/His/Ser catalytic triad that is not homologous to trypsin. This CD contains several members of this clan including: PCSK9 (Proprotein convertase subtilisin/kexin type 9), Proteinase_K, Proteinase_T, and other subtilisin-like serine proteases.  PCSK9 posttranslationally regulates hepatic low-density lipoprotein receptors (LDLRs) by binding to LDLRs on the cell surface, leading to their degradation. The binding site of PCSK9 has been localized to the epidermal growth factor-like repeat A (EGF-A) domain of the LDLR. Characterized Proteinases K are secreted endopeptidases with a high degree of sequence conservation.  Proteinases K are not substrate-specific and function in a wide variety of species in different pathways. It can hydrolyze keratin and other proteins with subtilisin-like specificity. The number of calcium-binding motifs found in these differ. Proteinase T is a novel proteinase from the fungus Tritirachium album Limber. The amino acid sequence of proteinase T as deduced from the nucleotide sequence is about 56% identical to that of proteinase K.</Hit_def>
+  <Hit_accession>173790</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>1.38365e-42</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDL--NVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEW----ATTNGMD-VINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGY-PAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTY--PTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>GSGVDVYVLDTGIRTTHVEFGGRAIWGADFVGGDP-DSDCNGHGTHVAGTVGG-----KTYGVAKKANLVAVKVLDCNGSGTLSGIIAGLEWVANDATKRGKPAVANMSLGGGAST-----ALDAAVAAAVNAGVVVVVAAGNSNQDACNYSPASAPEAITVGATDSDDARASFSNYGSCVDIFAPGVDILSAWIGSDTATATLSGTSMAAPHVAGLAAYLLSLGPDLSPAEVKARLLNLAT</Hsp_hseq>
+      <Hsp_midline>G+ V V VLDTGI+ +H +     + GA FV G+  ++D NGHGTHVAGTV          GVA   +L AVKVL+ +GSG+ SGI++G+EW    AT  G   V NMSLGG + +     A+D A A  V        +  + + +   Y PA     I VGA DS+  RASFS+ G+ +++ APG  + S +       ATL+GTSMA+PHVAG AA +LS  P+LS ++V+ RL + AT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|173799</Hit_id>
+  <Hit_def>cd07473, Peptidases_S8_Subtilisin_like, Peptidase S8 family domain in Subtilisin-like proteins.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173799</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.07563e-41</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>NVKVAVLDTGIQASHPDL--NVVGGASFVAGEAYNTDGNG----------------------HGTHVAGTVAAL-DNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSG-NSGSTNTIGYPAKYD--SVIAVGAVDSNSNRASFSSVGAE-LEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTA</Hsp_qseq>
+      <Hsp_hseq>DVVVAVIDTGVDYNHPDLKDNMWVNPGEIPGNGIDDDGNGYVDDIYGWNFVNNDNDPMDDNGHGTHVAGIIGAVGNNGIGIAGVAWNVKIMPLKFLGADGSGTTSDAIKAIDYAVDMGAKIINNSWGGGGPSQALRDAIARAIDAGILFVAAAGNDGTNNDKTPT--YPASYDLDNIISVAATDSNDALASFSNYGKKTVDLAAPGVDILSTSPGGGYGYMSGTSMATPHVAGAAALLLSLNPNLTAAQIKDAILSSA</Hsp_hseq>
+      <Hsp_midline>+V VAV+DTG+  +HPDL  N+      + G   + DGNG                      HGTHVAG + A+ +N  G+ GVA +V +  +K L + GSG+ S  +  I++A   G  +IN S GG   S A++ A+  A   G++ VAAAGN G N+  T T  YPA YD  ++I+V A DSN   ASFS+ G + +++ APG  + ST P   Y  ++GTSMA+PHVAGAAAL+LS +PNL+A+Q+++ + S+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|173787</Hit_id>
+  <Hit_def>cd00306, Peptidases_S8_S53, Peptidase domain in the S8 and S53 families.  Members of the peptidases S8 (subtilisin and kexin) and S53 (sedolisin) family include endopeptidases and  exopeptidases. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. Serine acts as a nucleophile, aspartate as an electrophile, and histidine as a base. The S53 family contains a catalytic triad Glu/Asp/Ser with an additional acidic residue Asp in the oxyanion hole, similar to that of subtilisin.  The serine residue here is the nucleophilic equivalent of the serine residue in the S8 family, while glutamic acid has the same role here as the histidine base.   However, the aspartic acid residue that acts as an electrophile is quite different.  In S53, it follows glutamic acid, while in S8 it precedes histidine. The stability of these enzymes may be enhanced by calcium; some members have been shown to bind up to 4 ions via binding sites with different affinity.  There is a great diversity in the characteristics of their members: some contain disulfide bonds, some are intracellular while others are extracellular, some function at extreme temperatures, and others at high or low pH values.</Hit_def>
+  <Hit_accession>173787</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>1.89005e-39</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>252</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDLNVVGGASFVAGEAYNT--------DGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVL-NSSGSGSYSGIVSGIEWATTNGMDVINMSLG--GASGSTAMKQAVDNAYAR-GVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSV-GAELEVMAPGAGVYSTYPT--NTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSST</Hsp_qseq>
+      <Hsp_hseq>VTVAVIDTGVDPDHPDLDGLFGGGDGGNDDDDNENGPTDPDDGNGHGTHVAGIIAASANNGGGVGVAPGAKLIPVKVLDGDGSGSSSDIAAAIDYAAADQGADVINLSLGGPGSPPSSALSEAIDYALAKLGVLVVAAAGNDGPDGGTN-IGYPAASPNVIAVGAVDRDGTPASPSSNGGAGVDIAAPGGDILSSPTTGGGGYATLSGTSMAAPIVAGVAALLLSANPDLTPAQVKAALLST</Hsp_hseq>
+      <Hsp_midline>V VAV+DTG+   HPDL+ + G      +  +         DGNGHGTHVAG +AA  N  G +GVAP   L  VKVL       S     +    A   G DVIN+SLG  G+  S+A+ +A+D A A+ GV+VVAAAGN G  G TN IGYPA   +VIAVGAVD +   AS SS  GA +++ APG  + S+  T    YATL+GTSMA+P VAG AAL+LS +P+L+ +QV+  L ST</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|CDD|173806</Hit_id>
+  <Hit_def>cd07480, Peptidases_S8_12, Peptidase S8 family domain, uncharacterized subfamily 12.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173806</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.865</Hsp_bit-score>
+      <Hsp_score>307</Hsp_score>
+      <Hsp_evalue>1.76153e-33</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>239</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>254</Hsp_align-len>
+      <Hsp_qseq>FKGANVKVAVLDTGIQASHPDL--NVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLG-------------GASGSTAMKQ---------------AVDNAYARGVVVVAAAGN-SGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVG----AELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPN</Hsp_qseq>
+      <Hsp_hseq>FTGAGVRVAVLDTGIDLTHPAFAGRDITTKSFVGGEDVQ-DGHGHGTHCAGTIFGRDVPGPRYGVARGAEIALIGKVLGDGGGGDGGILAGIQWAVANGADVISMSLGADFPGLVDQGWPPGLAFSRALEAYRQRARLFDALMTLVAAQAALARGTLIVAAAGNESQRPAGIPPVGNPAACPSAMGVAAVGALGRTGNFSAVANFSNGEVDIAAPGVDIVSAAPGGGYRSMSGTSMATPHVAGVAALWAEALPK</Hsp_hseq>
+      <Hsp_midline>F GA V+VAVLDTGI  +HP      +   SFV GE    DG+GHGTH AGT+   D      GVA    +  +  +   G G   GI++GI+WA  NG DVI+MSLG             G + S A++                A   A ARG ++VAAAGN S        +G PA   S + V AV +     +FS+V      E+++ APG  + S  P   Y +++GTSMA+PHVAG AAL     P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|CDD|173809</Hit_id>
+  <Hit_def>cd07483, Peptidases_S8_Subtilisin_Novo-like, Peptidase S8 family domain in Subtilisin_Novo-like proteins.  Subtilisins are a group of alkaline proteinases originating from different strains of Bacillus subtilis.  Novo is one of the strains that produced enzymes belonging to this group.  The enzymes obtained from the Novo and BPN&apos; strains are identical.  The Carlsburg and Novo subtilisins are thought to have arisen from a common ancestral protein.  They have similar peptidase and esterase activities, pH profiles, catalyze transesterification reactions, and are both inhibited by diispropyl fluorophosphate, though they differ in 85 positions in the amino acid sequence.  Members of the peptidases S8 and S35 clan include endopeptidases, exopeptidases and also a tripeptidyl-peptidase. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The S53 family contains a catalytic triad Glu/Asp/Ser with an additional acidic residue Asp in the oxyanion hole, similar to that of subtilisin.. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173809</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.627</Hsp_bit-score>
+      <Hsp_score>296</Hsp_score>
+      <Hsp_evalue>5.00099e-32</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>64</Hsp_gaps>
+      <Hsp_align-len>283</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDL------------------------NVVGGASF---------VAGEAY--------NTDGNG------HGTHVAGTVAAL-DNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGA--SGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYD--------SVIAVGAVD---SNSNRASFSSVGAE-LEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVR</Hsp_qseq>
+      <Hsp_hseq>VIVAVLDSGVDIDHEDLKGKLWINKKEIPGNGIDDDNNGYIDDVNGWNFLGQYDPRRIVGDDPYDLTEKGYGNNDVNGPISDADHGTHVAGIIAAVRDNGIGIDGVADNVKIMPLRIV-PNGDERDKDIANAIRYAVDNGAKVINMSFGKSFSPNKEWVDDAIKYAESKGVLIVHAAGNDGLDLDI-TPNFPNDYDKNGGEPANNFITVGASSKKYENNLVANFSNYGKKNVDVFAPGERIYSTTPDNEYETDSGTSMAAPVVSGVAALIWSYYPNLTAKEVK</Hsp_hseq>
+      <Hsp_midline>V VAVLD+G+   H DL                        + V G +F         V  + Y        N D NG      HGTHVAG +AA+ DN  G+ GVA +V +  ++++  +G      I + I +A  NG  VINMS G +       +  A+  A ++GV++V AAGN G      T  +P  YD        + I VGA      N+  A+FS+ G + ++V APG  +YST P N Y T +GTSMA+P V+G AALI S +PNL+A +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|CDD|173800</Hit_id>
+  <Hit_def>cd07474, Peptidases_S8_subtilisin_Vpr-like, Peptidase S8 family domain in Vpr-like proteins.  The maturation of the peptide antibiotic (lantibiotic) subtilin in Bacillus subtilis ATCC 6633 includes posttranslational modifications of the propeptide and proteolytic cleavage of the leader peptide.  Vpr was identified as one of the proteases,  along with WprA, that are capable of processing subtilin.    Asp, Ser, His triadPeptidases S8 or Subtilases are a serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173800</Hit_accession>
+  <Hit_len>295</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>1.59743e-31</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>46</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDL--------NVVGGASFVA---------------GEAYNTDGNGHGTHVAGTVAALDNTTGVL-GVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLG----GASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGA-----------VDSNSNRASFSSVGA-ELEVMAPGAGVYSTYPTN--TYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYL</Hsp_qseq>
+      <Hsp_hseq>GKGVKVAVIDTGIDYTHPDLGGPGFPNDKVKGGYDFVDDDYDPMDTRPYPSPLGDASAGDATGHGTHVAGIIAGNGVNVGTIKGVAPKADLYAYKVLGPGGSGTTDVIIAAIEQAVDDGMDVINLSLGSSVNGPDDPDAI--AINNAVKAGVVVVAAAGNSGP--APYTIGSPATAPSAITVGASTVADVAEADTVGPSSSRGPPTSDSAIKPDIVAPGVDIMSTAPGSGTGYARMSGTSMAAPHVAGAAALLKQAHPDWSPAQIKAALMNTAKPL</Hsp_hseq>
+      <Hsp_midline>G  VKVAV+DTGI  +HPDL         V GG  FV                G+A   D  GHGTHVAG +A      G + GVAP   LYA KVL   GSG+   I++ IE A  +GMDVIN+SLG    G     A+  A++NA   GVVVVAAAGNSG   +  TIG PA   S I VGA           V  +S+R   +S  A + +++APG  + ST P +   YA ++GTSMA+PHVAGAAAL+   HP+ S +Q++  L +TA  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|CDD|173801</Hit_id>
+  <Hit_def>cd07475, Peptidases_S8_C5a_Peptidase, Peptidase S8 family domain in Streptococcal C5a peptidases.  Streptococcal C5a peptidase (SCP), is a highly specific protease and adhesin/invasin.  The subtilisin-like protease domain is located at the N-terminus and contains a protease-associated domain inserted into a loop.  There are three fibronectin type III (Fn) domains at the C-terminus. SCP binds to integrins with the help of Arg-Gly-Asp motifs which are thought to stabilize conformational changes required for substrate binding.  Peptidases S8 or Subtilases are a serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173801</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>118.242</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>2.02099e-31</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>344</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>85</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>GFKGANVKVAVLDTGIQASHP------DLNVVGGASFVA---------GEAYNT-------------------DGNGHGTHVAGTVA----ALDNTTGVLGVAPSVSLYAVKVL-NSSGSGSYSG-IVSGIEWATTNGMDVINMSLGGASGSTAM----KQAVDNAYARGVVVVAAAGNSGNSGS------------TNTIGYPAKYDSVIAVGAVDS---NSN---RASFSSVGA------ELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALI----LSKHPNLSASQ----VRNRLSSTAT----YLGSSFYY-----GKGLINVEAA</Hsp_qseq>
+      <Hsp_hseq>GYKGEGMVVAVIDSGVDPTHDAFRLDDDSKAKYSEEFEAKKKKAGIGYGKYYNEKVPFAYNYADNNDDILDEDDGSSHGMHVAGIVAGNGDEEDNGEGIKGVAPEAQLLAMKVFSNPEGGSTYDDAYAKAIEDAVKLGADVINMSLGSTAGFVDLDDPEQQAIKRAREAGVVVVVAAGNDGNSGSGTSKPLATNNPDTGTVGSPATADDVLTVASANKKVPNPNGGQMSGFSSWGPTPDLDLKPDITAPGGNIYSTVNDNTYGYMSGTSMASPHVAGASALVKQRLKEKYPKLSGEELVDLVKNLLMNTATPPLDSEDTKTYYSPRRQGAGLIDVAKA</Hsp_hseq>
+      <Hsp_midline>G+KG  + VAV+D+G+  +H       D        F A         G+ YN                    DG+ HG HVAG VA      DN  G+ GVAP   L A+KV  N  G  +Y       IE A   G DVINMSLG  +G   +    +QA+  A   GVVVV AAGN GNSGS            T T+G PA  D V+ V + +    N N    + FSS G       + ++ APG  +YST   NTY  ++GTSMASPHVAGA+AL+      K+P LS  +    V+N L +TAT       +  YY     G GLI+V  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|CDD|173794</Hit_id>
+  <Hit_def>cd04848, Peptidases_S8_Autotransporter_serine_protease_like, Peptidase S8 family domain in Autotransporter serine proteases.  Autotransporter serine proteases belong to Peptidase S8 or Subtilase family. Subtilases, or subtilisin-like serine proteases, have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure (an example of convergent evolution).  Autotransporters are a superfamily of outer membrane/secreted proteins of gram-negative bacteria.  The presence of these subtilisin-like domains in these autotransporters are may enable them to be auto-catalytic and may also serve to allow them to act as a maturation protease cleaving other outer membrane proteins at the cell surface.</Hit_def>
+  <Hit_accession>173794</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>114.775</Hsp_bit-score>
+      <Hsp_score>286</Hsp_score>
+      <Hsp_evalue>8.95116e-31</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDL-NVVGGASFV-----AGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLY-AVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGG----------------ASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTN------TIGY--PAKYDSVIAVGAVDSNSNRASFS-----SVGAELEVMAPGAGVYSTYPT--NTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>GAGVKVGVIDSGIDLSHPEFAGRVSEASYYVAVNDAGYASNGDGDSHGTHVAGVIAAARDGGGMHGVAPDATLYSARASASAGSTFSDADIAAAYDFLAASGVRIINNSWGGNPAIDTVSTTYKGSAATQGNTLLAALARAANAGGLFVFAA----GNDGQANPSLAAAALPYLEPELEGGWIAVVAVDPNGTIASYSYSNRCGVAANWCLAAPGENIYSTDPDGGNGYGRVSGTSFAAPHVSGAAALLAQKFPWLTADQVRQTLLTTAT</Hsp_hseq>
+      <Hsp_midline>GA VKV V+D+GI  SHP+    V  AS+      AG A N DG+ HGTHVAG +AA  +  G+ GVAP  +LY A    ++  + S + I +  ++   +G+ +IN S GG                  G+T +      A A G+ V AA    GN G  N       + Y  P      IAV AVD N   AS+S      V A   + APG  +YST P   N Y  ++GTS A+PHV+GAAAL+  K P L+A QVR  L +TAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|CDD|173808</Hit_id>
+  <Hit_def>cd07482, Peptidases_S8_Lantibiotic_specific_protease, Peptidase S8 family domain in Lantiobiotic (lanthionine-containing antibiotics) specific proteases.  Lantiobiotic (lanthionine-containing antibiotics) specific proteases are very similar in structure to serine proteases.  Lantibiotics are ribosomally synthesised antimicrobial agents derived from ribosomally synthesised peptides with antimicrobial activities against Gram-positive bacteria. The proteases that cleave the N-terminal leader peptides from lantiobiotics include:  epiP, nsuP, mutP, and nisP.  EpiP, from Staphylococcus, is thought to cleave matured epidermin. NsuP, a dehydratase from Streptococcus and NisP, a membrane-anchored subtilisin-like serine protease from Lactococcus cleave nisin.  MutP is highly similar to epiP and nisP and is thought to process the prepeptide mutacin III of S. mutans. Members of the peptidases S8 (subtilisin and kexin) and S53 (sedolisin) clan include endopeptidases and  exopeptidases. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. Serine acts as a nucleophile, aspartate as an electrophile, and histidine as a base. The S53 family contains a catalytic triad Glu/Asp/Ser with an additional acidic residue Asp in the oxyanion hole, similar to that of subtilisin.  The serine residue here is the nucleophilic equivalent of the serine residue in the S8 family, while glutamic acid has the same role here as the histidine  base.   However, the aspartic acid residue that acts as an electrophile  is quite different.  In S53 the it follows glutamic acid, while in S8 it precedes histidine. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity.  There is a great diversity in the characteristics of their members: some contain disulfide bonds, some are intracellular while others are extracellular, some function at extreme temperatures, and others at high or low pH values.</Hit_def>
+  <Hit_accession>173808</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>3.7451e-29</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDL---------NVVGGASFVAGEAYNT-------DGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGG-----------ASGSTAMKQAVDNAYARGVVVVAAAGN----------------SGNSGSTNTIGY--PAKYDSVIAVGAVDSNSNRASFSSVG-AELEVMAPGAG----------------------VYSTYPTNTYATLNGTSMASPHVAGAAALILSKHP</Hsp_qseq>
+      <Hsp_hseq>VTVAVIDSGIDPDHPDLKNSISSYSKNLVPKGGYDGKEAGETGDINDIVDKLGHGTAVAGQIAANGN---IKGVAPGIGIVSYRVFGSCGSAESSWIIKAIIDAADDGVDVINLSLGGYLIIGGEYEDDDVEYNAYKKAINYAKSKGSIVVAAAGNDGLDVSNKQELLDFLSSGDDFSVNGEVYDVPASLPNVITVSATDNNGNLSSFSNYGNSRIDLAAPGGDFLLLDQYGKEKWVNNGLMTKEQILTTAPEGGYAYMYGTSLAAPKVSGALALIIDKNP</Hsp_hseq>
+      <Hsp_midline>V VAV+D+GI   HPDL         N+V    +   EA  T       D  GHGT VAG +AA  N   + GVAP + + + +V  S GS   S I+  I  A  +G+DVIN+SLGG                A K+A++ A ++G +VVAAAGN                SG+  S N   Y  PA   +VI V A D+N N +SFS+ G + +++ APG                        + +T P   YA + GTS+A+P V+GA ALI+ K+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|CDD|173817</Hit_id>
+  <Hit_def>cd07492, Peptidases_S8_8, Peptidase S8 family domain, uncharacterized subfamily 8.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173817</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.908</Hsp_bit-score>
+      <Hsp_score>250</Hsp_score>
+      <Hsp_evalue>5.6962e-26</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDL-------NVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGST--AMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>VRVAVIDSGVDTDHPDLGNLALDGEVTIDLEIIVVSAEGGDKDGHGTACAGIIKKY---------APEAEIGSIKILGEDGRCNSFVLEKALRACVENDIRIVNLSLGGPGDRDFPLLKELLEYAYKAGGIIVAAAPNNNDIGTP-----PASFPNVIGVKS-DTADDPKSFWYIYVEFS--ADGVDIIAPAPHGRYLTVSGNSFAAPHVTGMVALLLSEKPDIDANDLKRLLQRLAV</Hsp_hseq>
+      <Hsp_midline>V+VAV+D+G+   HPDL        V      +   A   D +GHGT  AG +            AP   + ++K+L   G  +   +   +     N + ++N+SLGG        +K+ ++ AY  G ++VAAA N+ + G+      PA + +VI V + D+  +  SF  +  E    A G  + +  P   Y T++G S A+PHV G  AL+LS+ P++ A+ ++  L   A </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|CDD|173807</Hit_id>
+  <Hit_def>cd07481, Peptidases_S8_BacillopeptidaseF-like, Peptidase S8 family domain in BacillopeptidaseF-like proteins.  Bacillus subtilis produces and secretes proteases and other types of exoenzymes at the end of the exponential phase of growth. The ones that make up this group is known as bacillopeptidase F, encoded by bpr,  a serine protease with high esterolytic activity which is inhibited by PMSF.  Like other members of the peptidases S8 family these have a Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity.</Hit_def>
+  <Hit_accession>173807</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.36059e-25</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>240</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDLNV----VGGASFVAGEAYNT-----------DGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEW--ATTN----------GMDVINMSLGGASGSTAMKQAVDNAY-ARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGA------ELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNL</Hsp_qseq>
+      <Hsp_hseq>GTGIVVANIDTGVDWTHPALKNKYRGWGGGS--ADHDYNWFDPVGNTPLPYDDNGHGTHTMGTMVGNDGDGQQIGVAPGARWIACRALDRNG-GNDADYLRCAQWMLAPTDSAGNPADPDLAPDVINNSWGGPSGDNEWLQPAVAAWRAAGIFPVFAAGNDGPRCST-LNAPPANYPESFAVGATDRNDVLADFSSRGPSTYGRIKPDISAPGVNIRSAVPGGGYGSSSGTSMAAPHVAGVAALLWSANPSL</Hsp_hseq>
+      <Hsp_midline>G  + VA +DTG+  +HP L       GG S  A   YN            D NGHGTH  GT+   D     +GVAP     A + L+ +G G+ +  +   +W  A T+            DVIN S GG SG     Q    A+ A G+  V AAGN G   ST     PA Y    AVGA D N   A FSS G       + ++ APG  + S  P   Y + +GTSMA+PHVAG AAL+ S +P+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|CDD|173818</Hit_id>
+  <Hit_def>cd07493, Peptidases_S8_9, Peptidase S8 family domain, uncharacterized subfamily 9.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173818</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.79924e-24</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHP---------DLNVVGGASFVAG-EAYNTDGNGHGTHVAGTVAALDNTTGVL-GVAPSVSLYAVKVLN--SSGSGSYSGIVSGIEWATTNGMDVINMSLG--------------GASGSTA-MKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGA------ELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>ITIAVIDAGFPKVHEAFAFKHLFKNLRILGEYDFVDNSNNTNYTDDDHGTAVLSTMAGY--TPGVMVGTAPNASYYLARTEDVASETPVEEDNWVAAAEWADSLGVDIISSSLGYTTFDNPTYSYTYADMDGKTSFISRAANIAASKGMLVVNSAGNEG-STQWKGIGAPADAENVLSVGAVDANGNKASFSSIGPTADGRLKPDVMALGTGIYVINGDGNITYANGTSFSCPLIAGLIACLWQAHPNWTNLQIKEAILKSAS</Hsp_hseq>
+      <Hsp_midline>+ +AV+D G    H          +L ++G   FV      N   + HGT V  T+A    T GV+ G AP+ S Y  +  +  S         V+  EWA + G+D+I+ SLG                 G T+ + +A + A ++G++VV +AGN G S     IG PA  ++V++VGAVD+N N+ASFSS+G       + +VMA G G+Y           NGTS + P +AG  A +   HPN +  Q++  +  +A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|CDD|173795</Hit_id>
+  <Hit_def>cd04852, Peptidases_S8_3, Peptidase S8 family domain, uncharacterized subfamily 3.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173795</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>1.49805e-19</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>79</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDLNVVGGASF--------VAGE-------------------------AYNTDG--------NGHGTHVAGTVAA---LDNTTGVL------GVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASGST---AMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTN----------TYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTA</Hsp_qseq>
+      <Hsp_hseq>GEGIIIGVLDTGIWPEHPSFADVGGGPYPHTWPGDCVTGEDFNPFSCNNKLIGARYFSDGYDAYGGFNSDGEYRSPRDYDGHGTHTASTAAGNVVVNASVGGFAFGTASGVAPRARIAVYKVCWPDGGCFGSDILAAIDQAIADGVDVISYSIGGGSPDPYEDPIAIAFLHAVEAGIFVAASAGNSGPGAST--VPNVAPWVTTVAASTL--------------KPDIAAPGVDILAAWTPEGADPGDARGEDFAFISGTSMASPHVAGVAALLKSAHPDWSPAAIKSALMTTA</Hsp_hseq>
+      <Hsp_midline>G  + + VLDTGI   HP    VGG  +        V GE                          +N+DG        +GHGTH A T A    ++ + G        GVAP   +   KV    G    S I++ I+ A  +G+DVI+ S+GG S       +  A  +A   G+ V A+AGNSG   ST  +   A + + +A   +              + ++ APG  + + +              +A ++GTSMASPHVAG AAL+ S HP+ S + +++ L +TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|CDD|173789</Hit_id>
+  <Hit_def>cd04059, Peptidases_S8_Protein_convertases_Kexins_Furin-like, Peptidase S8 family domain in Protein convertases.  Protein convertases, whose members include furins and kexins, are members of the peptidase S8 or Subtilase clan of proteases. They have an Asp/His/Ser catalytic triad that is not homologous to trypsin. Kexins are involved in the activation of peptide hormones, growth factors, and viral proteins.  Furin cleaves cell surface vasoactive peptides and proteins involved in cardiovascular tissue remodeling in the TGN, at cell surface, or in endosomes but rarely in the ER.  Furin also plays a key role in blood pressure regulation though the activation of transforming growth factor (TGF)-beta. High specificity is seen for cleavage after dibasic (Lys-Arg or Arg-Arg) or multiple basic residues in protein convertases.  There is also strong sequence conservation.</Hit_def>
+  <Hit_accession>173789</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>4.65031e-19</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>253</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>QGFKGANVKVAVLDTGIQASHPDL--NVVGGASFVAGE-------AYNTDGNGHGTHVAGTVAALDNT--TGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGM-----DVINMSLG-----------GASGSTAMKQAVDNAY-ARGVVVVAAAGNSGNSG-STNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYP------------TNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTA</Hsp_qseq>
+      <Hsp_hseq>QGITGKGVTVAVVDDGLEITHPDLKDNYDPEASYDFNDNDPDPTPRYDDD-NSHGTRCAGEIAAVGNNGICGV-GVAPGAKLGGIRMLD--------GDVTDVVEAESLGLNPDYIDIYSNSWGPDDDGKTVDGPGPLAQRALENGVTNGRNGKGSIFVWAAGNGGNLGDNCNCDGYNNSI-YTISVSAVTANGVRASYSEVGSSVLASAPSGG--SGNPEASIVTTDLGGNCNCTSSHNGTSAAAPLAAGVIALMLEANPNLTWRDVQHILALTA</Hsp_hseq>
+      <Hsp_midline>QG  G  V VAV+D G++ +HPDL  N    AS+   +        Y+ D N HGT  AG +AA+ N    GV GVAP   L  +++L+        G V+ +  A + G+     D+ + S G           G     A++  V N    +G + V AAGN GN G + N  GY       I+V AV +N  RAS+S VG+ +   AP  G  S  P             N  ++ NGTS A+P  AG  AL+L  +PNL+   V++ L+ TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gnl|CDD|173791</Hit_id>
+  <Hit_def>cd04842, Peptidases_S8_Kp43_protease, Peptidase S8 family domain in Kp43 proteases.  Kp43 proteases are members of the peptidase S8 or Subtilase clan of proteases. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure (an example of convergent evolution). Kp43 is topologically similar to kexin and furin both of which are proprotein convertases, but differ in amino acids sequence and the position of its C-terminal barrel.  Kp43 has 3 Ca2+ binding sites that differ from the corresponding sites in the other known subtilisin-like proteases.  KP-43 protease is known to be an oxidation-resistant protease when compared with the other subtilisin-like proteases.</Hit_def>
+  <Hit_accession>173791</Hit_accession>
+  <Hit_len>293</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>6.13639e-14</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>233</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>GFKGANVKVAVLDTGIQASH-----PDLNVVGG-----ASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVL----GVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTN-GMDVINMSLGGA--SGSTAMKQAVDN-AYAR-GVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAV---------------DSNSNRASFSSVGA------ELEVMAPGAGVYSTYP---------TNTYATLNGTSMASPHVAGAAALI</Hsp_qseq>
+      <Hsp_hseq>GLTGKGQIVGVADTGLDTNHCFFYDPNFNKTNLFHRKIVRYDSLSDTKDDVDGHGTHVAGIIAGKGNDSSSISLYKGVAPKAKLYFQDIGDTSGNLSSPPDLNKLFSPMYDAGARISSNSWGSPVNNGYTLLARAYDQFAYNNPDILFVFSAGNDGNDGS-NTIGSPATAKNVLTVGASNNPSVSNGEGGLGQSDNSDTVASFSSRGPTYDGRIKPDLVAPGTGILSARSGGGGIGDTSDSAYTSKSGTSMATPLVAGAAALL</Hsp_hseq>
+      <Hsp_midline>G  G    V V DTG+  +H     P+ N           + +      D +GHGTHVAG +A   N +  +    GVAP   LY   + ++SG+ S    ++ +     + G  + + S G    +G T + +A D  AY    ++ V +AGN GN GS NTIG PA   +V+ VGA                D++   ASFSS G       + +++APG G+ S             + Y + +GTSMA+P VAGAAAL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gnl|CDD|173797</Hit_id>
+  <Hit_def>cd05561, Peptidases_S8_4, Peptidase S8 family domain, uncharacterized subfamily 4.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173797</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>7.02471e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>263</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>VKVAVLDTGIQASHPDLN-VVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGS---YSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEVMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYLGSS-----FYYG</Hsp_qseq>
+      <Hsp_hseq>VRVGMIDTGIDTAHPALSAVVIARLFFAGPGAPAP-SAHGTAVASLLAGAGAQR--PGLLPGADLYGADVFGRAGGGEGASALALARALDWLAEQGVRVVNISLAGPP-NALLAAAVAAAAARGMVLVAAAGNDGPAAPPLYP---AAYPGVIAVTAVDARGRLYREANRGAHVDFAAPGVDVWVAAPGGGYRYVSGTSFAAPFVTAALALLLQAS-PLAPDDARARLAATAKDLGPPGRDPVFGYG</Hsp_hseq>
+      <Hsp_midline>V+V ++DTGI  +HP L+ VV    F AG       + HGT VA  +A         G+ P   LY   V   +G G       +   ++W    G+ V+N+SL G   +  +  AV  A ARG+V+VAAAGN G +         A Y  VIAV AVD+       ++ GA ++  APG  V+   P   Y  ++GTS A+P V  A AL+L     L+    R RL++TA  LG       F YG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gnl|CDD|173802</Hit_id>
+  <Hit_def>cd07476, Peptidases_S8_thiazoline_oxidase_subtilisin-like_protease, Peptidase S8 family domain in Thiazoline oxidase/subtilisin-like proteases.  Thiazoline oxidase/subtilisin-like protease is produced by the symbiotic bacteria Prochloron spp. that inhabit didemnid family ascidians.  The cyclic peptides of the patellamide class found in didemnid extracts are now known to be synthesized by the Prochloron spp.  The prepatellamide is heterocyclized to form thiazole and oxazoline rings and the peptide is cleaved to form the two cyclic patellamides A and C.  Subtilases, or subtilisin-like serine proteases, have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure (an example of convergent evolution).</Hit_def>
+  <Hit_accession>173802</Hit_accession>
+  <Hit_len>267</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>3.8968e-12</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>NVKVAVLDTGIQASHPDL---NVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSG-SYSGIVSGIEWATTNGMDVINMSLGGASGSTAMKQAVDNAYARG----VVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELE---VMAPGAGVYSTYPTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQ----VRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>RITIAILDGPVDRTHPCFRGANLTPLFTYAAAACQDGGASAHGTHVASLIFG-QPCSSVEGIAPLCRGLNIPIFAEDRRGCSQLDLARAINLALEQGAHIINISGGRLTQTGEADPILANAVAMCQQNNVLIVAAAGNEGCA----CLHVPAALPSVLAVGAMDDDGLPLKFSNWGADYRKKGILAPGENILGAALGGEVVRRSGTSFAAAIVAGIAALLLSLQLRRGAPPDPLAVRRALLETAT</Hsp_hseq>
+      <Hsp_midline> + +A+LD  +  +HP     N+    ++ A    +   + HGTHVA  +      + V G+AP      + +      G S   +   I  A   G  +IN+S G  + +      + NA A      V++VAAAGN G +     +  PA   SV+AVGA+D +     FS+ GA+     ++APG  +            +GTS A+  VAG AAL+LS      A      VR  L  TAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gnl|CDD|173796</Hit_id>
+  <Hit_def>cd04857, Peptidases_S8_Tripeptidyl_Aminopeptidase_II, Peptidase S8 family domain in Tripeptidyl aminopeptidases_II.  Tripeptidyl aminopeptidases II are member of the peptidase S8 or Subtilase family. Subtilases, or subtilisin-like serine proteases, have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure (an example of convergent evolution).  Tripeptidyl aminopeptidase II removes tripeptides from the free N terminus of oligopeptides as well as having endoproteolytic activity.  Some tripeptidyl aminopeptidases have been shown to cleave tripeptides and small peptides, e.g. angiotensin II and glucagon, while others are believed to be involved in MHC I processing.</Hit_def>
+  <Hit_accession>173796</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>8.60249e-10</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>TDGNGHGTHVAGTVAA-LDNTTGVLGVAPSVSLYAVKV----LNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGA-----SGS--TAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPA-KYDSVIAVGAVDSNS--------------NRASFSSVGAE------LEVMAPGAGVYSTYPTNTYA---TLNGTSMASPHVAGAAALILSKHPNLSAS-------QVRNRLSSTATYL</Hsp_qseq>
+      <Hsp_hseq>TDSGAHGTHVAGIAAAHFPEEPERNGVAPGAQIVSIKIGDTRLGSMETGT--ALVRAMIAAIETKCDLINMSYGEATHWPNSGRIIELMNEAVNK---HGVIFVSSAGNNGPALST--VGAPGGTTSSVIGVGAYVSPEMMAAEYSLREKLPGNQYTWSSRGPTADGALGVSISAPG-GAIASVPNWTLQGSQLMNGTSMSSPNACGGIALLLS---GLKAEGIPYTPYSVRRALENTAKKL</Hsp_hseq>
+      <Hsp_midline>TD   HGTHVAG  AA         GVAP   + ++K+    L S  +G+   +V  +  A     D+INMS G A     SG     M +AV+     GV+ V++AGN+G + ST  +G P     SVI VGA  S                N+ ++SS G        + + APG G  ++ P  T      +NGTSM+SP+  G  AL+LS    L A         VR  L +TA  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gnl|CDD|173816</Hit_id>
+  <Hit_def>cd07491, Peptidases_S8_7, Peptidase S8 family domain, uncharacterized subfamily 7.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173816</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>2.73553e-09</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>NVKVAVLDTGIQASHPDLN--VVGGASFVAGEAYNTDGN----------GHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVS------GIEWATTNGMDVINMSL------GGASGSTAMKQAVDNAYARGVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRASFSSVGAELEV--MAPGAGVYST-YP--TNTYATLNGTSMASPHVAGA</Hsp_qseq>
+      <Hsp_hseq>RIKVALIDDGVDILDSDLQGKIIGGKSF---SPYEGDGNKVSPYYVSADGHGTAMARMICR---------ICPSAKLYVIKLEDRPSPDSNKRSITPQSAAKAIEAAVEKKVDIISMSWTIKKPEDNDNDINELENAIKEALDRGILLFCSASDQG-AFTGDTYPPPAARDRIFRIGAADEDG--GADAPVGDEDRVDYILPGENVEARDRPPLSNSFVTHTGSSVATALAAGL</Hsp_hseq>
+      <Hsp_midline> +KVA++D G+     DL   ++GG SF     Y  DGN          GHGT +A  +           + PS  LY +K+ +     S    ++       IE A    +D+I+MS          +    ++ A+  A  RG+++  +A + G + + +T   PA  D +  +GA D +    + + VG E  V  + PG  V +   P  +N++ T  G+S+A+   AG </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gnl|CDD|173792</Hit_id>
+  <Hit_def>cd04843, Peptidases_S8_11, Peptidase S8 family domain, uncharacterized subfamily 11.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173792</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>1.15444e-08</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>254</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>GFKGANVKVAVLDTGIQASHPDLNVVGGASFVAGEAYNTDGNGHGTHVAGTVAALDNTTGVLGVAPSVSLYAVKVLNSSGSGSYSGIVSGIEWATTNGMDVINMSLGGASG---------STAMKQAVDNAYARGVVVVAAAGNSG--------NSGSTNTIGYPAKYDS-VIAVGAVDSNS--NRASFSSVGAELEVMAPGAGVYST----------YPTNTYATLNGTSMASPHVAGAAALI--LSKHPN---LSASQVRNRLSSTAT</Hsp_qseq>
+      <Hsp_hseq>GGSGQGVTFVDIEQGWNLNHEDL-VGNGITLISGLTDQADSD-HGTAVLGIIVAKDNGIGVTGIAHGAQ--AAVVSSTRVSNTADAILDAADYLSPGDVILLEMQTGGPNNGYPPLPVEYEQANFDAIRTATDLGIIVVEAAGNGGQDLDAPVYNRGPILNRFSPDFRDSGAIMVGAGSSTTGHTRLAFSNYGSRVDVYGWGENVTTTGYGDLQDLGGENQDYTDSFSGTSSASPIVAGAAASIQGIAKQKGGTPLTPIEMRELLTATGT</Hsp_hseq>
+      <Hsp_midline>G  G  V    ++ G   +H DL V  G + ++G     D + HGT V G + A DN  GV G+A      A  V ++  S +   I+   ++ +   + ++ M  GG +            A   A+  A   G++VV AAGN G        N G       P   DS  I VGA  S +   R +FS+ G+ ++V   G  V +T             +   + +GTS ASP VAGAAA I  ++K      L+  ++R  L++T T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gnl|CDD|173798</Hit_id>
+  <Hit_def>cd05562, Peptidases_S53_like, Peptidase domain in the S53 family.  Members of the peptidase S53 (sedolisin) family include endopeptidases and exopeptidases. The S53 family contains a catalytic triad Glu/Asp/Ser with an additional acidic residue Asp in the oxyanion hole, similar to that of Asn in subtilisin. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values. Characterized sedolisins include Kumamolisin, an extracellular calcium-dependent thermostable endopeptidase from Bacillus. The enzyme is synthesized with a 188 amino acid N-terminal preprotein region which is cleaved after the extraction into the extracellular space with low pH. One kumamolysin paralog, kumamolisin-As, is believed to be a collagenase. TPP1 is a serine protease that functions as a tripeptidyl exopeptidase as well as an endopeptidase. Less is known about PSCP from Pseudomonas which is thought to be an aspartic proteinase.</Hit_def>
+  <Hit_accession>173798</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.71038e-06</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>111</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>MKQAVDNAYAR-GVVVVAAAGNSGNSGSTNTIGYPAKYDSVIAVGAVDSNSNRA------------SFSSVGAEL---------EVMAPGAGVYSTY------PTNTYATLNGTSMASPHVAGAAALILSKHPNLSASQVRNRLSSTATYLGSSFY---YGKGLINVEAA</Hsp_qseq>
+      <Hsp_hseq>IAQAVDEVVASPGVLYFSSAGNDGQSGSI--FGH-AAAPGAIAVGAVDYGNTPAFGSDPAPGGTPSSFDPVGIRLPTPEVRQKPDVTAP-DGVNGTVDGDGDGPPNFF----GTSAAAPHAAGVAALVLSANPGLTPADIRDALRSTALDMGEPGYDNASGSGLVDADRA</Hsp_hseq>
+      <Hsp_midline>+ QAVD   A  GV+  ++AGN G SGS    G+ A     IAVGAVD  +  A            SF  VG  L         +V AP  GV  T       P N +    GTS A+PH AG AAL+LS +P L+ + +R+ L STA  +G   Y    G GL++ + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gnl|CDD|173804</Hit_id>
+  <Hit_def>cd07478, Peptidases_S8_CspA-like, Peptidase S8 family domain in CspA-like proteins.  GSP (germination-specific protease) converts the spore peptidoglycan hydrolase (SleC) precursor to an active enzyme during germination of Clostridium perfringens S40 spores.  Analysis of an enzyme fraction of GSP showed that it was composed of a gene cluster containing the processed forms of products of cspA, cspB, and cspC which are positioned in a tandem array just upstream of the 5&apos; end of sleC. The amino acid sequences deduced from the nucleotide sequences of the csp genes showed significant similarity and showed a high degree of homology with those of the catalytic domain and the oxyanion binding region of subtilisin-like serine proteases.   Members of the peptidases S8 and S35 clan include endopeptidases, exopeptidases and also a tripeptidyl-peptidase. The S8 family has an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The S53 family contains a catalytic triad Glu/Asp/Ser. The stability of these enzymes may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173804</Hit_accession>
+  <Hit_len>455</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>2.91068e-06</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>GANVKVAVLDTGIQASHPDLNVVGG---------------------------------ASFVAGEAYN----TDGNGHGTHVAGTVAAL-DNTTGVLGVAPSVSLYAVKVLNSSG----------SGSYSGIVSGIEWATTNGMD-----VINMSL----GGASGSTAMKQAVDN-AYARGVVVVAAAGNSGNS</Hsp_qseq>
+      <Hsp_hseq>GKGVLVGIIDTGIDYLHPEFRNEDGTTRILYIWDQTIPGGPPPGGYYGGGEYTEEIINAALASDNPYDIVPSRDENGHGTHVAGIAAGNGDNNPDFKGVAPEAELIVVKLKQAKKYLREFYEDVPFYQETDIMLAIKYLYDKALELNKPLVINISLGTNFGSHDGTSLLERYIDAISRLRGIAVVVGAGNEGNT</Hsp_hseq>
+      <Hsp_midline>G  V V ++DTGI   HP+     G                                 A+  +   Y+     D NGHGTHVAG  A   DN     GVAP   L  VK+  +                + I+  I++     ++     VIN+SL    G   G++ +++ +D  +  RG+ VV  AGN GN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gnl|CDD|173793</Hit_id>
+  <Hit_def>cd04847, Peptidases_S8_Subtilisin_like_2, Peptidase S8 family domain in Subtilisin-like proteins.  This family is a member of the Peptidases S8 or Subtilases serine endo- and exo-peptidase clan. They have an Asp/His/Ser catalytic triad similar to that found in trypsin-like proteases, but do not share their three-dimensional structure and are not homologous to trypsin. The stability of subtilases may be enhanced by calcium, some members have been shown to bind up to 4 ions via binding sites with different affinity. Some members of this clan contain disulfide bonds. These enzymes can be intra- and extracellular, some function at extreme temperatures and pH values.</Hit_def>
+  <Hit_accession>173793</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>2.15272e-05</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>192</Hsp_align-len>
+      <Hsp_qseq>VAVLDTGIQASHPDL-NVVGGASFVAGEA-YNTDGNGHGTHVAGTVAALDNTTGVLGVA-PSVSLYAVKVLNSSGSGS---YSGI-VSGIEWATTNGMDVI---NMSLGGA-----SGSTAMKQAVDNAYAR-GVVVVAAAGNSGNSGS--------TNTIGYPAKYDSVIAVGAV---DSNSNRASFSSVG</Hsp_qseq>
+      <Hsp_hseq>VCVLDSGINRGHPLLAPALAEDDLDSDEPGWTADDLGHGTAVAGLALYGDLTLPGNGLPRPGCRLESVRVLPPNGENDPELYGDITLRAIRRAVIQNPDIVRVFNLSLGSPLPIDDGRPSSWAAALDQLAAEYDVLFVVSAGNLGDDDAADGPPRIQDDEIEDPADSVNALTVGAITSDDDITDRARYSAVG</Hsp_hseq>
+      <Hsp_midline>V VLD+GI   HP L   +      + E  +  D  GHGT VAG     D T    G+  P   L +V+VL  +G      Y  I +  I  A     D++   N+SLG          ++   A+D   A   V+ V +AGN G+  +         + I  PA   + + VGA+   D  ++RA +S+VG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>92</Statistics_hsp-len>
+      <Statistics_eff-space>688466142</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

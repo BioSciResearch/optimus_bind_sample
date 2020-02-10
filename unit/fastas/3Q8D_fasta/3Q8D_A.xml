@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>231</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>231</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|224299</Hit_id>
+  <Hit_def>COG1381, RecO, Recombinational DNA repair protein (RecF pathway) [DNA replication, recombination, and repair].</Hit_def>
+  <Hit_accession>224299</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>6.80566e-45</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>AFVLHSRPWSETSLMLDVFTEESGRVRLVAKGARSKRSTLKGALQPFTPLLLRFGGRG-EVKTLRSAEAV-SLALPLSGI-TLYSGLYINELLSRVLEYETRFSELFFDYLHCIQSLAGVTGTPEPALRRFELALLGHLGYGVNFTHCAGSGEPVDDTMTYRYREEKGFIASVVI--------DNKTFTGRQLKALNAREFPDADTLRAAKRFTRMALKPYLGGKPLKSRELFRQF</Hsp_qseq>
+      <Hsp_hseq>GIVLRSRPYGETDKIVTVFTEEHGRVRAVAKGARKRKSKLRAVLQPFTPVDFQWYGRGRELKTLTQAEPVGSYPGIISDIFALYSASYVAELLDRLLPEEDPNPELFELYLETLEYLLSDGNDPELLLRRFELKLLGELGIGPNLTSCARCGTPVDP--VYFSPKSGGFLCSKCARAAPKPEKDLLLLFGRFLLDLLNRLALKAETKQAAKRITRQLLKEYLGEKPLKSRKLLRQL</Hsp_hseq>
+      <Hsp_midline>  VL SRP+ ET  ++ VFTEE GRVR VAKGAR ++S L+  LQPFTP+  ++ GRG E+KTL  AE V S    +S I  LYS  Y+ ELL R+L  E    ELF  YL  ++ L      PE  LRRFEL LLG LG G N T CA  G PVD    Y   +  GF+ S           D     GR L  L  R    A+T +AAKR TR  LK YLG KPLKSR+L RQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|234622</Hit_id>
+  <Hit_def>PRK00085, recO, DNA repair protein RecO; Reviewed.</Hit_def>
+  <Hit_accession>234622</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>2.17026e-41</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>QRAFVLHSRPWSETSLMLDVFTEESGRVRLVAKGARSKRSTLKGALQPFTPL-LLRFGGRGEVKTLRSAEAVSLALPLSGITLYSGLYINELLSRVLEYETRFSELFFDYLHCIQSLAGVTGTPEPALRRFELALLGHLGYGVNFTHCAGSGEPVDDTMTYRY--REEKGFIASVVIDNKTF------------TGRQLKALNAREFPDADTLRAAKRFTRMALKPYLGGKPLKSRE</Hsp_qseq>
+      <Hsp_hseq>DEGIVLHTRPYGETSLIVTLFTREHGRVRAVAKGARRPKSRLGAVLQPFTPLDLLWSAGLGELKQLETIESYGGALPLDGFALAAASYLNELLDRLLPEEDPHPELFELLLQTLRALA-EGGDPEPLLRRFELRLLAELGYGLDLDHCAVCGAPGD----HRYFSPKEGGAVCSECGDPYAIKLLPLPLFLLRLLLGGDLLALAAADLKLETKKELKRLLRAYLEPYLGGRPLKSRE</Hsp_hseq>
+      <Hsp_midline>    VLH+RP+ ETSL++ +FT E GRVR VAKGAR  +S L   LQPFTPL LL   G GE+K L + E+   ALPL G  L +  Y+NELL R+L  E    ELF   L  +++LA   G PEP LRRFEL LL  LGYG++  HCA  G P D    +RY   +E G + S   D                         A      +T +  KR  R  L+PYLGG+PLKSRE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|273175</Hit_id>
+  <Hit_def>TIGR00613, DNA_repair_protein_RecO, DNA repair protein RecO.  All proteins in this family for which functions are known are DNA binding proteins that are involved in the initiation of recombination or recombinational repair. [DNA metabolism, DNA replication, recombination, and repair].</Hit_def>
+  <Hit_accession>273175</Hit_accession>
+  <Hit_len>241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>66.6254</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.76075e-13</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>QRAFVLHSRPWSETSLMLDVFTEESGRVRLVAKGARSKRSTLKGALQPFTPLLLRFGGRGEVKTLRSAEAVSLALPLSGIT-----LYSGLYINELLSRVL---EYETRFSELFFDYLHCIQSLAGVTGTPEPALRRFELALLGHLGYGVNFTHCAGSGEPVDD---TMTY</Hsp_qseq>
+      <Hsp_hseq>DEGIVLKSRDYGETDKIITLFTEEYGKVSFVAKGARKSKSRMKAVLQPFSLGDFVWYKRSGLSTLNQGELIN---SFEGIKSDLFLLAYASYIAELIDRLLPEGEPNPKLFELLLKTLELINE----GGNPELLLRLFELKLLQILGYALDLDKCAVCGSKEDLIYFSMTY</Hsp_hseq>
+      <Hsp_midline>    VL SR + ET  ++ +FTEE G+V  VAKGAR  +S +K  LQPF+     +  R  + TL   E ++      GI      L    YI EL+ R+L   E   +  EL    L  I       G PE  LR FEL LL  LGY ++   CA  G   D    +MTY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|314789</Hit_id>
+  <Hit_def>pfam11967, RecO_N, Recombination protein O N terminal.  Recombination protein O (RecO) is involved in DNA repair and pfam00470 pathway recombination. This domain forms a beta barrel structure.</Hit_def>
+  <Hit_accession>314789</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.06958e-08</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>76</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>FVLHSRPWSETSLMLDVFTEESGRVRLVAKGARSKRSTLKGALQPFTPL--LLRFGGRGEVKTLRSAEAV</Hsp_qseq>
+      <Hsp_hseq>IVLKTRDYGESDKIVTLFTREHGKISAVARGARKPKSRLRAALQPFTLLEFVLYALGRG-LSTLTQAELI</Hsp_hseq>
+      <Hsp_midline> VL +R + E+  ++ +FT E G++  VA+GAR  +S L+ ALQPFT L  +L   GRG + TL  AE +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>90</Statistics_hsp-len>
+      <Statistics_eff-space>541685481</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

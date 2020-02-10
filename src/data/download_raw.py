@@ -1,7 +1,7 @@
 '''
-
 Example: https://github.com/benlindsay/nfl-dash/blob/master/src/data/make_raw_data.py
 '''
+
 # Scrape
 import requests
 import bs4

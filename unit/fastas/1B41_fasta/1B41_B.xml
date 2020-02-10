@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>228</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>228</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|333868</Hit_id>
+  <Hit_def>pfam00135, COesterase, Carboxylesterase family.  </Hit_def>
+  <Hit_accession>333868</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>169.088</Hsp_bit-score>
+      <Hsp_score>427</Hsp_score>
+      <Hsp_evalue>6.23524e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>243</Hsp_hit-from>
+      <Hsp_hit-to>469</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>NDTELVACLRTRPAQVLVNHEWHVLPQESVFRFSFVPVVDGDFLSDTPEALINAGDFHGLQVLVGVVKDEGSYFLVY--GAPGFSKDNESLISRAEFLAGVRVGVPQVSDLAAEAVVLHYTDWLHPEDPARLREALSDVVGDHNVVCPVAQLAGRLAAQGARVYAYVFEHRASTLSWPLWMGVPHGYEIEFIFGIPLDPSRNYTAEEKIFAQRLMRYWANFARTGDPN</Hsp_qseq>
+      <Hsp_hseq>DSAELVECLRSKPAEELLDAQLKVV-YGSVPFVPFGPVVDGDFLPDHPEELLKSGNFPKVPLLIGVNKDEGLYFLAYILDNPDIVKKLLEDFSNSLLVDLLYLYLEGRPEEISEAIKEEYTDWADRDDPETSRDALVDLLTDYLFNCPVLRFARLHASRGSPVYLYSFDYRGSSLRWPPWMGVDHGDELPYVFGTPFLGPFLFTKEDRKLSRKMMTYWTNFAKTGNPN</Hsp_hseq>
+      <Hsp_midline>+  ELV CLR++PA+ L++ +  V+   SV    F PVVDGDFL D PE L+ +G+F  + +L+GV KDEG YFL Y    P   K      S +  +  + + +    +  +EA+   YTDW   +DP   R+AL D++ D+   CPV + A   A++G+ VY Y F++R S+L WP WMGV HG E+ ++FG P      +T E++  ++++M YW NFA+TG+PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|238191</Hit_id>
+  <Hit_def>cd00312, Esterase_lipase, Esterases and lipases (includes fungal lipases, cholinesterases, etc.)  These enzymes act on carboxylic esters (EC: 3.1.1.-). The catalytic apparatus involves three residues (catalytic triad): a serine, a glutamate or aspartate and a histidine.These catalytic residues are responsible for the nucleophilic attack on the carbonyl carbon atom of the ester bond. In contrast with other alpha/beta hydrolase fold family members, p-nitrobenzyl esterase and acetylcholine esterase have a Glu instead of Asp at the active site carboxylate.</Hit_def>
+  <Hit_accession>238191</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.265</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>1.35881e-36</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>237</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>NDT---ELVACLRTRPAQVLVNHEWHVLPQESVFRFS----FVPVVDGDFLSDTPEALINAGDFHGLQVLVGVVKDEGSYF----LVYGAPGFSKDNESLISRAEFLAGVRVGVPQVSDLAAEAVVLHYTDWLHPEDPARLREALSDVVGDHNVVCPVAQ-LAGRLAAQGARVYAYVFEHRASTL--SWPLWMGVPHGYEIEFIFGIPLDPSRNYTAEEKIFAQRLMRYWANFARTGDPN</Hsp_qseq>
+      <Hsp_hseq>NDTSSAELLDCLRSKSAEELLDATRKLL----LFSYSPFLPFGPVVDGDFIPDDPEELIKEGKFAKVPLIIGVTKDEGGYFAAMLLNFDAKLIIETNDRWLELLPYL------LFYADDALADKVLEKYPG--DVDDSVESRKNLSDMLTDLLFKCPARYFLAQHRKAGGSPVYAYVFDHRSSLSVGRWPPWLGTVHGDEIFFVFGNPL-LKEGLREEEEKLSRTMMKYWANFAKTGNPN</Hsp_hseq>
+      <Hsp_midline>NDT   EL+ CLR++ A+ L++    +L    +F +S    F PVVDGDF+ D PE LI  G F  + +++GV KDEG YF    L + A    + N+  +    +L      +    D  A+ V+  Y      +D    R+ LSD++ D    CP    LA    A G+ VYAYVF+HR+S     WP W+G  HG EI F+FG PL        EE+  ++ +M+YWANFA+TG+PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|225181</Hit_id>
+  <Hit_def>COG2272, PnbA, Carboxylesterase type B [Lipid metabolism].</Hit_def>
+  <Hit_accession>225181</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.6102</Hsp_bit-score>
+      <Hsp_score>135</Hsp_score>
+      <Hsp_evalue>1.15601e-09</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>272</Hsp_hit-from>
+      <Hsp_hit-to>447</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>FVPVVDGDFLSDTPEALINAGDFHGLQVLVGVVKDEGSYFLVY---GAPGFSKDNESLISRAEFLAGVRV--GVPQVSDLAAEAVVLHYTDWLHPEDPARLREALSDVVGDHNVVCPVAQLAGRLAAQGARVYAYVFEHRASTLSWPLWMGVPHGYEIEFIFG--IPLDPSRNYTAEEKIFAQRLMRYWANFARTGDPN</Hsp_qseq>
+      <Hsp_hseq>YGPVLGDSLLPRDPLEAIAQGRSHGVPLMIGTNHDEGSLFINFNPDSPPGLRDKVAARLPGKELINAERVPAAYPGVSAAAAAFGAL-VTDRLFKAPSIRLAQAQS---------------------AGAPTWLYRFDYAPDTVRVP-GFGAPHATELSLVFGNLVALGSAAQTARATAKLSRQMQDAWANFARTGSPN</Hsp_hseq>
+      <Hsp_midline>+ PV+    L   P   I  G  HG+ +++G   DEGS F+ +     PG      + +   E +   RV    P VS  AA    L  TD L      RL +A S                      GA  + Y F++   T+  P   G PH  E+  +FG  + L  +          ++++   WANFARTG PN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>90</Statistics_hsp-len>
+      <Statistics_eff-space>530160258</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

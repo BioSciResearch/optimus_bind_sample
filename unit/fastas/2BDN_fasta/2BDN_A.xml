@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>68</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>68</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|238170</Hit_id>
+  <Hit_def>cd00272, Chemokine_CC, Chemokine_CC:  1 of 4 subgroup designations based on the arrangement of the two N-terminal cysteine residues; includes a number of secreted growth factors and interferons involved in mitogenic, chemotactic, and inflammatory activity; some members (e.g. 2HCC) contain an additional disulfide bond which is thought to compensate for the highly conserved Trp missing in these; chemotatic for monocytes, macrophages, eosinophils, basophils, and T cells, but not neutrophils; exist as monomers and dimers, but are believed to be functional as monomers; found only in vertebrates and a few viruses; a subgroup of CC, identified by an N-terminal DCCL motif (Exodus-1, Exodus-2, and Exodus-3), has been shown to inhibit specific types of human cancer cell growth in a mouse model. See CDs:  Chemokine (cd00169) for the general alignment of chemokines, or Chemokine_CXC (cd00273), Chemokine_C (cd00271), and Chemokine_CX3C (cd00274) for the additional chemokine subgroups, and Chemokine_CC_DCCL for the DCCL subgroup of this CD.</Hit_def>
+  <Hit_accession>238170</Hit_accession>
+  <Hit_len>57</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>1.231e-17</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CCYNFTNRKISVQRLASYRRITSSKCPKEAVIFKTIVAKEICADPKQKWVQDSMDHLD</Hsp_qseq>
+      <Hsp_hseq>CCLSYSKKRIPLRVLKSYRR-TSSSCSKPAVIFKTKRGREVCADPKQKWVQRYMKLLD</Hsp_hseq>
+      <Hsp_midline>CC +++ ++I ++ L SYRR TSS C K AVIFKT   +E+CADPKQKWVQ  M  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|333797</Hit_id>
+  <Hit_def>pfam00048, IL8, Small cytokines (intecrine/chemokine), interleukin-8 like.  Includes a number of secreted growth factors and interferons involved in mitogenic, chemotactic, and inflammatory activity. Structure contains two highly conserved disulfide bonds.</Hit_def>
+  <Hit_accession>333797</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.32057e-16</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>CCYNFTNRKISVQRLASYR-RITSSKCPKEAVIFKTIVAKEICADPKQKWVQDSMDHL</Hsp_qseq>
+      <Hsp_hseq>CCLSYTSKKIPLRRIKSYRIQETSSSCPKPAVIFTTKKGRQVCADPKDKWVQKLMKKL</Hsp_hseq>
+      <Hsp_midline>CC ++T++KI ++R+ SYR + TSS CPK AVIF T   +++CADPK KWVQ  M  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|197570</Hit_id>
+  <Hit_def>smart00199, SCY, Intercrine alpha family (small cytokine C-X-C) (chemokine CXC).  Family of cytokines involved in cell-specific chemotaxis, mediation of cell growth, and the inflammatory response.</Hit_def>
+  <Hit_accession>197570</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>9.29581e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>64</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>PVTCCYNFTNRKISVQRLASYRRITSSKCPKEAVIFKTIVAKEICADPKQKWVQDSMDHL</Hsp_qseq>
+      <Hsp_hseq>PLRCCLSYTSKKIPLKRIKSYYP-TSSHCPKPAVIFTTKKGRKVCADPKAKWVQRYIKKL</Hsp_hseq>
+      <Hsp_midline>P+ CC ++T++KI ++R+ SY   TSS CPK AVIF T   +++CADPK KWVQ  +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|238098</Hit_id>
+  <Hit_def>cd00169, Chemokine, Chemokine: small cytokines, including a number of secreted growth factors and interferons involved in mitogenic, chemotactic, and inflammatory activity; distinguished from other cytokines by their receptors, which are G-protein coupled receptors; divided into 4 subfamilies based on the arrangement of the two N-terminal cysteines; some members can bind multiple receptors and many chemokine receptors can bind more than one chemokine; this redundancy allows precise control in stimulating the immune system and in contributing to the homeostasis of a cell; when expressed inappropriately, chemokines play a role in autoimmune diseases, vascular irregularities, graft rejection, neoplasia, and allergies; exist as monomers, dimers and multimers, but are believed to function as monomers; found only in vertebrates and a few viruses.  See CDs: Chemokine_CXC (cd00273), Chemokine_CC (cd00272), Chemokine_C (cd00271), and Chemokine_CX3C (cd00274) for chemokine subgroups.</Hit_def>
+  <Hit_accession>238098</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>2.22856e-10</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>65</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>CCYNFTNRKISVQRLASYR-RITSSKCPKEAVIFKTIVAKEICADPKQKWVQDSMDHLD</Hsp_qseq>
+      <Hsp_hseq>CCLKYTSKPIPPKNIKSYRVQEAGGHCSIPAVIFTTKKGRKVCADPKEPWVKDLIQKLD</Hsp_hseq>
+      <Hsp_midline>CC  +T++ I  + + SYR +     C   AVIF T   +++CADPK+ WV+D +  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>38</Statistics_hsp-len>
+      <Statistics_eff-space>161241030</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

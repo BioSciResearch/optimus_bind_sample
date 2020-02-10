@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>84</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>84</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|349488</Hit_id>
+  <Hit_def>cd10566, MDM2_like, p53-binding domain found in E3 ubiquitin-protein ligase MDM2, MDM4, and similar proteins.  MDM2 (also termed HDM2) and MDM4 (also termed MDMX or HDMX) are the primary negative regulators of p53 tumor suppressor. They have non-redundant roles in the regulation of p53. MDM2 mainly functions to control p53 stability, while MDM4 controls p53 transcriptional activity. Both MDM2 and MDM4 contain an N-terminal p53-binding domain, a RanBP2-type zinc finger (zf-RanBP2) domain near the central acidic region, and a C-terminal RING domain. Mdm2 can form homo-oligomers through its RING domain and display E3 ubiquitin ligase activity that catalyzes the attachment of ubiquitin to p53 as an essential step in the regulation of its level in cells. Despite its RING domain and structural similarity with MDM2, MDM4 does not homo-oligomerize and lacks ubiquitin-ligase function, but inhibits the transcriptional activity of p53. In addition, both their RING domains are responsible for the hetero-oligomerization, which is crucial for the suppression of p53 activity during embryonic development and the recruitment of E2 ubiquitin-conjugating enzymes. Moreover, MDM2 and MDM4 can be phosphorylated and destabilized in response to DNA damage stress. In response to ribosomal stress, MDM2-mediated p53 ubiquitination and degradation can be inhibited through the interaction with ribosomal proteins L5, L11 and L23. However, MDM4 is not bound to ribosomal proteins, suggesting its different response to regulation by small basic proteins such as ribosomal proteins and ARF.</Hit_def>
+  <Hit_accession>349488</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.5573e-23</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>82</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>PKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNL</Hsp_qseq>
+      <Hsp_hseq>PKPELLKLLKSVGAKGEVFTRKEVLHYLKQYISSRKLYDPLDPRIVYCKNDPLGKVFGVQSFTIKD---VLGLLAKNL</Hsp_hseq>
+      <Hsp_midline>PKP LLKLLKSVGA+ + +T KEVL YL QYI +++LYD     IVYC ND LG +FGV SF++K+   +  ++ +NL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|349487</Hit_id>
+  <Hit_def>cd00855, SWIB-MDM2, SWIB/MDM2 domain family.  The SWIB/MDM2 protein domain, short for SWI/SNF complex B/MDM2, has been found in both SWI/SNF complex B (SWIB) and the negative regulator of the p53 tumor suppressor MDM2, which are homologous and share a common fold. The SWIB domain is a conserved region found within proteins in the SWI/SNF (SWItch/Sucrose Non-Fermentable) family of complexes. SWI/SNF complex proteins display helicase and ATPase activities and are thought to regulate transcription of certain genes by altering the chromatin structure around those genes. The mammalian complexes are made up of 9-12 proteins called BAFs (BRG1-associated factors). MDM2 is an inhibitor of p53 tumor repressor. It binds to the transactivation domain and down-regulates the ability of p53 to activate transcription. This family corresponds to the SWIB domain and the p53 binding domain of MDM2.</Hit_def>
+  <Hit_accession>349487</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.0346e-07</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>PLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKE</Hsp_qseq>
+      <Hsp_hseq>PELEALLKSY----ETFTLKEILQALWQYIKKKNLMDPDDPSIVVC-DERLRQLFEVPSFPFSE</Hsp_hseq>
+      <Hsp_midline>P L  LLKS     +T+T+KE+L  L QYI  K L D     IV C ++ L  LF VPSF   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>52</Statistics_hsp-len>
+      <Statistics_eff-space>158783392</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

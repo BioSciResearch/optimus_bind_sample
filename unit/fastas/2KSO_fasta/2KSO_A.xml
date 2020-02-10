@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>65</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>65</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|188887</Hit_id>
+  <Hit_def>cd09488, SAM_EPH-R, SAM domain of EPH family of tyrosine kinase receptors.  SAM (sterile alpha motif) domain of EPH (erythropoietin-producing hepatocyte) family of receptor tyrosine kinases is a C-terminal signal transduction module located in the cytoplasmic region of these receptors. SAM appears to mediate cell-cell initiated signal transduction via binding proteins to a conserved tyrosine that is phosphorylated. In some cases the SAM domain mediates homodimerization/oligomerization and plays a role in the clustering process necessary for signaling. EPH kinases are the largest family of receptor tyrosine kinases. They are classified into two groups based on their abilities to bind ephrin-A and ephrin-B ligands. The EPH receptors are involved in regulation of cell movement, shape, and attachment during embryonic development; they control cell-cell interactions in the vascular, nervous, epithelial, and immune systems, and in many tumors. They are potential molecular markers for cancer diagnostics and potential targets for cancer therapy.</Hit_def>
+  <Hit_accession>188887</Hit_accession>
+  <Hit_len>61</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>9.8492e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>58</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>61</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TVSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGL</Hsp_qseq>
+      <Hsp_hseq>SVGEWLESIKMGRYKENFTAAGYTSLDAVAQMTAEDLTRLGVTLVGHQKKILNSIQAL</Hsp_hseq>
+      <Hsp_midline>+V EWLESIKM +Y E+F AAGYT+++ V QMT +D+ R+GV L GHQK+I  S+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|336753</Hit_id>
+  <Hit_def>pfam07647, SAM_2, SAM domain (Sterile alpha motif).  </Hit_def>
+  <Hit_accession>336753</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>7.27878e-12</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>TVSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGLK</Hsp_qseq>
+      <Hsp_hseq>SVAEWLRSIGLEQYKDNFTDQGITGAELLLRLTEEDLKRLGITSVGHRKKILKKIQELK</Hsp_hseq>
+      <Hsp_midline>+V+EWL SI ++QY ++F   G T  E ++++T +D+KR+G+   GH+K+I   +  LK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|197735</Hit_id>
+  <Hit_def>smart00454, SAM, Sterile alpha motif.  Widespread domain in signalling and nuclear proteins. In EPH-related tyrosine kinases, appears to mediate cell-cell initiated signal transduction via the binding of SH2-containing proteins to a conserved tyrosine that is phosphorylated. In many cases mediates homodimerisation.</Hit_def>
+  <Hit_accession>197735</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>5.80479e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>61</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>TVSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGLKDQ</Hsp_qseq>
+      <Hsp_hseq>SVADWLESIGLEQYADNFRKNGIDGALLLLLTSEEDLKELGITKLGHRKKILKAIQKLKEQ</Hsp_hseq>
+      <Hsp_midline>+V++WLESI ++QY ++F   G      ++  + +D+K +G+   GH+K+I  ++  LK+Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|188896</Hit_id>
+  <Hit_def>cd09497, SAM_caskin1,2_repeat1, SAM domain of caskin protein repeat 1.  SAM (sterile alpha motif) domain repeat 1 of caskin1,2 proteins is a protein-protein interaction domain. Caskin has two tandem SAM domains. Caskin protein is known to interact with membrane-associated guanylate kinase CASK, and apparently may play a role in neural development, synaptic protein targeting, and regulation of gene expression.</Hit_def>
+  <Hit_accession>188896</Hit_accession>
+  <Hit_len>66</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>1.03442e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>55</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRI</Hsp_qseq>
+      <Hsp_hseq>IFDWLREFGLEEYTPNFIKAGYD-LPTISRMTPEDLTAIGITKPGHRKKL</Hsp_hseq>
+      <Hsp_midline>+ +WL    +++YT +F+ AGY  +  + +MT +D+  IG+  PGH+K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|188886</Hit_id>
+  <Hit_def>cd09487, SAM_superfamily, SAM (Sterile alpha motif ).  SAM (Sterile Alpha Motif) domain is a module consisting of approximately 70 amino acids. This domain is found in the Fungi/Metazoa group and in a restricted number of bacteria. Proteins with SAM domains are represented by a wide variety of domain architectures and have different intracellular localization, including nucleus, cytoplasm and membranes. SAM domains have diverse functions. They can interact with proteins, RNAs and membrane lipids, contain site of phosphorylation and/or kinase docking site, and play a role in protein homo and hetero dimerization/oligomerization in processes ranging from signal transduction to regulation of transcription. Mutations in SAM domains have been linked to several diseases.</Hit_def>
+  <Hit_accession>188886</Hit_accession>
+  <Hit_len>56</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>2.39428e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>50</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>VSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRI</Hsp_qseq>
+      <Hsp_hseq>VAEWLESLGLEQYADLFRKNEIDG-DALLLLTDEDLKELGITSPGHRKKI</Hsp_hseq>
+      <Hsp_midline>V+EWLES+ ++QY + F        + ++ +T++D+K +G+  PGH+K+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|334133</Hit_id>
+  <Hit_def>pfam00536, SAM_1, SAM domain (Sterile alpha motif).  It has been suggested that SAM is an evolutionarily conserved protein binding domain that is involved in the regulation of numerous developmental processes in diverse eukaryotes. The SAM domain can potentially function as a protein interaction module through its ability to homo- and heterooligomerise with other SAM domains.</Hit_def>
+  <Hit_accession>334133</Hit_accession>
+  <Hit_len>64</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>3.21834e-08</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>59</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGLK</Hsp_qseq>
+      <Hsp_hseq>VGEWLESIGLGQYIDLF-RAGYIDGDTLLLLTEDDLMKLGVTLLGHRKKILYSIQGLK</Hsp_hseq>
+      <Hsp_midline>V EWLESI + QY + F  AGY   + ++ +T DD+ ++GV L GH+K+I YS+ GLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|188899</Hit_id>
+  <Hit_def>cd09500, SAM_AIDA1AB-like_repeat2, SAM domain of AIDA1AB-like proteins, repeat 2.  SAM (sterile alpha motif) domain repeat 2 of AIDA1AB-like proteins is a protein-protein interaction domain. AIDA1AB-like proteins have two tandem SAM domains. They may form an intramolecular head-to-tail homodimer. One of two basic motifs of the nuclear localization signal (NLS) is located within helix 5 of the SAM2 (motif HKRK). This signal plays a role in decoupling of SAM2 from SAM1, thus facilitating translocation of this type proteins into the nucleus. SAM domains of the AIDA1AB-like subfamily can directly bind ubiquitin and participate in regulating the degradation of ubiquitinated EphA receptors, particularly EPH-A8 receptor. Additionally AIDA1AB-like proteins may participate in the regulation of nucleoplasmic coilin protein interactions.</Hit_def>
+  <Hit_accession>188899</Hit_accession>
+  <Hit_len>65</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>3.25427e-08</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>TVSEWLESIKMQQYTEHFMAAGYTAIEKV-----VQMTNDDIKRIGVRLPGHQKRIAYSL</Hsp_qseq>
+      <Hsp_hseq>SVSEWLDSIGLGDYIETFLKHGYTSMERVKRIWEVELTN----VLEINKLGHRKRILASL</Hsp_hseq>
+      <Hsp_midline>+VSEWL+SI +  Y E F+  GYT++E+V     V++TN     + +   GH+KRI  SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|188889</Hit_id>
+  <Hit_def>cd09490, SAM_Arap1,2,3, SAM domain of Arap1,2,3 (angiotensin receptor-associated protein).  SAM (sterile alpha motif) domain of Arap1,2,3 subfamily proteins (angiotensin receptor-associated) is a protein-protein interaction domain. Arap1,2,3 proteins are phosphatidylinositol-3,4,5-trisphosphate-dependent GTPase-activating proteins. They are involved in phosphatidylinositol-3 kinase (PI3K) signaling pathways. In addition to SAM domain, Arap1,2,3 proteins contain ArfGap, PH-like, RhoGAP and UBQ domains. SAM domain of Arap3 protein was shown to interact with SAM domain of Ship2 phosphatidylinositol-trisphosphate phosphatase proteins. Such interaction apparently plays a role in inhibition of PI3K regulated pathways since Ship2 converts PI(3,4,5)P3 into PI(3,4)P2. Proteins of this subfamily participate in regulation of signaling and trafficking associated with a number of different receptors (including EGFR, TRAIL-R1/DR4, TRAIL-R2/DR5) in normal and cancer cells; they are involved in regulation of actin cytoskeleton remodeling, cell spreading and formation of lamellipodia.</Hit_def>
+  <Hit_accession>188889</Hit_accession>
+  <Hit_len>63</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>3.21989e-07</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>55</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>VSEWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSL</Hsp_qseq>
+      <Hsp_hseq>IAEWLASIHLEQYLDLFREHGYVTATDCQGINDSRLKQIGISPTGHRRRILKQL</Hsp_hseq>
+      <Hsp_midline>++EWL SI ++QY + F   GY        + +  +K+IG+   GH++RI   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|188940</Hit_id>
+  <Hit_def>cd09541, SAM_KIF24-like, SAM domain of KIF24-like subfamily.  SAM (sterile alpha motif) domain of KIF24 subfamily is a putative protein-protein interaction domain. This subfamily includes proteins related to human kinesin-like protein KIF24. SAM domain is located at the N-terminus followed by kinesin motor domain. Kinesins are proteins involved in a number of different cell processes including microtubule dynamics and axonal transport. Kinesins of this group belong to N-type; they drive microtubule plus end-directed transport. SAM apparently plays the role of adaptor or scaffold domain. In many cases SAM is known as a mediator of dimerization/oligomerization.</Hit_def>
+  <Hit_accession>188940</Hit_accession>
+  <Hit_len>60</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>3.402e-06</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>43</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>44</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>EWLESIKMQQYTEHFMAAGYTAIEKVVQMTNDDIKRIGVR</Hsp_qseq>
+      <Hsp_hseq>EWLEEAGLQHYYPAFAAGGVTSIEALAQLTMQDYASLGVQ</Hsp_hseq>
+      <Hsp_midline>EWLE   +Q Y   F A G T+IE + Q+T  D   +GV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|188897</Hit_id>
+  <Hit_def>cd09498, SAM_caskin1,2_repeat2, SAM domain of caskin protein repeat 2.  SAM (sterile alpha motif) domain repeat 2 of caskin1,2 proteins is a protein-protein interaction domain. Caskin has two tandem SAM domains. Caskin protein is known to interact with membrane-associated guanylate kinase CASK, and may play a role in neural development, synaptic protein targeting, and regulation of gene expression.</Hit_def>
+  <Hit_accession>188897</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>4.70974e-05</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>60</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>17</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>48</Hsp_align-len>
+      <Hsp_qseq>QYTEHFMAAGYTAIEKVVQMTNDDIKRIGVRLPGHQKRIAYSLLGLKD</Hsp_qseq>
+      <Hsp_hseq>QYHKVLVENGYDSIDFVTDLTWEDLQDIGITKLGHQKKLMLAIKKLKD</Hsp_hseq>
+      <Hsp_midline>QY +  +  GY +I+ V  +T +D++ IG+   GHQK++  ++  LKD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>35</Statistics_hsp-len>
+      <Statistics_eff-space>163894230</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

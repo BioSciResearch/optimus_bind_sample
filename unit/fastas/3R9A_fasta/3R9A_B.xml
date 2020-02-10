@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>205</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>205</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|99744</Hit_id>
+  <Hit_def>cd06451, AGAT_like, Alanine-glyoxylate aminotransferase (AGAT) family. This family belongs to pyridoxal phosphate (PLP)-dependent aspartate aminotransferase superfamily (fold I). The major groups in this CD correspond to alanine-glyoxylate aminotransferase (AGAT), serine-glyoxylate aminotransferase (SGAT), and 3-hydroxykynurenine transaminase (HKT). AGAT is a homodimeric protein, which catalyses the transamination of glyoxylate to glycine, and SGAT converts serine and glyoxylate to hydroxypyruvate and glycine. HKT catalyzes the PLP-dependent transamination of 3-hydroxykynurenine, a potentially toxic metabolite of the kynurenine pathway.</Hit_def>
+  <Hit_accession>99744</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.66323e-60</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>LLLGPGPSNLPPRIMAAGGLQMIGSMSKDMYQIMDEIKEGIQYVFQTRNPLTLVISGSGHCALEAALVNVLEPGDSFLVGANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDILYSGSQ</Hsp_qseq>
+      <Hsp_hseq>LLLIPGPSNVPPRVLKAMNRPMLGHRSPEFLALMDEILEGLRYVFQTENGLTFLLSGSGTGAMEAALSNLLEPGDKVLVGVNGVFGDRWADMAERYGADVDVVEKPWGEAVSPEEIAEALEQHDIKAVTLTHNETSTGVLNPLEGIGALAKKHDALLIVDAVSSLGGEPFRMDEWGVDVAYTGSQ</Hsp_hseq>
+      <Hsp_midline>LLL PGPSN+PPR++ A    M+G  S +   +MDEI EG++YVFQT N LT ++SGSG  A+EAAL N+LEPGD  LVG NG++G R  D+ ER GA V  + K  G   + +E+ E L QH    + LTH E+STGVL PL+G G L  ++  LL+VD+V+SLGG P  MD  G+D+ Y+GSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|223153</Hit_id>
+  <Hit_def>COG0075, COG0075, Serine-pyruvate aminotransferase/archaeal aspartate aminotransferase [Amino acid transport and metabolism].</Hit_def>
+  <Hit_accession>223153</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.405</Hsp_bit-score>
+      <Hsp_score>311</Hsp_score>
+      <Hsp_evalue>2.51716e-34</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>QLLLGPGPSNLPPRIMAAGGLQMIGSMSKDMYQIMDEIKEGIQYVFQTRNPLTLVISGSGHCALEAALVNVLEPGDSFLVGANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPV-LLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDILYSGSQ</Hsp_qseq>
+      <Hsp_hseq>RLLLTPGPVPVPPRVLLAMARPMVGHRSPDFVGIMKEVLEKLRKVFGTENGDVVLLSGSGTLAMEAAVASLVEPGDKVLVVVNGKFGERFAEIAERYGAEVVVLEVEWGEAVDPEEVEEALDKDPDIKAVAVVHNETSTGVLNPLKEIAKAAKEHGALLIVDAVSSLGGEPLKVDEWGIDVAITGSQ</Hsp_hseq>
+      <Hsp_midline>+LLL PGP  +PPR++ A    M+G  S D   IM E+ E ++ VF T N   +++SGSG  A+EAA+ +++EPGD  LV  NG +G+R  +I ER GA V  +  + G     +EVEE L +   +  + + H E+STGVL PL    +    +  LL+VD+V+SLGG PL +D  GID+  +GSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|184076</Hit_id>
+  <Hit_def>PRK13479, PRK13479, 2-aminoethylphosphonate--pyruvate transaminase; Provisional.</Hit_def>
+  <Hit_accession>184076</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.62065e-11</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>NQLLLGPGPSNLPPRIMAAGGLQMIGSMSKDMYQIMDEIKEGIQYVFQTRNPLTLV-ISGSGHCALEAALVNVLEPGDSFLVGANGIWGQRAVDIGERIG-ARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDILYSGSQ</Hsp_qseq>
+      <Hsp_hseq>DPLLLTPGPLTTS-RTVREAMLRDWGSWDDDFNALTASVRAKLVAIATGEEGYTCVPLQGSGTFSVEAAIGSLVPRDGKVLVPDNGAYGARIAQIAEYLGIAHVVLDTGEDEPPDAAEVEAALAADPRITHVALVHCETTTGILNPLDEIAAVAKRHGKRLIVDAMSSFGAIPIDIAELGIDALISSAN</Hsp_hseq>
+      <Hsp_midline>+ LLL PGP     R +    L+  GS   D   +   ++  +  +       T V + GSG  ++EAA+ +++      LV  NG +G R   I E +G A V   T +       +      A  +   + L H E++TG+L PLD    +  R+   L+VD+++S G  P+ +   GID L S + </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|224029</Hit_id>
+  <Hit_def>COG1104, NifS, Cysteine sulfinate desulfinase/cysteine desulfurase and related enzymes [Amino acid transport and metabolism].</Hit_def>
+  <Hit_accession>224029</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>9.65311e-09</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>112</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL</Hsp_qseq>
+      <Hsp_hseq>ERQGFEVTYLPVDSNGLVDLEQLEEAL-RPDTILVSIMHANNETGTIQPIAEIGEICKERGILFHVDAVQAVGKIPIDLEELGVDLL</Hsp_hseq>
+      <Hsp_midline>ER G  V  +  D  G   L+++EE L +   +L+ + H  + TG +QP+   GE+C     L  VD+V ++G  P+ ++  G+D+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|333967</Hit_id>
+  <Hit_def>pfam00266, Aminotran_5, Aminotransferase class-V.  This domain is found in amino transferases, and other enzymes including cysteine desulphurase EC:4.4.1.-.</Hit_def>
+  <Hit_accession>333967</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>1.00281e-07</Hsp_evalue>
+      <Hsp_query-from>46</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MSKDMYQIMDEIKEGI-QYVFQTRNPLTLVISGSGHCALEAALV--NVLEPGDSFLVG-----ANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL-YSGSQ</Hsp_qseq>
+      <Hsp_hseq>LGKEATQAYEEAREKVAEFINAPSNEEIIFTSGTTEAINLVALSLGRSLKPGDEIVVTEMEHHANLVPWQ---ELAKRTGARVRVIPLDEDGLLDLDELEKLI-NPKTKLVAITHVSNVTGTINPVPEIGKLAHQYGALVLVDAAQAVGHRPIDVQKLGVDFLAFSGHK</Hsp_hseq>
+      <Hsp_midline>+ K+  Q  +E +E + +++    N   +  SG+       AL     L+PGD  +V      AN +  Q   ++ +R GARV  +  D  G   L E+E+ +   K  L+ +TH  + TG + P+   G+L H+Y  L+LVD+  ++G  P+ + + G+D L +SG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|99742</Hit_id>
+  <Hit_def>cd01494, AAT_I, Aspartate aminotransferase (AAT) superfamily (fold type I) of pyridoxal phosphate (PLP)-dependent enzymes. PLP combines with an alpha-amino acid to form a compound called a Schiff base or aldimine intermediate, which depending on the reaction, is the substrate in four kinds of reactions (1) transamination (movement of amino groups), (2) racemization (redistribution of enantiomers), (3) decarboxylation (removing COOH groups), and (4) various side-chain reactions depending on the enzyme involved. Pyridoxal phosphate (PLP) dependent enzymes were previously classified into alpha, beta and gamma classes, based on the chemical characteristics (carbon atom involved) of the reaction they catalyzed. The availability of several structures allowed a comprehensive analysis of  the evolutionary classification of PLP dependent enzymes, and it was found that the functional classification did not always agree with the evolutionary history of these enzymes. Structure and sequence analysis has revealed that the PLP dependent enzymes can be classified into four major groups of different evolutionary origin: aspartate aminotransferase superfamily (fold type I), tryptophan synthase beta superfamily (fold type II), alanine racemase superfamily (fold type III), and D-amino acid superfamily (fold type IV) and Glycogen phophorylase family (fold type V).</Hit_def>
+  <Hit_accession>99742</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>4.24499e-07</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MDEIKEGIQYVFQTRNPLTLVISGSGHCALEAALVNVLEPGDSFLVGANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQE--VEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVD</Hsp_qseq>
+      <Hsp_hseq>LEELEEKLARLLQPGNDKAVFVP-SGTGANEAALLALLGPGDEVIVDANG-HGSRYWVAAELAGAKPVPVPVDDAGYGGLDVAILEELKAKPNVALIVITPNTTSGGVLVPLKEIRKIAKEYGILLLVD</Hsp_hseq>
+      <Hsp_midline>++E++E +  + Q  N   + +  SG  A EAAL+ +L PGD  +V ANG  G R     E  GA+  P+  D  G+  L    +EE  A+    L+ +T   +S GVL PL    ++   Y  LLLVD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|223594</Hit_id>
+  <Hit_def>COG0520, csdA, Selenocysteine lyase/Cysteine desulfurase [Posttranslational modification, protein turnover, chaperones].</Hit_def>
+  <Hit_accession>223594</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.20635e-05</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>GLQMIGSMSKDMYQIMDEI---------KEGIQYVFQTRNPLTLVISGSGHCALEAALVNVLEPGDSFLVG-----ANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL-YSGSQ</Hsp_qseq>
+      <Hsp_hseq>GAHTLAEEATDLYEAAREAVARFLNADSSDEIVFTRGTTEALNLVARGLGRS---------LKPGDEIVVSDLEHHSNIVPWQ---ELAKRTGAKVRVIPLDDDGLLDLDALEK-LITPKTKLVALSHVSNVTGTVNPVKEIAELAHEHGALVLVDAAQAAGHLPIDVQELGCDFLAFSGHK</Hsp_hseq>
+      <Hsp_midline>G   +   + D+Y+   E           + I +   T   L LV  G G           L+PGD  +V      +N +  Q   ++ +R GA+V  +  D  G   L  +E+ L   K  L+ L+H  + TG + P+    EL H +  L+LVD+  + G  P+ +   G D L +SG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|99746</Hit_id>
+  <Hit_def>cd06453, SufS_like, Cysteine desulfurase (SufS)-like. This family belongs to the pyridoxal phosphate (PLP)-dependent aspartate aminotransferase superfamily (fold I). The major groups in this CD correspond to cysteine desulfurase (SufS) and selenocysteine lyase. SufS catalyzes the removal of elemental sulfur and selenium atoms from L-cysteine, L-cystine, L-selenocysteine, and L-selenocystine to produce L-alanine; and selenocysteine lyase catalyzes the decomposition of L-selenocysteine.</Hit_def>
+  <Hit_accession>99746</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>2.23185e-05</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>205</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>WGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL-YSGSQ</Hsp_qseq>
+      <Hsp_hseq>WQQ----LAERTGAKLKVVPVDDDGQLDLEALEKLLTE-RTKLVAVTHVSNVLGTINPVKEIGEIAHEAGVPVLVDGAQSAGHMPVDVQDLGCDFLAFSGHK</Hsp_hseq>
+      <Hsp_midline>W Q    + ER GA++  +  D  G   L+ +E+ L + +  L+ +TH  +  G + P+   GE+ H     +LVD   S G  P+ +   G D L +SG +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|224089</Hit_id>
+  <Hit_def>COG1167, ARO8, Transcriptional regulators containing a DNA-binding HTH domain and an aminotransferase domain (MocR family) and their eukaryotic orthologs [Transcription / Amino acid transport and metabolism].</Hit_def>
+  <Hit_accession>224089</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0001934</Hsp_evalue>
+      <Hsp_query-from>54</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>134</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>MDEIKEGIQ-YVFQTR----NPLTLVISGSGHCALEAALVNVLEPGDSFLVGANGIWGQRAVDIGERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHG-ESSTGVLQPLD---GFGELCHRYKCLLLVD</Hsp_qseq>
+      <Hsp_hseq>LPELREAIAAYLLARRGISCEPEQIVITSGAQQALDLLLRLLLDPGDTVLVEDPTYPG--ALQALEALGARVIPVPVDEDG-IDPEALEEALAQWKPKAVYVTPTFQNPTGVTMSLERRKALLALAEKYDVLIIED</Hsp_hseq>
+      <Hsp_midline>+ E++E I  Y+   R     P  +VI+     AL+  L  +L+PGD+ LV      G  A+   E +GARV P+  D  G    + +EE LAQ KP  +++T   ++ TGV   L+       L  +Y  L++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|178257</Hit_id>
+  <Hit_def>PLN02651, PLN02651, cysteine desulfurase.</Hit_def>
+  <Hit_accession>178257</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.000199069</Hsp_evalue>
+      <Hsp_query-from>155</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>SSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL</Hsp_qseq>
+      <Hsp_hseq>NEIGVIQPVEEIGELCREKKVLFHTDAAQAVGKIPVDVDDLGVDLM</Hsp_hseq>
+      <Hsp_midline>+  GV+QP++  GELC   K L   D+  ++G  P+ +D  G+D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|184450</Hit_id>
+  <Hit_def>PRK14012, PRK14012, cysteine desulfurase; Provisional.</Hit_def>
+  <Hit_accession>184450</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000233471</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>200</Hsp_query-to>
+      <Hsp_hit-from>115</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>ERIGARVHPMTKDPGGHYTLQEVEEGLAQHKPVLLFLTHGESSTGVLQPLDGFGELCHRYKCLLLVDSVASLGGTPLYMDRQGIDIL</Hsp_qseq>
+      <Hsp_hseq>EREGFEVTYLDPQSNGIIDLEKLEAAM-RDDTILVSIMHVNNEIGVIQDIAAIGEICRERGIIFHVDAAQSVGKVPIDLSKLKVDLM</Hsp_hseq>
+      <Hsp_midline>ER G  V  +     G   L+++E  + +   +L+ + H  +  GV+Q +   GE+C     +  VD+  S+G  P+ + +  +D++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>89</Statistics_hsp-len>
+      <Statistics_eff-space>449061636</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

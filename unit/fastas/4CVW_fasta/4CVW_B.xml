@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>777</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>777</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|273975</Hit_id>
+  <Hit_def>TIGR02104, pulA_typeI, pullulanase, type I.  Pullulan is an unusual, industrially important polysaccharide in which short alpha-1,4 chains (maltotriose) are connected in alpha-1,6 linkages. Enzymes that cleave alpha-1,6 linkages in pullulan and release maltotriose are called pullulanases although pullulan itself may not be the natural substrate. This family consists of pullulanases related to the subfamilies described in TIGR02102 and TIGR02103 but having a different domain architecture with shorter sequences. Members are called type I pullulanases.</Hit_def>
+  <Hit_accession>273975</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>319.701</Hsp_bit-score>
+      <Hsp_score>818</Hsp_score>
+      <Hsp_evalue>1.38059e-99</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>731</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>345</Hsp_positive>
+      <Hsp_gaps>162</Hsp_gaps>
+      <Hsp_align-len>735</Hsp_align-len>
+      <Hsp_qseq>VLDDMFAYTGPLGAVFSEDSVSLHLWAPTAQGVSVCFFD-GPAGPALETVQLKE-SNGVWSVTGPREWENRYYLYEVDVYHPTKAQVLKCLAGDPYARSLSANGARTWLVDINNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQA-------SAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDP---YNWGYNPVLWGVPKGSYASDPDGP-SRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIENSAAM-NNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAKSALQSLTTDAHGVDGSKIYLYGEGWDFAE-VARNQRGINGSQLNMSGTGIGSFNDRIRDAINGGNPFGNPLQQGFNTGLFLEPNGFYQGNEADTRRSLATYADQIQIGLAGNLRDYVLISHTGEAKKGSEIHTFDGLPVGYTASPIETINYVSAHDNETLFDVISVKTPMILSVDERCRINHLASSMMALSQGIPFFHAGDEILRSKSIDRDSYNSGDWFNKLDFTYETNNWGVGLPPSEKNEDNWPLMKPRLENPSFKPAKGHILAALDSFVDILKIRYSSPLFRLSTANDIKQRVRFHNTGPSLVPGVIVMGIEDARGESPEMAQLDTNFSYVVTVFNVCPHEVSMDIPA</Hsp_qseq>
+      <Hsp_hseq>AFDDKFYYDGELGAVYTPEKTVFRVWAPTATEVELLLYKSGEDGEPYKVVKMKRGENGVWSAVLEGDLHGYFYTYQVCINGKWRETV------DPYAKAVTVNGKRGAVIDL--EETNPEGWEK--DHGPRLENPEDAIIYELHIRDFSIHENS-GVKNKGKYLGLTETGTKGPNGVSTGLDYLKEL---GVTHVQLLPVFDFAGVD--------------------------------EEDPNNAYNWGYDPLNYNVPEGSYSTNPYDPATRIRELKQMIQALHENGIRVIMDVVYNHTYSRE----ESPFEKTVPGYYYRYNEDGTLSNGTGVGNDTASEREMMRKFIVDSVLYWVKEYNIDGFRFDLMGIHDIETMNEIRKALNKIDPN--------ILLYGEGWDLGTPLPPEQKATKANAYQMP--GIAFFNDEFRDALKG-------------SVFHLKKKGFVSGNPGT--------EEIVKKGILGSIE--------LDAVKPSAL------------DPSQSINYVECHDNHTLWDKLSLANPDETEEQLKKR-QKLATAILLLSQGIPFLHAGQEFMRTKQGDENSYNSPDSINQLDWDRKA---------------------------TFKDDVNYIKG-------LIALRKAHPAFRLSSAEDIRKHLEFLPAEPS---GVIAYRLKDHANGDP--------WKDIIVIHNANPEPVDIQLPG</Hsp_hseq>
+      <Hsp_midline>  DD F Y G LGAV++ +     +WAPTA  V +  +  G  G   + V++K   NGVWS     +    +Y Y+V +    +  V      DPYA++++ NG R  ++D+  E   P  W++  D  P+L++  D  IYELHIRDFS H+ +    ++G +              S G+++L++L   G+THV LLP F FAGVD                                EEDP   YNWGY+P+ + VP+GSY+++P  P +RI E +QM+QAL+  G+RV+MDVVYNH  S       S  +K VPGYY R + +G + N   + N+TASE  M+ + IVD +L W   Y +DGFRFDLMG     TM   + AL  +  +        I LYGEGWD    +   Q+    +   M   GI  FND  RDA+ G             +   L+  GF  GN            + ++ G+ G++          +A K S +             P ++INYV  HDN TL+D +S+  P       + R   LA++++ LSQGIPF HAG E +R+K  D +SYNS D  N+LD+  +                            +FK    +I         ++ +R + P FRLS+A DI++ + F    PS   GVI   ++D     P        +  ++ + N  P  V + +P </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|200480</Hit_id>
+  <Hit_def>cd11341, AmyAc_Pullulanase_LD-like, Alpha amylase catalytic domain found in Pullulanase (also called dextrinase; alpha-dextrin endo-1,6-alpha glucosidase), limit dextrinase, and related proteins.  Pullulanase is an enzyme with action similar to that of isoamylase; it cleaves 1,6-alpha-glucosidic linkages in pullulan, amylopectin, and glycogen, and in alpha-and beta-amylase limit-dextrins of amylopectin and glycogen. Pullulanases are very similar to limit dextrinases, although they differ in their action on glycogen and the rate of hydrolysis of limit dextrins. The Alpha-amylase family comprises the largest family of glycoside hydrolases (GH), with the majority of enzymes acting on starch, glycogen, and related oligo- and polysaccharides. These proteins catalyze the transformation of alpha-1,4 and alpha-1,6 glucosidic linkages with retention of the anomeric center. The protein is described as having 3 domains: A, B, C. A is a (beta/alpha) 8-barrel; B is a loop between the beta 3 strand and alpha 3 helix of A; C is the C-terminal extension characterized by a Greek key. The majority of the enzymes have an active site cleft found between domains A and B where a triad of catalytic residues (Asp, Glu and Asp) performs catalysis. Other members of this family have lost the catalytic activity as in the case of the human 4F2hc, or only have 2 residues that serve as the catalytic nucleophile and the acid/base, such as Thermus A4 beta-galactosidase with 2 Glu residues (GH42) and human alpha-galactosidase with 2 Asp residues (GH31). The family members are quite extensive and include: alpha amylase, maltosyltransferase, cyclodextrin glycotransferase, maltogenic amylase, neopullulanase, isoamylase, 1,4-alpha-D-glucan maltotetrahydrolase, 4-alpha-glucotransferase, oligo-1,6-glucosidase, amylosucrase, sucrose phosphorylase, and amylomaltase.</Hit_def>
+  <Hit_accession>200480</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.641</Hsp_bit-score>
+      <Hsp_score>714</Hsp_score>
+      <Hsp_evalue>8.16218e-87</Hsp_evalue>
+      <Hsp_query-from>145</Hsp_query-from>
+      <Hsp_query-to>609</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>188</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>96</Hsp_gaps>
+      <Hsp_align-len>476</Hsp_align-len>
+      <Hsp_qseq>SDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQ-------ASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGP-SRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIEN-SAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAKSALQSLTTDAHGVDGSKIYLYGEGWDF--AEVARNQRGINGSQLNMSGTGIGSFNDRIRDAINGGNPFGNPLQQGFNTGLFLEPNGFYQGNEADTRRSLATYADQIQIGLAGNLRDYVLISHTGEAKKGSEIHTFDGLPVGYTASPIETINYVSAHDNETLFDVISVKTPMILSVDERCRINHLASSMMALSQGIPFFHAGDEILRSKSIDRDSYNSGDWFNKLDFTYETN</Hsp_qseq>
+      <Hsp_hseq>TDAIIYELHVRDFSIDPNSGVKNKRGKFLGFTEEGTTTPTGVSTGLDYLKEL---GVTHVQLLPVFDFASVDEDKS---------------------------RPEDNYNWGYDPVNYNVPEGSYSTDPYDPYARIKEFKEMVQALHKNGIRVIMDVVYNHTYDSE----NSPFEKIVPGYYYRYNADGGFSNGSGCGNDTASERPMVRKYIIDSLKYWAKEYKIDGFRFDLMGLHDVETMNEIREALDKIDPN--------ILLYGEGWDFGTSPLPREEKATQKNAAKM--PGIGFFNDRFRDAIKG---------SVFDDG----DGGFVSGN--------LGLEDAIKKGIAGNIADF----------------KFD---AGFALDPSQSINYVECHDNLTLWDKLQLSNPN-ESEEERVRRQKLALAIVLLSQGIPFLHAGQEFLRTKSGDHNSYNSPDEINRIDWSRKEN</Hsp_hseq>
+      <Hsp_midline>+D  IYELH+RDFS    +   + RG F  F  +        S G+++L++L   G+THV LLP F FA VD+ KS                           + ED YNWGY+PV + VP+GSY++DP  P +RI E+++MVQAL++ G+RV+MDVVYNH   S     +S  +KIVPGYY R + +G   N S   N+TASE  MV + I+D L  WA  YK+DGFRFDLMG     TM   + AL  +  +        I LYGEGWDF  + + R ++    +   M   GIG FNDR RDAI G           F+ G      GF  GN            D I+ G+AGN+ D+                 FD    G+   P ++INYV  HDN TL+D + +  P   S +ER R   LA +++ LSQGIPF HAG E LR+KS D +SYNS D  N++D++ + N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|338133</Hit_id>
+  <Hit_def>pfam11852, DUF3372, Domain of unknown function (DUF3372).  This domain is functionally uncharacterized. This domain is found in bacteria and eukaryotes. This presumed domain is about 170 amino acids in length.</Hit_def>
+  <Hit_accession>338133</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>1.48272e-57</Hsp_evalue>
+      <Hsp_query-from>606</Hsp_query-from>
+      <Hsp_query-to>776</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>YETNNWGVGLPPSEKNEDNWPLMKPRLENPSFKPAKGHILAALDSFVDILKIRYSSPLFRLSTANDIKQRVRFHNTGPSLVPGVIVMGIEDARGESPEMAQLDTNFSYVVTVFNVCPHEVSMDIPALASMGFELHPVQVNSSDTLVRKSAYEAATGRFTVPGRTVSVFVEP</Hsp_qseq>
+      <Hsp_hseq>YQDNNWGVGLPPAEKNGDNWPLIRPLLADPALKPSPADIAAASAHFQELLRIRRSSPLFRLGTAAEVQQRVTFHNTGPDQTPGLIVMSIDDGTGG----ADLDPRYDGIVVVFNATPEEQTFTVPGLAGRGLELHPVQAASADPVVRGATFDAA-GTFTVPARTTAVFVEP</Hsp_hseq>
+      <Hsp_midline>Y+ NNWGVGLPP+EKN DNWPL++P L +P+ KP+   I AA   F ++L+IR SSPLFRL TA +++QRV FHNTGP   PG+IVM I+D  G     A LD  +  +V VFN  P E +  +P LA  G ELHPVQ  S+D +VR + ++AA G FTVP RT +VFVEP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|224440</Hit_id>
+  <Hit_def>COG1523, PulA, Type II secretory pathway, pullulanase PulA and related glycosidases [Carbohydrate transport and metabolism].</Hit_def>
+  <Hit_accession>224440</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>170.629</Hsp_bit-score>
+      <Hsp_score>431</Hsp_score>
+      <Hsp_evalue>9.85279e-45</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>610</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>572</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>257</Hsp_positive>
+      <Hsp_gaps>166</Hsp_gaps>
+      <Hsp_align-len>637</Hsp_align-len>
+      <Hsp_qseq>MFAYTGPLGAVFSEDSVSLHLWAPTAQGVSVCFF--DGPAGPA----LETVQLKESNGVWSVTGPREWEN-----RYYLYEVDVYHPTKAQVLKCLAGDPYARSLSANGARTWLVDINNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIENSAAMNNTA-SEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAKSALQSLTTDAHGVDGSKIYLYGEGWDFAEVARNQRGINGSQLNMSGTGIGSFNDRIRDAINGGNPFGNPLQQGFNTGLFLEPNGFYQGNEADTRRSLATYADQIQIGLAGNLRDYVLISHTGEAKKGSEIHTFDGLPVGYTASPIETINYVSAHDNETLFDVISVK------------------------------TPMILSVDERCRINHLASSMMALSQGIPFFHAGDEILRSKSIDRDSYNSGDWFNKLDFTYETNN</Hsp_qseq>
+      <Hsp_hseq>LYPYDGELGAIW-------HLWLPGAKPGQVYGYRVHGPYDPEEGHRFDPNKLLLDPYAKALDGDLKWGTPALFGYYYGYQITNLSPDRD------SADPYPKSVVIDPLFDW-----------------ENDKPPRIPWEDTVIYEAHVRDFTQLHPGVPEELRGTYLGLAEPVI-----IDYLKDLGVTAVELLPVF------------DFYDEPHLDK----SGLNN------------NWGYDPLNFFAPEGRYASNPEPATRIKEFKDMVKALHKAGIEVILDVVFNHTAEGNELGPTLSFRGIDPNYYYRLDPDGYYSNGTGCGNTLNTEHPMVRKLIVDSLRYWVEEYHVDGFRFDLAGVLGRETMLFDINANLFLAGEGDPV-LSGVKLIAEPWDI--------GPGGYQ-------VGNFPDSPR---------------------WAEWNGRFRDDVRRFWRGDAGLVGEFAKRLAGS----------------SDLYKRNG------RRPSQSINYVTAHDGFTLWDLVSYNHKHNEANGENNRDGHNDNYSWNHGVEGPTGDPFIHAGRERQRTNLLAT--LLLSQGTPMLLAGDEFGRTQYGNNNAYCQDNEINWLDWSTEANN</Hsp_hseq>
+      <Hsp_midline>++ Y G LGA++       HLW P A+   V  +   GP  P      +  +L       ++ G  +W        YY Y++    P +       + DPY +S+  +    W                  ++KP    + D  IYE H+RDF+     V  + RG +   A         +  L D G+T V LLP F             F DE  L      S +              NWGY+P+ +  P+G YAS+P+  +RI E++ MV+AL++ G+ V++DVV+NH       G +     I P YY R D +G   N     NT  +EH MV +LIVD L  W   Y VDGFRFDL G + + TM+   +A   L  +   V  S + L  E WD         G  G Q       +G+F D  R                     + E NG ++ +     R  A    +    LAG+                S+++  +G        P ++INYV+AHD  TL+D++S                                 P I +  ER R N LA+  + LSQG P   AGDE  R++  + ++Y   +  N LD++ E NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|200465</Hit_id>
+  <Hit_def>cd11326, AmyAc_Glg_debranch, Alpha amylase catalytic domain found in glycogen debranching enzymes.  Debranching enzymes facilitate the breakdown of glycogen through glucosyltransferase and glucosidase activity. These activities are performed by a single enzyme in mammals, yeast, and some bacteria, but by two distinct enzymes in Escherichia coli and other bacteria. Debranching enzymes perform two activities: 4-alpha-D-glucanotransferase (EC 2.4.1.25) and amylo-1,6-glucosidase (EC 3.2.1.33). 4-alpha-D-glucanotransferase catalyzes the endohydrolysis of 1,6-alpha-D-glucoside linkages at points of branching in chains of 1,4-linked alpha-D-glucose residues. Amylo-alpha-1,6-glucosidase catalyzes the endohydrolysis of 1,6-alpha-D-glucoside linkages at points of branching in chains of 1,4-linked alpha-D-glucose residues. In Escherichia coli, GlgX is the debranching enzyme and malQ is the 4-alpha-glucanotransferase. TreX, an archaeal glycogen-debranching enzyme has dual activities like mammals and yeast, but is structurally similar to GlgX. TreX exists in two oligomeric states, a dimer and tetramer. Isoamylase (EC 3.2.1.68) is one of the starch-debranching enzymes that catalyzes the hydrolysis of alpha-1,6-glucosidic linkages specific in alpha-glucans such as amylopectin or glycogen and their beta-limit dextrins. The Alpha-amylase family comprises the largest family of glycoside hydrolases (GH), with the majority of enzymes acting on starch, glycogen, and related oligo- and polysaccharides. These proteins catalyze the transformation of alpha-1,4 and alpha-1,6 glucosidic linkages with retention of the anomeric center. The protein is described as having 3 domains: A, B, C. A is a (beta/alpha) 8-barrel; B is a loop between the beta 3 strand and alpha 3 helix of A; C is the C-terminal extension characterized by a Greek key. The majority of the enzymes have an active site cleft found between domains A and B where a triad of catalytic residues (Asp, Glu and Asp) performs catalysis. Other members of this family have lost the catalytic activity as in the case of the human 4F2hc, or only have 2 residues that serve as the catalytic nucleophile and the acid/base, such as Thermus A4 beta-galactosidase with 2 Glu residues (GH42) and human alpha-galactosidase with 2 Asp residues (GH31). The family members are quite extensive and include: alpha amylase, maltosyltransferase, cyclodextrin glycotransferase, maltogenic amylase, neopullulanase, isoamylase, 1,4-alpha-D-glucan maltotetrahydrolase, 4-alpha-glucotransferase, oligo-1,6-glucosidase, amylosucrase, sucrose phosphorylase, and amylomaltase.</Hit_def>
+  <Hit_accession>200465</Hit_accession>
+  <Hit_len>433</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.694</Hsp_bit-score>
+      <Hsp_score>278</Hsp_score>
+      <Hsp_evalue>2.75164e-26</Hsp_evalue>
+      <Hsp_query-from>135</Hsp_query-from>
+      <Hsp_query-to>604</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>132</Hsp_gaps>
+      <Hsp_align-len>504</Hsp_align-len>
+      <Hsp_qseq>ADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASD--PDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQ--IENSAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAKSALQSLTTDAHGVDGSKIYLYGEGWDFAEVARNQRGINGSQLNMSGTGIGSFNDRIRDAINGGNPFGNPLQQGFNTGLFLEPNGFYQGNEADTRRSLATYADQIQIGLAGNLRDYVLISHTGEAKKGSEIHTFDGLPVGYTASPIETINYVSAHDNETLFDVIS------------------------------VKTPMILSVDERCRINHLASSMMALSQGIPFFHAGDEILRSKSIDRDSYNSGDWFNKLDF</Hsp_qseq>
+      <Hsp_hseq>GDARPRI-PWEDTVIYEMHVRGFTKLHPDVPEELRGTYAGLAEPAK--IPYLKEL---GVTAVELLPVHAF---DDEEH----LVERGLTNY---------------------WGYNTLNFFAPDPRYASDDAPGGP--VDEFKAMVKALHKAGIEVILDVVYNHTAEGGELGPTLSFRGLDNASYYRLDPDGPYYLNYTGCGNTLNTNHPVVLRLILDSLRYWVTEMHVDGFRFDLASVLGRDPDGFPDPNPPLLEAIAQDPVLSGVKLIAEPWDI--------GGGGYQVGNFPPGWAEWNDRYRDDV----------------------RRFWRGDG----------------GLVGDFATRLAGS--------SDLFGHDG------RSPSASVNFITAHDGFTLADLVSYNEKHNEANGENNRDGHNDNLSWNCGVEGPTDDPEILALRRRQMRNLLAT--LLLSQGTPMLLAGDEFGRTQQGNNNAYCQDNEISWLDW</Hsp_hseq>
+      <Hsp_midline> D +P++  + D  IYE+H+R F+     V  + RG +   A  A   + +L++L   G+T V LLP   F   DD +     + E  L  +                     WGYN + +  P   YASD  P GP  + E++ MV+AL++ G+ V++DVVYNH    G  G +     +    Y R D +G   +  +   N   + H +V RLI+D L  W     VDGFRFDL   + +            L   A     S + L  E WD         G  G Q+     G   +NDR RD +                        F++G+                 GL G+    +  S        S++   DG       SP  ++N+++AHD  TL D++S                                 P IL++  R   N LA+  + LSQG P   AGDE  R++  + ++Y   +  + LD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|131155</Hit_id>
+  <Hit_def>TIGR02100, Glycogen_operon_protein_GlgX_homolog, glycogen debranching enzyme GlgX.  This family consists of the GlgX protein from the E. coli glycogen operon and probable equivalogs from other prokaryotic species. GlgX is not required for glycogen biosynthesis, but instead acts as a debranching enzyme for glycogen catabolism. This model distinguishes GlgX from pullanases and other related proteins that also operate on alpha-1,6-glycosidic linkages. In the wide band between the trusted and noise cutoffs are functionally similar enzymes, mostly from plants, that act similarly but usually are termed isoamylase. [Energy metabolism, Biosynthesis and degradation of polysaccharides].</Hit_def>
+  <Hit_accession>131155</Hit_accession>
+  <Hit_len>688</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.071</Hsp_bit-score>
+      <Hsp_score>266</Hsp_score>
+      <Hsp_evalue>4.26377e-24</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>610</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>158</Hsp_gaps>
+      <Hsp_align-len>647</Hsp_align-len>
+      <Hsp_qseq>PLGAVFSEDSVSLHLWAPTAQGVSVCFFDGPAGPALETVQLKE-SNGVWSVTGPREWENRYYLYEVD-VYHPTKAQVLK--CLAGDPYARSLSAN--------GARTWLVD-------------INNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVR---RDTNGQIENSAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAKSALQSLTTDAHGVDGSKIYLYGEGWDFAEVARNQRGINGSQLNMSGTGIGSFNDRIRDAINGGNPFGNPLQQGFNTGLFLEPNGFYQGNEADTRRSLATYADQIQIGLAGNLRDYVLISHTGEAKKGSEIHTFDGLPVGYTASPIETINYVSAHDNETLFDVIS------------------------------VKTPMILSVDERCRINHLASSMMALSQGIPFFHAGDEILRSKSIDRDSYNSGDWFNKLDFTYETNN</Hsp_qseq>
+      <Hsp_hseq>PLGATWDGQGVNFALFSANAEKVELCLFDAQGEKEEARLPLPERTDDIWHGYLPGAQPGQLYGYRVHGPYDPENGHRFNPNKLLLDPYAKALDGDLIWDDALFGYRIGHPDQDLSFDERDSAPGMPKAVVVDPDFDWGGDEQRPRTPWEDTIIYEAHVKGFTQLHPDIPEELRGTYAGLAHPAM--IDYLKKL---GVTAVELLPVHAF--IDD-----RHLLEKGLRNY---------------------WGYNTLGFFAPEPRYLAS----GQVAEFKTMVRALHDAGIEVILDVVYNHTAEGNELGPTLSFRGIDNASYYRLQPDDKRYYINDTGTGNTLNLSHPRVLQMVMDSLRYWVTEMHVDGFRFDL-ATTLGRELYGFDMLSGFFTAIRQDPVLAQVKLIAEPWDI--------GPGGYQVGNFPPGWAEWNDRYRDDM----------------------RRFWRGD----------------AGMIGELANRLTGS--------SDLFEHNG------RRPWASINFVTAHDGFTLRDLVSYNEKHNEANGENNRDGHNDNYSWNCGVEGPTDDPAINALRRRQQRNLLAT--LLLSQGTPMLLAGDEFGRTQQGNNNAYCQDNEIGWVDWSLDEGD</Hsp_hseq>
+      <Hsp_midline>PLGA +    V+  L++  A+ V +C FD         + L E ++ +W    P     + Y Y V   Y P          L  DPYA++L  +        G R    D             +    +    +D   DE+     + D  IYE H++ F+     +  + RG +   A+ A   +++L+KL   G+T V LLP   F  +DD     + + E  L  +                     WGYN + +  P+  Y +      ++ E++ MV+AL+  G+ V++DVVYNH       G +     I    Y R    D    I ++   N     H  V ++++D L  W     VDGFRFDL    + R +          T        +++ L  E WD         G  G Q+     G   +NDR RD +                        F++G+                 G+ G L + +  S        S++   +G        P  +IN+V+AHD  TL D++S                                 P I ++  R + N LA+  + LSQG P   AGDE  R++  + ++Y   +    +D++ +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|199890</Hit_id>
+  <Hit_def>cd02860, E_set_Pullulanase, Early set domain associated with the catalytic domain of pullulanase (also called dextrinase and alpha-dextrin endo-1,6-alpha glucosidase).  E or &quot;early&quot; set domains are associated with the catalytic domain of pullulanase at either the N-terminal or C-terminal end, and in a few instances at both ends. Pullulanase is an enzyme with activity similar to that of isoamylase; it cleaves 1,6-alpha-glucosidic linkages in pullulan, amylopectin, and glycogen, and in alpha-and beta-amylase limit-dextrins of amylopectin and glycogen. The E set domain of pullulanase may be related to the immunoglobulin and/or fibronectin type III superfamilies. These domains are associated with different types of catalytic domains at either the N-terminal or C-terminal end and may be involved in homodimeric/tetrameric/dodecameric interactions. Members of this family include members of the alpha amylase family, sialidase, galactose oxidase, cellulase, cellulose, hyaluronate lyase, chitobiase, and chitinase. This domain is also a member of the CBM48 (Carbohydrate Binding Module 48) family whose members include maltooligosyl trehalose synthase, starch branching enzyme, glycogen branching enzyme, glycogen debranching enzyme, isoamylase, and the beta subunit of AMP-activated protein kinase.</Hit_def>
+  <Hit_accession>199890</Hit_accession>
+  <Hit_len>97</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>9.90842e-17</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>GPLGAVFSEDSVSLHLWAPTAQGVSVCFFDG--PAGPALETVQLKESNGVWSVTGPREWENRYYLYEVDVYHPTKAQVLKCLAGDPYARSLSANGARTWLVDI</Hsp_qseq>
+      <Hsp_hseq>GDLGATYTPEKTTFKLWAPTAQKVKLLLYDDGDDAKPAKTVPMKREEKGVWSVTVDGDLKGKYYTYEVTVYGETNEVV------DPYAKAVGVNGKRSVIVDL</Hsp_hseq>
+      <Hsp_midline>G LGA ++ +  +  LWAPTAQ V +  +D    A PA      +E  GVWSVT   + + +YY YEV VY  T   V      DPYA+++  NG R+ +VD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|274114</Hit_id>
+  <Hit_def>TIGR02402, Malto-oligosyltrehalose_trehalohydrolase, malto-oligosyltrehalose trehalohydrolase.  Members of this family are the trehalose biosynthetic enzyme malto-oligosyltrehalose trehalohydrolase, formally known as 4-alpha-D-{(1-&gt;4)-alpha-D-glucano}trehalose trehalohydrolase (EC 3.2.1.141). It is the TreZ protein of the TreYZ pathway for trehalose biosynthesis, and alternative to the OtsAB system. [Energy metabolism, Biosynthesis and degradation of polysaccharides].</Hit_def>
+  <Hit_accession>274114</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>1.06799e-10</Hsp_evalue>
+      <Hsp_query-from>32</Hsp_query-from>
+      <Hsp_query-to>393</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>99</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>VSLHLWAPTAQGVSVCFFDGPAGPALETVQLKESNGVWSVTGPREWENRYYLYEVDVYHPTKAQVLKCLAGDPYARSLSANGAR--TWLVDINNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIENSAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHI----MKRTMMRAKSALQSLTTDAHGV</Hsp_qseq>
+      <Hsp_hseq>VRFRLWAPTAASVKLRL-----NGALHAMQ-RNGDGWFEATVPPVGPGTRYGYVLDDGTPVP---------DPASRR-QPDGVHGPSQVVDPDRYAWQDTGW--------RGRPLEEAVIYELHVGTFTP-EGTFD---------------AAIEKLPYLADLGITAIELMPVAQFPGTR-------------------------------------GWGYDGVLPYAPHEAYG----GPDDL---KALVDAAHGLGLGVLLDVVYNHF---GPEG--NYLPRFAPYFTDRYSTPW----GAAINFDGPGSDEVRRYIIDNALYWLREYHFDGLRLDAVHAIADTSAKHFLEELARAVRELAADLRPV</Hsp_hseq>
+      <Hsp_midline>V   LWAPTA  V +         AL  +Q +  +G +  T P       Y Y +D   P           DP +R    +G    + +VD +    +   W        +     +  IYELH+  F+  +GT D               A +E L  L+D G+T + L+P   F G                                        WGY+ VL   P  +Y     GP  +   + +V A + +GL V++DVVYNH    GP G  + L +  P +  R  T       AA+N        V R I+D+ L W   Y  DG R D +  I     K  +     A++ L  D   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|200464</Hit_id>
+  <Hit_def>cd11325, AmyAc_GTHase, Alpha amylase catalytic domain found in Glycosyltrehalose trehalohydrolase (also called Maltooligosyl trehalose Trehalohydrolase).  Glycosyltrehalose trehalohydrolase (GTHase) was discovered as part of a coupled system for the production of trehalose from soluble starch. In the first half of the reaction, glycosyltrehalose synthase (GTSase), an intramolecular glycosyl transferase, converts the glycosidic bond between the last two glucose residues of amylose from an alpha-1,4 bond to an alpha-1,1 bond, making a non-reducing glycosyl trehaloside. In the second half of the reaction, GTHase cleaves the alpha-1,4 glycosidic bond adjacent to the trehalose moiety to release trehalose and malto-oligosaccharide. Like isoamylase and other glycosidases that recognize branched oligosaccharides, GTHase contains an N-terminal extension and does not have the conserved calcium ion present in other alpha amylase family enzymes. The Alpha-amylase family comprises the largest family of glycoside hydrolases (GH), with the majority of enzymes acting on starch, glycogen, and related oligo- and polysaccharides. These proteins catalyze the transformation of alpha-1,4 and alpha-1,6 glucosidic linkages with retention of the anomeric center. The protein is described as having 3 domains: A, B, C. A is a (beta/alpha) 8-barrel; B is a loop between the beta 3 strand and alpha 3 helix of A; C is the C-terminal extension characterized by a Greek key. The majority of the enzymes have an active site cleft found between domains A and B where a triad of catalytic residues (Asp, Glu and Asp) performs catalysis. Other members of this family have lost the catalytic activity as in the case of the human 4F2hc, or only have 2 residues that serve as the catalytic nucleophile and the acid/base, such as Thermus A4 beta-galactosidase with 2 Glu residues (GH42) and human alpha-galactosidase with 2 Asp residues (GH31). The family members are quite extensive and include: alpha amylase, maltosyltransferase, cyclodextrin glycotransferase, maltogenic amylase, neopullulanase, isoamylase, 1,4-alpha-D-glucan maltotetrahydrolase, 4-alpha-glucotransferase, oligo-1,6-glucosidase, amylosucrase, sucrose phosphorylase, and amylomaltase. Glycosyltrehalose Trehalohydrolase Maltooligosyltrehalose Trehalohydrolase.</Hit_def>
+  <Hit_accession>200464</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>6.09892e-10</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>69</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIENSAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHI</Hsp_qseq>
+      <Hsp_hseq>LEELVIYELHVGTFTP-EGTFD---------------AAIERLDYLADLGVTAIELMPVAEFPGE-------------------------------------RNWGYDGVLPFAPESSYG----GPDDL---KRLVDAAHRRGLAVILDVVYNHF---GPDG--NYLWQFA-GPYFTDDYSTPWGDAINFDGPGDE---VRQFFIDNALYWLREYHVDGLRLDAVHAI</Hsp_hseq>
+      <Hsp_midline>  ++ IYELH+  F+  +GT D               A +E L  L+D G+T + L+P   F G                                       NWGY+ VL   P+ SY     GP  +   +++V A +R GL V++DVVYNH    GP G  + L +   G Y   D +    ++   +    E   V +  +D+ L W   Y VDG R D +  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|235445</Hit_id>
+  <Hit_def>PRK05402, PRK05402, glycogen branching enzyme; Provisional.</Hit_def>
+  <Hit_accession>235445</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>1.05801e-08</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>71</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>SVSLHLWAPTAQGVSVCF-FDGPAGPALETVQLKESNGVWSVTGPREWENRYYLYEVDVYHPTKAQVLKCLAGDPYARSLSANGARTWLV-DINNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYN--WGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIENSAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIM</Hsp_qseq>
+      <Hsp_hseq>GVRFAVWAPNARRVSVVGDFNGWDG-RRHPMRLRGESGVWELFIPGLGEGELYKFEI-----LTADGELLLKADPYAFAAEVRPATASIVADLSQYQWNDAAWMEKRAKRNPLD--APISIYEVHLGSWRRHE--------DGGRFLSYRELAD-QLIPYVKEMGFTHVELLPI---------------------------------------AEHPFDGSWGYQPTGYYAPTSRFGT-PD------DFRYFVDACHQAGIGVILDWVPAHFPKDA-HGLARFDGTALYEHADPREGEHPDWGTLIFNYGRNE---VRNFLVANALYWLEEFHIDGLRVDAVASML</Hsp_hseq>
+      <Hsp_midline> V   +WAP A+ VSV   F+G  G     ++L+  +GVW +  P   E   Y +E+       A     L  DPYA +     A   +V D++      A+W E   ++  LD  + I+IYE+H+  +  H+         G R  +Y+  A  + +  + + G THV LLP                                         E P++  WGY P  +  P   + + PD      ++R  V A ++ G+ V++D V  H       G++      +  +   R+       +   N   +E   V   +V + L W   + +DG R D +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|223373</Hit_id>
+  <Hit_def>COG0296, GlgB, 1,4-alpha-glucan branching enzyme [Carbohydrate transport and metabolism].</Hit_def>
+  <Hit_accession>223373</Hit_accession>
+  <Hit_len>628</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.18319e-06</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>84</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>LGAVFSEDSVS---LHLWAPTAQGVS-VCFFDGPAGPALETVQLKESNGVWSVTGPREWENRYYLYEVDVYHPTKAQVLKCLAGDPYARSLSAN-GARTWLVDINNETLKPASWDELADEKPKLDSFSDITIYELHIRDFSAHDGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHLDSSGPCGISSVLDKIVPGYYVRRDTNGQIEN----SAAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRFDLMGHIMKRTMMRAK</Hsp_qseq>
+      <Hsp_hseq>LGAHPIENGVSGVRFRVWAPNARRVSLVGDFNDWDGRRMPMRDRKES-GIWELFVPGAPPGTRYKYEL--IDPSGQLRLKA---DPYARRQEVGPHTASQVVDLPDYEWQDERWDRAWRGR----FWEPIVIYELHV-------GSFTPDRFLGYFELA------IELLPYLKELGITHIELMP----------------VAEH------PGDR---------------SWGYQGTGYYAPTSRYGTPED-------FKALVDAAHQAGIGVILDWVPNHFPPDG-----NYLARFDGTFLYEHEDPRRGEHTDWGTAIFNYGRNE---VRNFLLANALYWLEEYHIDGLRVDAVASMLYLDYSRAE</Hsp_hseq>
+      <Hsp_midline>LGA   E+ VS     +WAP A+ VS V  F+   G  +     KES G+W +  P       Y YE+    P+    LK    DPYAR         + +VD+ +   +   WD     +     +  I IYELH+       G+   D   G+   A      +E L  L + G+TH+ L+P                V E       PG                 +WGY    +  P   Y +  D       ++ +V A ++ G+ V++D V NH    G     + L +    +    +   + E+    +A  N   +E   V   ++ + L W   Y +DG R D +  ++     RA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|200484</Hit_id>
+  <Hit_def>cd11346, AmyAc_plant_IsoA, Alpha amylase catalytic domain family found in plant isoamylases.  Two types of debranching enzymes exist in plants: isoamylase-type (EC 3.2.1.68) and a pullulanase-type (EC 3.2.1.41, also known as limit-dextrinase). These efficiently hydrolyze alpha-(1,6)-linkages in amylopectin and pullulan. This group does not contain the conserved catalytic triad present in other alpha-amylase-like proteins. The Alpha-amylase family comprises the largest family of glycoside hydrolases (GH), with the majority of enzymes acting on starch, glycogen, and related oligo- and polysaccharides. These proteins catalyze the transformation of alpha-1,4 and alpha-1,6 glucosidic linkages with retention of the anomeric center. The protein is described as having 3 domains: A, B, C. A is a (beta/alpha) 8-barrel; B is a loop between the beta 3 strand and alpha 3 helix of A; C is the C-terminal extension characterized by a Greek key. The majority of the enzymes have an active site cleft found between domains A and B where a triad of catalytic residues (Asp, Glu and Asp) performs catalysis. Other members of this family have lost the catalytic activity as in the case of the human 4F2hc, or only have 2 residues that serve as the catalytic nucleophile and the acid/base, such as Thermus A4 beta-galactosidase with 2 Glu residues (GH42) and human alpha-galactosidase with 2 Asp residues (GH31). The family members are quite extensive and include: alpha amylase, maltosyltransferase, cyclodextrin glycotransferase, maltogenic amylase, neopullulanase, isoamylase, 1,4-alpha-D-glucan maltotetrahydrolase, 4-alpha-glucotransferase, oligo-1,6-glucosidase, amylosucrase, sucrose phosphorylase, and amylomaltase.</Hit_def>
+  <Hit_accession>200484</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>1.16155e-05</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>365</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>182</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>FSDITIYELHIRDFSAH-DGTVDSDSRGGFRAFAYQASAGMEHLRKLSDAGLTHVHLLPSFHFAGVDDIKSNWKFVDECELATFPPGSDMQQAAVVAIQEEDPYNWGYNPVLWGVPKGSYASDPDGPSRIIEYRQMVQALNRIGLRVVMDVVYNHL-DSSGPCGISSVLDKIVPGYYVRRDTNGQIENS----AAMNNTASEHFMVDRLIVDDLLNWAVNYKVDGFRF</Hsp_qseq>
+      <Hsp_hseq>LEQLVVYELDVATFTSHRSAQLPPQHAGTFLGVLEK----VDHLKSL---GVNTVLLQPIFAFARV----------------------------------KGPY---YPPSFFSAPD-PYGAGDSSLSASAELRAMVKGLHSNGIEVLLEVVLTHTAEGTDESPESESLRGIDAASYYILGKSGVLENSGVPGAAVLNC--NHPVTQSLILDSLRHWATEFGVDGFCF</Hsp_hseq>
+      <Hsp_midline>   + +YEL +  F++H    +     G F     +    ++HL+ L   G+  V L P F FA V                                  + PY   Y P  +  P   Y +     S   E R MV+ L+  G+ V+++VV  H  + +     S  L  I    Y     +G +ENS    AA+ N    H +   LI+D L +WA  + VDGF F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>100</Statistics_hsp-len>
+      <Statistics_eff-space>2401279057</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

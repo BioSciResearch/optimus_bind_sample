@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>P &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>302</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>P &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>302</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|214592</Hit_id>
+  <Hit_def>smart00268, ACTIN, Actin.  ACTIN subfamily of ACTIN/mreB/sugarkinase/Hsp70 superfamily.</Hit_def>
+  <Hit_accession>214592</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>2.56459e-169</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>256</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>GIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALDFEQEMATA---ASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF</Hsp_qseq>
+      <Hsp_hseq>GIVENWDDMEKIWDYTFFNELRVEPEEHPVLLTEPPMNPKSNREKILEIMFETFNFPALYIAIQAVLSLYASGRTTGLVIDSGDGVTHVVPVVDGYVLPHAIKRIDIAGRDITDYLKELLSERGYQFNSSAEFEIVREIKEKLCYVAEDFEKEMKLARESSESSKLEKTYELPDGNTIKVGNERFRIPEILFSPELIGLEQKGIHELVYESIQKCDIDVRKDLYENIVLSGGSTLIPGFGERLEKELKQLAPKKLKVKVIAPPERKYSVWLGGSILASLSTFEDMWITKKEYEESGSQIVERKCF</Hsp_hseq>
+      <Hsp_midline>GIV NWDDMEKIW +TF+NELRV PEEHPVLLTE P+NPK+NREK+ +IMFETFN PA+Y+AIQAVLSLYASGRTTG+V+DSGDGVTH VP+ +GY LPHAI R+D+AGRD+TDYL ++L+ERGY F ++AE EIVR+IKEKLCYVA DFE+EM  A   + SS LEK+YELPDG  I +GNERFR PE LF P  +G+E  GIHE  + SI KCD+D+RKDLY N VLSGG+T+ PG  +R++KE+  LAP  +K+K+IAPPERKYSVW+GGSILASLSTF+ MWI+K+EY+ESG  IV RKCF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|306521</Hit_id>
+  <Hit_def>pfam00022, Actin, Actin.  </Hit_def>
+  <Hit_accession>306521</Hit_accession>
+  <Hit_len>367</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>6.07371e-129</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>301</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>185</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>GIVTNWDDMEKIWHHTFYNELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRTTGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTERGYSFTTTAEREIVRDIKEKLCYVALD-FEQEMATAASSSSLEKSYELPDGQVITIGNERFRCPEALFQPSFLGMES-------CGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPP-ERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKC</Hsp_qseq>
+      <Hsp_hseq>GIVVDWDAMEKIWEYVFKEELQVDPEEHPLLLTEPPWNPPANREKAAEIMFETFGVPALYLAKNAVLSAYASGRTTGLVVDSGAGVTSVVPVHDGYVLQKAIRRSDLAGDDLTDYLRELL-----SFNTYAEREVVREIKESVCYVSDDPFGDE---TLSSSIPTRSYELPDGSTIILGAERFRVPEALFNPSLIGSESELPPPTAVGIPELIVDAINACDVDLRPELLANIVVTGGNTLFPGFTERLERELAQLAPPGVKVKIIAPPNERRYSAWIGGSILASLGTFQQMWVSKQEYEEHGASVVERKC</Hsp_hseq>
+      <Hsp_midline>GIV +WD MEKIW + F  EL+V PEEHP+LLTE P NP ANREK  +IMFETF  PA+Y+A  AVLS YASGRTTG+V+DSG GVT  VP+++GY L  AI R DLAG DLTDYL ++L     SF T AERE+VR+IKE +CYV+ D F  E     SSS   +SYELPDG  I +G ERFR PEALF PS +G ES        GI E   ++I  CDVD+R +L AN V++GG T++PG  +R+++E+  LAP  +K+KIIAPP ER+YS WIGGSILASL TFQQMW+SKQEY+E G S+V RKC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|227602</Hit_id>
+  <Hit_def>COG5277, COG5277, Actin and related proteins [Cytoskeleton].</Hit_def>
+  <Hit_accession>227602</Hit_accession>
+  <Hit_len>444</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>5.00696e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>302</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>444</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>65</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>GIVTNWDDMEKIWHHTFYN--ELRVAPEEHPVLLTEAPLNPKANREKMTQIMFETFNTPAMYVAIQAVLSLYASGRT--TGIVMDSGDGVTHTVPIYEGYALPHAILRLDLAGRDLTDYLMKILTE-----RGYSFTTTA---EREIVRDIKEKLC-------YVALDF----------------EQEMATAASSSSLEKSYELPDGQVITIGN-ERFRCPEALFQPSF-----------------------------LGMESCGIHETTFNSIMKCDVDIRKDLYANTVLSGGTTMYPGIADRMQKEITALAPSTMKIKIIAPPERKYSVWIGGSILASLSTFQQMWISKQEYDESGPSIVHRKCF</Hsp_qseq>
+      <Hsp_hseq>GIILNWDAMEQIWDYTFFNKGDLLPSPEEHPLLLTEPPLNPPSNREKITELLFETLNVPALYLAIQAVLSLYASGSSDETGLVIDSGDSVTHVIPVVDGIVLPKAVKRIDIGGRDITDYLKKLLREKYPPSRGYNLKSELVEYSSEIVNEIKEEVCETDDESAYVSLDAEEEFEEEEEKPAEKSTESTFQLSKETSIAKESKELPDGEEIEFGNEERFKAPEILFKPELPISGLEEAGKIDESKQELVAENYEISPTNLGNDIAGLPELVYQSIQICDEDVRKSLYSNIVLTGGTSKIPGFAERLQKELTSLAPSIWKVSVIPPPDPSLDAWLGASILASLETFQQLWITKEEYEEHGPDILQEKRF</Hsp_hseq>
+      <Hsp_midline>GI+ NWD ME+IW +TF+N  +L  +PEEHP+LLTE PLNP +NREK+T+++FET N PA+Y+AIQAVLSLYASG +  TG+V+DSGD VTH +P+ +G  LP A+ R+D+ GRD+TDYL K+L E     RGY+  +       EIV +IKE++C       YV+LD                 E     +  +S  ++S ELPDG+ I  GN ERF+ PE LF+P                               LG +  G+ E  + SI  CD D+RK LY+N VL+GGT+  PG A+R+QKE+T+LAPS  K+ +I PP+     W+G SILASL TFQQ+WI+K+EY+E GP I+  K F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>93</Statistics_hsp-len>
+      <Statistics_eff-space>784439909</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

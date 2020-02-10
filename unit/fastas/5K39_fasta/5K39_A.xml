@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>167</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>167</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|260084</Hit_id>
+  <Hit_def>cd08547, Type_II_cohesin, Type II cohesin domain, interaction partner of dockerin.  Bacterial cohesin domains bind to a complementary protein domain named dockerin, and this interaction is required for the formation of the cellulosome, a cellulose-degrading complex. The cellulosome consists of scaffoldin, a noncatalytic scaffolding polypeptide, that comprises repeating cohesion modules and a single carbohydrate-binding module (CBM). Specific calcium-dependent interactions between cohesins and dockerins appear to be essential for cellulosome assembly. This subfamily represents type II cohesins; their interactions with dockerin mediate attachment of the cellulosome complex to the bacterial cell wall.</Hit_def>
+  <Hit_accession>260084</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>6.16119e-06</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>160</Hsp_align-len>
+      <Hsp_qseq>AHIALELDKTKVKVGDVIVATVKAKNMTSMAGIQVNIKYDPEVLQAIDPATGKPFTKETLLVDPELLSNREYNPLLTAVNDINSGIINYASCYVYWDSYRESGVSESTGIIGKVGFKVLKAANTTVKLEETRFTPNSIDGTLVIDWYGQQIVGYKVIQPD</Hsp_qseq>
+      <Hsp_hseq>ASVSLSAPETDVKVGETFTVTVKVNNATNLAGYDFTLSYDPSVLEFVS------VTTGSLSGGGGVIANEDAPP---------------GTVRVAGSSTGGAGGVSGSGTLATLTFKAKAAGTSTISLTDSNTTLSDADGSTIPTFVGG---GLEVVQPE</Hsp_hseq>
+      <Hsp_midline>A ++L   +T VKVG+    TVK  N T++AG    + YDP VL+ +        T  +L     +++N +  P                +  V   S   +G    +G +  + FK   A  +T+ L ++  T +  DG+ +  + G    G +V+QP+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|307214</Hit_id>
+  <Hit_def>pfam00963, Cohesin, Cohesin domain.  Cohesin domains interact with a complementary domain, termed the dockerin domain. The cohesin-dockerin interaction is the crucial interaction for complex formation in the cellulosome.</Hit_def>
+  <Hit_accession>307214</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>3.73179e-05</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>123</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>IALELDKTKVKVGDVIVATVKAKNM--TSMAGIQVNIKYDPEVLQAIDPATGKPFTKETLLVDPELLSNREYNPLLTAVNDINSGIINYASCYVYWDSYRESGVSESTGIIGKVGFKVLKAANTTVKLEETRFTPNSIDGTLVID</Hsp_qseq>
+      <Hsp_hseq>VTVKIGKVSGAPGDTVTVPVTVKNVPKKGVAGAQFTISYDPSVLEVVS------VTPGSIVVQ----SNPNVN--FSANIDENNGKISF---LFLDDTYGSSGIAKD-GVFATITFKVKSAAATGTT------TPVSISGLFVFD</Hsp_hseq>
+      <Hsp_midline>+ +++ K     GD +   V  KN+    +AG Q  I YDP VL+ +        T  +++V     SN   N   +A  D N+G I++       D+Y  SG+++  G+   + FKV  AA T         TP SI G  V D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>86</Statistics_hsp-len>
+      <Statistics_eff-space>320732541</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>72</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>72</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|214563</Hit_id>
+  <Hit_def>smart00213, UBQ, Ubiquitin homologues.  Ubiquitin-mediated proteolysis is involved in the regulated turnover of proteins required for controlling cell cycle progression.</Hit_def>
+  <Hit_accession>214563</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.9005</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>1.60761e-28</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>IELTVKTLDGKTITLEVKPSDTVSELKEKIAELTGIPPEQQRLIYKGKVLEDDRTLADYGIQDGSTIHLVLR</Hsp_hseq>
+      <Hsp_midline>+++ VKTL GKTITLEV+PSDT+  +K KI +  GIPP+QQRLI+ GK LED RTL+DY IQ  ST+HLVLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|333953</Hit_id>
+  <Hit_def>pfam00240, ubiquitin, Ubiquitin family.  This family contains a number of ubiquitin-like proteins: SUMO (smt3 homolog), Nedd8, Elongin B, Rub1, and Parkin. A number of them are thought to carry a distinctive five-residue motif termed the proteasome-interacting motif (PIM), which may have a biologically significant role in protein delivery to proteasomes and recruitment of proteasomes to transcription sites.</Hit_def>
+  <Hit_accession>333953</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>2.56403e-28</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>FVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>FVKTLDGKSITLEVKPTDTVLQLKEKIADREGVPPDQQRLIYKGKVLEDDQTLGEYGIEDGSTIHLVLR</Hsp_hseq>
+      <Hsp_midline>FVKTL GK+ITLEV+P+DT+  +K KI D+EG+PPDQQRLI+ GK LED +TL +Y I+  ST+HLVLR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|319244</Hit_id>
+  <Hit_def>COG5272, UBI4, UBI4; linked to 3D-structure.</Hit_def>
+  <Hit_accession>319244</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>8.42181e-28</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>IFVKTL-TGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>IFLKTLWTGKEIVIEDTESDTILNFKEKIQQKEGIPPSQQRLIFSGKVLEDDKTLKDYNIQDESVLHLVLK</Hsp_hseq>
+      <Hsp_midline>IF+KTL TGK I +E   SDTI N K KIQ KEGIPP QQRLIF+GK LED +TL DYNIQ ES LHLVL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gnl|CDD|340559</Hit_id>
+  <Hit_def>cd17039, Ubl_ubiquitin_like, ubiquitin-like (Ubl) domain found in ubiquitin and ubiquitin-like Ubl proteins.  Ubiquitin-like (Ubl) proteins have a similar ubiquitin (Ub) beta-grasp fold and attach to other proteins in a Ubl manner but with biochemically distinct roles. Ub and Ubl proteins conjugate and deconjugate via ligases and peptidases to covalently modify target polypeptides. Some Ubl domains have adaptor roles in Ub-signaling by mediating protein-protein interaction. Prokaryotic sulfur carrier proteins are Ub-related proteins that can be activated in an ATP-dependent manner. Polyubiquitination signals for a diverse set of cellular events via different isopeptide linkages formed between the C terminus of one ubiquitin (Ub) and the epsilon-amine of K6, K11, K27, K29, K33, K48, or K63 of a second Ub. One of these seven lysine residues (K27, Ub numbering) is conserved in this Ubl_ubiquitin_like family.  K27-linked Ub chains are versatile and can be recognized by several downstream receptor proteins. K27 has roles beyond chain linkage, such as in Ubl NEDD8 (which contains many of the same lysines (K6, K11, K27, K33, K48) as Ub) where K27 has a role (other than conjugation) in the mechanism of protein neddylation.</Hit_def>
+  <Hit_accession>340559</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>2.71704e-24</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>IFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>ITVKTLDGKTYTVEVDPDDTVADLKEKIEEKTGIPVEQQRLIYNGKELKDDKTLSDYGIKDGSTIHLV</Hsp_hseq>
+      <Hsp_midline>I VKTL GKT T+EV+P DT+ ++K KI++K GIP +QQRLI+ GK+L+D +TLSDY I+  ST+HLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gnl|CDD|340500</Hit_id>
+  <Hit_def>cd01802, Ubl_ZFAND4, ubiquitin-like (Ubl) domain found in AN1-type zinc finger protein 4 (ZFAND4) and similar proteins.  ZFAND4, also termed AN1-type zinc finger and ubiquitin domain-containing protein-like 1 (ANUBL1), may function as an oncogene that promotes proliferation and regulates relevant tumor suppressor genes in gastric cancer, suggesting a role in gastric cancer initiation and progression. ZFAND4contains an N-terminal ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions, as well as a C-terminal AN1-type zinc finger. Unlike ubiquitin polyproteins and most ubiquitin fusion proteins, the N-terminal Ubl domain of ZFAND4 does not undergo proteolytic processing.</Hit_def>
+  <Hit_accession>340500</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.8777</Hsp_bit-score>
+      <Hsp_score>198</Hsp_score>
+      <Hsp_evalue>1.70408e-22</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>MELFIETLTGTAFELRVSPFETVASVKAKIQRLEGIPVSQQHLIWSGRELEDDYCLHDYNITDGSTLKLVL</Hsp_hseq>
+      <Hsp_midline>M++F++TLTG    L V P +T+ +VKAKIQ  EGIP  QQ LI++G++LED   L DYNI   STL LVL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gnl|CDD|340523</Hit_id>
+  <Hit_def>cd16106, Ubl_Dsk2p_like, ubiquitin-like (Ubl) domain found in Saccharomyces cerevisiae proteasome interacting protein Dsk2p and similar proteins.  The family contains several fungal multiubiquitin receptors, including Saccharomyces cerevisiae Dsk2p and Schizosaccharomyces pombe Dph1p, both of which have been characterized as shuttle proteins transporting ubiquitinated substrates destined for degradation from the E3 ligase to the 26S proteasome. They interact with the proteasome through their N-terminal ubiquitin-like domain (Ubl) and with ubiquitin (Ub) through their C-terminal Ub-associated domain (UBA). S. cerevisiae Dsk2p is a nuclear-enriched protein that may involve in the ubiquitin-proteasome proteolytic pathway through interacting with K48-linked polyubiquitin and the proteasome. Moreover, it has been implicated in spindle pole duplication through assisting in Cdc31 assembly into the new spindle pole body (SPB). S. pombe Dph1p is an ubiquitin (Ub0 receptor working in concert with the class V myosin, Myo52, to target the degradation of the S. pombe CLIP-170 homolog, Tip1. It also can protect Ub chains against disassembly by deubiquitinating enzymes.</Hit_def>
+  <Hit_accession>340523</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.4698</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>1.77299e-16</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>IKVTVKCSNGKKFTVEVEPDATVLELKELIAEKSDIPAEQQRLIYKGKILKDEETLSSYKIQDGHTVHLV</Hsp_hseq>
+      <Hsp_midline>+++ VK   GK  T+EVEP  T+  +K  I +K  IP +QQRLI+ GK L+D  TLS Y IQ   T+HLV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gnl|CDD|340573</Hit_id>
+  <Hit_def>cd17053, Ubl2_FAT10, ubiquitin-like (Ubl) domain 2 found in leukocyte antigen F (HLA-F) adjacent transcript 10 (FAT10) and similar proteins.  FAT10, also termed ubiquitin D (UBD), or diubiquitin, is a cytokine-inducible ubiquitin-like (Ubl) modifer that is highly expressed in the thymus, and targets substrates covalently for 26S proteasomal degradation. It is also associated with cancer development, antigen processing and antimicrobial defense, chromosomal stability and cell cycle regulation. FAT10 is presented on immune cells and under the inflammatory conditions, is synergistically induced by interferon gamma (IFNgamma) and tumor necrosis factor (TNFalpha) in the non-immune (liver parenchymal) cells. FAT10 contains two Ubl domains. The family corresponds to the second Ubl domain of FAT10. Some family members contain only one Ubl domain.</Hit_def>
+  <Hit_accession>340573</Hit_accession>
+  <Hit_len>71</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>3.58921e-16</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDG-RTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>KLLTGTVHTLQVSRSTTVAQVKAMIEDQSGVPPNEQILVYNGKRLEDGDKTLGEYGIKTGDTLYLL</Hsp_hseq>
+      <Hsp_midline>K LTG   TL+V  S T+  VKA I+D+ G+PP++Q L++ GK+LEDG +TL +Y I+   TL+L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gnl|CDD|340503</Hit_id>
+  <Hit_def>cd01805, Ubl_Rad23, ubiquitin-like (Ubl) domain found in the Rad23 protein family.  The Rad23 family includes the yeast nucleotide excision repair (NER) proteins, Rad23p (in Saccharomyces cerevisiae) and Rhp23p (in Schizosaccharomyces pombe), their mammalian orthologs HR23A and HR23B, and putative DNA repair proteins from plants. Rad23 proteins play dual roles in DNA repair as well as in proteosomal degradation. They have affinity for both the proteasome and ubiquitinylated proteins and participate in translocating polyubiquitinated proteins to the proteasome. Rad23 proteins carry an ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, and two ubiquitin-associated (UBA) domains, as well as a xeroderma pigmentosum group C (XPC) protein-binding domain. The Ubl domain is responsible for the binding to proteasome. The UBA domains are important for binding of ubiquitin (Ub) or multi-ubiquitinated substrates, which suggests Rad23 proteins might be involved in certain pathways of Ub metabolism. Both the Ubl domain and the XPC-binding domain are necessary for efficient NER function of Rad23 proteins.</Hit_def>
+  <Hit_accession>340503</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.8474</Hsp_bit-score>
+      <Hsp_score>146</Hsp_score>
+      <Hsp_evalue>1.30375e-14</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEG-IPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>MKITFKTLQQQTFEIEVEPSDTVLELKEKIEQEQGDFPASGQKLIYSGKVLKDDKTLSEYNI-KEKDFVVVM</Hsp_hseq>
+      <Hsp_midline>M+I  KTL  +T  +EVEPSDT+  +K KI+ ++G  P   Q+LI++GK L+D +TLS+YNI KE    +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gnl|CDD|340496</Hit_id>
+  <Hit_def>cd01798, Ubl_parkin, ubiquitin-like (Ubl) domain found in parkin and similar proteins.  Parkin, also termed Parkinson juvenile disease protein 2, is a RBR-type E3 ubiquitin-protein ligase that is associated with recessive early onset Parkinson&apos;s disease (PD), and exerts a protective effect against dopamine-induced alpha-synuclein-dependent cell toxicity. Mutations in the parkin gene cause autosomal recessive juvenile parkinsonism. Parkin functions within a multiprotein E3 ubiquitin ligase complex, catalyzing the covalent attachment of ubiquitin moieties onto substrate proteins, such as BCL2, SYT11, CCNE1, GPR37, RHOT1/MIRO1, MFN1, MFN2, STUB1, SNCAIP, SEPT5, TOMM20, USP30, ZNF746 and AIMP2. It mediates monoubiquitination as well as Lys-6-, Lys-11-, Lys-48- and Lys-63-linked polyubiquitination of substrates depending on the context. Parkin may enhance cell viability and protects dopaminergic neurons from oxidative stress-mediated death by regulating mitochondrial function. It also limits the production of reactive oxygen species (ROS), and regulates cyclin-E during neuronal apoptosis. Moreover, parkin displays a ubiquitin ligase-independent function in transcriptional repression of p53. Parkin contains an N-terminal ubiquitin-like (Ubl) domain and a C-terminal RBR domain that was previously known as RING-BetweenRING-RING domain or TRIAD [two RING fingers and a DRIL (double RING finger linked)] domain. Based on current understanding of the structural biology of RBR ligases, the nomenclature of RBR has been corrected as RING-BRcat (benign-catalytic)-Rcat (required-for-catalysis) recently. The RBR (RING1-BRcat-Rcat) domain use an auto-inhibitory mechanism to modulate ubiquitination activity, as well as a hybrid mechanism that combines aspects from both RING and HECT E3 ligase function to facilitate the ubiquitination reaction.</Hit_def>
+  <Hit_accession>340496</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.21268e-11</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>IFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>VFVRFNSSHGFPVEVDSDWSILQLKEVVAKRQGVPPDQLRIIFAGKELSDDLTLQNCDLGQQSIVHAV</Hsp_hseq>
+      <Hsp_midline>+FV+  +     +EV+   +I  +K  +  ++G+PPDQ R+IFAGK+L D  TL + ++ ++S +H V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gnl|CDD|340520</Hit_id>
+  <Hit_def>cd16103, Ubl2_OASL, ubiquitin-like (Ubl) domain 2 found in 2&apos;-5&apos;-oligoadenylate synthase-like protein (OASL) and similar proteins.  OASL, also termed 2&apos;-5&apos;-OAS-related protein (2&apos;-5&apos;-OAS-RP), or 59 kDa 2&apos;-5&apos;-oligoadenylate synthase-like protein, or thyroid receptor-interacting protein 14, or TR-interacting protein 14 (TRIP-14), or p59 OASL (p59OASL), is an interferon (IFN)-induced antiviral protein that plays an important role in the IFNs-mediated antiviral signaling pathway. It inhibits respiratory syncytial virus replication and is targeted by the viral nonstructural protein 1 (NS1). It also displays antiviral activity against encephalomyocarditis virus (EMCV) and hepatitis C virus (HCV) via an alternative antiviral pathway independent of RNase L. Moreover, OASL does not have 2&apos;-5&apos;-OAS activity, but can bind double-stranded RNA (dsRNA) to enhance RIG-I signaling. OASL belongs to the 2&apos;-5&apos; oligoadenylate synthase (OAS) family. While each member of this family has a conserved N-terminal OAS catalytic domain, only OASL has two tandem C-terminal ubiquitin-like (Ubl) repeats, which are required for its antiviral activity. This family corresponds to the second Ubl domain.</Hit_def>
+  <Hit_accession>340520</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>4.4797e-11</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>71</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>IQIFVKFPDGTSKPYAINPEDTILDLKEKIEEQGGPPVEDQILLFQGQELRDKKSLKYYGIKDGDTLQLSL</Hsp_hseq>
+      <Hsp_midline>+QIFVK   G +    + P DTI ++K KI+++ G P + Q L+F G++L D ++L  Y I+   TL L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gnl|CDD|340509</Hit_id>
+  <Hit_def>cd01811, Ubl1_OASL, ubiquitin-like (Ubl) domain 1 found in 2&apos;-5&apos;-oligoadenylate synthase-like protein (OASL) and similar proteins.  OASL, also termed 2&apos;-5&apos;-OAS-related protein (2&apos;-5&apos;-OAS-RP), or 59 kDa 2&apos;-5&apos;-oligoadenylate synthase-like protein, or thyroid receptor-interacting protein 14, or TR-interacting protein 14 (TRIP-14), or p59 OASL (p59OASL), is an interferon (IFN)-induced antiviral protein that plays an important role in the IFNs-mediated antiviral signaling pathway. It inhibits respiratory syncytial virus replication and is targeted by the viral nonstructural protein 1 (NS1). It also displays antiviral activity against encephalomyocarditis virus (EMCV) and hepatitis C virus (HCV) via an alternative antiviral pathway independent of RNase L. Moreover, OASL does not have 2&apos;-5&apos;-OAS activity, but can bind double-stranded RNA (dsRNA) to enhance RIG-I signaling. OASL belongs to the 2&apos;-5&apos; oligoadenylate synthase (OAS) family. While each member of this family has a conserved N-terminal OAS catalytic domain, only OASL has two tandem C-terminal ubiquitin-like (Ubl) repeats, which is required for its antiviral activity. This family corresponds to the first Ubl domain.</Hit_def>
+  <Hit_accession>340509</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>7.74827e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>75</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF---AGKQ--LEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>IQVTVKQLGGKSLTLWVNPYDPIWQLKEEIEKEWCIPIYQQRLSFQEPGGERQVLRNDKTLADYGIFYDTTILLL</Hsp_hseq>
+      <Hsp_midline>+Q+ VK L GK++TL V P D I  +K +I+ +  IP  QQRL F    G++  L + +TL+DY I  ++T+ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gnl|CDD|314795</Hit_id>
+  <Hit_def>pfam11976, Rad60-SLD, Ubiquitin-2 like Rad60 SUMO-like.  The small ubiquitin-related modifier SUMO-1 is a Ub/Ubl family member, and although SUMO-1 shares structural similarity to Ub, SUMO&apos;s cellular functions remain distinct insomuch as SUMO modification alters protein function through changes in activity, cellular localization, or by protecting substrates from ubiquitination. Rad60 family members contain functionally enigmatic, integral SUMO-like domains (SLDs). Despite their divergence from SUMO, each Rad60 SLD interacts with a subset of SUMO pathway enzymes: SLD2 specifically binds the SUMO E2 conjugating enzyme (Ubc9)), whereas SLD1 binds the SUMO E1 (Fub2, also called Uba2) activating and E3 (Pli1, also called Siz1 and Siz2) specificity enzymes. Structural analysis of Structure 2uyz reveals a mechanistic basis for the near-synonymous roles of Rad60 and SUMO in survival of genotoxic stress and suggest unprecedented DNA-damage-response functions for SLDs in regulating SUMOylation. The Rad60 branch of this family is also known as RENi (Rad60-Esc2-Nip45), and biologically it should be two distinct families SUMO and RENi (Rad60-Esc2-Nip45).</Hit_def>
+  <Hit_accession>314795</Hit_accession>
+  <Hit_len>72</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>9.60823e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQ-RLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>INIILKGKDGKEVFIKVKPTTTVSKLINAYRKKRGIPPSQQVRLIFDGERLDPNSTVADLDIEDGDTIDVVI</Hsp_hseq>
+      <Hsp_midline>+ I +K   GK + ++V+P+ T+  +    + K GIPP QQ RLIF G++L+   T++D +I+   T+ +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gnl|CDD|340491</Hit_id>
+  <Hit_def>cd01793, Ubl_FUBI, ubiquitin-like (Ubl) domain found in ubiquitin-like protein FUBI and similar proteins.  FUBI is a pro-apoptotic regulatory gene FAU encoding ubiquitin-like protein with ribosomal protein S30 as a C-terminal extension. FUBI functions as a tumor suppressor protein that may be involved in the ATP-dependent proteolytic activity of ubiquitin. The N-terminal ubiquitin-like (Ubl) domain of FUBI has the beta-grasp Ubl fold, and it may act as a substitute or an inhibitor of ubiquitin or one of ubiquitin&apos;s close relatives UCRP, FAT10, and Nedd8.</Hit_def>
+  <Hit_accession>340491</Hit_accession>
+  <Hit_len>74</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>4.42441e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>70</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>MQLFVRAQSLHT--LEVSGNETVADIKAHIAALEGIAVEDQVLLYAGAPLEDDVVLGQCGIPDLATLEVAVR</Hsp_hseq>
+      <Hsp_midline>MQ+FV+  +  T  LEV  ++T+ ++KA I   EGI  + Q L++AG  LED   L    I   +TL + +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gnl|CDD|340492</Hit_id>
+  <Hit_def>cd01794, Ubl_UBTD, ubiquitin-like (Ubl) domain found in ubiquitin domain-containing proteins UBTD1, UBTD2, and similar proteins.  This family represents a group of ubiquitin-like (Ubl) domain-containing proteins evolutionarily conserved and found in metazoa, fungi, and plants. They may regulate the activity and/or specificity of E2 ubiquitin conjugating enzymes belonging to the UBE2D family. Members in this family contain an N-terminal ubiquitin binding domain (UBD) and a C-terminal Ubl domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions.</Hit_def>
+  <Hit_accession>340492</Hit_accession>
+  <Hit_len>69</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>5.60546e-09</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>TGKDLKLSVRSTDTVLQAKRRLQALEGIEPSRQRWFFSGKLLTDKTRIEDAKIPKGFVVQVIV</Hsp_hseq>
+      <Hsp_midline>TGK + L V  +DT+   K ++Q  EGI P +QR  F+GK L D   + D  I K   + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gnl|CDD|340450</Hit_id>
+  <Hit_def>cd00196, Ubiquitin_like_fold, Beta-grasp ubiquitin-like fold.  Ubiquitin is a protein modifier that is involved in various cellular processes including transcriptional regulation, cell cycle control, and DNA repair in eukaryotes. The ubiquitination process comprises a cascade of E1, E2 and E3 enzymes that results in a covalent bond between the C-terminus of ubiquitin and the epsilon-amino group of a substrate lysine. Ubiquitin-like proteins have similar ubiquitin beta-grasp fold and attach to other proteins in a ubiquitin-like manner but with biochemically distinct roles. Ubiquitin and ubiquitin-like proteins conjugate and deconjugate via ligases and peptidases to covalently modify target polypeptides. Some other ubiquitin-like domains have adaptor roles in ubiquitin-signaling by mediating protein-protein interaction. In addition to Ubiquitin-like (Ubl) domain, Ras-associating (RA) domain,  F0/F1 sub-domain of FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, TGS (ThrRS, GTPase and SpoT) domain, Ras-binding domain (RBD),  Ubiquitin regulatory domain X (UBX), Dublecortin-like domain, and RING finger- and WD40-associated ubiquitin-like (RAWUL) domain have beta-grasp ubiquitin-like folds, and are included in this superfamily.</Hit_def>
+  <Hit_accession>340450</Hit_accession>
+  <Hit_len>68</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>3.41983e-08</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>VETPSLKKIVVAVPPSTTLRQVLEKVAKRIGLPPDVIRLLFNGQVLDDLMTAKQVGLEPGEELHFV</Hsp_hseq>
+      <Hsp_midline>V+T + K I + V PS T+  V  K+  + G+PPD  RL+F G+ L+D  T     ++    LH V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gnl|CDD|340581</Hit_id>
+  <Hit_def>cd17061, Ubl_IQUB, ubiquitin-like (Ubl) domain found in IQ and ubiquitin-like domain-containing protein (IQUB) and similar proteins.  IQUB is an IQ motif and ubiquitin domain-containing protein that may play roles in cilia formation and/or maintenance. It contains a conserved ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions.</Hit_def>
+  <Hit_accession>340581</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.9726</Hsp_bit-score>
+      <Hsp_score>97</Hsp_score>
+      <Hsp_evalue>4.48148e-07</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>72</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>FVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL</Hsp_qseq>
+      <Hsp_hseq>FVLMPSGQVITLAFTLGQTIGELKEHFSSELKIPPDVLQIMFDGKLVEDNTTLVDLGVRPNGTIQL</Hsp_hseq>
+      <Hsp_midline>FV   +G+ ITL      TI  +K     +  IPPD  +++F GK +ED  TL D  ++   T+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gnl|CDD|340506</Hit_id>
+  <Hit_def>cd01808, Ubl_PLICs, ubiquitin-like (Ubl) domain found in eukaryotic protein linking integrin-associated protein (IAP, also known as CD47) with cytoskeleton (PLIC) proteins.  The PLIC proteins (or ubiquilins) family contains human homologs of the yeast ubiquitin-like (Ubl) Dsk2 protein, PLIC-1 (also termed ubiquilin-1), PLIC-2 (also termed ubiquilin-2, or Chap1), PLIC-3 (also termed ubiquilin-3) and PLIC-4 (also termed ubiquilin-4, ataxin-1 interacting ubiquitin-like protein, A1Up, connexin43-interacting protein of 75 kDa, or CIP75), and mouse PLIC proteins. They are ubiquitin (Ub)-binding adaptor proteins involved in all protein degradation pathways through delivering ubiquitinated substrates to proteasomes. They also promote autophagy-dependent cell survival during nutrient starvation. PLIC-1 regulates the function of the thrombospondin receptor CD47 and G protein signaling. It plays a role in TLR4-mediated signaling through interacting with the Toll/interleukin-1 receptor (TIR) domain of TLR4. It also inhibits the TLR3-Trif antiviral pathway by reducing the abundance of Trif. Moreover, PLIC-1 binds to gamma-aminobutyric acid receptors (GABAARs) and modulates the Ub-dependent, proteasomal degradation of GABAARs. Furthermore, PLIC-1 acts as a molecular chaperone regulating amyloid precursor protein (APP) biosynthesis, trafficking, and degradation by stimulating K63-linked polyubiquitination of lysine 688 in the APP intracellular domain. In addition, PLIC-1 is involved in the protein aggregation-stress pathway via associating with the Ub-interacting motif (UIM) proteins ataxin 3, HSJ1a, and epidermal growth factor substrate 15 (EPS15). PLIC-2 is a protein that binds the ATPase domain of the HSP70-like Stch protein. It functions as a negative regulator of G protein-coupled receptor (GPCR) endocytosis. It also involved in amyotrophic lateral sclerosis (ALS)-related dementia. PLIC-3 is encoded by UbiquilinN3, a testis-specific gene. It shows high sequence similarity with the Xenopus protein XDRP1, a nuclear phosphoprotein that binds to the N-terminus of cyclin A and inhibits Ca2+-induced degradation of cyclin A, but not cyclin B. PLIC-4 is an ubiquitin-like (Ubl) nuclear protein that interacts with ataxin-1 and further links ataxin-1 with the chaperone and Ub-proteasome pathways. It also binds to the non-ubiquitinated gap junction protein connexin43 (Cx43) and regulates the turnover of Cx43 through the proteasomal pathway. PLIC proteins contain an N-terminal Ubl domain that is responsible for the binding of Ub-interacting motifs (UIMs) expressed by proteasomes and endocytic adaptors, and C-terminal Ub-associated (UBA) domain that interacts with Ub chains present on proteins destined for proteasomal degradation. In addition, mammalian PLIC2 proteins have an extra collagen-like motif region, which is absent in other PLIC proteins and the yeast Dsk2 protein.</Hit_def>
+  <Hit_accession>340506</Hit_accession>
+  <Hit_len>73</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>1.46981e-06</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>LEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>FEVPEDSSVKEFKEEISKKFKAPVEQLVLIFAGKILKDQDTLSQHGIKDGLTVHLVIK</Hsp_hseq>
+      <Hsp_midline> EV    +++  K +I  K   P +Q  LIFAGK L+D  TLS + I+   T+HLV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gnl|CDD|340570</Hit_id>
+  <Hit_def>cd17050, Ubl1_ANKUB1, ubiquitin-like (Ubl) domain 1 found in Ankyrin repeat and ubiquitin domain-containing 1 (ANKUB1) and similar proteins.  ANKUB1 is an uncharacterized protein with two tandem ubiquitin-like (Ubl) domains located at the N-terminal of Ankyrin repeats (ANK). The Ubl domain may have an adaptor role in ubiquitin (Ub)-signaling by mediating protein-protein interaction. Ubl proteins have a beta-grasp Ubl fold and attach to other proteins in a Ubl manner with biochemically distinct roles. The ankyrin repeats have been identified in numerous proteins with diverse functions. The family corresponds to the first Ubl domain.</Hit_def>
+  <Hit_accession>340570</Hit_accession>
+  <Hit_len>79</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>3.35957e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>78</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>79</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQR-------LIFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>MRIFV-AFEGEREPLDVSPGQTVGDVKEMIRDKFHIDLSDGKQGRKFLVLTYAGADLQDSWVLSDIGIPPGSTIRCLLR</Hsp_hseq>
+      <Hsp_midline>M+IFV    G+   L+V P  T+ +VK  I+DK  I     +       L +AG  L+D   LSD  I   ST+  +LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gnl|CDD|340498</Hit_id>
+  <Hit_def>cd01800, Ubl_SF3a120, ubiquitin-like (Ubl) domain found in splicing factor 3A 120kDa subunit (SF3a120) and similar proteins.  Mammalian splicing factor SF3a consists of three subunits of 60, 66, and 120 kDa and functions early during pre-mRNA splicing by converting the U2 snRNP to its active form. The 120kDa subunit SF3a120, also termed splicing factor 3A subunit 1 (SF3A1), or spliceosome-associated protein 114 (SAP114), is the U2 snRNP-specific protein that is critical for spliceosome assembly and normal splicing events. During splicing, SF3a120, together with the U2 snRNP and other proteins, are recruited to the 3&apos; splicing site to generate the splicing complex A after the recognition of the 3&apos; splicing site. SF3a120 contains two N-terminal SWAP (suppressor-of-white-apricot) domains, referred to collectively as the SURP module, as well as a C-terminal ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions.</Hit_def>
+  <Hit_accession>340498</Hit_accession>
+  <Hit_len>84</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>5.83359e-06</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>72</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>84</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRL-IFAGKQLEDGRTLSDYNIQKESTLHLVLR</Hsp_qseq>
+      <Hsp_hseq>LNGQVLELTLPLTDTISVLKEKIHEELGMPANKQKLQVEGGGFLKDSNSLAFYNLGSGTVLTLSLK</Hsp_hseq>
+      <Hsp_midline>L G+ + L +  +DTI  +K KI ++ G+P ++Q+L +  G  L+D  +L+ YN+   + L L L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gnl|CDD|340502</Hit_id>
+  <Hit_def>cd01804, Ubl_midnolin, ubiquitin-like (Ubl) domain found in midnolin and similar proteins.  Midnolin, also termed midbrain nucleolar protein, is a nucleolar protein that may be involved in regulation of genes related to neurogenesis in the nucleolus. It is strongly expressed at the mesencephalon (midbrain) of the embryo in day 12.5 (E12.5) mice and its expression is developmentally regulated. Midnolin plays a role in cellular signaling of adult tissues and regulates glucokinase enzyme activity in pancreatic beta cells. It can also control development via regulation of mRNA transport in cells. Midnolin contains an N-terminal conserved ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions.</Hit_def>
+  <Hit_accession>340502</Hit_accession>
+  <Hit_len>70</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>6.04083e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>70</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>69</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>70</Hsp_align-len>
+      <Hsp_qseq>MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLV</Hsp_qseq>
+      <Hsp_hseq>INLYIHPTTGGRFELSVPPNETVEGLKRRISKKLKVPKERITLLHKEKQLKDG-TLRENGIGDGSKLTLL</Hsp_hseq>
+      <Hsp_midline>+ +++   TG    L V P++T+E +K +I  K  +P ++  L+   KQL+DG TL +  I   S L L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gnl|CDD|340497</Hit_id>
+  <Hit_def>cd01799, Ubl_HOIL1, ubiquitin-like (Ubl) domain found in heme-oxidized IRP2 ubiquitin ligase 1 (HOIL-1) and similar proteins.  HOIL-1, also termed RBCK1, or HOIL-1L, or RanBP-type and C3HC4-type zinc finger-containing protein 1, HBV-associated factor 4, or Hepatitis B virus X-associated protein 4, or RING finger protein 54 (RNF54), or ubiquitin-conjugating enzyme 7-interacting protein 3, or UbcM4-interacting protein 28 (UIP28), together with E3 ubiquitin-protein ligase RNF31 (also known as HOIP) and SHANK-associated RH domain interacting protein (SHARPIN), forms the E3-ligase complex (also known as linear-ubiquitin-chain assembly complex LUBAC) that regulates NF-kappaB activity and apoptosis through conjugation of linear polyubiquitin chains to NF-kappaB essential modulator (also known as NEMO or IKBKG). HOIL-1 plays a crucial role in TNF-alpha-mediated NF-kappaB activation. It also functions as an ubiquitin-protein ligase E3 that interacts with not only PKCbeta but also PKCzeta. It can recognize heme-oxidized IRP2 (iron regulatory protein2) and is thought to affect the turnover of oxidatively damaged proteins. HOIL-1 contains an N-terminal ubiqutin-like (UBL) domain and an Npl4 zinc-finger (NZF) domain, which regulate the interaction with the LUBAC subunit RNF31 and ubiquitin, respectively. The NZF domain belongs to RanBP2-type zinc finger (zf-RanBP2) domain superfamily. In addition, HOIL-1 has a RBR domain that was previously known as RING-BetweenRING-RING domain or TRIAD [two RING fingers and a DRIL (double RING finger linked)] domain. Based on current understanding of the structural biology of RBR ligases, the nomenclature of RBR has been corrected as RING-BRcat (benign-catalytic)-Rcat (required-for-catalysis) recently. The RBR (RING1-BRcat-Rcat) domain use an auto-inhibitory mechanism to modulate ubiquitination activity, as well as a hybrid mechanism that combines aspects from both RING and HECT E3 ligase function to facilitate the ubiquitination reaction.</Hit_def>
+  <Hit_accession>340497</Hit_accession>
+  <Hit_len>81</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.5058</Hsp_bit-score>
+      <Hsp_score>88</Hsp_score>
+      <Hsp_evalue>1.04095e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>62</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>MQIFV--KTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQ</Hsp_qseq>
+      <Hsp_hseq>IKVYVEDKSSSSGPITLKVRPHTTIASLKRQIFLEYGFPPSVQRWIIGKRLATDDETLLSYGIK</Hsp_hseq>
+      <Hsp_midline>++++V  K+ +   ITL+V P  TI ++K +I  + G PP  QR I   +   D  TL  Y I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gnl|CDD|340582</Hit_id>
+  <Hit_def>cd17062, Ubl_NUB1, ubiquitin-like (Ubl) domain found in NEDD8 ultimate buster 1 (NUB1) and similar proteins.  NUB1, also termed negative regulator of ubiquitin-like proteins 1, or renal carcinoma antigen NY-REN-18, or protein BS4, is a NEDD8-interacting protein that can be induced by interferon. It functions as a strong post-transcriptional down-regulator of the NEDD8 expression and plays critical roles in regulating many biological events, such as cell growth, NF-kappaB signaling, and biological responses to hypoxia. NUB1 can also interact with aryl hydrocarbon receptor-interacting protein-like 1 (AIPL1), which may function in the regulation of cell cycle progression. NUB1 contains a conserved ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, three ubiquitin-associated domains (UBA), a bipartite nuclear localization signal (NLS) and a PEST motif.</Hit_def>
+  <Hit_accession>340582</Hit_accession>
+  <Hit_len>78</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>7.97338e-05</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>71</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>KTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVL</Hsp_qseq>
+      <Hsp_hseq>KKITLETSLDITGSELREKIAEELGVPEDRIKLISNGKVLKDEKTLAEQGVKNNSQVMVLV</Hsp_hseq>
+      <Hsp_midline>K ITLE     T   ++ KI ++ G+P D+ +LI  GK L+D +TL++  ++  S + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gnl|CDD|340499</Hit_id>
+  <Hit_def>cd01801, Ubl_TECR_like, ubiquitin-like (Ubl) domain found in trans-2,3-enoyl-CoA reductase (TECR) and similar proteins.  This family includes TECR and many TECR-like proteins, such as TECRL. TECR, also termed very-long-chain enoyl-CoA reductase, or synaptic glycoprotein SC2, or TER, or GPSN2, is a synaptic glycoprotein that catalyzes the fourth reaction in the synthesis of very long-chain fatty acids (VLCFA) which is the reduction step of the microsomal fatty acyl-elongation process. Diseases involving perturbations to normal synthesis and degradation of VLCFA (e.g. adrenoleukodystrophy and Zellweger syndrome) have significant neurological consequences. The mammalian TECR P182L mutation causes nonsyndromic mental retardation. Deletion of the yeast TECR (TSC13) homolog is lethal. TECR contains an N-terminal ubiquitin-like (Ubl) domain with a beta-grasp Ubl fold, a common structure involved in protein-protein interactions, as well as a C-terminal catalytic domain. TECRL, also termed steroid 5-alpha-reductase 2-like 2 protein (SRD5A2L2), is associated with life-threatening inherited arrhythmias displaying features of both long QT syndrome (LQTS) and catecholaminergic polymorphic ventricular tachycardia (CPVT). Both TECR and TECRL contain an N-terminal Ubl domain with a beta-grasp Ubl fold, and a C-terminal catalytic domain.</Hit_def>
+  <Hit_accession>340499</Hit_accession>
+  <Hit_len>77</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.000385361</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>69</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>74</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>ITLEVEPSDTIENVKAKIQDKEG-IPPDQQRL---IFAGKQLEDGRTLSDYNIQKESTLHL</Hsp_qseq>
+      <Hsp_hseq>ITLEVSSSATVADLKKAIHKKKKKLYPERQRLRLEVPKGKVLKDDKTLSSYGVKDGSTLYF</Hsp_hseq>
+      <Hsp_midline>ITLEV  S T+ ++K  I  K+  + P++QRL   +  GK L+D +TLS Y ++  STL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>41</Statistics_hsp-len>
+      <Statistics_eff-space>163874091</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

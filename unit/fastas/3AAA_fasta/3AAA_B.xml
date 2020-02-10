@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>B &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>250</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>B &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>250</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|307320</Hit_id>
+  <Hit_def>pfam01115, F_actin_cap_B, F-actin capping protein, beta subunit.  </Hit_def>
+  <Hit_accession>307320</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>371.703</Hsp_bit-score>
+      <Hsp_score>953</Hsp_score>
+      <Hsp_evalue>3.06379e-132</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>DLMRRLPPQQIEKNLSDLIDLVPSLCEDLLSSVDQPLKIARDKVVGKDYLLCDYNRDGDSYRSPWSNKYDPPLEDGAMPSARLRKLEVEANNAFDQYRDLYFEGGVSSVYLWDLDHGFAGVILIKKAGDGSKKIKGCWDSIHVVEVQEKSSGRTAHYKLTSTVMLWLQTNKTGSGTMNLGGSLTRQMEKDETVSDSSPHIANIGRLVEDMENKIRSTLNEIYFGKTKDI</Hsp_qseq>
+      <Hsp_hseq>DLLRRLPPKKIEKNLSNLIDLVPDLTDDLLSSVDQPLKIKRDKETGKEYLLCDYNRDGDSYRSPWSNKYDPPLEDGPVPSDRLRKLEIEANEAFDVYRELYYEGGVSSVYLWDLDDGFAGVVLIKKEGDGSSGIKGSWDSIHVFEVTERSGGRTAHYKLTSTVILSLKTNDESSGALNLSGSLTRQLEKDLPVPDLSSHIANIGRMVEDMENKMRNLLQEVYFGKTKDI</Hsp_hseq>
+      <Hsp_midline>DL+RRLPP++IEKNLS+LIDLVP L +DLLSSVDQPLKI RDK  GK+YLLCDYNRDGDSYRSPWSNKYDPPLEDG +PS RLRKLE+EAN AFD YR+LY+EGGVSSVYLWDLD GFAGV+LIKK GDGS  IKG WDSIHV EV E+S GRTAHYKLTSTV+L L+TN   SG +NL GSLTRQ+EKD  V D S HIANIGR+VEDMENK+R+ L E+YFGKTKDI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|307433</Hit_id>
+  <Hit_def>pfam01267, F-actin_cap_A, F-actin capping protein alpha subunit.  </Hit_def>
+  <Hit_accession>307433</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.0466</Hsp_bit-score>
+      <Hsp_score>92</Hsp_score>
+      <Hsp_evalue>0.000291669</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>240</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>ALDLMRRLPPQQIEKNLSDLIDLVPS---LCEDLLSSVDQPLK--IARDKVVGKDY--LLCDYNRDGDSY----RSPWSNKYDPPLEDGA-----MPSARLRKLEVEANNAFDQYRDLYFEGGVSSVYLWDLDHGFAGVILIKKAGDGSKKIKGCWDSIHVVEVQEKSSGRTAHYKLTSTVMLWLQTNKTGSGTMNLGGSLTRQMEKDETVSDSSPHIANIGRLVEDMENKIRSTLNEIYFGKTKDIVNGLR</Hsp_qseq>
+      <Hsp_hseq>ASSFILQAPPGEFNEVVNDLRALLGDDNLLQEGIAPALEQYNKEQFTPVKLPGSSHKVIISEYNKLGDGRYFDPRSKKSFKFDHLKQEASDVEPYEVESELEDLRKALDKALEKYVKEHYPSGACGVYPKTEEDGKLVICIVANKYNPKNFWNGRWRSEYTVD---PSSG-----TLTGSIKVQVHYYEDGNVQLNSSKEVSESL----SVSDPSQTASDIVKAIEEAENKYQTALNESYQTLSETTFKALR</Hsp_hseq>
+      <Hsp_midline>A   + + PP +  + ++DL  L+     L E +  +++Q  K      K+ G  +  ++ +YN+ GD      RS  S K+D   ++ +        + L  L    + A ++Y   ++  G   VY    + G   + ++    +      G W S + V+    SSG      LT ++ + +   + G+  +N    ++  +    +VSD S   ++I + +E+ ENK ++ LNE Y   ++     LR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>91</Statistics_hsp-len>
+      <Statistics_eff-space>606149499</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

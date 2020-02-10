@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>psiblast</BlastOutput_program>
+  <BlastOutput_version>PSIBLAST 2.9.0+</BlastOutput_version>
+  <BlastOutput_reference>Alejandro A. Sch&amp;auml;ffer, L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001), &quot;Improving the accuracy of PSI-BLAST protein database searches with composition-based statistics and other refinements&quot;, Nucleic Acids Res. 29:2994-3005.</BlastOutput_reference>
+  <BlastOutput_db>/home/oohnohnoh1/Desktop/ACADEMIA/Papermaking/OPTIMUS_BIND/PANDAS_TABLE/db/cdd_delta</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>A &lt;unknown description&gt;</BlastOutput_query-def>
+  <BlastOutput_query-len>597</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.0005</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>A &lt;unknown description&gt;</Iteration_query-def>
+  <Iteration_query-len>597</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gnl|CDD|307523</Hit_id>
+  <Hit_def>pfam01401, Peptidase_M2, Angiotensin-converting enzyme.  Members of this family are dipeptidyl carboxydipeptidases (cleave carboxyl dipeptides) and most notably convert angiotensin I to angiotensin II. Many members of this family contain a tandem duplication of the 600 amino acid peptidase domain, both of these are catalytically active. Most members are secreted membrane bound ectoenzymes.</Hit_def>
+  <Hit_accession>307523</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>621.313</Hsp_bit-score>
+      <Hsp_score>1601</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>584</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>310</Hsp_identity>
+      <Hsp_positive>396</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>585</Hsp_align-len>
+      <Hsp_qseq>TIEEQAKTFLDKFNHEAEDLFYQSSLASWNYNTNITEENVQNMNNAGDKWSAFLKEQSTLAQMYPLQEIQNLTVKLQLQALQQNGSSVLSEDKSKRLNTILNTMSTIYSTGKVCNPDNPQECLLLEPGLNEIMANSLDYNERLWAWESWRSEVGKQLRPLYEEYVVLKNEMARANHYEDYGDYWRGDYEVNGVDGYDYSRGQLIEDVEHTFEEIKPLYEHLHAYVRAKLMNAY-PSYISPIGCLPAHLLGDMWGRFWTNLYSLTVPFGQKPNIDVTDAMVDQAWDAQRIFKEAEKFFVSVGLPNMTQGFWENSMLTDPGNVQKAVCHPTAWDLGKG-DFRILMCTKVTMDDFLTAHHEMGHIQYDMAYAAQPFLLRNGANEGFHEAVGEIMSLSAATPKHLKSIGLLSPDFQEDNETEINFLLKQALTIVGTLPFTYMLEKWRWMVFKGEIPKDQWMKKWWEMKREIVGVVEPVPHDETYCDPASLFHVSNDYSFIRYYTRTLYQFQFQEALCQAAKHEGPLHKCDISNSTEAGQKLFNMLRLGKSEPWTLALENVVGAKNMNVRPLLNYFEPLFTWLKDQNKNS</Hsp_qseq>
+      <Hsp_hseq>TDEAEARKFLEDYNKEAEKVLNESTEASWNYNTNITDENRQLMLEASLELAEFTKESAKQAKQFDWSSFQDPDLKRQLKKLSVLGSAALPEEKLEELNTILSEMESIYSTAKVCLYNNPGPCLSLEPDLTEIMATSRDYDELLWAWEGWRDAVGKPLRPKYERYVELSNEAAKLNGFKDGGAYWRSWYESPTFE----------EDLERLYEQLKPLYLQLHAYVRRKLYEIYGPDVISLDGPIPAHLLGNMWAQSWSNIYDLVVPFPDKPNIDVTDAMKAQNYTAKKMFEEAEEFFTSLGLLPLPQEFWDKSMLEKPTDGREVVCHASAWDFYNGKDFRIKMCTQVTMEDFLTVHHEMGHIQYYLQYKDQPVLFREGANPGFHEAVGDVLALSVSTPKHLKSIGLLD-DVVEDEESDINFLLKQALDKIAFLPFGYLIDQWRWGVFSGEIPPDDYNKKWWELRLKYQGICPPVPRTEEDFDPGAKYHIPANVPYIRYFVSFILQFQFHKALCEAAGHTGPLHKCDIYGSKEAGAKLKEMLKLGSSKPWPEALEALTGQREMDASALLEYFEPLIDWLKEQNERN</Hsp_hseq>
+      <Hsp_midline>T E +A+ FL+ +N EAE +  +S+ ASWNYNTNIT+EN Q M  A  + + F KE +  A+ +     Q+  +K QL+ L   GS+ L E+K + LNTIL+ M +IYST KVC  +NP  CL LEP L EIMA S DY+E LWAWE WR  VGK LRP YE YV L NE A+ N ++D G YWR  YE    +          ED+E  +E++KPLY  LHAYVR KL   Y P  IS  G +PAHLLG+MW + W+N+Y L VPF  KPNIDVTDAM  Q + A+++F+EAE+FF S+GL  + Q FW+ SML  P + ++ VCH +AWD   G DFRI MCT+VTM+DFLT HHEMGHIQY + Y  QP L R GAN GFHEAVG++++LS +TPKHLKSIGLL  D  ED E++INFLLKQAL  +  LPF Y++++WRW VF GEIP D + KKWWE++ +  G+  PVP  E   DP + +H+  +  +IRY+   + QFQF +ALC+AA H GPLHKCDI  S EAG KL  ML+LG S+PW  ALE + G + M+   LL YFEPL  WLK+QN+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gnl|CDD|341055</Hit_id>
+  <Hit_def>cd06461, M2_ACE, Peptidase family M2, angiotensin converting enzyme (ACE).  Peptidase family M2 angiotensin converting enzyme (ACE, EC 3.4.15.1) is a membrane-bound, zinc-dependent dipeptidase that catalyzes the conversion of the decapeptide angiotensin I to the potent vasopressor octapeptide angiotensin II, by removing two C-terminal amino acids. There are two forms of the enzyme in humans, the ubiquitous somatic ACE and the sperm-specific germinal ACE, both encoded by the same gene through transcription from alternative promoters. Somatic ACE has two tandem active sites with distinct catalytic properties, whereas germinal ACE, the function of which is largely unknown, has just a single active site. Recently, an ACE homolog, ACE2, has been identified in humans that differs from ACE; it preferentially removes carboxy-terminal hydrophobic or basic amino acids and appears to be important in cardiac function. ACE homologs (also known as members of the M2 gluzincin family) have been found in a wide variety of species, including those that neither have a cardiovascular system nor synthesize angiotensin. ACE is well-known as a key part of the renin-angiotensin system that regulates blood pressure and ACE inhibitors are important for the treatment of hypertension.</Hit_def>
+  <Hit_accession>341055</Hit_accession>
+  <Hit_len>563</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.77</Hsp_bit-score>
+      <Hsp_score>1462</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>581</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>563</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>292</Hsp_identity>
+      <Hsp_positive>392</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>575</Hsp_align-len>
+      <Hsp_qseq>FLDKFNHEAEDLFYQSSLASWNYNTNITEENVQNMNNAGDKWSAFLKEQSTLAQMYPLQEIQNLTVKLQLQALQQNGSSVLSEDKSKRLNTILNTMSTIYSTGKVCNPDNPQEC-LLLEPGLNEIMANSLDYNERLWAWESWRSEVGKQLRPLYEEYVVLKNEMARANHYEDYGDYWRGDYEVNGVDGYDYSRGQLIEDVEHTFEEIKPLYEHLHAYVRAKLMNAYPSYISPI-GCLPAHLLGDMWGRFWTNLYSLTVPFGQKPNIDVTDAMVDQAWDAQRIFKEAEKFFVSVGLPNMTQGFWENSMLTDPGNVQKAVCHPTAWDLGKGD-FRILMCTKVTMDDFLTAHHEMGHIQYDMAYAAQPFLLRNGANEGFHEAVGEIMSLSAATPKHLKSIGLLSPDFQEDNETEINFLLKQALTIVGTLPFTYMLEKWRWMVFKGEIPKDQWMKKWWEMKREIVGVVEPVPHDETYCDPASLFHVSNDYSFIRYYTRTLYQFQFQEALCQAAKHEGPLHKCDISNSTEAGQKLFNMLRLGKSEPWTLALENVVGAKNMNVRPLLNYFEPLFTWLKDQN</Hsp_qseq>
+      <Hsp_hseq>FLEEYNEEASKLYNRSAEAQWNYETNITDENLQALLEASLELSKFVKEAAENAKKFDWQDFLDPDLKRQLKLLSRLGVAALDEEDLEELNELLSEMEKIYSTAKVCPYDNPSCCCLLLEPDLTNILATSRDYDELLYAWKGWRDAVGKKMRPLYEEYVELSNEAARLNGFADAGEYWRSSYEMD----------EFEEELERLWEQIKPLYEQLHAYVRRKLRKKYGDDVIPKDGPIPAHLLGNMWAQSWSNIYDLVVPYPDKPSLDVTPELKKQNYTAKKMFKLAEEFFTSLGLPPLPKSFWEKSMFEKPPD-REVVCHASAWDFYNGDDFRIKMCTEVTMEDFLTVHHEMGHIQYYMAYKDQPVLFREGANPGFHEAIGDTIALSVSTPKHLKRLGLLD-DNVDDEEADINFLLKQALDKIAFLPFGYLLDKWRWDVFSGEIPPDEYNEAWWELREKYQGIVPPVPRSEEDFDPGAKYHIPANTPYIRYFLSTILQFQFHKALCKAAGHTGPLHKCDIYGSKEAGKKLKKMLSLGSSKPWPDALEELTGERELDASPLLEYFQPLYDWLKEEN</Hsp_hseq>
+      <Hsp_midline>FL+++N EA  L+ +S+ A WNY TNIT+EN+Q +  A  + S F+KE +  A+ +  Q+  +  +K QL+ L + G + L E+  + LN +L+ M  IYST KVC  DNP  C LLLEP L  I+A S DY+E L+AW+ WR  VGK++RPLYEEYV L NE AR N + D G+YWR  YE++          +  E++E  +E+IKPLYE LHAYVR KL   Y   + P  G +PAHLLG+MW + W+N+Y L VP+  KP++DVT  +  Q + A+++FK AE+FF S+GLP + + FWE SM   P + ++ VCH +AWD   GD FRI MCT+VTM+DFLT HHEMGHIQY MAY  QP L R GAN GFHEA+G+ ++LS +TPKHLK +GLL  D  +D E +INFLLKQAL  +  LPF Y+L+KWRW VF GEIP D++ + WWE++ +  G+V PVP  E   DP + +H+  +  +IRY+  T+ QFQF +ALC+AA H GPLHKCDI  S EAG+KL  ML LG S+PW  ALE + G + ++  PLL YF+PL+ WLK++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gnl|CDD|341049</Hit_id>
+  <Hit_def>cd06258, M3_like, M3-like Peptidases, zincin metallopeptidases, include M2_ACE,  M3A, M3B_PepF, and M32 families.  The peptidase M3-like family, also called neurolysin-like family, is part of the &quot;zincin&quot; metallopeptidases, and includes the M2, M3 and M32 families of metallopeptidases. The M2 angiotensin converting enzyme (ACE, EC 3.4.15.1) is a membrane-bound, zinc-dependent dipeptidase that catalyzes the conversion of the decapeptide angiotensin I to the potent vasopressor octapeptide angiotensin II. The M3 family is subdivided into two subfamilies: the widespread M3A, which comprises a number of high-molecular mass endo- and exopeptidases from bacteria, archaea, protozoa, fungi, plants and animals, and the small M3B, whose members are enzymes primarily from bacteria. Well-known mammalian/eukaryotic M3A endopeptidases are the thimet oligopeptidase (TOP; endopeptidase 3.4.24.15), neurolysin (alias endopeptidase 3.4.24.16), and the mitochondrial intermediate peptidase. The first two are intracellular oligopeptidases, which act only on relatively short substrates of less than 20 amino acid residues, while the latter cleaves N-terminal octapeptides from proteins during their import into the mitochondria. The M3A subfamily also contains several bacterial endopeptidases, called oligopeptidases A, as well as a large number of bacterial carboxypeptidases, called dipeptidyl peptidases (Dcp; Dcp II; peptidyl dipeptidase; EC 3.4.15.5). M3B subfamily consists of oligopeptidase F (PepF) which hydrolyzes peptides containing 7-17 amino acid residues with fairly broad specificity. Peptidases in the M3 family contain the HEXXH motif that forms part of the active site in conjunction with a C-terminally-located Glutamic acid (Glu) residue. A single zinc ion is ligated by the side-chains of the two Histidine (His) residues, and the more C-terminal Glu. Most of the peptidases are synthesized without signal peptides or propeptides, and function intracellularly. There are similarities to the thermostable carboxypeptidases from Pyrococcus furiosus carboxypeptidase (PfuCP), and Thermus aquaticus (TaqCP), belonging to peptidase family M32. Little is known about function of this family, including carboxypeptidases Taq and Pfu.</Hit_def>
+  <Hit_accession>341049</Hit_accession>
+  <Hit_len>473</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.43437e-69</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>567</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>470</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>199</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>110</Hsp_gaps>
+      <Hsp_align-len>567</Hsp_align-len>
+      <Hsp_qseq>FNHEAEDLFYQSSLASWNYNTNI-TEENVQNMNNAGDKWSAFLKEQS--TLAQMYP-LQEIQNLTVKLQLQALQQNG--SSVLSEDKSKRLNTILNTMSTIYSTGKVCNPDNPQECLLLEPGLNEIMANSLDYNERLWAWESWRSEVGKQLRPLYEEYVVLKNEMARANHYEDYGDYWRGDYEVNGVDGYDYSRGQLIEDVEHTFEEIKP----LYEHLHAYVRAKLMNAYPSYISPIGCLPAHLLGDMWGRFWTNLYSLTVPFGQKPNIDVTDAMVDQAWDAQRIFKEAEKFFVSVGLPNMTQGFWENSMLTDPGNVQKAVCHPTAWDLGKGDFRILMCTKVTMDDFLTAHHEMGHIQYDMAYAAQPFLLRNGANEGFHEAVGEIMSLSAATPKHLKSIGLLSPDFQEDNETEINFLLKQALTIVGTLPFTYMLEKWRWMVFKGEIPKDQWMKKWWE-MKREIVGVVEPVPHDETYCDPASLFH--VSNDYSFIRYYTRTLYQFQFQEALCQAAKHEGPLHKCDISNSTEAGQKLFNMLRLGKSEPWTLALENVVGAKNMNVRPLL</Hsp_qseq>
+      <Hsp_hseq>LNSREEKYSKAASLAHWDHDTNIGTEERAAALEEASTLLSEFAEEDSLVALALVEPELSEPLNEEYKRLVEKIQKLGKAAGAIPKELFKEYNTLLSDFS------------------------------------KLW-----------ELRPLLEKLVELRNQAARLLGYEDPYDALLDLYEA----------GYSTEVVEQDFEELKQAIPLLYKELHAIQRPKLHRDYGFYYIP-------------------------------KFDVTSAMLKQKFDAEWMFEGALWFLQELGLEPGPLLTWERLDLYAPLG---KVCHAFATDFGRKDVRITTNYTVTRDDILTTHHEFGHALYELQYRTRFAFLGNGASLGFHESQSQFLENSVGTFKHLYSKHLLSGP-QMDDESEEKFLLARLLDKVTFLPHIILVDKWEWAVFSGEIPKKPDLPSWWNLLYKEYLG-VPPVPRDETYTDGWAQFHHWAGYDGYYIRYALGQVYAFQFYEKLCEDAGHEG---KCDIGNFDEAGQKLREILRLGGSRPPTELLKNATG-KEPNIASFL</Hsp_hseq>
+      <Hsp_midline> N   E     +SLA W+++TNI TEE    +  A    S F +E S   LA + P L E  N   K  ++ +Q+ G  +  + ++  K  NT+L+  S                                    +LW           +LRPL E+ V L+N+ AR   YED  D     YE           G   E VE  FEE+K     LY+ LHA  R KL   Y  Y  P                                 DVT AM+ Q +DA+ +F+ A  F   +GL       WE   L  P      VCH  A D G+ D RI     VT DD LT HHE GH  Y++ Y  +   L NGA+ GFHE+  + +  S  T KHL S  LLS   Q D+E+E  FLL + L  V  LP   +++KW W VF GEIPK   +  WW  + +E +G V PVP DETY D  + FH     D  +IRY    +Y FQF E LC+ A HEG   KCDI N  EAGQKL  +LRLG S P T  L+N  G K  N+   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>29480</Statistics_db-num>
+      <Statistics_db-len>6494941</Statistics_db-len>
+      <Statistics_hsp-len>98</Statistics_hsp-len>
+      <Statistics_eff-space>1799344599</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,8 +1,8 @@
 <h1 align="center">
 <span style="color:red">
     <a href="https://www.quora.com/q/hxbiokqurmxybuec">
-		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a00a8432-c08c-46be-9d13-99373ee82e3b/d2e31wf-5e388522-269a-4ae8-9f69-ac56aa48a802.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwMGE4NDMyLWMwOGMtNDZiZS05ZDEzLTk5MzczZWU4MmUzYlwvZDJlMzF3Zi01ZTM4ODUyMi0yNjlhLTRhZTgtOWY2OS1hYzU2YWE0OGE4MDIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RnLsTImIZ3RwxiFYUMVhhIjr_V2qg_Shld0T3ZSyWfM" width="100" height="100"></span>
-<img src="https://lh3.googleusercontent.com/976GNleJU-C0b-Gu67qotDub8poiFSOrG2IXvDT6WuY2bOy48gC-YmFuP3ZWPG27mmMdsPgF4zzK" width="200" height="100">
+		<img src="https://user-images.githubusercontent.com/35203441/112711058-e2bc5300-8e9b-11eb-99e7-5b8708b70505.png" width="100" height="100"></span>
+<img src="https://user-images.githubusercontent.com/35203441/112711020-bef90d00-8e9b-11eb-8471-046fd6998bfc.png" width="200" height="100">
 </a>
 
  <!--| Optimus Bind-->
@@ -138,7 +138,7 @@ colab setup:
 <br>
 
 # For Developers
-<details id="Devs" open>
+<details id="Devs"> <!-- <details id="Devs" open> to open on init -->
 <summary> <strong>Toggle</strong> </summary>
 
 Project Organization

@@ -7,11 +7,7 @@ Created on Sun Oct 13 13:26:33 2019
 # =============================================================================
 # These should be set as global variables in an initialization script
 # =============================================================================
-#FOLDX_loc="/home/jbrender/optimus"
-FOLDX_loc="C:/Users/Jeeves/Documents/optimus"
-WT_loc="./SKEMPI2_PDBs/PDBs" #must be given as relative path from FOLDX executable
-RepairedPDBs_loc="./Soft" #must be given as relative path from FOLDX executable
-MutantPDBs_loc="./Soft" #must be given as relative path from FOLDX executable
+
 # =============================================================================
  
 import subprocess
@@ -21,8 +17,17 @@ import shutil
 import numpy as np
 
 class foldx:
-    def __init__(self):
-        self.FOLDX_loc=FOLDX_loc
+    def __init__(self,vdw):
+        switcher = {
+        	"0": "Soft",
+        	"1": "Medium",
+        	"2": "Hard",
+        }
+        vdwloc=switcher.get(vdw,"Invalid vdw parameter")
+        self.FOLDX_loc="/home/jbrender/optimus"
+        self.WT_loc="./SKEMPI2_PDBs/PDBs" #must be given as relative path from FOLDX executable
+        self.RepairedPDBs_loc="./"+vdwloc+"/Repaired" #must be given as relative path from FOLDX executable
+        self.MutantPDBs_loc="./"+vdwloc+"/Mutant" #must be given as relative path from FOLDX executable
         
 # =============================================================================
 # Fixes errors in WT structure prior to creating mutation        
@@ -37,8 +42,8 @@ class foldx:
                    temp=" --temperature=298",
                    vdw=" --vdwDesign=1", #0=soft,1=medium, 2=hard repulsion
                    repair=" --repair_Interface=ONLY"):
-        self.out_dir=RepairedPDBs_loc
-        self.PDB_loc=WT_loc        
+        self.out_dir=self.RepairedPDBs_loc
+        self.PDB_loc=self.WT_loc        
         cmd_str=(self.FOLDX_loc+"/foldx"
                  +" --command=RepairPDB"
                  +" --output-dir="+self.out_dir
@@ -52,7 +57,7 @@ class foldx:
         try:
             subprocess.run(cmd_str,shell=True)
         except:
-            file = open(FOLDX_loc+"/repair_errors.txt","a+")  
+            file = open(self.FOLDX_loc+"/repair_errors.txt","a+")  
             file.write(self.PDB_loc+pdb+"\n")
             
 # =============================================================================
@@ -68,17 +73,17 @@ class foldx:
                    vdw=" --vdwDesign=1", #0=soft,1=medium, 2=hard repulsion                   
                    pH=" --pH=7.3",
                    temp=" --temperature=298"):
-        self.out_dir=MutantPDBs_loc
-        self.PDB_loc=RepairedPDBs_loc
+        self.out_dir=self.MutantPDBs_loc
+        self.PDB_loc=self.RepairedPDBs_loc
         outfile=" --output-file="+out             
-        if os.path.isfile(FOLDX_loc+"/individual_list.txt"): #This filename is hardcoded into Foldx
-            os.remove(FOLDX_loc+"/individual_list.txt")
-        file = open(FOLDX_loc+"/individual_list.txt","w+")  
+        if os.path.isfile(self.FOLDX_loc+"/individual_list.txt"): #This filename is hardcoded into Foldx
+            os.remove(self.FOLDX_loc+"/individual_list.txt")
+        file = open(self.FOLDX_loc+"/individual_list.txt","w+")  
         file.write(mutations+";")
         file.close()
         cmd_str=(self.FOLDX_loc+"/foldx"
                  +" --command=BuildModel"
-                 +" --mutant-file="+FOLDX_loc+"/individual_list.txt"
+                 +" --mutant-file="+self.FOLDX_loc+"/individual_list.txt"
                  +" --output-dir="+self.out_dir
                  +water
                  +temp
@@ -95,13 +100,13 @@ class foldx:
             subprocess.run(cmd_str,shell=True)
 # =============================================================================
 # #Workaround for broken outfile piping            
-            pdb_file_str=MutantPDBs_loc+"/"+pdb[0:-4]+"_1.pdb"
-            new_pdb_str=MutantPDBs_loc+"/"+out+".pdb"
+            pdb_file_str=self.MutantPDBs_loc+"/"+pdb[0:-4]+"_1.pdb"
+            new_pdb_str=self.MutantPDBs_loc+"/"+out+".pdb"
             shutil.copyfile( pdb_file_str, new_pdb_str)
             os.remove(pdb_file_str)
 # =============================================================================
         except:
-            file = open(FOLDX_loc+"/errors_mutation.txt","a+")  
+            file = open(self.FOLDX_loc+"/errors_mutation.txt","a+")  
             file.write(pdb+"\n")
 
 # =============================================================================
@@ -136,7 +141,7 @@ class foldx:
         try:
             subprocess.run(cmd_str,shell=True)
         except:
-            file = open(FOLDX_loc+"/optimize_errors.txt","a+")  
+            file = open(self.FOLDX_loc+"/optimize_errors.txt","a+")  
             file.write(pdbdir+pdb+"\n")
             
 # =============================================================================
@@ -169,7 +174,7 @@ class foldx:
                  +vdw
                  +" --pdb-dir="+pdbdir
                  + " --pdb="+pdb) 
-        print(cmd_str)
+        print("narf"+outdir)
         try:
             subprocess.run(cmd_str,shell=True)
             name=outdir+"/Interaction_"+pdb[0:-4]+"_AC.fxout" #not sure of meaning of AC
@@ -182,34 +187,37 @@ class foldx:
                     nrgFields=nrg.split('\t')
                     if ((chainA.find(nrgFields[1])!=-1) and (chainB.find(nrgFields[2])!=-1)) or (
                         (chainB.find(nrgFields[1])!=-1) and (chainA.find(nrgFields[2])!=-1)):
-                        energy=np.add(list(map(float, nrgFields[5:26])), energy)                       
+                        energy=np.add(list(map(float, nrgFields[5:26])), energy)
+                print(nrgFields)
                 rowValue = {
                         'Key':key,
-                        'Mutation':mutation,                        
+                        'Mutation':mutation,
+                        'ChainA':chainA,
+                        'ChainB':chainB,                        
                         'TotalFoldX':energy[0],
-                        'Backbone_HBond':nrgFields[1],
-                        'Sidechain_Hbond':nrgFields[2],
-                        'Van_der_Waals':nrgFields[3],
-                        'Electrostatics':nrgFields[4],
-                        'Solvation_Polar':nrgFields[5],
-                        'Solvation_Hydrophobic':nrgFields[6],
-                        'clashes':nrgFields[7],
-                        'entropy_sidechain':nrgFields[8],
-                        'entropy_mainchain':nrgFields[9],
-                        'sloop_entropy':nrgFields[10],
-                        'mloop_entropy':nrgFields[11],
-                        'cis_bond':nrgFields[12],
-                        'torsional_clash':nrgFields[13],
-                        'backbone_clash':nrgFields[14],
-                        'helix_dipole':nrgFields[15],
-                        'water_bridge':nrgFields[16],
-                        'disulfide':nrgFields[17],
-                        'kon':nrgFields[18],
-                        'partial_covalent':nrgFields[19],
-                        'Ion':nrgFields[20],
-                        'Entropy Complex':nrgFields[21]}
+                        'Backbone_HBond':nrgFields[3],
+                        'Sidechain_Hbond':nrgFields[4],
+                        'Van_der_Waals':nrgFields[5],
+                        'Electrostatics':nrgFields[6],
+                        'Solvation_Polar':nrgFields[7],
+                        'Solvation_Hydrophobic':nrgFields[8],
+                        'clashes':nrgFields[9],
+                        'entropy_sidechain':nrgFields[10],
+                        'entropy_mainchain':nrgFields[11],
+                        'sloop_entropy':nrgFields[12],
+                        'mloop_entropy':nrgFields[13],
+                        'cis_bond':nrgFields[14],
+                        'torsional_clash':nrgFields[15],
+                        'backbone_clash':nrgFields[16],
+                        'helix_dipole':nrgFields[17],
+                        'water_bridge':nrgFields[18],
+                        'disulfide':nrgFields[19],
+                        'kon':nrgFields[20],
+                        'partial_covalent':nrgFields[21],
+                        'Ion':nrgFields[22],
+                        'Entropy Complex':nrgFields[23]}
             return rowValue
         except:
-            file = open(FOLDX_loc+"/char_errors.txt","a+")  
+            file = open(self.FOLDX_loc+"/char_errors.txt","a+")  
             file.write(pdbdir+pdb+"\n")
             

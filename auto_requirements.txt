@@ -43,4 +43,4 @@ sphinxcontrib-qthelp==1.0.2
 sphinxcontrib-serializinghtml==1.1.3
 -e .
 #-e git+https://github.com/tcardlab/optimus_bind_sample@f91271b1f116fb62a0d81ae34acbc95af84b3b8c#egg=optimus_bind
-urllib3==1.25.3
+urllib3==1.25.8

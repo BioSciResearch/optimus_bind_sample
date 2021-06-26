@@ -82,8 +82,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites 
 
-    python3.6
+    python3.6+
     git
+    make
+    curl
+    gunzip
+    ncbi-blast # (see https://www.ncbi.nlm.nih.gov/books/NBK569861/)
 
 ### Installing
 
@@ -92,7 +96,7 @@ working draft while under dev.
 Semi-Automated via terminal:
 
     # Download repo
-    git clone https://github.com/tcardlab/optimus_bind_sample.git
+    git clone https://github.com/BioSciResearch/optimus_bind_sample.git
     cd path/optimus_bind_sample
 
     # Set up enviroment (Note: 'env' dir ignored by git)
@@ -100,8 +104,20 @@ Semi-Automated via terminal:
     source env/bin/activate  # activates enviroment
     pip install -r requirements.txt # installs requirements 
 
-    # Dataset setup (Makefile: make_dataset.py commented out)
+    # Database Setup (this can take a while - downloads a 4gb file then takes some time to process)
+    # (see https://www.biostars.org/p/214726/)
+    mkdir -p data/db
+    curl http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.fasta.gz -o data/db/Pfam-A.fasta.gz
+    gunzip data/db/Pfam-A.fasta.gz
+    cd data/db 
+    makeblastdb -in Pfam-A.fasta -dbtype prot
+
+    # Dataset setup 
+    #  - This can take a while, ~1 hour for 10 iterations
+    #  - Number of iterations can be updated within SKEMPI_loop.py loop_over_chains function
+    #  - Some warnings generated but can be ignored
     make data  # only imports raw for now, must be in root directory
+    python data/src/SKEMPI_loop.py # creates output in data/seq
 
 <!--
 entirely manual terminal:
@@ -132,7 +148,11 @@ colab setup:
 
 ### Run Tests
 
-    enter code here
+    python -i src/data/protein.py
+    >>> pm = ProteinMethods('')
+    >>> pm.readBlast('data/seq/1A22_A.xmld')
+    >>> pm.PSSM[17]
+    {'A': 24.0, 'C': 0, 'D': 38.0, 'E': 43.0, 'F': 0, 'G': 4.0, 'H': 99.0, 'I': 0, 'K': 0, 'L': 0, 'M': 0, 'N': 5.0, 'P': 0, 'Q': 55.0, 'R': 6.0, 'S': 19.0, 'T': 3.0, 'V': 3.0, 'W': 0, 'X': 0, 'Y': 6.0}
 
 <br>
 <br>

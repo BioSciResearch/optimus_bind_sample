@@ -24,3 +24,6 @@ pipdeptree
 
 # Security Patches
 pyyaml>=4.2b1
+
+# Biopython
+Biopython
